@@ -1,0 +1,14 @@
+{
+  "probe_id": "clone_graph_identity_v1",
+  "script": "clone_graph_identity_v1.js",
+  "check_ids": [
+    "identity_no_bigint",
+    "bigint_primitive",
+    "identity_with_bigint",
+    "distinct_with_bigint",
+    "cycle_with_bigint",
+    "mapset_alias_with_bigint",
+    "message_alias_with_bigint"
+  ],
+  "timeout_ms": 7000
+}

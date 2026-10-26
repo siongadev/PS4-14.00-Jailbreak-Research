@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_negative_offset_read_v1",
+  "script": "clone_history_negative_offset_read_v1.js",
+  "check_ids": ["negative_no_bigint_control", "negative_bigint_case"],
+  "timeout_ms": 30000
+}

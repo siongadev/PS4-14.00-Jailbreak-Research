@@ -1,0 +1,6 @@
+{
+  "probe_id": "marker_round_trip_v1",
+  "script": "marker_round_trip_v1.js",
+  "check_ids": ["marker_round_trip"],
+  "timeout_ms": 3000
+}

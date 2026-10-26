@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_unix_rights_error_v5",
+  "script": "clone_history_unix_rights_error_v5.js",
+  "check_ids": ["unix_rights_error_v5"],
+  "timeout_ms": 15000
+}

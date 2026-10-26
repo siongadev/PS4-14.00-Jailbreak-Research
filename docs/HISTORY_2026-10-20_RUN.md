@@ -1,0 +1,17 @@
+# History pointer-layout run, October 20, 2026
+
+The operator reconnected the retail PS4 reporting firmware 14.00. The first page session was `d85ce2771da54b5baa2be77559c8fab7`; after a refresh the new session was `990d3f600cb24a37ac604621578549cd`. All saved captures below passed `python -m fw14lab.verify`. The collector kept polling after the final search. These results do not repeat or refute the earlier Text-node lifetime observation, because no hold on these pages passed the required live-list swap gate.
+
+| Probe | Capture | Decisive result |
+| --- | --- | --- |
+| `clone_history_two_slot_hold_v2` | `8de6922a8bff45918bcbcb0479eae91c` | Both cloned buffers mapped at 65,528 and 131,064. The apparent retained-list pointer did not control `item(0)` (`swapped:false`); restoration passed. The old probe reported `pass` from view validity alone, so that status must not be counted as a successful hold. |
+| `clone_history_two_slot_hold_v2` | `f29899a6fcfb43caa6f06dec8667f6aa` | On the fresh page the two buffers mapped at 131,064 and 196,600. The second 66,224-byte buffer extended 680 bytes past the probe's 262,144-byte comparison window, so the hold gate was not reached. |
+| `clone_history_two_slot_hold_v3` | `f146b42dc210492c98acbc67823f63ed` | A 4 KiB wider scan mapped both complete buffers. The swap still returned false; this version correctly reports `fail` unless swap and restoration both pass. |
+| `clone_history_two_slot_search_v1` | `a61429c811b7438280d0ee4960f5427a` | The pointer-sequence search reached its end, but its ninth synchronous marker exceeded the collector's eight-marker limit. No search result was saved. |
+| `clone_history_two_slot_search_v2` | `e041a39e6af04f1cac8e56ea4aca43e4` | The search completed, but 14 diagnostic fields exceeded the runner's 12-field result limit. No search result was saved. |
+| `clone_history_two_slot_search_v3` | `f9262aeef2bc45ccbcac9825aaaf2f6c` | Within 266,240 bytes, no vector outside the temporary fragment slot matched three consecutive span pointers from that fragment. No pointer write was attempted. |
+| `clone_history_two_slot_search_v4` | `a59de335cfdb44c6bc17db3ca35f0b8d` | The read-only search extended to 524,288 bytes with the same no-match result. No pointer write was attempted. |
+
+The first three span pointers in the temporary fragment remained distinct from the apparent pointer sequence at the presumed retained slot. This is a placement failure of the current two-slot recipe, not evidence that the History out-of-bounds primitive has disappeared. The earlier five successful hold captures had both pointers correlated and a reversible `item(0)` swap. Avoid another Text-node release attempt until a live list vector is located and its swap/restoration gate passes. A separate freed-slot sample then checked for changed metadata; a pointer-shaped word would still have required independent address validation.
+
+On a third fresh page, session `e0c7bc5ead7e4ee39990d21ddeac4bbf`, the prepared `clone_history_freed_slot_metadata_v1` probe produced verified [capture `98256ba9a8874887850c1a777955656f`](../captures/98256ba9a8874887850c1a777955656f.json), SHA-256 `88a1d8088ff33dfb86f16fdf24c3fc6f47a876d0931f1233dea758b829f283c3`. It mapped the 65,536-byte cloned fixed buffer at index 131,064, detached it, and found all eight sampled 64-bit words unchanged at `0x9191919191919191`. This supplies no in-slot allocator link or absolute address. The conditional `clone_history_free_link_pair_v1` check must not run from this result.

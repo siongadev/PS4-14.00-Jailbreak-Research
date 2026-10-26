@@ -1,0 +1,491 @@
+Analysis-only ELF built from 14.00 live RX bytes
+
+=== 0x803705e20 ===
+Function: FUN_803705e20 @ 803705e20 body bytes 1346
+
+ulong FUN_803705e20(void)
+
+{
+  undefined4 uVar1;
+  code *pcVar2;
+  long *plVar3;
+  int iVar4;
+  uint uVar5;
+  undefined4 *puVar6;
+  ulong uVar7;
+  int *piVar8;
+  char *pcVar9;
+  undefined8 uVar10;
+  char *pcVar11;
+  ulong uVar12;
+  uint uVar13;
+  undefined1 auVar14 [16];
+  undefined1 local_190 [16];
+  undefined1 local_180 [32];
+  undefined1 local_160 [32];
+  undefined1 local_140 [32];
+  undefined1 local_120 [32];
+  undefined1 local_100 [32];
+  undefined1 local_e0 [32];
+  undefined1 local_c0 [32];
+  undefined1 auStack_a0 [12];
+  undefined1 local_94 [20];
+  undefined1 auStack_80 [12];
+  undefined8 local_68;
+  long local_60;
+  
+  plVar3 = DAT_803724000;
+  local_60 = *DAT_803724000;
+  pcVar9 = *(char **)(PTR_DAT_803728028 + 0x98);
+  if ((pcVar9 == (char *)0x0) || (*pcVar9 == '\0')) {
+    uVar5 = *(uint *)(PTR_DAT_803728028 + 4) & 0xf0000;
+    if (uVar5 != 0x10000) {
+      if ((*(uint *)(PTR_DAT_803728028 + 4) & 0xd0000) == 0) {
+        DAT_80372814c = FUN_8037043b8();
+        uVar12 = FUN_803706760(DAT_80372814c);
+      }
+      else {
+        if (uVar5 != 0x30000) {
+          iVar4 = FUN_803704398(0x8000001c);
+          if ((iVar4 != 0) && (uVar5 = FUN_8037043a8(0x8000001c), uVar5 != 0)) {
+            pcVar11 = "_ClientGetINetDomainSocketConnection";
+            pcVar9 = 
+            "--- SlimGLClient --- failed in loading SCE_SYSMODULE_INTERNAL_NET module, error %d\n";
+            uVar10 = 1099;
+            goto LAB_803706024;
+          }
+          uVar5 = FUN_8037043d8("libScePosixForWebkit",0,0,0,0);
+          if ((int)uVar5 < 0) {
+            uVar12 = (ulong)uVar5;
+            FUN_803704258(DAT_803724010,"Unable to load libScePosixForWebkit err=%08x",uVar5);
+          }
+          else {
+            uVar5 = FUN_8037043e8(2,1,0);
+            if ((int)uVar5 < 0) {
+              puVar6 = (undefined4 *)FUN_8037042b8();
+              uVar1 = *puVar6;
+              pcVar11 = "_ClientGetINetDomainSocketConnection";
+              pcVar9 = "--- SlimGLClient --- failed in socket(PF_LOCAL, SOCK_STREAM, 0), errno = %d"
+              ;
+              uVar10 = 0x45a;
+              goto LAB_803705ea2;
+            }
+            uVar12 = (ulong)uVar5;
+            local_190._4_8_ = 0x100007f;
+            local_190._0_4_ = 0x24e60200;
+            local_190._12_4_ = 0;
+            iVar4 = FUN_8037043f8(uVar5,local_190,0x10);
+            if (iVar4 < 0) {
+              uVar13 = 0;
+              do {
+                piVar8 = (int *)FUN_8037042b8();
+                if ((*piVar8 == 0x410) || (piVar8 = (int *)FUN_8037042b8(), *piVar8 == 2)) {
+                  FUN_80371cd70("_ClientGetINetDomainSocketConnection",0x472,0,
+                                "--- SlimGLClient --- wait for SceWebCore/SceSlimGLServerProcess  to start on %d"
+                                ,uVar12);
+                }
+                else {
+                  puVar6 = (undefined4 *)FUN_8037042b8();
+                  FUN_80371cd70("_ClientGetINetDomainSocketConnection",0x476,1,
+                                "--- SlimGLClient --- failed in connect %d to SceWebCore/SceSlimGLServerProcess  errno = %d"
+                                ,uVar12,*puVar6);
+                  uVar13 = uVar13 + 1;
+                  if (10 < uVar13) {
+                    FUN_803704298(uVar12);
+                    uVar12 = 0xffffffff;
+                    goto LAB_80370633b;
+                  }
+                }
+                FUN_803704138(10000);
+                iVar4 = FUN_8037043f8(uVar12,local_190,0x10);
+              } while (iVar4 < 0);
+            }
+            FUN_80371cd70("_ClientGetINetDomainSocketConnection",0x482,0,
+                          "--- SlimGLClient ---    connected socket  %d to SceWebCore/SceSlimGLServerProcess"
+                          ,uVar12);
+            local_68 = 0;
+            uVar7 = FUN_8037042e8(uVar5,local_100,8,0);
+            if ((long)uVar7 < 0) {
+              puVar6 = (undefined4 *)FUN_8037042b8();
+              FUN_803704258(DAT_803724010,
+                            " --- sceSlimglIPCSetupRecvReply --- failed in recv %zd on sock %d, errno = %d\n"
+                            ,uVar7,uVar12,*puVar6);
+            }
+            else {
+              uVar7 = local_100._0_8_;
+            }
+            local_68 = uVar7;
+            FUN_80371cd70("_ClientGetINetDomainSocketConnection",0x486,0,
+                          "--- SlimGLClient ---   received notify %s over  %d.....\n",&local_68,
+                          uVar12);
+          }
+          goto LAB_80370633b;
+        }
+        uVar12 = FUN_803706920();
+      }
+      if (*plVar3 == local_60) {
+        return uVar12;
+      }
+      goto LAB_80370635b;
+    }
+    iVar4 = FUN_803706920();
+    if (iVar4 < 0) {
+      FUN_80371cd70("_ClientGetServerSocketByDomainSocket",0x493,1,
+                    "--- SlimGLClient --- failed in gettting Unix domain socket connection to the serevr\n"
+                   );
+      uVar12 = 0xffffffff;
+    }
+    else {
+      uVar5 = FUN_803706760(iVar4);
+      uVar12 = (ulong)uVar5;
+      if ((int)uVar5 < 0) {
+        FUN_80371cd70("_ClientGetServerSocketByDomainSocket",0x49a,1,
+                      "--- SlimGLClient --- failed in _ClientGetServerSocketThroughSocket %d to ",
+                      iVar4);
+      }
+      FUN_803704298(iVar4);
+    }
+  }
+  else {
+    iVar4 = FUN_803704388(1,5,0,&local_68);
+    if (iVar4 == 0) {
+      FUN_80371cd70("_ClientGetServerSocketByLaunchingServer",0x4af,0," launching render server %s",
+                    pcVar9);
+      iVar4 = FUN_803704398(0x80000010);
+      if ((iVar4 == 0) || (uVar5 = FUN_8037043a8(0x80000010), uVar5 == 0)) {
+        auStack_a0 = ZEXT812(0);
+        auStack_80 = (undefined1  [12])0x0;
+        local_94 = ZEXT420(0);
+        local_100 = ZEXT1232(auStack_a0);
+        local_e0 = local_100;
+        local_c0 = local_100;
+        FUN_8037042c8(local_100);
+        auVar14._0_12_ = ZEXT812(0);
+        auVar14._12_4_ = 0;
+        local_120 = ZEXT1632(auVar14);
+        local_160 = ZEXT1632(auVar14);
+        local_190._4_4_ = (undefined4)local_68;
+        local_190._0_4_ = 0x90;
+        local_190._8_4_ = 1;
+        local_180._4_28_ = ZEXT428(0);
+        local_180._0_4_ = 1;
+        local_190._12_4_ =
+             -(uint)(*(uint *)(PTR_DAT_803728028 + 0x90) == 0) | *(uint *)(PTR_DAT_803728028 + 0x90)
+        ;
+        local_180 = ZEXT1632(local_180._0_16_);
+        local_140 = local_160;
+        DAT_803728148 = FUN_8037043c8(local_100._0_4_,pcVar9,0,local_190);
+        FUN_803704298(local_68 & 0xffffffff);
+        uVar5 = FUN_803706760(local_68._4_4_);
+        uVar12 = (ulong)uVar5;
+        if ((int)uVar5 < 0) {
+          FUN_803704298();
+        }
+        else {
+          DAT_80372814c = local_68._4_4_;
+        }
+      }
+      else {
+        pcVar11 = "_ClientGetServerSocketByLaunchingServer";
+        pcVar9 = "--- SlimGLClient --- failed in loading INTERNAL_SYSTEM_SERVICE module, error %d\n"
+        ;
+        uVar10 = 0x4b6;
+LAB_803706024:
+        uVar12 = (ulong)uVar5;
+        FUN_80371cd70(pcVar11,uVar10,1,pcVar9,uVar12);
+      }
+    }
+    else {
+      puVar6 = (undefined4 *)FUN_8037042b8();
+      uVar1 = *puVar6;
+      pcVar11 = "_ClientGetServerSocketByLaunchingServer";
+      pcVar9 = "--- SlimGLClient --- failed in socketpair, errno %d\n";
+      uVar10 = 0x4a8;
+LAB_803705ea2:
+      FUN_80371cd70(pcVar11,uVar10,1,pcVar9,uVar1);
+      uVar12 = 0xffffffff;
+    }
+  }
+LAB_80370633b:
+  if (*plVar3 == local_60) {
+    return uVar12;
+  }
+LAB_80370635b:
+  FUN_8037041c8();
+                    /* WARNING: Does not return */
+  pcVar2 = (code *)invalidInstructionException();
+  (*pcVar2)();
+}
+
+
+
+=== 0x8037051f0 ===
+Function: FUN_8037051f0 @ 8037051f0 body bytes 1685
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+undefined8 FUN_8037051f0(int param_1)
+
+{
+  uint *puVar1;
+  code *pcVar2;
+  long *plVar3;
+  undefined1 **ppuVar4;
+  uint uVar5;
+  int iVar6;
+  long lVar7;
+  undefined4 *puVar8;
+  uint *puVar9;
+  char *pcVar10;
+  ulong uVar11;
+  undefined8 uVar12;
+  undefined8 in_stack_fffffffffffffae0;
+  undefined4 uVar14;
+  undefined1 **ppuVar13;
+  undefined1 local_500 [32];
+  undefined1 local_4e0 [32];
+  undefined1 local_4c0 [32];
+  undefined1 auStack_4a0 [12];
+  undefined1 local_494 [20];
+  undefined1 auStack_480 [12];
+  undefined2 local_460;
+  undefined2 uStack_45e;
+  undefined4 uStack_45c;
+  undefined8 uStack_458;
+  undefined1 **ppuStack_450;
+  undefined4 uStack_448;
+  undefined4 uStack_444;
+  uint *puStack_440;
+  uint uStack_438;
+  undefined4 uStack_434;
+  uint local_430 [6];
+  undefined1 *local_418;
+  undefined8 local_410;
+  undefined1 local_408 [944];
+  long local_58;
+  
+  plVar3 = DAT_803724000;
+  auStack_4a0 = ZEXT812(0);
+  local_58 = *DAT_803724000;
+  auStack_480 = (undefined1  [12])0x0;
+  local_494 = ZEXT420(0);
+  local_500 = ZEXT1232(auStack_4a0);
+  local_4e0 = local_500;
+  local_4c0 = local_500;
+  FUN_8037042c8(local_500);
+  if (param_1 < 1) {
+    param_1 = (*(code *)PTR_FUN_803728020)(local_500._0_4_);
+  }
+  local_460 = 0;
+  uStack_45e = 0;
+  uStack_45c = 0;
+  DAT_803728138 = param_1;
+  do {
+    lVar7 = FUN_8037042d8(param_1,&local_460,8,0);
+    iVar6 = DAT_803728138;
+    uVar14 = (undefined4)((ulong)in_stack_fffffffffffffae0 >> 0x20);
+    if (lVar7 < 0) {
+      puVar8 = (undefined4 *)FUN_8037042b8();
+      FUN_803704258(DAT_803724010,
+                    " --- sceSlimglIPCSetupSendReply --- failed in send %zd on sock %d to the server, errno = %d\n"
+                    ,lVar7,param_1,*puVar8);
+      pcVar10 = 
+      " --- SlimGLClient ---  failed in sceSlimglIPCSetupSendReply to the server over sock %d";
+      uVar12 = 0x2d3;
+      goto LAB_8037055a2;
+    }
+  } while (lVar7 == 0);
+  lVar7 = FUN_8037042e8(DAT_803728138,&local_460,0x400,0);
+  if (lVar7 < 0) {
+    puVar8 = (undefined4 *)FUN_8037042b8();
+    FUN_80371cd70("_Client_Receive_RunOptions",0x247,1,
+                  "...SlimGLServer... failed in recv %ld on sock %d, errno = %d",lVar7,iVar6,
+                  CONCAT44(uVar14,*puVar8));
+  }
+  else {
+    _DAT_8037280a8 = ppuStack_450;
+  }
+  iVar6 = DAT_803728138;
+  puStack_440 = local_430;
+  uStack_434 = 0;
+  local_460 = 0;
+  uStack_45e = 0;
+  uStack_45c = 0;
+  uStack_458 = 0;
+  uStack_444 = 0;
+  ppuStack_450 = &local_418;
+  local_418 = local_408;
+  uStack_438 = 0x18;
+  local_410 = 1;
+  uStack_448 = 1;
+  uVar5 = FUN_8037042f8(DAT_803728138,&local_460,0);
+  if ((int)uVar5 < 0) {
+    puVar8 = (undefined4 *)FUN_8037042b8();
+    FUN_803704258(DAT_803724010,
+                  "--- sceSlimglIPCSetupRecvFd --- failed in recvmsg on socket %d, errno = %d\n",
+                  iVar6,*puVar8);
+  }
+  else {
+    uVar5 = 0;
+    if ((0xb < (ulong)uStack_438) && (uVar5 = 0, puStack_440 != (uint *)0x0)) {
+      uVar5 = 0;
+      puVar9 = puStack_440;
+      do {
+        if ((((ulong)*puVar9 == 0x14) && (puVar9[1] == 0xffff)) && (puVar9[2] == 1)) {
+          uVar5 = puVar9[4];
+        }
+        uVar11 = (ulong)*puVar9 + 7 & 0xfffffffffffffff8;
+        puVar1 = (uint *)((long)puVar9 + uVar11);
+        uVar11 = (long)puVar9 + uVar11 + 0x10;
+        puVar9 = (uint *)0x0;
+        if (uVar11 <= (ulong)uStack_438 + (long)puStack_440) {
+          puVar9 = puVar1;
+        }
+      } while (puVar9 != (uint *)0x0);
+    }
+  }
+  FUN_80371cd70("_SetupSharedArea",0x25b,0,"--- SlimGLClient--- received shmemID = %d \n",uVar5);
+  if ((int)uVar5 < 0) {
+    pcVar10 = " --- SlimGLClient ---  failed in setup IPCommSharedArea_t over %d";
+    uVar12 = 0x2dc;
+LAB_8037055a2:
+    FUN_80371cd70("sceSlimglIPCSetup",uVar12,1,pcVar10,DAT_803728138);
+  }
+  else {
+    iVar6 = FUN_803704308(uVar5,0x1210000);
+    if (iVar6 < 0) {
+      FUN_80371cd70("_SetupSharedArea",0x29e,1," --- SlimGLClient ---  failed ftruncate size 0x%x",
+                    0x1210000);
+    }
+    FUN_80371cd70("_SetupSharedArea",0x2a1,0," --- SlimGLClient --- before mmap %d for size 0x%x",
+                  uVar5,0x1210000);
+    DAT_803728160 = (undefined1 **)FUN_803704318(0,0x1210000,3,0x801,uVar5,0);
+    ppuVar13 = DAT_803728160;
+    FUN_80371cd70("_SetupSharedArea",0x2a4,0,
+                  " --- SlimGLClient ---after mmap %d for size 0x%x ---- at 0x%p",uVar5,0x1210000,
+                  DAT_803728160);
+    ppuVar4 = DAT_803728160;
+    uVar14 = (undefined4)((ulong)ppuVar13 >> 0x20);
+    DAT_803728158 = 1;
+    DAT_803728150 = uVar5;
+    if (1 < (long)DAT_803728160 + 1U) {
+      FUN_803704328(DAT_803728160,0,0x12038f0);
+      DAT_803728088 = ppuVar4 + 0x240703;
+      _DAT_803728090 = 0x1000000;
+      LOCK();
+      *(undefined4 *)(ppuVar4 + 0x240703) = 0;
+      UNLOCK();
+      LOCK();
+      *(undefined4 *)((long)DAT_803728088 + 4) = 0;
+      UNLOCK();
+      LOCK();
+      *(undefined4 *)(DAT_803728088 + 1) = 0x1000000;
+      UNLOCK();
+      LOCK();
+      *(undefined4 *)((long)DAT_803728088 + 0xc) = 0;
+      UNLOCK();
+      LOCK();
+      *(undefined4 *)(DAT_803728088 + 2) = 0;
+      UNLOCK();
+      iVar6 = FUN_803704338((long)DAT_803728088 + 0x14,1,1);
+      if (iVar6 != 0) {
+        puVar8 = (undefined4 *)FUN_8037042b8();
+        FUN_803704258(DAT_803724010,"---slimGLRingBufferInit --- sem_init error %d\n",*puVar8);
+      }
+      DAT_803728098 = (long)ppuVar4 + 0x120383c;
+      _DAT_8037280a0 = 0x200000;
+      LOCK();
+      *(undefined4 *)((long)ppuVar4 + 0x120383c) = 0;
+      UNLOCK();
+      LOCK();
+      *(undefined4 *)(DAT_803728098 + 4) = 0;
+      UNLOCK();
+      LOCK();
+      *(undefined4 *)(DAT_803728098 + 8) = 0x200000;
+      UNLOCK();
+      LOCK();
+      *(undefined4 *)(DAT_803728098 + 0xc) = 0;
+      UNLOCK();
+      LOCK();
+      *(undefined4 *)(DAT_803728098 + 0x10) = 0;
+      UNLOCK();
+      iVar6 = FUN_803704338(DAT_803728098 + 0x14,1,1);
+      if (iVar6 != 0) {
+        puVar8 = (undefined4 *)FUN_8037042b8();
+        FUN_803704258(DAT_803724010,"---slimGLRingBufferInit --- sem_init error %d\n",*puVar8);
+      }
+      DAT_803728080 = ppuVar4 + 0x200000;
+      DAT_803728070 = ppuVar4;
+      _DAT_803728078 = ppuVar4;
+      iVar6 = FUN_803704338(ppuVar4 + 0x240701,1,0);
+      if (iVar6 != 0) {
+        puVar8 = (undefined4 *)FUN_8037042b8();
+        FUN_803704258(DAT_803724010,
+                      "[SlimGLClient sceSlimglIPCSetup] error %d to sem_init cmdQueueRWCtrl.semRet\n"
+                      ,*puVar8);
+      }
+      FUN_803704348("[SlimGLClient sceSlimglIPCSetup] after sem_init cmdQueueRWCtrl.semRet =======================\n"
+                    ,0x5e,1,DAT_803724010);
+      FUN_80371cd70("sceSlimglIPCSetup",0x34a,0,
+                    "--- SlimGLClient---  ready to notify the server its IPC-setup DONE\n");
+      FUN_803704328(&local_460,0,0x400);
+      uStack_45e = 1;
+      uStack_45c = CONCAT31(uStack_45c._1_3_,0x70);
+      ppuStack_450 = ppuVar4;
+      do {
+        lVar7 = FUN_8037042d8(DAT_803728138,&local_460,0x400,0);
+        iVar6 = DAT_803728138;
+        uVar14 = (undefined4)((ulong)ppuVar13 >> 0x20);
+        if (lVar7 < 0) {
+          puVar8 = (undefined4 *)FUN_8037042b8();
+          FUN_80371cd70("sceSlimglIPCSetup",0x35a,1,
+                        " --- SlimGLClient ---  failed send %d on socket %d, err = %d",lVar7,iVar6,
+                        CONCAT44(uVar14,*puVar8));
+          break;
+        }
+      } while (lVar7 == 0);
+      iVar6 = FUN_803704358(FUN_803705890);
+      if (iVar6 != 0) {
+        FUN_80371cd70("sceSlimglIPCSetup",0x364,1,"failed to atexit, err = %d\n",iVar6);
+      }
+      iVar6 = FUN_803704368(FUN_803705890);
+      if (iVar6 == 0) {
+        uVar12 = 0;
+      }
+      else {
+        uVar12 = 0;
+        FUN_80371cd70("sceSlimglIPCSetup",0x369,1,"failed to at_quick_exit, err = %d\n",iVar6);
+      }
+      goto LAB_8037055b3;
+    }
+    puVar8 = (undefined4 *)FUN_8037042b8();
+    FUN_80371cd70("sceSlimglIPCSetup",0x303,1,
+                  " --- SlimGLClient --- mmap (0,0,%d,,,%d,) failed ---- errno %d\n",0x12038f0,uVar5
+                  ,CONCAT44(uVar14,*puVar8));
+  }
+  uVar12 = 0xffffffff;
+LAB_8037055b3:
+  if (*plVar3 != local_58) {
+    FUN_8037041c8();
+                    /* WARNING: Does not return */
+    pcVar2 = (code *)invalidInstructionException();
+    (*pcVar2)();
+  }
+  return uVar12;
+}
+
+
+
+=== 0x803704408 ===
+Function: FUN_803704408 @ 803704408 body bytes 6
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void FUN_803704408(void)
+
+{
+  (*_DAT_803724200)();
+  return;
+}
+
+

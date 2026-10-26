@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_659_alloc_v1",
+  "script": "clone_history_659_alloc_v1.js",
+  "check_ids": ["alloc_659_v1"],
+  "timeout_ms": 30000
+}

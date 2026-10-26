@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_typed_view_word_v1",
+  "script": "clone_history_typed_view_word_v1.js",
+  "check_ids": ["typed_view_word"],
+  "timeout_ms": 30000
+}

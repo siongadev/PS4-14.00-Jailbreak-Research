@@ -1,0 +1,6 @@
+{
+  "probe_id": "research_page_reload_v1",
+  "script": "research_page_reload_v1.js",
+  "check_ids": ["research_page_reload_v1"],
+  "timeout_ms": 5000
+}

@@ -1,0 +1,6 @@
+{
+  "probe_id": "canvas_displaced_draw_v1",
+  "script": "canvas_displaced_draw_v1.js",
+  "check_ids": ["canvas_displaced_draw"],
+  "timeout_ms": 30000
+}

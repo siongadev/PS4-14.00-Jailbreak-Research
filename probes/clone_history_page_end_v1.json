@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_page_end_v1",
+  "script": "clone_history_page_end_v1.js",
+  "check_ids": ["page_end_no_bigint_control", "page_end_bigint_case"],
+  "timeout_ms": 30000
+}

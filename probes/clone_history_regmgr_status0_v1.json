@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_regmgr_status0_v1",
+  "script": "clone_history_regmgr_status0_v1.js",
+  "check_ids": ["regmgr_status0_v1"],
+  "timeout_ms": 30000
+}

@@ -1,0 +1,8 @@
+{
+  "probe_id": "clone_history_typed_pair_setup_v2",
+  "script": "clone_history_typed_pair_setup_v2.js",
+  "check_ids": [
+    "typed_pair_setup_v1"
+  ],
+  "timeout_ms": 30000
+}

@@ -1,0 +1,6 @@
+{
+  "probe_id": "thread_shared_memory_capability_v1",
+  "script": "thread_shared_memory_capability_v1.js",
+  "check_ids": ["thread_shared_memory_capability_v1"],
+  "timeout_ms": 4000
+}

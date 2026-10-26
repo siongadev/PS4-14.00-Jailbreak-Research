@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_aligned_one_v1",
+  "script": "clone_history_aligned_one_v1.js",
+  "check_ids": ["small_number_control", "aligned_one_no_bigint_control", "aligned_one_bigint_case"],
+  "timeout_ms": 30000
+}

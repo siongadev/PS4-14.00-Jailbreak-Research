@@ -1,0 +1,13 @@
+{
+  "probe_id": "regexp_unicode_backref_v1",
+  "script": "regexp_unicode_backref_v1.js",
+  "check_ids": [
+    "unicode_no_trailing_control",
+    "unicode_trailing_literal",
+    "unicode_two_trailing_literals",
+    "unicode_case_insensitive",
+    "ascii_case_insensitive_control",
+    "ascii_plain_control"
+  ],
+  "timeout_ms": 3000
+}

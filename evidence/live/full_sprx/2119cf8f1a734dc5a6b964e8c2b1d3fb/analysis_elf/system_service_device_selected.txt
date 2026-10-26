@@ -1,0 +1,129 @@
+Analysis-only ELF built from 14.00 live RX bytes
+
+=== 0x807750110 ===
+Function: FUN_807750110 @ 807750110 body bytes 42
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void FUN_807750110(void)
+
+{
+  if (-1 < _DAT_80776c114) {
+    return;
+  }
+  _DAT_80776c114 = FUN_8077286d8("/dev/sbl_srv",2);
+  return;
+}
+
+
+
+=== 0x80772a530 ===
+Function: FUN_80772a530 @ 80772a530 body bytes 628
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+int FUN_80772a530(undefined8 param_1)
+
+{
+  ulong uVar1;
+  int iVar2;
+  long lVar3;
+  char *pcVar4;
+  undefined8 uVar5;
+  undefined1 *puVar6;
+  uint uVar7;
+  ulong uVar8;
+  ulong local_2d0;
+  undefined4 local_2c8;
+  uint local_2c0 [2];
+  undefined1 local_2b8;
+  undefined7 uStack_2b7;
+  undefined8 local_2a8;
+  ulong uStack_2a0;
+  undefined8 local_298;
+  undefined8 uStack_290;
+  undefined4 local_288;
+  undefined1 local_284 [16];
+  undefined8 local_58;
+  undefined8 local_50;
+  long local_38;
+  
+  local_38 = *DAT_807764340;
+  local_50 = 0;
+  local_58 = param_1;
+  if (_DAT_80776c178 == 0) {
+    lVar3 = FUN_8077281f8(8);
+    FUN_8077538d0(lVar3,"/system_tmp/sp-webapp-event-socket");
+    _DAT_80776c178 = lVar3;
+  }
+  local_2c8 = 0;
+  local_2d0 = 0;
+  FUN_80772da10(&local_2d0);
+  uVar1 = local_2d0;
+  if (0 < DAT_807768020) {
+    FUN_80772d930(local_2d0 & 0xffffffff);
+    DAT_807768020 = -1;
+  }
+  local_2c0[0] = 0;
+  FUN_8077280e8(&local_298,0,0x240);
+  FUN_80772ccc0(&local_298,0x10,local_2c0);
+  if (local_2c0[0] != 0) {
+    lVar3 = (long)&local_298 + 4;
+    uVar8 = 0;
+    uVar7 = local_2c0[0];
+    do {
+      iVar2 = FUN_807728168(lVar3,"sp-slimgl-server-process",0x20);
+      if (iVar2 == 0) {
+        FUN_80772d930(uVar1 & 0xffffffff,*(undefined4 *)(lVar3 + -4));
+        uVar7 = local_2c0[0];
+      }
+      uVar8 = uVar8 + 1;
+      lVar3 = lVar3 + 0x24;
+    } while (uVar8 < uVar7);
+  }
+  local_298 = _DAT_807754810;
+  uStack_290 = _UNK_807754818;
+  local_2a8 = _DAT_807754820;
+  uStack_2a0 = _UNK_807754828;
+  local_288 = 0xffffffff;
+  local_284 = ZEXT816(0) << 0x20;
+  local_2b8 = 0;
+  FUN_80772bbc0(local_2c0,&DAT_8077551a6,1);
+  pcVar4 = (char *)FUN_807728208();
+  if (*pcVar4 == '\0') {
+    uVar5 = 0;
+  }
+  else {
+    uVar5 = FUN_807728218(pcVar4);
+  }
+  FUN_80772be50(local_2c0,pcVar4,uVar5);
+  FUN_80772be50(local_2c0,"/common/lib/webapp.self",0x17);
+  if (uStack_2a0 < 0x10) {
+    puVar6 = &local_2b8;
+  }
+  else {
+    puVar6 = (undefined1 *)CONCAT71(uStack_2b7,local_2b8);
+  }
+  DAT_807768020 = FUN_80772d8f0(uVar1 & 0xffffffff,puVar6,&local_58,&local_298);
+  iVar2 = 0;
+  if (DAT_807768020 < 0) {
+    FUN_8077281d8("[SceSystemServiceImpl] %s(%d) %s: SYSTEM_SERVICE_ISOK::0x%x\n",
+                  "W:\\Build\\J02699047\\vsh\\common_lib\\sce_system_service\\system_service.cpp",
+                  0x680,"sceSystemServiceLaunchWebApp",DAT_807768020);
+    iVar2 = DAT_807768020;
+  }
+  if (0xf < uStack_2a0) {
+    lVar3 = CONCAT71(uStack_2b7,local_2b8);
+    if (0xfff < uStack_2a0 + 1) {
+      lVar3 = *(long *)(lVar3 + -8);
+    }
+    FUN_807728228(lVar3);
+  }
+  if (*DAT_807764340 == local_38) {
+    return iVar2;
+  }
+                    /* WARNING: Subroutine does not return */
+  FUN_8077280c8();
+}
+
+

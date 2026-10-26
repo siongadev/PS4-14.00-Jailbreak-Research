@@ -1,0 +1,7 @@
+# Unguarded cast result: isolated compiler check
+
+The published Sony `JSCast.h` returns `nullptr` for a plain object that does not inherit from `JSReadableStream`; `TransformStream.cpp` calls `->wrapped()` without checking that result. The upstream fix describes potentially controlled effects, so it is worth checking whether ordinary release optimization can remove the cast check. The [toy source](../experiments/null_cast_optimization.cpp) reproduces only that control-flow shape. It contains no WebKit object layout or Sony build settings.
+
+On 2026-10-19, I sent this toy to [Compiler Explorer's compile API](https://github.com/compiler-explorer/compiler-explorer/blob/main/docs/API.md) with `-O2`. The available x86-64 Clang 18.1.0 compiler (`clang1810`) emitted a comparison, conditional move of the input pointer into an initially zero register, then a load at offset 8. GCC 14.2 (`g142`) emitted a comparison and branch: the matching branch loaded from the input pointer at offset 8, while the failed branch loaded from absolute address 8 and then executed `ud2`. Both kept the cast decision; neither turned the wrong-type path into a load from the supplied object's field in this model.
+
+This is an **upstream-analogy** result, not PS4 evidence. The actual WebKit templates, generated bindings, compiler version, optimization flags, and binary code may differ. It supports a null-dereference explanation for the plain-object warning and does not prove the exact fault on the console.

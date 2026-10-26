@@ -1,0 +1,33 @@
+Analysis-only ELF built from 14.00 live RX bytes
+
+=== 0x80772c950 ===
+Function: FUN_80772c950 @ 80772c950 body bytes 185
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+int FUN_80772c950(void)
+
+{
+  long lVar1;
+  long *plVar2;
+  int iVar3;
+  
+  plVar2 = DAT_807764340;
+  lVar1 = *DAT_807764340;
+  iVar3 = FUN_80772d8f0();
+  if (iVar3 < 0) {
+    FUN_8077281d8("[SceSystemServiceImpl] %s(%d) %s: SYSTEM_SERVICE_ISOK::0x%x\n",
+                  "W:\\Build\\J02699047\\vsh\\common_lib\\sce_system_service\\system_service_impl.cpp"
+                  ,0x75,"sceSystemServiceAddLocalProcess",iVar3);
+  }
+  if (*plVar2 == lVar1) {
+    return iVar3;
+  }
+                    /* WARNING: Subroutine does not return */
+  FUN_8077280c8();
+}
+
+
+
+=== 0x80772cdd0 ===
+No analyzed function at this address

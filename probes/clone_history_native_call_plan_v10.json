@@ -1,0 +1,8 @@
+{
+  "probe_id": "clone_history_native_call_plan_v10",
+  "script": "clone_history_native_call_plan_v10.js",
+  "check_ids": [
+    "native_call_plan_v9"
+  ],
+  "timeout_ms": 30000
+}

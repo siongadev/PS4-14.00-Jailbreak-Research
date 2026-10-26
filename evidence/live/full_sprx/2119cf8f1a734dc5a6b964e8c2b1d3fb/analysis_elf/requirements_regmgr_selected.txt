@@ -1,0 +1,85 @@
+Analysis-only ELF built from 14.00 live RX bytes
+
+=== 816cc9f80 ===
+Function: FUN_816cc9f80 @ 816cc9f80 body bytes 200
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+void FUN_816cc9f80(long param_1)
+
+{
+  code *pcVar1;
+  undefined8 uVar2;
+  long *plVar3;
+  char cVar4;
+  int iVar5;
+  int iVar6;
+  char *pcVar7;
+  int local_2c;
+  long local_28;
+  
+  plVar3 = DAT_816f7c4b8;
+  uVar2 = _UNK_816edf038;
+  local_28 = *DAT_816f7c4b8;
+  *(undefined8 *)(param_1 + 0x18) = _DAT_816edf030;
+  *(undefined8 *)(param_1 + 0x20) = uVar2;
+  *(undefined1 *)(param_1 + 8) = 0;
+  local_2c = 0;
+  iVar5 = FUN_816cc82d8(0x6b336df7b046cf43,0,&local_2c);
+  iVar6 = 0;
+  if (iVar5 == 0) {
+    iVar6 = local_2c;
+  }
+  if (iVar6 == 2) {
+    pcVar7 = "[Web] Loading Root Certificates: [ NOTHING ]";
+  }
+  else {
+    FUN_816cca050(param_1);
+    FUN_816cca9a0(param_1,&DAT_816f83770);
+    if (iVar6 != 1) goto LAB_816cca02d;
+    FUN_816cc82e8("[Web] Loading Debug Root Certificates: ");
+    cVar4 = FUN_816cca160(param_1);
+    pcVar7 = "[ NOTHING ]";
+    if (cVar4 != '\0') {
+      pcVar7 = "[ SUCCESS ]";
+    }
+  }
+  FUN_816cc82f8(pcVar7);
+LAB_816cca02d:
+  if (*plVar3 == local_28) {
+    return;
+  }
+  FUN_816cc8218();
+                    /* WARNING: Does not return */
+  pcVar1 = (code *)invalidInstructionException();
+  (*pcVar1)();
+}
+
+
+
+=== 816ccad10 ===
+Function: FUN_816ccad10 @ 816ccad10 body bytes 80
+
+undefined4 FUN_816ccad10(void)
+
+{
+  code *pcVar1;
+  long *plVar2;
+  uint uVar3;
+  uint local_1c;
+  long local_18;
+  
+  plVar2 = DAT_816f7c4b8;
+  local_18 = *DAT_816f7c4b8;
+  local_1c = 0;
+  uVar3 = FUN_816cc82d8(0x4fbe69bd2982e2ac,0,&local_1c);
+  if (*plVar2 == local_18) {
+    return CONCAT31((int3)((uVar3 | local_1c) >> 8),(uVar3 | local_1c) == 0);
+  }
+  FUN_816cc8218();
+                    /* WARNING: Does not return */
+  pcVar1 = (code *)invalidInstructionException();
+  (*pcVar1)();
+}
+
+

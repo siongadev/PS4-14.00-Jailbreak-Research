@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_neighbor_crosswrite_v1",
+  "script": "clone_history_neighbor_crosswrite_v1.js",
+  "check_ids": ["neighbor_crosswrite_no_bigint_control", "neighbor_crosswrite_bigint_case"],
+  "timeout_ms": 30000
+}

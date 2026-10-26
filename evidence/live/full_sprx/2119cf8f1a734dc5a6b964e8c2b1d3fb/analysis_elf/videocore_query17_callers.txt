@@ -1,0 +1,5 @@
+Analysis-only ELF built from 14.00 live RX bytes
+
+=== 81408d180 FUN_81408d180 references=2 ===
+81409810c UNCONDITIONAL_CALL caller=8140980d0
+81409812c UNCONDITIONAL_CALL caller=8140980d0

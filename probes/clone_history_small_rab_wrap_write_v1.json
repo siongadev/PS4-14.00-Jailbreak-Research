@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_small_rab_wrap_write_v1",
+  "script": "clone_history_small_rab_wrap_write_v1.js",
+  "check_ids": ["small_wrap_write_no_bigint_control", "small_wrap_write_bigint_case"],
+  "timeout_ms": 30000
+}

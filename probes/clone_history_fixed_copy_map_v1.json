@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_fixed_copy_map_v1",
+  "script": "clone_history_fixed_copy_map_v1.js",
+  "check_ids": ["fixed_map_no_bigint_control", "fixed_map_bigint_case"],
+  "timeout_ms": 30000
+}

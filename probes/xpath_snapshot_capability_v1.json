@@ -1,0 +1,6 @@
+{
+  "probe_id": "xpath_snapshot_capability_v1",
+  "script": "xpath_snapshot_capability_v1.js",
+  "check_ids": ["xpath_snapshot_capability"],
+  "timeout_ms": 10000
+}

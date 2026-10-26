@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_fixed_slot_reuse_v1",
+  "script": "clone_history_fixed_slot_reuse_v1.js",
+  "check_ids": ["fixed_slot_reuse"],
+  "timeout_ms": 30000
+}

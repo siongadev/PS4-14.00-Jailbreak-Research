@@ -1,0 +1,60 @@
+Analysis-only ELF built from 14.00 live RX bytes
+
+=== 0x80773425e ===
+Function: FUN_807734250 @ 807734250 body bytes 107
+
+void FUN_807734250(long *param_1,undefined8 param_2,undefined8 param_3,undefined4 param_4,
+                  undefined1 param_5,undefined4 param_6)
+
+{
+  long *plVar1;
+  undefined4 local_48;
+  undefined1 local_44;
+  undefined4 local_40;
+  undefined4 *local_38;
+  undefined8 local_30;
+  long local_20;
+  
+  plVar1 = DAT_807764340;
+  local_38 = &local_48;
+  local_20 = *DAT_807764340;
+  local_30 = 0xc;
+  local_48 = param_4;
+  local_44 = param_5;
+  local_40 = param_6;
+  (**(code **)(*param_1 + 0x60))(param_1,0x30002,&local_38,1,param_2,param_3);
+  if (*plVar1 == local_20) {
+    return;
+  }
+                    /* WARNING: Subroutine does not return */
+  FUN_8077280c8();
+}
+
+
+
+=== 0x8077342cc ===
+Function: FUN_8077342c0 @ 8077342c0 body bytes 81
+
+ulong FUN_8077342c0(long *param_1,undefined4 param_2)
+
+{
+  long *plVar1;
+  ulong uVar2;
+  uint local_1c;
+  long local_18;
+  
+  plVar1 = DAT_807764340;
+  local_18 = *DAT_807764340;
+  local_1c = 0;
+  uVar2 = (**(code **)(*param_1 + 0x68))(param_1,0x30003,param_2,&local_1c,0,0);
+  if ((int)uVar2 == 0) {
+    uVar2 = (ulong)local_1c;
+  }
+  if (*plVar1 == local_18) {
+    return uVar2;
+  }
+                    /* WARNING: Subroutine does not return */
+  FUN_8077280c8();
+}
+
+

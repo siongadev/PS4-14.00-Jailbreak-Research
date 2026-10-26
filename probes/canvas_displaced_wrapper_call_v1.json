@@ -1,0 +1,6 @@
+{
+  "probe_id": "canvas_displaced_wrapper_call_v1",
+  "script": "canvas_displaced_wrapper_call_v1.js",
+  "check_ids": ["canvas_displaced_wrapper_call"],
+  "timeout_ms": 5000
+}

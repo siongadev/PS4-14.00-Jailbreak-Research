@@ -1,0 +1,46 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Local console records and session credentials
+captures/*.json
+control/*.sqlite3*
+control/probe_blobs/
+control/ghidra/
+control/server*.log
+evidence/*
+!evidence/README.md
+logs/
+
+# Extracted or generated binaries and local analysis projects
+analysis/
+artifacts/
+references/upstream-webkit/
+upstream-webkit/
+*.PUP
+*.sprx
+*.self
+*.elf
+*.bin
+*.rep/
+
+# One-off local work
+scratch_*
+.local/
+
+# Published PS4 14.00 mapped-SPRX capture and its documented analysis outputs
+!evidence/live/
+evidence/live/*
+!evidence/live/full_sprx/
+evidence/live/full_sprx/**
+!evidence/live/full_sprx/**/
+!evidence/live/full_sprx/**/*.bin
+!evidence/live/full_sprx/**/*.json
+!evidence/live/full_sprx/**/*.txt
+!evidence/live/full_sprx/**/*.csv
+!evidence/live/full_sprx/**/*.elf

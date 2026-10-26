@@ -1,0 +1,8 @@
+{
+  "probe_id": "clone_history_brute_force_chunk2",
+  "script": "clone_history_brute_force_chunk2.js",
+  "check_ids": [
+    "brute_force_chunk2"
+  ],
+  "timeout_ms": 30000
+}

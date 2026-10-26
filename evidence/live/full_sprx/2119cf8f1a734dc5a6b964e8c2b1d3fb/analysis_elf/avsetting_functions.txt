@@ -1,0 +1,481 @@
+Analysis-only ELF built from 14.00 live RX bytes
+
+=== 0x8152e0422 ===
+Function: FUN_8152e03c0 @ 8152e03c0 body bytes 1917
+
+/* WARNING: Type propagation algorithm not settling */
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+uint FUN_8152e03c0(void)
+
+{
+  code *pcVar1;
+  long *plVar2;
+  uint uVar3;
+  uint uVar4;
+  int iVar5;
+  int iVar6;
+  undefined8 uVar7;
+  long lVar8;
+  char *pcVar9;
+  bool bVar10;
+  uint local_198 [2];
+  undefined8 local_190;
+  undefined1 local_188 [28];
+  undefined4 local_16c;
+  undefined4 local_150;
+  undefined4 local_138;
+  undefined8 local_130;
+  long local_30;
+  
+  plVar2 = DAT_8152ec028;
+  local_30 = *DAT_8152ec028;
+  LOCK();
+  bVar10 = DAT_8152f0068 == 0;
+  if (bVar10) {
+    DAT_8152f0068 = 1;
+  }
+  UNLOCK();
+  if (!bVar10) {
+    while (DAT_8152f0068 == 1) {
+      FUN_8152e01b8(10);
+    }
+    uVar4 = 0x809a00ff;
+    if (DAT_8152f0068 == 2) {
+      uVar4 = 0;
+    }
+    goto LAB_8152e08dc;
+  }
+  uVar3 = FUN_8152e01e8(&DAT_8152f0200,0,"SceAvSetting");
+  if ((int)uVar3 < 0) {
+    uVar7 = 0x2b;
+    uVar4 = uVar3;
+LAB_8152e056b:
+    pcVar9 = "**[%s %s:%d] ERROR! (0x%08X)\n";
+LAB_8152e056e:
+    FUN_8152e0158(pcVar9,"AvSetting",&DAT_8152e8428,uVar7,uVar3);
+  }
+  else {
+    FUN_8152e00e8(local_188);
+    FUN_8152e0218(local_188,"SceAvSettingIpc",0x18);
+    uVar7 = FUN_8152e00d8(local_188);
+    lVar8 = FUN_8152e0128(uVar7);
+    if (lVar8 == 0) {
+      FUN_8152e0158("**[%s %s:%d] initInstance memory allocation failed\n","AvSetting",
+                    &DAT_8152e8428,0x95);
+      uVar3 = FUN_8152e01d8(&DAT_8152f0200);
+      uVar4 = 0x809a0006;
+      if (uVar3 == 0) goto LAB_8152e0575;
+      uVar7 = 0x35;
+      goto LAB_8152e056b;
+    }
+    local_150 = 1;
+    local_16c = 2;
+    local_138 = 1;
+    local_130 = FUN_8152e00c8(0x80,4);
+    uVar4 = FUN_8152e0198(&local_190,"SceBootStatusFlags");
+    if (uVar4 == 0) {
+      local_198[1] = 1000000;
+      uVar7 = 0;
+      uVar4 = FUN_8152e01c8(local_190,0x400,1,0,local_198 + 1);
+      if ((int)uVar4 < 0) {
+        if (uVar4 == 0x8002003c) {
+          local_198[1] = 1000000;
+          uVar7 = 1;
+          uVar4 = FUN_8152e01c8(local_190,0x400,1,0,local_198 + 1);
+          if (-1 < (int)uVar4) goto LAB_8152e05b2;
+          if (uVar4 == 0x8002003c) {
+            local_198[1] = 1000000;
+            uVar4 = FUN_8152e01c8(local_190,0x400,1,0,local_198 + 1);
+            if (-1 < (int)uVar4) goto LAB_8152e05b2;
+            if (uVar4 == 0x8002003c) {
+              local_198[1] = 1000000;
+              uVar4 = FUN_8152e01c8(local_190,0x400,1,0,local_198 + 1);
+              if (-1 < (int)uVar4) goto LAB_8152e05b2;
+              if (uVar4 == 0x8002003c) {
+                local_198[1] = 1000000;
+                uVar4 = FUN_8152e01c8(local_190,0x400,1,0,local_198 + 1);
+                if (-1 < (int)uVar4) goto LAB_8152e05b2;
+                if (uVar4 == 0x8002003c) {
+                  local_198[1] = 1000000;
+                  uVar4 = FUN_8152e01c8(local_190,0x400,1,0,local_198 + 1);
+                  if (-1 < (int)uVar4) goto LAB_8152e05b2;
+                  if (uVar4 == 0x8002003c) {
+                    local_198[1] = 1000000;
+                    uVar4 = FUN_8152e01c8(local_190,0x400,1,0,local_198 + 1);
+                    if (-1 < (int)uVar4) goto LAB_8152e05b2;
+                    if (uVar4 == 0x8002003c) {
+                      local_198[1] = 1000000;
+                      uVar4 = FUN_8152e01c8(local_190,0x400,1,0,local_198 + 1);
+                      if (-1 < (int)uVar4) goto LAB_8152e05b2;
+                      if (uVar4 == 0x8002003c) {
+                        local_198[1] = 1000000;
+                        uVar4 = FUN_8152e01c8(local_190,0x400,1,0,local_198 + 1);
+                        if (-1 < (int)uVar4) goto LAB_8152e05b2;
+                        if (uVar4 == 0x8002003c) {
+                          local_198[1] = 1000000;
+                          uVar4 = FUN_8152e01c8(local_190,0x400,1,0,local_198 + 1);
+                          if ((-1 < (int)uVar4) || (uVar4 == 0x8002003c)) goto LAB_8152e05b2;
+                          uVar7 = 9;
+                        }
+                        else {
+                          uVar7 = 8;
+                        }
+                      }
+                      else {
+                        uVar7 = 7;
+                      }
+                    }
+                    else {
+                      uVar7 = 6;
+                    }
+                  }
+                  else {
+                    uVar7 = 5;
+                  }
+                }
+                else {
+                  uVar7 = 4;
+                }
+              }
+              else {
+                uVar7 = 3;
+              }
+            }
+            else {
+              uVar7 = 2;
+            }
+          }
+        }
+        FUN_8152e0158("* [%s %s:%d] sceKernelWaitEventFlag (%d) failed %x\n","AvSetting",
+                      &DAT_8152e8428,0x69,uVar7,uVar4);
+      }
+      else {
+LAB_8152e05b2:
+        uVar4 = 0;
+      }
+      iVar5 = FUN_8152e0178(local_190);
+      if (iVar5 != 0) {
+        FUN_8152e0158("**[%s %s:%d] ERROR! (0x%08X)\n","AvSetting",&DAT_8152e8428,0x75,iVar5);
+      }
+      if (uVar4 != 0) goto LAB_8152e0867;
+      uVar3 = FUN_8152e00f8(&DAT_8152f0060,local_188,0,lVar8);
+      if (-1 < (int)uVar3) {
+        uVar3 = (**(code **)(*DAT_8152f0060 + 0x80))(DAT_8152f0060,0,0,local_198,0);
+        if (-1 < (int)(local_198[0] | uVar3)) {
+          iVar5 = FUN_8152e7a70(&DAT_8152f0080);
+          if (iVar5 < 0) {
+            FUN_8152e0158("**[%s %s:%d] ERROR! (0x%08X)\n","AvSetting",&DAT_8152e8428,0x7f,iVar5);
+            (**(code **)*DAT_8152f0060)();
+            FUN_8152e0118(lVar8);
+            iVar6 = FUN_8152e01d8(&DAT_8152f0200);
+            if (iVar6 != 0) {
+              FUN_8152e0158("**[%s %s:%d] ERROR! (0x%08X)\n","AvSetting",&DAT_8152e8428,0x35,iVar6);
+            }
+            FUN_8152e0158("**[%s %s:%d] initInstance shm_init failed: 0x%x\n","AvSetting",
+                          &DAT_8152e8428,0xc2,iVar5);
+            uVar4 = 0x809a00ff;
+            goto LAB_8152e0575;
+          }
+          _DAT_8152f0078 = local_198[0];
+          LOCK();
+          UNLOCK();
+          DAT_8152f0070 = lVar8;
+          goto LAB_8152e08cf;
+        }
+        (**(code **)*DAT_8152f0060)();
+        FUN_8152e0118(lVar8);
+        iVar5 = FUN_8152e01d8(&DAT_8152f0200);
+        if (iVar5 != 0) {
+          FUN_8152e0158("**[%s %s:%d] ERROR! (0x%08X)\n","AvSetting",&DAT_8152e8428,0x35,iVar5);
+        }
+        FUN_8152e0158("**[%s %s:%d] initInstance IPMI client connection failed: 0x%x\n","AvSetting",
+                      &DAT_8152e8428,0xb9,uVar3);
+        uVar4 = 0x809a00ff;
+        if ((int)uVar3 < 0) {
+          uVar4 = uVar3;
+        }
+        goto LAB_8152e0575;
+      }
+      FUN_8152e0118(lVar8);
+      iVar5 = FUN_8152e01d8(&DAT_8152f0200);
+      if (iVar5 != 0) {
+        FUN_8152e0158("**[%s %s:%d] ERROR! (0x%08X)\n","AvSetting",&DAT_8152e8428,0x35,iVar5);
+      }
+      pcVar9 = "**[%s %s:%d] initInstance IPMI client creation failed: 0x%x\n";
+      uVar7 = 0xad;
+      uVar4 = uVar3;
+      goto LAB_8152e056e;
+    }
+    FUN_8152e0158("**[%s %s:%d] ERROR! (0x%08X)\n","AvSetting",&DAT_8152e8428,0x59,uVar4);
+LAB_8152e0867:
+    FUN_8152e0118(lVar8);
+    iVar5 = FUN_8152e01d8(&DAT_8152f0200);
+    if (iVar5 != 0) {
+      FUN_8152e0158("**[%s %s:%d] ERROR! (0x%08X)\n","AvSetting",&DAT_8152e8428,0x35,iVar5);
+    }
+    FUN_8152e0158("**[%s %s:%d] ERROR! (0x%08X)\n","AvSetting",&DAT_8152e8428,0xa5,uVar4);
+    if (-1 < (int)uVar4) {
+LAB_8152e08cf:
+      LOCK();
+      DAT_8152f0068 = 2;
+      UNLOCK();
+      uVar4 = 0;
+      goto LAB_8152e08dc;
+    }
+  }
+LAB_8152e0575:
+  LOCK();
+  DAT_8152f0068 = 0;
+  UNLOCK();
+LAB_8152e08dc:
+  if (*plVar2 != local_30) {
+    FUN_8152e0108();
+                    /* WARNING: Does not return */
+    pcVar1 = (code *)invalidInstructionException();
+    (*pcVar1)();
+  }
+  return uVar4;
+}
+
+
+
+=== 0x8152e047f ===
+Function: FUN_8152e03c0 @ 8152e03c0 body bytes 1917
+
+/* WARNING: Type propagation algorithm not settling */
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+uint FUN_8152e03c0(void)
+
+{
+  code *pcVar1;
+  long *plVar2;
+  uint uVar3;
+  uint uVar4;
+  int iVar5;
+  int iVar6;
+  undefined8 uVar7;
+  long lVar8;
+  char *pcVar9;
+  bool bVar10;
+  uint local_198 [2];
+  undefined8 local_190;
+  undefined1 local_188 [28];
+  undefined4 local_16c;
+  undefined4 local_150;
+  undefined4 local_138;
+  undefined8 local_130;
+  long local_30;
+  
+  plVar2 = DAT_8152ec028;
+  local_30 = *DAT_8152ec028;
+  LOCK();
+  bVar10 = DAT_8152f0068 == 0;
+  if (bVar10) {
+    DAT_8152f0068 = 1;
+  }
+  UNLOCK();
+  if (!bVar10) {
+    while (DAT_8152f0068 == 1) {
+      FUN_8152e01b8(10);
+    }
+    uVar4 = 0x809a00ff;
+    if (DAT_8152f0068 == 2) {
+      uVar4 = 0;
+    }
+    goto LAB_8152e08dc;
+  }
+  uVar3 = FUN_8152e01e8(&DAT_8152f0200,0,"SceAvSetting");
+  if ((int)uVar3 < 0) {
+    uVar7 = 0x2b;
+    uVar4 = uVar3;
+LAB_8152e056b:
+    pcVar9 = "**[%s %s:%d] ERROR! (0x%08X)\n";
+LAB_8152e056e:
+    FUN_8152e0158(pcVar9,"AvSetting",&DAT_8152e8428,uVar7,uVar3);
+  }
+  else {
+    FUN_8152e00e8(local_188);
+    FUN_8152e0218(local_188,"SceAvSettingIpc",0x18);
+    uVar7 = FUN_8152e00d8(local_188);
+    lVar8 = FUN_8152e0128(uVar7);
+    if (lVar8 == 0) {
+      FUN_8152e0158("**[%s %s:%d] initInstance memory allocation failed\n","AvSetting",
+                    &DAT_8152e8428,0x95);
+      uVar3 = FUN_8152e01d8(&DAT_8152f0200);
+      uVar4 = 0x809a0006;
+      if (uVar3 == 0) goto LAB_8152e0575;
+      uVar7 = 0x35;
+      goto LAB_8152e056b;
+    }
+    local_150 = 1;
+    local_16c = 2;
+    local_138 = 1;
+    local_130 = FUN_8152e00c8(0x80,4);
+    uVar4 = FUN_8152e0198(&local_190,"SceBootStatusFlags");
+    if (uVar4 == 0) {
+      local_198[1] = 1000000;
+      uVar7 = 0;
+      uVar4 = FUN_8152e01c8(local_190,0x400,1,0,local_198 + 1);
+      if ((int)uVar4 < 0) {
+        if (uVar4 == 0x8002003c) {
+          local_198[1] = 1000000;
+          uVar7 = 1;
+          uVar4 = FUN_8152e01c8(local_190,0x400,1,0,local_198 + 1);
+          if (-1 < (int)uVar4) goto LAB_8152e05b2;
+          if (uVar4 == 0x8002003c) {
+            local_198[1] = 1000000;
+            uVar4 = FUN_8152e01c8(local_190,0x400,1,0,local_198 + 1);
+            if (-1 < (int)uVar4) goto LAB_8152e05b2;
+            if (uVar4 == 0x8002003c) {
+              local_198[1] = 1000000;
+              uVar4 = FUN_8152e01c8(local_190,0x400,1,0,local_198 + 1);
+              if (-1 < (int)uVar4) goto LAB_8152e05b2;
+              if (uVar4 == 0x8002003c) {
+                local_198[1] = 1000000;
+                uVar4 = FUN_8152e01c8(local_190,0x400,1,0,local_198 + 1);
+                if (-1 < (int)uVar4) goto LAB_8152e05b2;
+                if (uVar4 == 0x8002003c) {
+                  local_198[1] = 1000000;
+                  uVar4 = FUN_8152e01c8(local_190,0x400,1,0,local_198 + 1);
+                  if (-1 < (int)uVar4) goto LAB_8152e05b2;
+                  if (uVar4 == 0x8002003c) {
+                    local_198[1] = 1000000;
+                    uVar4 = FUN_8152e01c8(local_190,0x400,1,0,local_198 + 1);
+                    if (-1 < (int)uVar4) goto LAB_8152e05b2;
+                    if (uVar4 == 0x8002003c) {
+                      local_198[1] = 1000000;
+                      uVar4 = FUN_8152e01c8(local_190,0x400,1,0,local_198 + 1);
+                      if (-1 < (int)uVar4) goto LAB_8152e05b2;
+                      if (uVar4 == 0x8002003c) {
+                        local_198[1] = 1000000;
+                        uVar4 = FUN_8152e01c8(local_190,0x400,1,0,local_198 + 1);
+                        if (-1 < (int)uVar4) goto LAB_8152e05b2;
+                        if (uVar4 == 0x8002003c) {
+                          local_198[1] = 1000000;
+                          uVar4 = FUN_8152e01c8(local_190,0x400,1,0,local_198 + 1);
+                          if ((-1 < (int)uVar4) || (uVar4 == 0x8002003c)) goto LAB_8152e05b2;
+                          uVar7 = 9;
+                        }
+                        else {
+                          uVar7 = 8;
+                        }
+                      }
+                      else {
+                        uVar7 = 7;
+                      }
+                    }
+                    else {
+                      uVar7 = 6;
+                    }
+                  }
+                  else {
+                    uVar7 = 5;
+                  }
+                }
+                else {
+                  uVar7 = 4;
+                }
+              }
+              else {
+                uVar7 = 3;
+              }
+            }
+            else {
+              uVar7 = 2;
+            }
+          }
+        }
+        FUN_8152e0158("* [%s %s:%d] sceKernelWaitEventFlag (%d) failed %x\n","AvSetting",
+                      &DAT_8152e8428,0x69,uVar7,uVar4);
+      }
+      else {
+LAB_8152e05b2:
+        uVar4 = 0;
+      }
+      iVar5 = FUN_8152e0178(local_190);
+      if (iVar5 != 0) {
+        FUN_8152e0158("**[%s %s:%d] ERROR! (0x%08X)\n","AvSetting",&DAT_8152e8428,0x75,iVar5);
+      }
+      if (uVar4 != 0) goto LAB_8152e0867;
+      uVar3 = FUN_8152e00f8(&DAT_8152f0060,local_188,0,lVar8);
+      if (-1 < (int)uVar3) {
+        uVar3 = (**(code **)(*DAT_8152f0060 + 0x80))(DAT_8152f0060,0,0,local_198,0);
+        if (-1 < (int)(local_198[0] | uVar3)) {
+          iVar5 = FUN_8152e7a70(&DAT_8152f0080);
+          if (iVar5 < 0) {
+            FUN_8152e0158("**[%s %s:%d] ERROR! (0x%08X)\n","AvSetting",&DAT_8152e8428,0x7f,iVar5);
+            (**(code **)*DAT_8152f0060)();
+            FUN_8152e0118(lVar8);
+            iVar6 = FUN_8152e01d8(&DAT_8152f0200);
+            if (iVar6 != 0) {
+              FUN_8152e0158("**[%s %s:%d] ERROR! (0x%08X)\n","AvSetting",&DAT_8152e8428,0x35,iVar6);
+            }
+            FUN_8152e0158("**[%s %s:%d] initInstance shm_init failed: 0x%x\n","AvSetting",
+                          &DAT_8152e8428,0xc2,iVar5);
+            uVar4 = 0x809a00ff;
+            goto LAB_8152e0575;
+          }
+          _DAT_8152f0078 = local_198[0];
+          LOCK();
+          UNLOCK();
+          DAT_8152f0070 = lVar8;
+          goto LAB_8152e08cf;
+        }
+        (**(code **)*DAT_8152f0060)();
+        FUN_8152e0118(lVar8);
+        iVar5 = FUN_8152e01d8(&DAT_8152f0200);
+        if (iVar5 != 0) {
+          FUN_8152e0158("**[%s %s:%d] ERROR! (0x%08X)\n","AvSetting",&DAT_8152e8428,0x35,iVar5);
+        }
+        FUN_8152e0158("**[%s %s:%d] initInstance IPMI client connection failed: 0x%x\n","AvSetting",
+                      &DAT_8152e8428,0xb9,uVar3);
+        uVar4 = 0x809a00ff;
+        if ((int)uVar3 < 0) {
+          uVar4 = uVar3;
+        }
+        goto LAB_8152e0575;
+      }
+      FUN_8152e0118(lVar8);
+      iVar5 = FUN_8152e01d8(&DAT_8152f0200);
+      if (iVar5 != 0) {
+        FUN_8152e0158("**[%s %s:%d] ERROR! (0x%08X)\n","AvSetting",&DAT_8152e8428,0x35,iVar5);
+      }
+      pcVar9 = "**[%s %s:%d] initInstance IPMI client creation failed: 0x%x\n";
+      uVar7 = 0xad;
+      uVar4 = uVar3;
+      goto LAB_8152e056e;
+    }
+    FUN_8152e0158("**[%s %s:%d] ERROR! (0x%08X)\n","AvSetting",&DAT_8152e8428,0x59,uVar4);
+LAB_8152e0867:
+    FUN_8152e0118(lVar8);
+    iVar5 = FUN_8152e01d8(&DAT_8152f0200);
+    if (iVar5 != 0) {
+      FUN_8152e0158("**[%s %s:%d] ERROR! (0x%08X)\n","AvSetting",&DAT_8152e8428,0x35,iVar5);
+    }
+    FUN_8152e0158("**[%s %s:%d] ERROR! (0x%08X)\n","AvSetting",&DAT_8152e8428,0xa5,uVar4);
+    if (-1 < (int)uVar4) {
+LAB_8152e08cf:
+      LOCK();
+      DAT_8152f0068 = 2;
+      UNLOCK();
+      uVar4 = 0;
+      goto LAB_8152e08dc;
+    }
+  }
+LAB_8152e0575:
+  LOCK();
+  DAT_8152f0068 = 0;
+  UNLOCK();
+LAB_8152e08dc:
+  if (*plVar2 != local_30) {
+    FUN_8152e0108();
+                    /* WARNING: Does not return */
+    pcVar1 = (code *)invalidInstructionException();
+    (*pcVar1)();
+  }
+  return uVar4;
+}
+
+

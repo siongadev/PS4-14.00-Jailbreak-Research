@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_sandbox_raw_chain_dry_v1",
+  "script": "clone_history_sandbox_raw_chain_dry_v1.js",
+  "check_ids": ["sandbox_raw_chain_dry_v1"],
+  "timeout_ms": 15000
+}

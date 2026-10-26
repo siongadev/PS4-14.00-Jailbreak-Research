@@ -1,0 +1,1 @@
+{"check_ids":["service_kill_absent_v1"],"script":"clone_history_service_kill_absent_v1.js","timeout_ms":30000,"probe_id":"clone_history_service_kill_absent_v1"}

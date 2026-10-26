@@ -1,0 +1,35 @@
+name: Offline verification
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  no-console:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Python collector tests
+        run: python -m unittest discover -s tests -v
+      - name: Verify included SPRX capture
+        run: python tools/verify_sprx_dump.py
+      - name: Browser syntax checks
+        run: |
+          node --check web/app.js
+          node --check web/probes.js
+      - name: Browser runner tests
+        run: |
+          set -euo pipefail
+          for test_file in tests/test_*.js; do
+            node "$test_file"
+          done

@@ -1,0 +1,6 @@
+{
+  "probe_id": "canvas_range_drop_four_v1",
+  "script": "canvas_range_drop_four_v1.js",
+  "check_ids": ["canvas_range_drop_four"],
+  "timeout_ms": 30000
+}

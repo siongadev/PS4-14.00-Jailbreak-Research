@@ -1,0 +1,50 @@
+Analysis-only ELF built from 14.00 live RX bytes
+
+=== 0x8140980d0 ===
+Function: FUN_8140980d0 @ 8140980d0 body bytes 152
+
+int FUN_8140980d0(long param_1)
+
+{
+  code *pcVar1;
+  long *plVar2;
+  int iVar3;
+  int iVar4;
+  undefined8 local_28;
+  long local_20;
+  
+  plVar2 = DAT_81409c020;
+  local_20 = *DAT_81409c020;
+  if (param_1 == 0) {
+    iVar4 = -0x7f23ffff;
+    goto LAB_814098149;
+  }
+  iVar3 = FUN_81408eae0(PTR_PTR_8140a06a0,&local_28);
+  if (iVar3 == 0) {
+    iVar3 = FUN_81408d180(local_28,param_1);
+    if (iVar3 == -0x7ffdfffd) {
+      iVar3 = FUN_814091630(&local_28);
+      if (iVar3 != 0) goto LAB_814098135;
+      iVar3 = FUN_81408d180(local_28,param_1);
+    }
+    if (iVar3 == 0) {
+      iVar4 = 0;
+      goto LAB_814098149;
+    }
+  }
+LAB_814098135:
+  iVar4 = -0x7f237ff5;
+  if (iVar3 != -0x7ffdfffd) {
+    iVar4 = iVar3;
+  }
+LAB_814098149:
+  if (*plVar2 != local_20) {
+    FUN_81408c0b8();
+                    /* WARNING: Does not return */
+    pcVar1 = (code *)invalidInstructionException();
+    (*pcVar1)();
+  }
+  return iVar4;
+}
+
+

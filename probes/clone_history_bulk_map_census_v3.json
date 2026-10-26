@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_bulk_map_census_v3",
+  "script": "clone_history_bulk_map_census_v3.js",
+  "check_ids": ["bulk_map_0_v3", "bulk_map_1_v3", "bulk_map_2_v3", "bulk_map_3_v3", "bulk_map_4_v3", "bulk_map_5_v3", "bulk_map_6_v3", "bulk_map_7_v3"],
+  "timeout_ms": 30000
+}

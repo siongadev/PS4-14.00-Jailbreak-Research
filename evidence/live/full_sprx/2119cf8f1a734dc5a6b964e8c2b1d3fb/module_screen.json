@@ -1,0 +1,1072 @@
+{
+  "scope": "hash-checked loaded RX/RO/RW images and structural import thunks",
+  "limitation": "Signals are byte strings/import links; no server/kernel implementation or execution proof",
+  "firmware_label": "14.00",
+  "session_id": "2119cf8f1a734dc5a6b964e8c2b1d3fb",
+  "source_manifest_sha256": "32003ded198218a18497526b51c40463878ea6fa88222f9c31afd23223540b80",
+  "source_import_graph_sha256": "a85ae5a044b1afa7dc0bf70933ace69e965439e5947436038dfc71682e79006e",
+  "module_count": 26,
+  "mapping_count": 78,
+  "verified_bytes": 111853568,
+  "modules": [
+    {
+      "handle": 2,
+      "name": "libSceLibcInternal.sprx",
+      "segments": {
+        "rx": {
+          "start": 35166289920,
+          "size": 1261568,
+          "sha256": "ef25a3ecf9669dd314deb324951564a0ea7dc09fd7c479f2e289d8fce67a98f4"
+        },
+        "ro": {
+          "start": 35167551488,
+          "size": 32768,
+          "sha256": "90c2d203eca5f1690041dba448ac4a48bb857ea5f1d7d860c81c26efacc98aec"
+        },
+        "rw": {
+          "start": 35167584256,
+          "size": 32768,
+          "sha256": "b909659dc2bb14af6e265b2f88bf6693e3e7efa279e57f99bd52ab476f23c481"
+        }
+      },
+      "outbound_imports": {
+        "libkernel_web.sprx": 126
+      },
+      "inbound_imports": {
+        "libSceSysmodule.sprx": 11,
+        "libScePosixForWebKit.sprx": 43,
+        "libcairo.sprx": 50,
+        "libcurl.sprx": 62,
+        "libfontconfig.sprx": 24,
+        "libfreetype.sprx": 24,
+        "libharfbuzz.sprx": 38,
+        "libicu.sprx": 79,
+        "libpng16.sprx": 27,
+        "libSceIpmi.sprx": 8,
+        "libSceSysCore.sprx": 8,
+        "libSceNet.sprx": 31,
+        "libSceNetCtl.sprx": 3,
+        "libSceRandom.sprx": 2,
+        "libSceLibreSsl3.sprx": 59,
+        "libSceRegMgr.sprx": 4,
+        "libSceSystemService.sprx": 36,
+        "libSceMbus.sprx": 7,
+        "libSceAvSetting.sprx": 10,
+        "libSceVideoOut.sprx": 9,
+        "libSceVideoCoreServerInterface.sprx": 15,
+        "libSceNKWebKitRequirements.sprx": 81,
+        "libSceNKWebKit.sprx": 216,
+        "libSceGLSlimClientVSH.sprx": 42,
+        "libkernel_web.sprx": 56
+      },
+      "signal_strings": [
+        "/dev/console",
+        "/dev/deci_tty6",
+        "/dev/null",
+        "/dev/random"
+      ]
+    },
+    {
+      "handle": 16,
+      "name": "libSceSysmodule.sprx",
+      "segments": {
+        "rx": {
+          "start": 35191324672,
+          "size": 49152,
+          "sha256": "7d438209edfe7a87be058c81ed4613c869e300a38706ee91a81bd1819689ca01"
+        },
+        "ro": {
+          "start": 35191373824,
+          "size": 16384,
+          "sha256": "39097329320beae99200fef8f07ee1f306af998915daee46c336e3e59cce6d26"
+        },
+        "rw": {
+          "start": 35191390208,
+          "size": 32768,
+          "sha256": "d3b90fa1b0e7563d4d23e273b4b97b426c8798fb4c44dd8bf882f3cfe0d431a3"
+        }
+      },
+      "outbound_imports": {
+        "libSceLibcInternal.sprx": 11,
+        "libkernel_web.sprx": 42
+      },
+      "inbound_imports": {
+        "libSceVideoOut.sprx": 1,
+        "libSceGLSlimClientVSH.sprx": 3
+      },
+      "signal_strings": [
+        "/dev/authmgr",
+        "/dev/dipsw",
+        "libSceCdlgUtilServer",
+        "libSceCoreIPC",
+        "libSceCustomMusicService",
+        "libSceGLSlimServerVSH",
+        "libSceLoginMgrServer",
+        "libSceLoginService",
+        "libSceMusicCoreServerClientJsEx",
+        "libSceMusicPlayerService",
+        "libSceNetCtl",
+        "libSceNetCtlApDialog",
+        "libSceOrbisCompatForVideoService",
+        "libSceSystemService",
+        "libSceUserService",
+        "libSceVideoCoreServerInterface",
+        "libSceVrServiceDialog",
+        "libSceWebKit2ForVideoService"
+      ]
+    },
+    {
+      "handle": 18,
+      "name": "libScePosixForWebKit.sprx",
+      "segments": {
+        "rx": {
+          "start": 35153969152,
+          "size": 16384,
+          "sha256": "89d2401e4fccf1fabc48a2236976d4d3034fb18561ec8f1e416e83c1114825f6"
+        },
+        "ro": {
+          "start": 35153985536,
+          "size": 16384,
+          "sha256": "7118531e1b2348228d209bdf308eef5ecf8a60279101c2a318678c77ab139b8a"
+        },
+        "rw": {
+          "start": 35154001920,
+          "size": 16384,
+          "sha256": "a0abb450cf5f23627025a0d90c44459e292a05772e82452bf1a5e844696507bd"
+        }
+      },
+      "outbound_imports": {
+        "libSceLibcInternal.sprx": 43,
+        "libSceNet.sprx": 11,
+        "libkernel_web.sprx": 17,
+        "libSceRegMgr.sprx": 1,
+        "libSceRandom.sprx": 1
+      },
+      "inbound_imports": {
+        "libcairo.sprx": 1,
+        "libcurl.sprx": 3,
+        "libSceNKWebKitRequirements.sprx": 7,
+        "libSceNKWebKit.sprx": 13
+      },
+      "signal_strings": []
+    },
+    {
+      "handle": 19,
+      "name": "libcairo.sprx",
+      "segments": {
+        "rx": {
+          "start": 35181707264,
+          "size": 1114112,
+          "sha256": "2a19c1b46e4d210465873200f8c90fe316d8a892fd38bbae86840376e01413b8"
+        },
+        "ro": {
+          "start": 35182821376,
+          "size": 32768,
+          "sha256": "87ef8e095b1728fa8eb8e7a2f0f75071d88e692f844821e9c9e85ee63d266402"
+        },
+        "rw": {
+          "start": 35182854144,
+          "size": 16384,
+          "sha256": "dceee78aaa8823e33806f67edf9460457907f24321242e677006588c9304ed9d"
+        }
+      },
+      "outbound_imports": {
+        "libkernel_web.sprx": 16,
+        "libSceLibcInternal.sprx": 50,
+        "libpng16.sprx": 33,
+        "libfreetype.sprx": 29,
+        "libfontconfig.sprx": 19,
+        "libScePosixForWebKit.sprx": 1
+      },
+      "inbound_imports": {
+        "libSceNKWebKit.sprx": 150
+      },
+      "signal_strings": []
+    },
+    {
+      "handle": 20,
+      "name": "libcurl.sprx",
+      "segments": {
+        "rx": {
+          "start": 35142025216,
+          "size": 819200,
+          "sha256": "cb206b88f06620b998b0acb1f1909f3a1a1a56645ea806620492fd5eb1d3bce6"
+        },
+        "ro": {
+          "start": 35142844416,
+          "size": 16384,
+          "sha256": "da173f4acd04b51f28c43a72e7e16f8df8c235723011f9ac95c478a4574efcff"
+        },
+        "rw": {
+          "start": 35142860800,
+          "size": 16384,
+          "sha256": "ecc0160c887aca738f5919294d030918dd4541aad0453e9093855dd0ba245d61"
+        }
+      },
+      "outbound_imports": {
+        "libkernel_web.sprx": 35,
+        "libSceLibcInternal.sprx": 62,
+        "libScePosixForWebKit.sprx": 3,
+        "libSceLibreSsl3.sprx": 222,
+        "libcurl.sprx": 4
+      },
+      "inbound_imports": {
+        "libcurl.sprx": 4,
+        "libSceNKWebKit.sprx": 26
+      },
+      "signal_strings": []
+    },
+    {
+      "handle": 22,
+      "name": "libfontconfig.sprx",
+      "segments": {
+        "rx": {
+          "start": 34605187072,
+          "size": 491520,
+          "sha256": "f8151bb39b510f5d0b4c020c6b07a6a9af9e98acea1acfe0f3a3768643096350"
+        },
+        "ro": {
+          "start": 34605678592,
+          "size": 16384,
+          "sha256": "a679f628883fe9139d4715b49108609342010a3b6d2cf7bd8faaedfca65a2d10"
+        },
+        "rw": {
+          "start": 34605694976,
+          "size": 16384,
+          "sha256": "342756a5b9c9c4311103568f7589f233476654b121257ac341c01cfdc7a33be6"
+        }
+      },
+      "outbound_imports": {
+        "libfreetype.sprx": 4,
+        "libSceLibcInternal.sprx": 24,
+        "libkernel_web.sprx": 2
+      },
+      "inbound_imports": {
+        "libcairo.sprx": 19,
+        "libSceNKWebKit.sprx": 48
+      },
+      "signal_strings": []
+    },
+    {
+      "handle": 23,
+      "name": "libfreetype.sprx",
+      "segments": {
+        "rx": {
+          "start": 35303981056,
+          "size": 737280,
+          "sha256": "3aa38768125c558eb285703cae0f0dfb95ba43fcefad399be81a6432549f2523"
+        },
+        "ro": {
+          "start": 35304718336,
+          "size": 32768,
+          "sha256": "4219aa8f6dbea2364c2bc960a2e90a61e2576a455cb37af8ba4f841e70b2207f"
+        },
+        "rw": {
+          "start": 35304751104,
+          "size": 16384,
+          "sha256": "3e62e5c90bce9ad8ecb64eddbeba3759b357d599b49b072d9ac0252c6f8ab545"
+        }
+      },
+      "outbound_imports": {
+        "libkernel_web.sprx": 9,
+        "libSceLibcInternal.sprx": 24,
+        "libpng16.sprx": 23,
+        "libfreetype.sprx": 4
+      },
+      "inbound_imports": {
+        "libcairo.sprx": 29,
+        "libfontconfig.sprx": 4,
+        "libfreetype.sprx": 4,
+        "libharfbuzz.sprx": 26,
+        "libSceNKWebKit.sprx": 10
+      },
+      "signal_strings": []
+    },
+    {
+      "handle": 24,
+      "name": "libharfbuzz.sprx",
+      "segments": {
+        "rx": {
+          "start": 34487189504,
+          "size": 835584,
+          "sha256": "561de2260d014bee20bb5120ecb54c9a9fa6009888d1667aac87b8587502b1e0"
+        },
+        "ro": {
+          "start": 34488025088,
+          "size": 16384,
+          "sha256": "a98ddf0300d58dc8b72332b781ca1120dc21b24c4dac66b8da8859d0f81d1308"
+        },
+        "rw": {
+          "start": 34488041472,
+          "size": 16384,
+          "sha256": "bcf29d86e2b1be7decf7dbf26a64a223fb4a3c5856c304e7b8e966e9702d9806"
+        }
+      },
+      "outbound_imports": {
+        "libSceLibcInternal.sprx": 38,
+        "libkernel_web.sprx": 2,
+        "libfreetype.sprx": 26,
+        "libicu.sprx": 10
+      },
+      "inbound_imports": {
+        "libSceNKWebKit.sprx": 32
+      },
+      "signal_strings": []
+    },
+    {
+      "handle": 25,
+      "name": "libicu.sprx",
+      "segments": {
+        "rx": {
+          "start": 34512355328,
+          "size": 34078720,
+          "sha256": "fbade60048ac3c532c5f964d568a9383865314060cff4dbb44e032d21f5100cc"
+        },
+        "ro": {
+          "start": 34546434048,
+          "size": 131072,
+          "sha256": "91451d03f6e18d5e44bfe0ebf4f0f582731ef7ed35c96dcc7bcf338e4daab46e"
+        },
+        "rw": {
+          "start": 34546565120,
+          "size": 16384,
+          "sha256": "4a05977856f2d20c2582d4a66561758eb8fbd49f1f4b53a871640fcdb52ca7b1"
+        }
+      },
+      "outbound_imports": {
+        "libSceLibcInternal.sprx": 79,
+        "libkernel_web.sprx": 5
+      },
+      "inbound_imports": {
+        "libharfbuzz.sprx": 10,
+        "libSceNKWebKitRequirements.sprx": 14,
+        "libSceNKWebKit.sprx": 224
+      },
+      "signal_strings": []
+    },
+    {
+      "handle": 26,
+      "name": "libpng16.sprx",
+      "segments": {
+        "rx": {
+          "start": 34546581504,
+          "size": 245760,
+          "sha256": "4426095ea3cda5fb17aa99b6e51c6f867d4ecd29b1b08700d8616a969ece9461"
+        },
+        "ro": {
+          "start": 34546827264,
+          "size": 16384,
+          "sha256": "9d2fb81ec12063c03555705f36df1cde4a5b35a42025bf63a852ad0e45909a3a"
+        },
+        "rw": {
+          "start": 34546843648,
+          "size": 16384,
+          "sha256": "21eb99ac8cd145a8dc7b1ad24660438844418820ca5162fb53074f639a47d638"
+        }
+      },
+      "outbound_imports": {
+        "libSceLibcInternal.sprx": 27,
+        "libkernel_web.sprx": 2,
+        "libpng16.sprx": 4
+      },
+      "inbound_imports": {
+        "libcairo.sprx": 33,
+        "libfreetype.sprx": 23,
+        "libpng16.sprx": 4,
+        "libSceNKWebKit.sprx": 34
+      },
+      "signal_strings": []
+    },
+    {
+      "handle": 27,
+      "name": "libSceIpmi.sprx",
+      "segments": {
+        "rx": {
+          "start": 35422388224,
+          "size": 49152,
+          "sha256": "6c6fcaf9c2bf7def0a18db20d33ac2cb0c75eef979138a2577654f3e5dda94a4"
+        },
+        "ro": {
+          "start": 35422437376,
+          "size": 16384,
+          "sha256": "1f56a197f47eb4c754b5397818c74b2971fca73eff231b6cd95e177c40d2579b"
+        },
+        "rw": {
+          "start": 35422453760,
+          "size": 81920,
+          "sha256": "664faffdbab6b8f026ba92269dc804081a46f4801b359e262adc1581af85d643"
+        }
+      },
+      "outbound_imports": {
+        "libSceLibcInternal.sprx": 8,
+        "libkernel_web.sprx": 17
+      },
+      "inbound_imports": {
+        "libSceSysCore.sprx": 3,
+        "libSceNetCtl.sprx": 2,
+        "libSceSystemService.sprx": 4,
+        "libSceMbus.sprx": 4,
+        "libSceAvSetting.sprx": 4,
+        "libSceVideoCoreServerInterface.sprx": 4
+      },
+      "signal_strings": [
+        "SceInternalTestMtServer",
+        "SceSysCoreApp",
+        "SceSysCoreApp2",
+        "[IPMI(%d) %d] %s: sceIpmiMgrGetServerUserData() fails (rv:%d)",
+        "[IPMI(%d) %d] sceIpmiMgrCreateServer, pServiceName[%s], pServer=%p, m_serverKid=0x%08X",
+        "[IPMI(%d) %d] sceIpmiMgrDestroyServer, m_serverKid=0x%08X, rv=0x%08X"
+      ]
+    },
+    {
+      "handle": 28,
+      "name": "libSceSysCore.sprx",
+      "segments": {
+        "rx": {
+          "start": 34659598336,
+          "size": 32768,
+          "sha256": "c45cb886410dcb33b3f63d0db1632a5f0f02c765ed6ad8b37a192b9b151027c7"
+        },
+        "ro": {
+          "start": 34659631104,
+          "size": 16384,
+          "sha256": "62bf17423563c70effcd1d8f412a99db3d8a24a2f2e28a2ea69b762da8eec4dc"
+        },
+        "rw": {
+          "start": 34659647488,
+          "size": 16384,
+          "sha256": "341b84ce2934b50e787b88148cc02d2e4356382385590a68d99e0c40ae8b4e57"
+        }
+      },
+      "outbound_imports": {
+        "libSceLibcInternal.sprx": 8,
+        "libSceIpmi.sprx": 3,
+        "libkernel_web.sprx": 5
+      },
+      "inbound_imports": {
+        "libSceSystemService.sprx": 1
+      },
+      "signal_strings": [
+        "SceSysCoreApp",
+        "SceSysCoreApp2"
+      ]
+    },
+    {
+      "handle": 29,
+      "name": "libSceNet.sprx",
+      "segments": {
+        "rx": {
+          "start": 35426222080,
+          "size": 229376,
+          "sha256": "09615bd636a1c540dabad50a7a8e84766bfe05a21fe51934f30d31a0cce9afc9"
+        },
+        "ro": {
+          "start": 35426451456,
+          "size": 16384,
+          "sha256": "f198e217995283375549683bf81973c7d19f42fb64f94fa267cdaef0802f0316"
+        },
+        "rw": {
+          "start": 35426467840,
+          "size": 1130496,
+          "sha256": "0425c8a77100f688a71491e127b970705b3d8ec2d92fe66b9b53fe38210207f2"
+        }
+      },
+      "outbound_imports": {
+        "libSceLibcInternal.sprx": 31,
+        "libkernel_web.sprx": 53
+      },
+      "inbound_imports": {
+        "libScePosixForWebKit.sprx": 11,
+        "libSceLibreSsl3.sprx": 12,
+        "libSceNKWebKitRequirements.sprx": 12
+      },
+      "signal_strings": [
+        "/dev/bpf0",
+        "/dev/notification4"
+      ]
+    },
+    {
+      "handle": 44,
+      "name": "libSceNetCtl.sprx",
+      "segments": {
+        "rx": {
+          "start": 35226124288,
+          "size": 32768,
+          "sha256": "d3a06ba618ccc4c1c8afe8100e5d37f321e8bf9bbe42b4b7d82125ea1fde6b56"
+        },
+        "ro": {
+          "start": 35226157056,
+          "size": 16384,
+          "sha256": "cbc96c99806d0c398c7f386f7a6e8db488183758159cd93e19a29f936b87eed7"
+        },
+        "rw": {
+          "start": 35226173440,
+          "size": 16384,
+          "sha256": "aa35b73a623556de60c6726d3d19029bc555816ad99a499baaec2479557f576e"
+        }
+      },
+      "outbound_imports": {
+        "libkernel_web.sprx": 9,
+        "libSceIpmi.sprx": 2,
+        "libSceLibcInternal.sprx": 3
+      },
+      "inbound_imports": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "signal_strings": [
+        "SceNetCtl"
+      ]
+    },
+    {
+      "handle": 46,
+      "name": "libSceRandom.sprx",
+      "segments": {
+        "rx": {
+          "start": 34714550272,
+          "size": 16384,
+          "sha256": "8b3e459acab322c8dbb756f4ded760abd9618d1932442a4e0ae127235c9e7c15"
+        },
+        "ro": {
+          "start": 34714566656,
+          "size": 16384,
+          "sha256": "cdcd3fa33ed8741f79cc35a0cf83d4951829445fb111ae21da044585c2d09a85"
+        },
+        "rw": {
+          "start": 34714583040,
+          "size": 16384,
+          "sha256": "29e8acec49b3e47ba19c696780ef3e23cd8daa4ce857d3f0720e2932cb529257"
+        }
+      },
+      "outbound_imports": {
+        "libSceLibcInternal.sprx": 2,
+        "libkernel_web.sprx": 7
+      },
+      "inbound_imports": {
+        "libScePosixForWebKit.sprx": 1,
+        "libSceLibreSsl3.sprx": 1
+      },
+      "signal_strings": [
+        "/dev/rng"
+      ]
+    },
+    {
+      "handle": 47,
+      "name": "libSceLibreSsl3.sprx",
+      "segments": {
+        "rx": {
+          "start": 35371859968,
+          "size": 1703936,
+          "sha256": "019d86f56b5e8639ec52add27e4ce78f79278bd6ea5f8a933f29464a5f708ad8"
+        },
+        "ro": {
+          "start": 35373563904,
+          "size": 131072,
+          "sha256": "ed0afc6e9c14835b1f74e7e3db3f08a63bc32710739213b8b8c14e1fb2024770"
+        },
+        "rw": {
+          "start": 35373694976,
+          "size": 16384,
+          "sha256": "19af90934dd8c0eaab0ede962a1ae9b74c0fd30aeb1e17867423d63a541179ac"
+        }
+      },
+      "outbound_imports": {
+        "libSceLibcInternal.sprx": 59,
+        "libkernel_web.sprx": 53,
+        "libSceRandom.sprx": 1,
+        "libSceNet.sprx": 12
+      },
+      "inbound_imports": {
+        "libcurl.sprx": 222,
+        "libSceNKWebKit.sprx": 180
+      },
+      "signal_strings": [
+        "/dev/tty",
+        "/dev/urandom"
+      ]
+    },
+    {
+      "handle": 48,
+      "name": "libSceRegMgr.sprx",
+      "segments": {
+        "rx": {
+          "start": 34546860032,
+          "size": 16384,
+          "sha256": "77ffffe9343095ebb8fe9a45ab75e3021efbefb81302b88ec2239bbd4d360b6b"
+        },
+        "ro": {
+          "start": 34546876416,
+          "size": 16384,
+          "sha256": "035096d48e80a56d28cafcad1a22e392aee8417b41072b79e2a0ab5df425a805"
+        },
+        "rw": {
+          "start": 34546892800,
+          "size": 16384,
+          "sha256": "cddf26a8e5265847eea6a050fb68f5a0f9d4f13783226bece2498487462915c0"
+        }
+      },
+      "outbound_imports": {
+        "libSceLibcInternal.sprx": 4,
+        "libkernel_web.sprx": 4
+      },
+      "inbound_imports": {
+        "libScePosixForWebKit.sprx": 1,
+        "libSceSystemService.sprx": 6,
+        "libSceVideoOut.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "signal_strings": []
+    },
+    {
+      "handle": 49,
+      "name": "libSceSystemService.sprx",
+      "segments": {
+        "rx": {
+          "start": 34484682752,
+          "size": 245760,
+          "sha256": "8dfeb423c92508348e6da8e75fdaf2d71fd4e5e3a09d6a73e3883da512213e05"
+        },
+        "ro": {
+          "start": 34484928512,
+          "size": 16384,
+          "sha256": "44768d71c13c795f25381d0c9df53cbd4f2201b69a44e511621b6734f762d03e"
+        },
+        "rw": {
+          "start": 34484944896,
+          "size": 16384,
+          "sha256": "4503719eff1dd47f6f2e86af4021bdb0160569c817e720311666df743a15f8ea"
+        }
+      },
+      "outbound_imports": {
+        "libkernel_web.sprx": 74,
+        "libSceLibcInternal.sprx": 36,
+        "libSceMbus.sprx": 3,
+        "libSceRegMgr.sprx": 6,
+        "libSceIpmi.sprx": 4,
+        "libSceSysCore.sprx": 1
+      },
+      "inbound_imports": {
+        "libSceNKWebKitRequirements.sprx": 3,
+        "libSceGLSlimClientVSH.sprx": 3
+      },
+      "signal_strings": [
+        "/dev/deci_coredump",
+        "/dev/deci_tty6",
+        "/dev/sbl_srv",
+        "/system_tmp/sp-webapp-event-socket",
+        "SCE_SYSTEM_SERVICE_EVENT_ADDCONTENT_INSTALL",
+        "SCE_SYSTEM_SERVICE_EVENT_APP_LAUNCH_LINK",
+        "SCE_SYSTEM_SERVICE_EVENT_DISPLAY_SAFE_AREA_UPDATE",
+        "SCE_SYSTEM_SERVICE_EVENT_ENTITLEMENT_UPDATE",
+        "SCE_SYSTEM_SERVICE_EVENT_GAME_CUSTOM_DATA",
+        "SCE_SYSTEM_SERVICE_EVENT_GAME_LIVE_STREAMING_STATUS_UPDATE",
+        "SCE_SYSTEM_SERVICE_EVENT_INVALID",
+        "SCE_SYSTEM_SERVICE_EVENT_JOIN_EVENT",
+        "SCE_SYSTEM_SERVICE_EVENT_LAUNCH_APP",
+        "SCE_SYSTEM_SERVICE_EVENT_ON_RESUME",
+        "SCE_SYSTEM_SERVICE_EVENT_OPEN_SHARE_MENU",
+        "SCE_SYSTEM_SERVICE_EVENT_PLAYGO_LOCUS_UPDATE",
+        "SCE_SYSTEM_SERVICE_EVENT_PLAY_TOGETHER_HOST",
+        "SCE_SYSTEM_SERVICE_EVENT_RESET_VR_POSITION",
+        "SCE_SYSTEM_SERVICE_EVENT_SESSION_INVITATION",
+        "SCE_SYSTEM_SERVICE_EVENT_URL_OPEN",
+        "SceLncIpcClient",
+        "SceLncService",
+        "SceLoginMgrServerHmdConnect",
+        "W:\\Build\\J02699047\\vsh\\common_lib\\sce_system_service\\system_service.cpp",
+        "W:\\Build\\J02699047\\vsh\\common_lib\\sce_system_service\\system_service_impl.cpp",
+        "[SceShellCoreUtil] Cannot open /dev/deci_coredump %x",
+        "[SceShellCoreUtil] Cannot read /dev/deci_coredump %x",
+        "[SceSystemServiceImpl] %s(%d) %s: SYSTEM_SERVICE_CHECK::0x%x (%s value is false)",
+        "[SceSystemServiceImpl] %s(%d) %s: SYSTEM_SERVICE_ISOK::0x%x",
+        "[SceSystemService] sceSblACMgrCheckNonsecureWebcoreProcess() returned 0x%x",
+        "sceSystemServiceAddLocalProcess",
+        "sceSystemServiceAddLocalProcess2",
+        "sceSystemServiceAddLocalProcessForJvm",
+        "sceSystemServiceAddLocalProcessForPs2Emu",
+        "sceSystemServiceAddLocalProcessForPsmKit",
+        "sceSystemServiceGetAppFocusedAppStatus",
+        "sceSystemServiceGetAppStatus",
+        "sceSystemServiceGetAppType",
+        "sceSystemServiceGetEventForDaemon",
+        "sceSystemServiceGetLocalProcessStatusList",
+        "sceSystemServiceGetLocalProcessStatusList2",
+        "sceSystemServiceGetTitleWorkaroundInfo",
+        "sceSystemServiceKillApp",
+        "sceSystemServiceKillLocalProcess",
+        "sceSystemServiceKillLocalProcessForJvm",
+        "sceSystemServiceKillLocalProcessForPs2Emu",
+        "sceSystemServiceKillLocalProcessForPsmKit",
+        "sceSystemServiceLaunchApp",
+        "sceSystemServiceLaunchWebApp",
+        "sceSystemServiceRaiseExceptionLocalProcess",
+        "sceSystemServiceResumeLocalProcess",
+        "sceSystemServiceShowImposeMenuForPs2Emu",
+        "sceSystemServiceSuspendBackgroundApp",
+        "sceSystemServiceSuspendLocalProcess"
+      ]
+    },
+    {
+      "handle": 58,
+      "name": "libSceMbus.sprx",
+      "segments": {
+        "rx": {
+          "start": 35351937024,
+          "size": 49152,
+          "sha256": "05d321bee5c3e39680d87b466ae506072c203fffaa6dd92895a950ec9ffe9ee0"
+        },
+        "ro": {
+          "start": 35351986176,
+          "size": 16384,
+          "sha256": "450bade1fcffe2f894a3765e588f2266dbf094a949b8359143bf594094590050"
+        },
+        "rw": {
+          "start": 35352002560,
+          "size": 16384,
+          "sha256": "5fdf59f59358564fe9fc1f09e4897855333a0e7ccd659766896f6b8d0d16908e"
+        }
+      },
+      "outbound_imports": {
+        "libSceLibcInternal.sprx": 7,
+        "libkernel_web.sprx": 32,
+        "libSceIpmi.sprx": 4
+      },
+      "inbound_imports": {
+        "libSceSystemService.sprx": 3
+      },
+      "signal_strings": [
+        "SceMbusIpc"
+      ]
+    },
+    {
+      "handle": 59,
+      "name": "libSceAvSetting.sprx",
+      "segments": {
+        "rx": {
+          "start": 34715074560,
+          "size": 49152,
+          "sha256": "2b880ceadea0de38effea59926895453bb28f86bee5aff2d81b04bbc7ae68ac3"
+        },
+        "ro": {
+          "start": 34715123712,
+          "size": 16384,
+          "sha256": "d9c65c820476964d1b3faead693a2c4e77d3bc6ebe39c7f638e205580db61987"
+        },
+        "rw": {
+          "start": 34715140096,
+          "size": 16384,
+          "sha256": "a5e53dc72bf519b933e016042ea61db3051929fbb8d6414fa193b9ce5c180d89"
+        }
+      },
+      "outbound_imports": {
+        "libSceLibcInternal.sprx": 10,
+        "libSceIpmi.sprx": 4,
+        "libkernel_web.sprx": 33
+      },
+      "inbound_imports": {
+        "libSceVideoOut.sprx": 16
+      },
+      "signal_strings": [
+        "SceAvSettingIpc"
+      ]
+    },
+    {
+      "handle": 60,
+      "name": "libSceVideoOut.sprx",
+      "segments": {
+        "rx": {
+          "start": 34702491648,
+          "size": 98304,
+          "sha256": "604fb0bd68d533c929ccd17cacdec5af7663153b089335cae33679cc11f20a51"
+        },
+        "ro": {
+          "start": 34702589952,
+          "size": 16384,
+          "sha256": "4f2a608d96a4cbb3d1521bbce5991f50a7dcb3d507ebe91cb8c1f1ec176b44cc"
+        },
+        "rw": {
+          "start": 34702606336,
+          "size": 16384,
+          "sha256": "e15030cc48fc5f91c88e9bb608c898b6a8aebd37d7202432349ba5d0b0ea7a1d"
+        }
+      },
+      "outbound_imports": {
+        "libSceLibcInternal.sprx": 9,
+        "libkernel_web.sprx": 49,
+        "libSceAvSetting.sprx": 16,
+        "libSceRegMgr.sprx": 1,
+        "libSceSysmodule.sprx": 1
+      },
+      "inbound_imports": {
+        "libSceNKWebKitRequirements.sprx": 2
+      },
+      "signal_strings": [
+        "/dev/dce",
+        "/dev/dipsw",
+        "SceVideoOutServiceEq",
+        "SceVideoOutServiceThread"
+      ]
+    },
+    {
+      "handle": 61,
+      "name": "libSceVideoCoreServerInterface.sprx",
+      "segments": {
+        "rx": {
+          "start": 34695856128,
+          "size": 65536,
+          "sha256": "e797daf61f46a5d40c957c70dcfb032dbd120fb26a0ba3bfab2f3be8a7078c10"
+        },
+        "ro": {
+          "start": 34695921664,
+          "size": 16384,
+          "sha256": "5fe9fc0746cefcd545d3f83713968d546c03e274d0828ea0a4bb05fe8d7b14a8"
+        },
+        "rw": {
+          "start": 34695938048,
+          "size": 32768,
+          "sha256": "e9e4fbedaa699819499f930f3fd5f225ee6b6b42351acd613c7798ddb9774cca"
+        }
+      },
+      "outbound_imports": {
+        "libkernel_web.sprx": 47,
+        "libSceLibcInternal.sprx": 15,
+        "libSceIpmi.sprx": 4
+      },
+      "inbound_imports": {
+        "libSceNKWebKitRequirements.sprx": 10
+      },
+      "signal_strings": [
+        "/system_tmp/SceKernelDescPassing",
+        "SceVideoCoreServer",
+        "SceVideoCoreServerAsyncAddThrd",
+        "SceVideoCoreServerAsyncInitMtx",
+        "SceVideoCoreServerEventTblMtx",
+        "SceVideoCoreServerFdMngCltMutex",
+        "SceVideoCoreServerFdMngCltThr",
+        "SceVideoCoreServerIFEvf",
+        "SceVideoCoreServerIFThread",
+        "SceVideoCoreServerInterface",
+        "SceVideoCoreServerIpcSocket",
+        "SceVideoCoreServerIpmiMgrMtx",
+        "SceVideoCoreServerRHandleTblMtx",
+        "SceVideoCoreServerRequestTblMtx",
+        "SceVideoCoreServerSourceTblMtx",
+        "SceVideoCoreServerStreamTblMtx",
+        "SceVideoCoreServerThumbCond"
+      ]
+    },
+    {
+      "handle": 72,
+      "name": "libSceNKWebKitRequirements.sprx",
+      "segments": {
+        "rx": {
+          "start": 34742239232,
+          "size": 2818048,
+          "sha256": "bd3fc956e1f94b718d7bb92ab590a91cccd871067b70f301f3d972fdf67b513a"
+        },
+        "ro": {
+          "start": 34745057280,
+          "size": 32768,
+          "sha256": "acb8389eac990e26e81d1c914b3e0eaf0213725058d8fb0780520bdcf961db79"
+        },
+        "rw": {
+          "start": 34745090048,
+          "size": 32768,
+          "sha256": "8434ad109425cc0b62e82b25542ded258751c1c1d43e9d75de84609601d6555a"
+        }
+      },
+      "outbound_imports": {
+        "libkernel_web.sprx": 103,
+        "libSceLibcInternal.sprx": 81,
+        "libicu.sprx": 14,
+        "libSceRegMgr.sprx": 1,
+        "libScePosixForWebKit.sprx": 7,
+        "libSceNet.sprx": 12,
+        "libSceNetCtl.sprx": 1,
+        "libSceVideoOut.sprx": 2,
+        "libSceGLSlimClientVSH.sprx": 24,
+        "libSceVideoCoreServerInterface.sprx": 10,
+        "libSceSystemService.sprx": 3,
+        "libSceNKWebKitRequirements.sprx": 71
+      },
+      "inbound_imports": {
+        "libSceNKWebKitRequirements.sprx": 71,
+        "libSceNKWebKit.sprx": 162
+      },
+      "signal_strings": [
+        "/dev/null",
+        "/dev/urandom"
+      ]
+    },
+    {
+      "handle": 73,
+      "name": "libSceNKWebKit.sprx",
+      "segments": {
+        "rx": {
+          "start": 34745122816,
+          "size": 61440000,
+          "sha256": "8561ea58a004037acaac0365e8b52b6d47354882b280c8ca7b8f807d1c1e81ab"
+        },
+        "ro": {
+          "start": 34806562816,
+          "size": 2244608,
+          "sha256": "171b2c98e5637534e9ebbcd26c1d69286410117d2d4930ec370de7efd251b7ee"
+        },
+        "rw": {
+          "start": 34808807424,
+          "size": 65536,
+          "sha256": "a94ec660e38c5fc208af0b6ee702fa629b5a05bbba9b8ec581251b318fe04b91"
+        }
+      },
+      "outbound_imports": {
+        "libkernel_web.sprx": 85,
+        "libSceLibcInternal.sprx": 216,
+        "libSceNKWebKitRequirements.sprx": 162,
+        "libScePosixForWebKit.sprx": 13,
+        "libcairo.sprx": 150,
+        "libicu.sprx": 224,
+        "libSceGLSlimClientVSH.sprx": 86,
+        "libSceLibreSsl3.sprx": 180,
+        "libcurl.sprx": 26,
+        "libfontconfig.sprx": 48,
+        "libfreetype.sprx": 10,
+        "libharfbuzz.sprx": 32,
+        "libpng16.sprx": 34,
+        "libSceNKWebKit.sprx": 1
+      },
+      "inbound_imports": {
+        "libSceNKWebKit.sprx": 1
+      },
+      "signal_strings": [
+        "/dev/urandom"
+      ]
+    },
+    {
+      "handle": 83,
+      "name": "libSceGLSlimClientVSH.sprx",
+      "segments": {
+        "rx": {
+          "start": 34417426432,
+          "size": 131072,
+          "sha256": "c41a19c8c914c7d5f7a58a1275559f287cc272d9639bf6b8a9c504186af23b9a"
+        },
+        "ro": {
+          "start": 34417557504,
+          "size": 16384,
+          "sha256": "2f97d1fe50eec606d2fc5bdfccc0b54d7a9dbb0e37f0fcdd3a35c27048e98543"
+        },
+        "rw": {
+          "start": 34417573888,
+          "size": 16384,
+          "sha256": "820619a8235855c2a7741fd096503a608aedd1c1aa4df80d4fe1b6ca5560d919"
+        }
+      },
+      "outbound_imports": {
+        "libSceLibcInternal.sprx": 42,
+        "libkernel_web.sprx": 29,
+        "libSceSystemService.sprx": 3,
+        "libSceSysmodule.sprx": 3
+      },
+      "inbound_imports": {
+        "libSceNKWebKitRequirements.sprx": 24,
+        "libSceNKWebKit.sprx": 86
+      },
+      "signal_strings": [
+        " --- SlimGLClient ---  failed in sceSlimglIPCSetupSendReply to the server over sock %d",
+        " --- SlimGLClient --- failed in sceSlimglIPCSetupRecvFd on socket %d for g_hCmdChannel, err = %d",
+        " --- SlimGLClient--- called sceSlimglIPCEnd --------",
+        " --- sceSlimglIPCSetupRecvReply --- failed in recv %zd on sock %d, errno = %d",
+        " --- sceSlimglIPCSetupSendReply --- failed in send %zd on sock %d to the server, errno = %d",
+        "--- SlimGLClient ---    connected socket  %d to SceWebCore/SceSlimGLServerProcess",
+        "--- SlimGLClient --- failed in connect %d to SceWebCore/SceSlimGLServerProcess  errno = %d",
+        "--- SlimGLClient --- wait for SceWebCore/SceSlimGLServerProcess  to start on %d",
+        "--- SlimGLClient---  sceSlimglIPCEnd =============",
+        "--- SlimGLClient--- sceSlimglIPCEnd terminated display, context, and surfaces",
+        "--- sceSlimglIPCSetupRecvFd --- failed in recvmsg on socket %d, errno = %d",
+        "SceSlimGLClientMonitorServer",
+        "SceWebCore/SceSlimGLServerProcess",
+        "[SlimGLClient sceSlimglIPCSetup] after sem_init cmdQueueRWCtrl.semRet =======================",
+        "[SlimGLClient sceSlimglIPCSetup] error %d to sem_init cmdQueueRWCtrl.semRet",
+        "sceSlimglClientStartIPC",
+        "sceSlimglIPCEnd",
+        "sceSlimglIPCSetup"
+      ]
+    },
+    {
+      "handle": 8193,
+      "name": "libkernel_web.sprx",
+      "segments": {
+        "rx": {
+          "start": 35017949184,
+          "size": 344064,
+          "sha256": "63b0e22e855625c3322aab67af54e015baf995b8acf11b6fa4174bde6f1c96e2"
+        },
+        "ro": {
+          "start": 35018293248,
+          "size": 16384,
+          "sha256": "058b2a117ab884d60f59d96f4a82f1f77c8941ef8422e5307298fd3268e02eb7"
+        },
+        "rw": {
+          "start": 35018309632,
+          "size": 229376,
+          "sha256": "23102e862c01b2ad1752db94a9aaaf99434a810f0000ca45bf0b2b7624422d6c"
+        }
+      },
+      "outbound_imports": {
+        "libSceLibcInternal.sprx": 56,
+        "libkernel_web.sprx": 2
+      },
+      "inbound_imports": {
+        "libSceLibcInternal.sprx": 126,
+        "libSceSysmodule.sprx": 42,
+        "libScePosixForWebKit.sprx": 17,
+        "libcairo.sprx": 16,
+        "libcurl.sprx": 35,
+        "libfontconfig.sprx": 2,
+        "libfreetype.sprx": 9,
+        "libharfbuzz.sprx": 2,
+        "libicu.sprx": 5,
+        "libpng16.sprx": 2,
+        "libSceIpmi.sprx": 17,
+        "libSceSysCore.sprx": 5,
+        "libSceNet.sprx": 53,
+        "libSceNetCtl.sprx": 9,
+        "libSceRandom.sprx": 7,
+        "libSceLibreSsl3.sprx": 53,
+        "libSceRegMgr.sprx": 4,
+        "libSceSystemService.sprx": 74,
+        "libSceMbus.sprx": 32,
+        "libSceAvSetting.sprx": 33,
+        "libSceVideoOut.sprx": 49,
+        "libSceVideoCoreServerInterface.sprx": 47,
+        "libSceNKWebKitRequirements.sprx": 103,
+        "libSceNKWebKit.sprx": 85,
+        "libSceGLSlimClientVSH.sprx": 29,
+        "libkernel_web.sprx": 2
+      },
+      "signal_strings": [
+        "/dev/",
+        "/dev/console",
+        "/dev/dce",
+        "/dev/dipsw",
+        "/dev/dmem%d",
+        "/dev/dmem0",
+        "/dev/evlg0",
+        "/dev/evlg1",
+        "/dev/gbase",
+        "/dev/icc_configuration",
+        "/dev/icc_device_power",
+        "/dev/icc_fan",
+        "/dev/icc_indicator",
+        "/dev/icc_nvs",
+        "/dev/icc_power",
+        "/dev/iccnvs1",
+        "/dev/notification%d",
+        "/dev/sbi",
+        "/dev/sdk_eventlog",
+        "/dev/srtc",
+        "/system_tmp/",
+        "libkernel.sprx"
+      ]
+    }
+  ]
+}

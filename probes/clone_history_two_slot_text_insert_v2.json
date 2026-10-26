@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_two_slot_text_insert_v2",
+  "script": "clone_history_two_slot_text_insert_v2.js",
+  "check_ids": ["two_slot_text_insert_v2"],
+  "timeout_ms": 30000
+}

@@ -1,0 +1,18 @@
+{
+  "probe_id": "clone_history_mid_matrix_v1",
+  "script": "clone_history_mid_matrix_v1.js",
+  "check_ids": [
+    "small_number_control",
+    "nested_object_256_control",
+    "bigint_size_9",
+    "bigint_size_10",
+    "bigint_size_12",
+    "bigint_size_16",
+    "bigint_size_24",
+    "bigint_size_32",
+    "bigint_size_64",
+    "bigint_size_128",
+    "bigint_size_256"
+  ],
+  "timeout_ms": 30000
+}

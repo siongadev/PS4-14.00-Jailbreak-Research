@@ -1,0 +1,52 @@
+Analysis-only ELF built from 14.00 live RX bytes
+
+=== 0x83f5706c0 ===
+Function: FUN_83f5706c0 @ 83f5706c0 body bytes 204
+
+ulong FUN_83f5706c0(undefined4 param_1,undefined4 param_2,undefined4 param_3,undefined4 param_4,
+                   undefined8 param_5,undefined8 param_6,undefined8 param_7,undefined4 param_8)
+
+{
+  code *pcVar1;
+  int iVar2;
+  undefined4 *puVar3;
+  ulong uVar4;
+  undefined4 local_70;
+  undefined4 local_6c;
+  undefined4 local_68;
+  undefined8 local_60;
+  undefined8 local_58;
+  undefined8 local_50;
+  undefined4 local_48;
+  uint local_3c;
+  long local_38;
+  
+  local_38 = *DAT_83f5783c0;
+  local_3c = 0xffffffff;
+  do {
+    local_50 = param_7;
+    local_48 = param_8;
+    local_70 = param_2;
+    local_6c = param_3;
+    local_68 = param_4;
+    local_60 = param_5;
+    local_58 = param_6;
+    iVar2 = FUN_83f56c208(800,param_1,&local_3c,&local_70,0x30,param_2);
+    if (iVar2 == 0) {
+      uVar4 = (ulong)local_3c;
+      break;
+    }
+    puVar3 = (undefined4 *)FUN_83f56c1f8();
+    uVar4 = FUN_83f56c118(*puVar3);
+    local_3c = (uint)uVar4;
+  } while (local_3c == 0x80020004);
+  if (*DAT_83f5783c0 != local_38) {
+    FUN_83f56c0d8();
+                    /* WARNING: Does not return */
+    pcVar1 = (code *)invalidInstructionException();
+    (*pcVar1)();
+  }
+  return uVar4;
+}
+
+

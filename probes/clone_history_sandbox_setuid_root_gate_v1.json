@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_sandbox_setuid_root_gate_v1",
+  "script": "clone_history_sandbox_setuid_root_gate_v1.js",
+  "check_ids": ["sandbox_setuid_root_gate_v1"],
+  "timeout_ms": 30000
+}

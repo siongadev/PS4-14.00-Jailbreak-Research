@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_bulk_dump_v2",
+  "script": "clone_history_bulk_dump_v2.js",
+  "check_ids": ["bulk_dump_v2"],
+  "timeout_ms": 30000
+}

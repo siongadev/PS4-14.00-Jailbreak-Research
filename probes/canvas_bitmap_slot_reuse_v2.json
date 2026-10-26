@@ -1,0 +1,6 @@
+{
+  "probe_id": "canvas_bitmap_slot_reuse_v2",
+  "script": "canvas_bitmap_slot_reuse_v2.js",
+  "check_ids": ["canvas_bitmap_slot_reuse_512"],
+  "timeout_ms": 30000
+}

@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_clock_tai_read_v2",
+  "script": "clone_history_clock_tai_read_v2.js",
+  "check_ids": ["clock_tai_read_v2"],
+  "timeout_ms": 12000
+}

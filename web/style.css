@@ -1,0 +1,14 @@
+html, body { margin: 0; min-height: 100%; }
+body { background: #0b0d10; color: #c8ced8; font: 15px/1.45 Arial, Helvetica, sans-serif; }
+[hidden] { display: none !important; }
+.topbar { padding: 10px 18px; border-bottom: 1px solid #1e2732; background: #0e1116; color: #e6ebf2; text-align: center; font-size: 15px; font-weight: 700; letter-spacing: .14em; }
+.connection-card { padding: 16px 18px; }
+#remote-status { margin: 0 0 6px; font-size: 22px; line-height: 1.35; }
+.is-connecting #remote-status { color: #d8c07f; }
+.is-connected #remote-status { color: #7fd0a0; }
+.is-error #remote-status { color: #d08a7f; }
+.detail { margin: 0; color: #8b95a3; font-size: 13px; }
+.detail strong { color: #c8ced8; font-weight: 600; }
+#connect { margin-top: 14px; padding: 7px 12px; border: 1px solid #45515f; border-radius: 4px; background: #151a20; color: #c8ced8; font: inherit; cursor: pointer; }
+#connect:focus { outline: 2px solid #d8c07f; outline-offset: 2px; }
+#remote-log { box-sizing: border-box; height: calc(100vh - 150px); min-height: 220px; margin: 18px 0 0; padding: 10px 12px; overflow-y: auto; border: 1px solid #1e2732; border-radius: 5px; background: #11151b; color: #c8ced8; font: 12px/1.45 Consolas, Monaco, monospace; white-space: pre-wrap; overflow-wrap: anywhere; }

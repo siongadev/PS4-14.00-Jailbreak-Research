@@ -1,0 +1,6 @@
+{
+  "probe_id": "array_iterator_short_control_v1",
+  "script": "array_iterator_short_control_v1.js",
+  "check_ids": ["short_iterator"],
+  "timeout_ms": 3000
+}

@@ -1,0 +1,6 @@
+{
+  "probe_id": "runtime_gc_capability_v1",
+  "script": "runtime_gc_capability_v1.js",
+  "check_ids": ["gc_capability"],
+  "timeout_ms": 15000
+}

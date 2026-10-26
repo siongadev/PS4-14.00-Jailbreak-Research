@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_worker_layout_v3",
+  "script": "clone_history_worker_layout_v3.js",
+  "check_ids": ["worker_layout_v3"],
+  "timeout_ms": 10000
+}

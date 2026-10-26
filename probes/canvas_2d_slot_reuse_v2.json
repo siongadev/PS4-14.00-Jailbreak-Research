@@ -1,0 +1,7 @@
+{
+  "probe_id": "canvas_2d_slot_reuse_v2",
+  "script": "canvas_2d_slot_reuse_v2.js",
+  "check_ids": ["canvas_2d_slot_reuse"],
+  "timeout_ms": 30000
+}
+

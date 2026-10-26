@@ -1,0 +1,6 @@
+{
+  "probe_id": "font_face_load_control_v2",
+  "script": "font_face_load_control_v2.js",
+  "check_ids": ["helvetica_control", "arial_control", "missing_font_control"],
+  "timeout_ms": 5000
+}

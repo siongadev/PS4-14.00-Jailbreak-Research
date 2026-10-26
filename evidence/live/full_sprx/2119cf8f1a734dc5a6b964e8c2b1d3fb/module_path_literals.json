@@ -1,0 +1,629 @@
+{
+  "scope": "hash-checked RX/RO path-shaped ASCII literals in all loaded modules",
+  "limitation": "Static strings only; dynamic paths and absent server/kernel code are not covered",
+  "firmware_label": "14.00",
+  "session_id": "2119cf8f1a734dc5a6b964e8c2b1d3fb",
+  "manifest_sha256": "32003ded198218a18497526b51c40463878ea6fa88222f9c31afd23223540b80",
+  "module_count": 26,
+  "path_literal_count": 95,
+  "modules": [
+    {
+      "handle": 2,
+      "name": "libSceLibcInternal.sprx",
+      "paths": [
+        {
+          "path": "/dev/console",
+          "segment": "rx",
+          "offset": 867808
+        },
+        {
+          "path": "/dev/deci_tty6",
+          "segment": "rx",
+          "offset": 867830
+        },
+        {
+          "path": "/dev/null",
+          "segment": "rx",
+          "offset": 973026
+        },
+        {
+          "path": "/dev/random",
+          "segment": "rx",
+          "offset": 974280
+        }
+      ]
+    },
+    {
+      "handle": 16,
+      "name": "libSceSysmodule.sprx",
+      "paths": [
+        {
+          "path": "/app0/sce_module.",
+          "segment": "rx",
+          "offset": 28781
+        },
+        {
+          "path": "/app0/sce_module/%s.prx",
+          "segment": "rx",
+          "offset": 28051
+        },
+        {
+          "path": "/app0/sce_module/%s.prx",
+          "segment": "rx",
+          "offset": 28691
+        },
+        {
+          "path": "/app0/sce_module/%s_debug.prx",
+          "segment": "rx",
+          "offset": 28021
+        },
+        {
+          "path": "/app0/sce_module/libc.prx",
+          "segment": "rx",
+          "offset": 34836
+        },
+        {
+          "path": "/common/lib/%s.prx",
+          "segment": "rx",
+          "offset": 27882
+        },
+        {
+          "path": "/common/lib/%s.sprx",
+          "segment": "rx",
+          "offset": 27832
+        },
+        {
+          "path": "/common/lib/%s.sprx",
+          "segment": "rx",
+          "offset": 28996
+        },
+        {
+          "path": "/common/lib/%sForNeo.sprx",
+          "segment": "rx",
+          "offset": 29075
+        },
+        {
+          "path": "/common/lib/%sForNeoMode.sprx",
+          "segment": "rx",
+          "offset": 28939
+        },
+        {
+          "path": "/common/lib/%s_debug.sprx",
+          "segment": "rx",
+          "offset": 29019
+        },
+        {
+          "path": "/common/lib/libc.sprx",
+          "segment": "rx",
+          "offset": 34865
+        },
+        {
+          "path": "/common_ex/lib/%s.sprx",
+          "segment": "rx",
+          "offset": 29357
+        },
+        {
+          "path": "/common_ex/lib/%sForNeo.sprx",
+          "segment": "rx",
+          "offset": 29134
+        },
+        {
+          "path": "/common_ex/lib/%sForNeoMode.sprx",
+          "segment": "rx",
+          "offset": 29276
+        },
+        {
+          "path": "/dev/authmgr",
+          "segment": "rx",
+          "offset": 36151
+        },
+        {
+          "path": "/dev/dipsw",
+          "segment": "rx",
+          "offset": 36088
+        },
+        {
+          "path": "/system/common/lib/libc.sprx",
+          "segment": "rx",
+          "offset": 34887
+        }
+      ]
+    },
+    {
+      "handle": 18,
+      "name": "libScePosixForWebKit.sprx",
+      "paths": []
+    },
+    {
+      "handle": 19,
+      "name": "libcairo.sprx",
+      "paths": []
+    },
+    {
+      "handle": 20,
+      "name": "libcurl.sprx",
+      "paths": []
+    },
+    {
+      "handle": 22,
+      "name": "libfontconfig.sprx",
+      "paths": [
+        {
+          "path": "/common/font/",
+          "segment": "rx",
+          "offset": 62389
+        },
+        {
+          "path": "/common/font2/",
+          "segment": "rx",
+          "offset": 62408
+        }
+      ]
+    },
+    {
+      "handle": 23,
+      "name": "libfreetype.sprx",
+      "paths": []
+    },
+    {
+      "handle": 24,
+      "name": "libharfbuzz.sprx",
+      "paths": []
+    },
+    {
+      "handle": 25,
+      "name": "libicu.sprx",
+      "paths": []
+    },
+    {
+      "handle": 26,
+      "name": "libpng16.sprx",
+      "paths": []
+    },
+    {
+      "handle": 27,
+      "name": "libSceIpmi.sprx",
+      "paths": []
+    },
+    {
+      "handle": 28,
+      "name": "libSceSysCore.sprx",
+      "paths": []
+    },
+    {
+      "handle": 29,
+      "name": "libSceNet.sprx",
+      "paths": [
+        {
+          "path": "/data/sce_net_captures/",
+          "segment": "rx",
+          "offset": 185649
+        },
+        {
+          "path": "/data/sce_net_captures/%s%s-%02x%02x%02x%02x%02x%02x-%d%02d%02d%02d%02d%02d.txt",
+          "segment": "rx",
+          "offset": 185930
+        },
+        {
+          "path": "/data/sce_net_captures/%s-%02x%02x%02x%02x%02x%02x-%d%02d%02d%02d%02d%02d.pcap",
+          "segment": "rx",
+          "offset": 185767
+        },
+        {
+          "path": "/dev/bpf0",
+          "segment": "rx",
+          "offset": 180468
+        },
+        {
+          "path": "/dev/notification4",
+          "segment": "rx",
+          "offset": 185449
+        },
+        {
+          "path": "/hostapp/sce_net_captures/",
+          "segment": "rx",
+          "offset": 185622
+        },
+        {
+          "path": "/hostapp/sce_net_captures/%s%s-%02x%02x%02x%02x%02x%02x-%d%02d%02d%02d%02d%02d.txt",
+          "segment": "rx",
+          "offset": 186010
+        },
+        {
+          "path": "/hostapp/sce_net_captures/%s-%02x%02x%02x%02x%02x%02x-%d%02d%02d%02d%02d%02d.pcap",
+          "segment": "rx",
+          "offset": 185846
+        }
+      ]
+    },
+    {
+      "handle": 44,
+      "name": "libSceNetCtl.sprx",
+      "paths": []
+    },
+    {
+      "handle": 46,
+      "name": "libSceRandom.sprx",
+      "paths": [
+        {
+          "path": "/dev/rng",
+          "segment": "rx",
+          "offset": 898
+        }
+      ]
+    },
+    {
+      "handle": 47,
+      "name": "libSceLibreSsl3.sprx",
+      "paths": [
+        {
+          "path": "/common/cert/CA_LIST.cer",
+          "segment": "rx",
+          "offset": 1418246
+        },
+        {
+          "path": "/dev/tty",
+          "segment": "rx",
+          "offset": 1393093
+        },
+        {
+          "path": "/dev/urandom",
+          "segment": "rx",
+          "offset": 1377671
+        },
+        {
+          "path": "/system%s",
+          "segment": "rx",
+          "offset": 1418271
+        }
+      ]
+    },
+    {
+      "handle": 48,
+      "name": "libSceRegMgr.sprx",
+      "paths": []
+    },
+    {
+      "handle": 49,
+      "name": "libSceSystemService.sprx",
+      "paths": [
+        {
+          "path": "/app0/",
+          "segment": "rx",
+          "offset": 184317
+        },
+        {
+          "path": "/common/lib/webapp.self",
+          "segment": "rx",
+          "offset": 184744
+        },
+        {
+          "path": "/dev/deci_coredump",
+          "segment": "rx",
+          "offset": 192050
+        },
+        {
+          "path": "/dev/deci_coredump",
+          "segment": "rx",
+          "offset": 192100
+        },
+        {
+          "path": "/dev/deci_coredump",
+          "segment": "rx",
+          "offset": 192154
+        },
+        {
+          "path": "/dev/deci_tty6",
+          "segment": "rx",
+          "offset": 192182
+        },
+        {
+          "path": "/dev/sbl_srv",
+          "segment": "rx",
+          "offset": 198944
+        },
+        {
+          "path": "/hostapp/",
+          "segment": "rx",
+          "offset": 184501
+        },
+        {
+          "path": "/system/priv/etc/timezone.dat",
+          "segment": "rx",
+          "offset": 197028
+        },
+        {
+          "path": "/system_data/priv/settings_app/timezone.dat.env",
+          "segment": "rx",
+          "offset": 196950
+        },
+        {
+          "path": "/system_tmp/sp-webapp-event-socket",
+          "segment": "rx",
+          "offset": 184682
+        },
+        {
+          "path": "/user/system/etc/timezone.dat",
+          "segment": "rx",
+          "offset": 196998
+        },
+        {
+          "path": "/user/temp/game/cheker_str.dat",
+          "segment": "rx",
+          "offset": 191005
+        },
+        {
+          "path": "/user/temp/hid_config_service/hid_config.tmp",
+          "segment": "rx",
+          "offset": 191157
+        },
+        {
+          "path": "/user/temp/workaround_ctl/title_workaround.tmp",
+          "segment": "rx",
+          "offset": 191110
+        }
+      ]
+    },
+    {
+      "handle": 58,
+      "name": "libSceMbus.sprx",
+      "paths": []
+    },
+    {
+      "handle": 59,
+      "name": "libSceAvSetting.sprx",
+      "paths": []
+    },
+    {
+      "handle": 60,
+      "name": "libSceVideoOut.sprx",
+      "paths": [
+        {
+          "path": "/dev/dce",
+          "segment": "rx",
+          "offset": 77032
+        },
+        {
+          "path": "/dev/dipsw",
+          "segment": "rx",
+          "offset": 82552
+        }
+      ]
+    },
+    {
+      "handle": 61,
+      "name": "libSceVideoCoreServerInterface.sprx",
+      "paths": [
+        {
+          "path": "/system_tmp/SceKernelDescPassing",
+          "segment": "rx",
+          "offset": 53559
+        }
+      ]
+    },
+    {
+      "handle": 72,
+      "name": "libSceNKWebKitRequirements.sprx",
+      "paths": [
+        {
+          "path": "/dev/null",
+          "segment": "rx",
+          "offset": 2542146
+        },
+        {
+          "path": "/dev/urandom",
+          "segment": "rx",
+          "offset": 2542326
+        },
+        {
+          "path": "/hostapp",
+          "segment": "rx",
+          "offset": 2191620
+        }
+      ]
+    },
+    {
+      "handle": 73,
+      "name": "libSceNKWebKit.sprx",
+      "paths": [
+        {
+          "path": "/app0",
+          "segment": "rx",
+          "offset": 45160218
+        },
+        {
+          "path": "/app0/NetworkProcess.self",
+          "segment": "rx",
+          "offset": 45160081
+        },
+        {
+          "path": "/app0/NetworkProcess.self",
+          "segment": "rx",
+          "offset": 45160389
+        },
+        {
+          "path": "/app0/WebProcess.self",
+          "segment": "rx",
+          "offset": 45160107
+        },
+        {
+          "path": "/app0/WebProcess.self",
+          "segment": "rx",
+          "offset": 45160367
+        },
+        {
+          "path": "/data/dtd/v11/ibmxhtml1-transitional.dtd",
+          "segment": "rx",
+          "offset": 47884447
+        },
+        {
+          "path": "/dev/urandom",
+          "segment": "rx",
+          "offset": 46754261
+        },
+        {
+          "path": "/dev/urandom",
+          "segment": "rx",
+          "offset": 48308045
+        }
+      ]
+    },
+    {
+      "handle": 83,
+      "name": "libSceGLSlimClientVSH.sprx",
+      "paths": [
+        {
+          "path": "/app0/SlimGLRenderServer_vsh.self",
+          "segment": "rx",
+          "offset": 107104
+        },
+        {
+          "path": "/hostapp/SlimGLRenderServer_vsh.self",
+          "segment": "rx",
+          "offset": 107138
+        }
+      ]
+    },
+    {
+      "handle": 8193,
+      "name": "libkernel_web.sprx",
+      "paths": [
+        {
+          "path": "/common/lib/%s",
+          "segment": "rx",
+          "offset": 241204
+        },
+        {
+          "path": "/common/lib/libSceSysmodule.sprx",
+          "segment": "rx",
+          "offset": 239622
+        },
+        {
+          "path": "/dev/",
+          "segment": "rx",
+          "offset": 225640
+        },
+        {
+          "path": "/dev/console",
+          "segment": "rx",
+          "offset": 245555
+        },
+        {
+          "path": "/dev/dce",
+          "segment": "rx",
+          "offset": 228633
+        },
+        {
+          "path": "/dev/dipsw",
+          "segment": "rx",
+          "offset": 226517
+        },
+        {
+          "path": "/dev/dipsw",
+          "segment": "rx",
+          "offset": 228300
+        },
+        {
+          "path": "/dev/dipsw",
+          "segment": "rx",
+          "offset": 243443
+        },
+        {
+          "path": "/dev/dmem%d",
+          "segment": "rx",
+          "offset": 226637
+        },
+        {
+          "path": "/dev/dmem0",
+          "segment": "rx",
+          "offset": 226432
+        },
+        {
+          "path": "/dev/evlg0",
+          "segment": "rx",
+          "offset": 229066
+        },
+        {
+          "path": "/dev/evlg1",
+          "segment": "rx",
+          "offset": 229008
+        },
+        {
+          "path": "/dev/gbase",
+          "segment": "rx",
+          "offset": 228479
+        },
+        {
+          "path": "/dev/icc_configuration",
+          "segment": "rx",
+          "offset": 228642
+        },
+        {
+          "path": "/dev/icc_device_power",
+          "segment": "rx",
+          "offset": 228712
+        },
+        {
+          "path": "/dev/icc_fan",
+          "segment": "rx",
+          "offset": 228965
+        },
+        {
+          "path": "/dev/icc_indicator",
+          "segment": "rx",
+          "offset": 228665
+        },
+        {
+          "path": "/dev/icc_nvs",
+          "segment": "rx",
+          "offset": 228684
+        },
+        {
+          "path": "/dev/icc_power",
+          "segment": "rx",
+          "offset": 228697
+        },
+        {
+          "path": "/dev/iccnvs1",
+          "segment": "rx",
+          "offset": 228734
+        },
+        {
+          "path": "/dev/notification%d",
+          "segment": "rx",
+          "offset": 226871
+        },
+        {
+          "path": "/dev/sbi",
+          "segment": "rx",
+          "offset": 229138
+        },
+        {
+          "path": "/dev/sdk_eventlog",
+          "segment": "rx",
+          "offset": 229077
+        },
+        {
+          "path": "/dev/srtc",
+          "segment": "rx",
+          "offset": 229125
+        },
+        {
+          "path": "/system/common/lib/libSceSysmodule.sprx",
+          "segment": "rx",
+          "offset": 239655
+        },
+        {
+          "path": "/system_tmp/",
+          "segment": "rx",
+          "offset": 226092
+        },
+        {
+          "path": "/tmp/SEMD",
+          "segment": "rx",
+          "offset": 225120
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+Analysis-only ELF built from 14.00 live RX bytes
+
+=== 0x8152e64a0 ===
+Function: FUN_8152e64a0 @ 8152e64a0 body bytes 113
+
+ulong FUN_8152e64a0(long *param_1,undefined4 param_2)
+
+{
+  code *pcVar1;
+  long *plVar2;
+  ulong uVar3;
+  undefined4 local_30;
+  uint local_2c;
+  undefined4 *local_28;
+  undefined8 local_20;
+  long local_18;
+  
+  plVar2 = DAT_8152ec028;
+  local_28 = &local_30;
+  local_18 = *DAT_8152ec028;
+  local_2c = 0;
+  local_20 = 4;
+  local_30 = param_2;
+  uVar3 = (**(code **)(*param_1 + 0x58))(param_1,0,&local_28,1,&local_2c,0,0);
+  if ((int)uVar3 == 0) {
+    uVar3 = (ulong)local_2c;
+  }
+  if (*plVar2 == local_18) {
+    return uVar3;
+  }
+  FUN_8152e0108();
+                    /* WARNING: Does not return */
+  pcVar1 = (code *)invalidInstructionException();
+  (*pcVar1)();
+}
+
+
+
+=== 0x8152e65a0 ===
+Function: FUN_8152e65a0 @ 8152e65a0 body bytes 116
+
+ulong FUN_8152e65a0(long *param_1,undefined4 param_2,undefined4 param_3)
+
+{
+  code *pcVar1;
+  long *plVar2;
+  ulong uVar3;
+  undefined4 local_38;
+  undefined4 local_34;
+  uint local_2c;
+  undefined4 *local_28;
+  undefined8 local_20;
+  long local_18;
+  
+  plVar2 = DAT_8152ec028;
+  local_28 = &local_38;
+  local_18 = *DAT_8152ec028;
+  local_2c = 0;
+  local_20 = 8;
+  local_38 = param_2;
+  local_34 = param_3;
+  uVar3 = (**(code **)(*param_1 + 0x58))(param_1,2,&local_28,1,&local_2c,0,0);
+  if ((int)uVar3 == 0) {
+    uVar3 = (ulong)local_2c;
+  }
+  if (*plVar2 == local_18) {
+    return uVar3;
+  }
+  FUN_8152e0108();
+                    /* WARNING: Does not return */
+  pcVar1 = (code *)invalidInstructionException();
+  (*pcVar1)();
+}
+
+
+
+=== 0x8152e6c30 ===
+Function: FUN_8152e6c30 @ 8152e6c30 body bytes 284
+
+ulong FUN_8152e6c30(long *param_1,undefined4 param_2,undefined8 param_3,undefined8 param_4,
+                   undefined8 param_5,undefined8 param_6,undefined8 param_7,undefined8 param_8,
+                   undefined8 param_9,undefined4 param_10,undefined4 param_11)
+
+{
+  code *pcVar1;
+  long *plVar2;
+  ulong uVar3;
+  undefined4 local_f8 [2];
+  undefined8 local_f0;
+  undefined4 local_e8;
+  undefined4 local_e4;
+  uint local_dc;
+  undefined8 local_d8;
+  undefined8 local_d0;
+  undefined8 local_c0;
+  undefined8 local_b8;
+  undefined8 local_a8;
+  undefined8 local_a0;
+  undefined8 local_90;
+  undefined8 local_88;
+  undefined8 local_78;
+  undefined8 local_70;
+  undefined8 local_60;
+  undefined8 local_58;
+  undefined4 *local_48;
+  undefined8 local_40;
+  long local_30;
+  
+  plVar2 = DAT_8152ec028;
+  local_30 = *DAT_8152ec028;
+  local_48 = local_f8;
+  local_d0 = 0x28;
+  local_b8 = 4;
+  local_a0 = 4;
+  local_90 = param_7;
+  local_88 = 0x20;
+  local_78 = param_8;
+  local_70 = 4;
+  local_60 = param_9;
+  local_e8 = param_10;
+  local_dc = 0;
+  local_58 = 4;
+  local_e4 = param_11;
+  local_40 = 0x18;
+  local_f8[0] = param_2;
+  local_f0 = param_3;
+  local_d8 = param_4;
+  local_c0 = param_5;
+  local_a8 = param_6;
+  uVar3 = (**(code **)(*param_1 + 0x58))(param_1,0xe,&local_48,1,&local_dc,&local_d8,6);
+  if ((int)uVar3 == 0) {
+    uVar3 = (ulong)local_dc;
+  }
+  if (*plVar2 == local_30) {
+    return uVar3;
+  }
+  FUN_8152e0108();
+                    /* WARNING: Does not return */
+  pcVar1 = (code *)invalidInstructionException();
+  (*pcVar1)();
+}
+
+
+
+=== 0x8152e6d50 ===
+Function: FUN_8152e6d50 @ 8152e6d50 body bytes 116
+
+ulong FUN_8152e6d50(long *param_1,undefined4 param_2,undefined4 param_3)
+
+{
+  code *pcVar1;
+  long *plVar2;
+  ulong uVar3;
+  undefined4 local_38;
+  undefined4 local_34;
+  uint local_2c;
+  undefined4 *local_28;
+  undefined8 local_20;
+  long local_18;
+  
+  plVar2 = DAT_8152ec028;
+  local_28 = &local_38;
+  local_18 = *DAT_8152ec028;
+  local_2c = 0;
+  local_20 = 8;
+  local_38 = param_2;
+  local_34 = param_3;
+  uVar3 = (**(code **)(*param_1 + 0x58))(param_1,0xf,&local_28,1,&local_2c,0,0);
+  if ((int)uVar3 == 0) {
+    uVar3 = (ulong)local_2c;
+  }
+  if (*plVar2 == local_18) {
+    return uVar3;
+  }
+  FUN_8152e0108();
+                    /* WARNING: Does not return */
+  pcVar1 = (code *)invalidInstructionException();
+  (*pcVar1)();
+}
+
+
+
+=== 0x8152e6ed0 ===
+Function: FUN_8152e6ed0 @ 8152e6ed0 body bytes 126
+
+ulong FUN_8152e6ed0(long *param_1,undefined8 param_2,undefined8 param_3)
+
+{
+  code *pcVar1;
+  long *plVar2;
+  ulong uVar3;
+  undefined8 local_48;
+  uint local_3c;
+  undefined8 *local_38;
+  undefined8 local_30;
+  undefined8 local_28;
+  undefined8 local_20;
+  long local_18;
+  
+  plVar2 = DAT_8152ec028;
+  local_38 = &local_48;
+  local_18 = *DAT_8152ec028;
+  local_30 = 8;
+  local_3c = 0;
+  local_20 = 0x20;
+  local_48 = param_3;
+  local_28 = param_2;
+  uVar3 = (**(code **)(*param_1 + 0x58))(param_1,0x12,&local_38,2,&local_3c,0,0);
+  if ((int)uVar3 == 0) {
+    uVar3 = (ulong)local_3c;
+  }
+  if (*plVar2 == local_18) {
+    return uVar3;
+  }
+  FUN_8152e0108();
+                    /* WARNING: Does not return */
+  pcVar1 = (code *)invalidInstructionException();
+  (*pcVar1)();
+}
+
+

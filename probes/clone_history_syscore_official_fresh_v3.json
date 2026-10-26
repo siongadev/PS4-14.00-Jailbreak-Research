@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_syscore_official_fresh_v3",
+  "script": "clone_history_syscore_official_fresh_v3.js",
+  "check_ids": ["syscore_official_fresh_v3"],
+  "timeout_ms": 30000
+}

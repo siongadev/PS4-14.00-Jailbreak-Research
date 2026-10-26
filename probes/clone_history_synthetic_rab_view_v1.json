@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_synthetic_rab_view_v1",
+  "script": "clone_history_synthetic_rab_view_v1.js",
+  "check_ids": ["synthetic_view_no_bigint_control", "synthetic_view_bigint_case"],
+  "timeout_ms": 30000
+}

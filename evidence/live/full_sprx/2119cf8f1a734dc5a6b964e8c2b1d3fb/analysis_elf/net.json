@@ -1,0 +1,34 @@
+{
+  "kind": "analysis-only synthetic ELF64",
+  "not_original_binary": true,
+  "module_handle": 29,
+  "module_name": "libSceNet.sprx",
+  "firmware_label": "14.00",
+  "session_id": "2119cf8f1a734dc5a6b964e8c2b1d3fb",
+  "source_manifest": "evidence/live/full_sprx/2119cf8f1a734dc5a6b964e8c2b1d3fb/manifest.json",
+  "source_manifest_sha256": "32003ded198218a18497526b51c40463878ea6fa88222f9c31afd23223540b80",
+  "segments": [
+    {
+      "kind": "rx",
+      "virtual_address": 35426222080,
+      "file_offset": 4096,
+      "size": 229376,
+      "sha256": "09615bd636a1c540dabad50a7a8e84766bfe05a21fe51934f30d31a0cce9afc9"
+    },
+    {
+      "kind": "ro",
+      "virtual_address": 35426451456,
+      "file_offset": 233472,
+      "size": 16384,
+      "sha256": "f198e217995283375549683bf81973c7d19f42fb64f94fa267cdaef0802f0316"
+    },
+    {
+      "kind": "rw",
+      "virtual_address": 35426467840,
+      "file_offset": 249856,
+      "size": 1130496,
+      "sha256": "0425c8a77100f688a71491e127b970705b3d8ec2d92fe66b9b53fe38210207f2"
+    }
+  ],
+  "synthetic_sha256": "6ebe6d98d8cf4b1162ec1ef7ae23858bded3649d9aafc2cf6726c022de1ed074"
+}

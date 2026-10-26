@@ -1,0 +1,1721 @@
+{
+  "scope": "static import slots bound to exact ordinary libkernel_web wrapper entries",
+  "limitation": "No indirect-call recovery or execution/permission proof",
+  "session_id": "2119cf8f1a734dc5a6b964e8c2b1d3fb",
+  "firmware_label": "14.00",
+  "manifest_sha256": "32003ded198218a18497526b51c40463878ea6fa88222f9c31afd23223540b80",
+  "import_graph_sha256": "a85ae5a044b1afa7dc0bf70933ace69e965439e5947436038dfc71682e79006e",
+  "wrapper_catalog_sha256": "18042bfa080cb8b4a69a060656c280828c191707a947b9919766218e5e2f1b11",
+  "module_count": 26,
+  "matched_link_count": 186,
+  "modules": [
+    {
+      "handle": 2,
+      "name": "libSceLibcInternal.sprx",
+      "direct_wrapper_link_count": 34,
+      "direct_wrapper_numbers": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        10,
+        12,
+        15,
+        20,
+        24,
+        47,
+        59,
+        83,
+        90,
+        92,
+        116,
+        117,
+        136,
+        137,
+        138,
+        182,
+        183,
+        188,
+        189,
+        190,
+        192,
+        196,
+        232,
+        240,
+        327,
+        329,
+        397,
+        499,
+        532
+      ],
+      "links": [
+        {
+          "number": 1,
+          "slot_kind": "ro",
+          "slot_offset": 16752,
+          "source_offset": 1496,
+          "target_rx_offset": 178832
+        },
+        {
+          "number": 3,
+          "slot_kind": "ro",
+          "slot_offset": 16576,
+          "source_offset": 1144,
+          "target_rx_offset": 180576
+        },
+        {
+          "number": 4,
+          "slot_kind": "ro",
+          "slot_offset": 16584,
+          "source_offset": 1160,
+          "target_rx_offset": 178368
+        },
+        {
+          "number": 5,
+          "slot_kind": "ro",
+          "slot_offset": 16592,
+          "source_offset": 1176,
+          "target_rx_offset": 178528
+        },
+        {
+          "number": 6,
+          "slot_kind": "ro",
+          "slot_offset": 16600,
+          "source_offset": 1192,
+          "target_rx_offset": 185872
+        },
+        {
+          "number": 10,
+          "slot_kind": "ro",
+          "slot_offset": 16624,
+          "source_offset": 1240,
+          "target_rx_offset": 180352
+        },
+        {
+          "number": 12,
+          "slot_kind": "ro",
+          "slot_offset": 16736,
+          "source_offset": 1464,
+          "target_rx_offset": 176416
+        },
+        {
+          "number": 15,
+          "slot_kind": "ro",
+          "slot_offset": 17048,
+          "source_offset": 2088,
+          "target_rx_offset": 182880
+        },
+        {
+          "number": 20,
+          "slot_kind": "ro",
+          "slot_offset": 16096,
+          "source_offset": 184,
+          "target_rx_offset": 183136
+        },
+        {
+          "number": 24,
+          "slot_kind": "ro",
+          "slot_offset": 16920,
+          "source_offset": 1832,
+          "target_rx_offset": 185808
+        },
+        {
+          "number": 47,
+          "slot_kind": "ro",
+          "slot_offset": 16904,
+          "source_offset": 1800,
+          "target_rx_offset": 177600
+        },
+        {
+          "number": 59,
+          "slot_kind": "ro",
+          "slot_offset": 16864,
+          "source_offset": 1720,
+          "target_rx_offset": 179216
+        },
+        {
+          "number": 83,
+          "slot_kind": "ro",
+          "slot_offset": 16712,
+          "source_offset": 1416,
+          "target_rx_offset": 179088
+        },
+        {
+          "number": 90,
+          "slot_kind": "ro",
+          "slot_offset": 16744,
+          "source_offset": 1480,
+          "target_rx_offset": 182384
+        },
+        {
+          "number": 92,
+          "slot_kind": "ro",
+          "slot_offset": 16824,
+          "source_offset": 1640,
+          "target_rx_offset": 177728
+        },
+        {
+          "number": 116,
+          "slot_kind": "ro",
+          "slot_offset": 16184,
+          "source_offset": 360,
+          "target_rx_offset": 177504
+        },
+        {
+          "number": 117,
+          "slot_kind": "ro",
+          "slot_offset": 17144,
+          "source_offset": 2280,
+          "target_rx_offset": 178144
+        },
+        {
+          "number": 136,
+          "slot_kind": "ro",
+          "slot_offset": 17024,
+          "source_offset": 2040,
+          "target_rx_offset": 180608
+        },
+        {
+          "number": 137,
+          "slot_kind": "ro",
+          "slot_offset": 16616,
+          "source_offset": 1224,
+          "target_rx_offset": 180976
+        },
+        {
+          "number": 138,
+          "slot_kind": "ro",
+          "slot_offset": 16960,
+          "source_offset": 1912,
+          "target_rx_offset": 185328
+        },
+        {
+          "number": 182,
+          "slot_kind": "ro",
+          "slot_offset": 16912,
+          "source_offset": 1816,
+          "target_rx_offset": 180160
+        },
+        {
+          "number": 183,
+          "slot_kind": "ro",
+          "slot_offset": 16928,
+          "source_offset": 1848,
+          "target_rx_offset": 178992
+        },
+        {
+          "number": 188,
+          "slot_kind": "ro",
+          "slot_offset": 16776,
+          "source_offset": 1544,
+          "target_rx_offset": 179776
+        },
+        {
+          "number": 189,
+          "slot_kind": "ro",
+          "slot_offset": 16784,
+          "source_offset": 1560,
+          "target_rx_offset": 180192
+        },
+        {
+          "number": 190,
+          "slot_kind": "ro",
+          "slot_offset": 16800,
+          "source_offset": 1592,
+          "target_rx_offset": 177952
+        },
+        {
+          "number": 192,
+          "slot_kind": "ro",
+          "slot_offset": 16936,
+          "source_offset": 1864,
+          "target_rx_offset": 185776
+        },
+        {
+          "number": 196,
+          "slot_kind": "ro",
+          "slot_offset": 16848,
+          "source_offset": 1688,
+          "target_rx_offset": 186192
+        },
+        {
+          "number": 232,
+          "slot_kind": "ro",
+          "slot_offset": 17160,
+          "source_offset": 2312,
+          "target_rx_offset": 179616
+        },
+        {
+          "number": 240,
+          "slot_kind": "ro",
+          "slot_offset": 16560,
+          "source_offset": 1112,
+          "target_rx_offset": 185520
+        },
+        {
+          "number": 327,
+          "slot_kind": "ro",
+          "slot_offset": 16888,
+          "source_offset": 1768,
+          "target_rx_offset": 177824
+        },
+        {
+          "number": 329,
+          "slot_kind": "ro",
+          "slot_offset": 16896,
+          "source_offset": 1784,
+          "target_rx_offset": 185136
+        },
+        {
+          "number": 397,
+          "slot_kind": "ro",
+          "slot_offset": 16840,
+          "source_offset": 1672,
+          "target_rx_offset": 178304
+        },
+        {
+          "number": 499,
+          "slot_kind": "ro",
+          "slot_offset": 16792,
+          "source_offset": 1576,
+          "target_rx_offset": 178896
+        },
+        {
+          "number": 532,
+          "slot_kind": "ro",
+          "slot_offset": 17176,
+          "source_offset": 2344,
+          "target_rx_offset": 185744
+        }
+      ]
+    },
+    {
+      "handle": 16,
+      "name": "libSceSysmodule.sprx",
+      "direct_wrapper_link_count": 13,
+      "direct_wrapper_numbers": [
+        5,
+        6,
+        20,
+        54,
+        532,
+        587,
+        594,
+        595,
+        605,
+        607,
+        612,
+        649
+      ],
+      "links": [
+        {
+          "number": 5,
+          "slot_kind": "ro",
+          "slot_offset": 432,
+          "source_offset": 904,
+          "target_rx_offset": 178528
+        },
+        {
+          "number": 6,
+          "slot_kind": "ro",
+          "slot_offset": 416,
+          "source_offset": 872,
+          "target_rx_offset": 185872
+        },
+        {
+          "number": 20,
+          "slot_kind": "ro",
+          "slot_offset": 176,
+          "source_offset": 392,
+          "target_rx_offset": 183136
+        },
+        {
+          "number": 54,
+          "slot_kind": "ro",
+          "slot_offset": 424,
+          "source_offset": 888,
+          "target_rx_offset": 184288
+        },
+        {
+          "number": 54,
+          "slot_kind": "ro",
+          "slot_offset": 448,
+          "source_offset": 936,
+          "target_rx_offset": 184288
+        },
+        {
+          "number": 532,
+          "slot_kind": "ro",
+          "slot_offset": 464,
+          "source_offset": 968,
+          "target_rx_offset": 185744
+        },
+        {
+          "number": 587,
+          "slot_kind": "ro",
+          "slot_offset": 392,
+          "source_offset": 824,
+          "target_rx_offset": 183200
+        },
+        {
+          "number": 594,
+          "slot_kind": "ro",
+          "slot_offset": 280,
+          "source_offset": 600,
+          "target_rx_offset": 177856
+        },
+        {
+          "number": 595,
+          "slot_kind": "ro",
+          "slot_offset": 288,
+          "source_offset": 616,
+          "target_rx_offset": 179424
+        },
+        {
+          "number": 605,
+          "slot_kind": "ro",
+          "slot_offset": 232,
+          "source_offset": 504,
+          "target_rx_offset": 181232
+        },
+        {
+          "number": 607,
+          "slot_kind": "ro",
+          "slot_offset": 400,
+          "source_offset": 840,
+          "target_rx_offset": 183856
+        },
+        {
+          "number": 612,
+          "slot_kind": "ro",
+          "slot_offset": 360,
+          "source_offset": 760,
+          "target_rx_offset": 177248
+        },
+        {
+          "number": 649,
+          "slot_kind": "ro",
+          "slot_offset": 272,
+          "source_offset": 584,
+          "target_rx_offset": 186064
+        }
+      ]
+    },
+    {
+      "handle": 18,
+      "name": "libScePosixForWebKit.sprx",
+      "direct_wrapper_link_count": 2,
+      "direct_wrapper_numbers": [
+        188,
+        232
+      ],
+      "links": [
+        {
+          "number": 188,
+          "slot_kind": "ro",
+          "slot_offset": 704,
+          "source_offset": 1336,
+          "target_rx_offset": 179776
+        },
+        {
+          "number": 232,
+          "slot_kind": "ro",
+          "slot_offset": 688,
+          "source_offset": 1304,
+          "target_rx_offset": 179616
+        }
+      ]
+    },
+    {
+      "handle": 19,
+      "name": "libcairo.sprx",
+      "direct_wrapper_link_count": 2,
+      "direct_wrapper_numbers": [
+        33,
+        232
+      ],
+      "links": [
+        {
+          "number": 33,
+          "slot_kind": "ro",
+          "slot_offset": 26880,
+          "source_offset": 184,
+          "target_rx_offset": 177696
+        },
+        {
+          "number": 232,
+          "slot_kind": "ro",
+          "slot_offset": 27272,
+          "source_offset": 968,
+          "target_rx_offset": 179616
+        }
+      ]
+    },
+    {
+      "handle": 20,
+      "name": "libcurl.sprx",
+      "direct_wrapper_link_count": 14,
+      "direct_wrapper_numbers": [
+        10,
+        31,
+        32,
+        33,
+        97,
+        104,
+        105,
+        116,
+        118,
+        128,
+        135,
+        188,
+        189,
+        232
+      ],
+      "links": [
+        {
+          "number": 10,
+          "slot_kind": "ro",
+          "slot_offset": 11040,
+          "source_offset": 360,
+          "target_rx_offset": 180352
+        },
+        {
+          "number": 31,
+          "slot_kind": "ro",
+          "slot_offset": 11184,
+          "source_offset": 648,
+          "target_rx_offset": 184976
+        },
+        {
+          "number": 32,
+          "slot_kind": "ro",
+          "slot_offset": 11192,
+          "source_offset": 664,
+          "target_rx_offset": 178768
+        },
+        {
+          "number": 33,
+          "slot_kind": "ro",
+          "slot_offset": 10952,
+          "source_offset": 184,
+          "target_rx_offset": 177696
+        },
+        {
+          "number": 97,
+          "slot_kind": "ro",
+          "slot_offset": 11160,
+          "source_offset": 600,
+          "target_rx_offset": 184384
+        },
+        {
+          "number": 104,
+          "slot_kind": "ro",
+          "slot_offset": 11216,
+          "source_offset": 712,
+          "target_rx_offset": 185200
+        },
+        {
+          "number": 105,
+          "slot_kind": "ro",
+          "slot_offset": 11200,
+          "source_offset": 680,
+          "target_rx_offset": 177280
+        },
+        {
+          "number": 116,
+          "slot_kind": "ro",
+          "slot_offset": 11688,
+          "source_offset": 1656,
+          "target_rx_offset": 177504
+        },
+        {
+          "number": 118,
+          "slot_kind": "ro",
+          "slot_offset": 11176,
+          "source_offset": 632,
+          "target_rx_offset": 176864
+        },
+        {
+          "number": 128,
+          "slot_kind": "ro",
+          "slot_offset": 11600,
+          "source_offset": 1480,
+          "target_rx_offset": 180544
+        },
+        {
+          "number": 135,
+          "slot_kind": "ro",
+          "slot_offset": 11128,
+          "source_offset": 536,
+          "target_rx_offset": 180848
+        },
+        {
+          "number": 188,
+          "slot_kind": "ro",
+          "slot_offset": 11528,
+          "source_offset": 1336,
+          "target_rx_offset": 179776
+        },
+        {
+          "number": 189,
+          "slot_kind": "ro",
+          "slot_offset": 11368,
+          "source_offset": 1016,
+          "target_rx_offset": 180192
+        },
+        {
+          "number": 232,
+          "slot_kind": "ro",
+          "slot_offset": 11680,
+          "source_offset": 1640,
+          "target_rx_offset": 179616
+        }
+      ]
+    },
+    {
+      "handle": 22,
+      "name": "libfontconfig.sprx",
+      "direct_wrapper_link_count": 0,
+      "direct_wrapper_numbers": [],
+      "links": []
+    },
+    {
+      "handle": 23,
+      "name": "libfreetype.sprx",
+      "direct_wrapper_link_count": 3,
+      "direct_wrapper_numbers": [
+        73,
+        92,
+        189
+      ],
+      "links": [
+        {
+          "number": 73,
+          "slot_kind": "ro",
+          "slot_offset": 23736,
+          "source_offset": 1016,
+          "target_rx_offset": 176448
+        },
+        {
+          "number": 92,
+          "slot_kind": "ro",
+          "slot_offset": 23672,
+          "source_offset": 888,
+          "target_rx_offset": 177728
+        },
+        {
+          "number": 189,
+          "slot_kind": "ro",
+          "slot_offset": 23680,
+          "source_offset": 904,
+          "target_rx_offset": 180192
+        }
+      ]
+    },
+    {
+      "handle": 24,
+      "name": "libharfbuzz.sprx",
+      "direct_wrapper_link_count": 0,
+      "direct_wrapper_numbers": [],
+      "links": []
+    },
+    {
+      "handle": 25,
+      "name": "libicu.sprx",
+      "direct_wrapper_link_count": 1,
+      "direct_wrapper_numbers": [
+        116
+      ],
+      "links": [
+        {
+          "number": 116,
+          "slot_kind": "ro",
+          "slot_offset": 128304,
+          "source_offset": 1064,
+          "target_rx_offset": 177504
+        }
+      ]
+    },
+    {
+      "handle": 26,
+      "name": "libpng16.sprx",
+      "direct_wrapper_link_count": 0,
+      "direct_wrapper_numbers": [],
+      "links": []
+    },
+    {
+      "handle": 27,
+      "name": "libSceIpmi.sprx",
+      "direct_wrapper_link_count": 4,
+      "direct_wrapper_numbers": [
+        20,
+        587,
+        607,
+        622
+      ],
+      "links": [
+        {
+          "number": 20,
+          "slot_kind": "ro",
+          "slot_offset": 1016,
+          "source_offset": 232,
+          "target_rx_offset": 183136
+        },
+        {
+          "number": 587,
+          "slot_kind": "ro",
+          "slot_offset": 1168,
+          "source_offset": 536,
+          "target_rx_offset": 183200
+        },
+        {
+          "number": 607,
+          "slot_kind": "ro",
+          "slot_offset": 1176,
+          "source_offset": 552,
+          "target_rx_offset": 183856
+        },
+        {
+          "number": 622,
+          "slot_kind": "ro",
+          "slot_offset": 1160,
+          "source_offset": 520,
+          "target_rx_offset": 176896
+        }
+      ]
+    },
+    {
+      "handle": 28,
+      "name": "libSceSysCore.sprx",
+      "direct_wrapper_link_count": 0,
+      "direct_wrapper_numbers": [],
+      "links": []
+    },
+    {
+      "handle": 29,
+      "name": "libSceNet.sprx",
+      "direct_wrapper_link_count": 28,
+      "direct_wrapper_numbers": [
+        3,
+        5,
+        6,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        54,
+        98,
+        99,
+        101,
+        102,
+        104,
+        105,
+        106,
+        113,
+        114,
+        118,
+        125,
+        133,
+        134,
+        136,
+        141,
+        189,
+        362,
+        363
+      ],
+      "links": [
+        {
+          "number": 3,
+          "slot_kind": "ro",
+          "slot_offset": 2096,
+          "source_offset": 648,
+          "target_rx_offset": 180576
+        },
+        {
+          "number": 5,
+          "slot_kind": "ro",
+          "slot_offset": 2088,
+          "source_offset": 632,
+          "target_rx_offset": 178528
+        },
+        {
+          "number": 6,
+          "slot_kind": "ro",
+          "slot_offset": 2032,
+          "source_offset": 520,
+          "target_rx_offset": 185872
+        },
+        {
+          "number": 27,
+          "slot_kind": "ro",
+          "slot_offset": 2112,
+          "source_offset": 680,
+          "target_rx_offset": 186224
+        },
+        {
+          "number": 28,
+          "slot_kind": "ro",
+          "slot_offset": 2120,
+          "source_offset": 696,
+          "target_rx_offset": 184352
+        },
+        {
+          "number": 29,
+          "slot_kind": "ro",
+          "slot_offset": 2104,
+          "source_offset": 664,
+          "target_rx_offset": 181040
+        },
+        {
+          "number": 30,
+          "slot_kind": "ro",
+          "slot_offset": 2016,
+          "source_offset": 488,
+          "target_rx_offset": 182720
+        },
+        {
+          "number": 31,
+          "slot_kind": "ro",
+          "slot_offset": 2048,
+          "source_offset": 552,
+          "target_rx_offset": 184976
+        },
+        {
+          "number": 32,
+          "slot_kind": "ro",
+          "slot_offset": 2056,
+          "source_offset": 568,
+          "target_rx_offset": 178768
+        },
+        {
+          "number": 54,
+          "slot_kind": "ro",
+          "slot_offset": 2072,
+          "source_offset": 600,
+          "target_rx_offset": 184288
+        },
+        {
+          "number": 98,
+          "slot_kind": "ro",
+          "slot_offset": 2040,
+          "source_offset": 536,
+          "target_rx_offset": 177632
+        },
+        {
+          "number": 99,
+          "slot_kind": "ro",
+          "slot_offset": 1976,
+          "source_offset": 408,
+          "target_rx_offset": 183712
+        },
+        {
+          "number": 101,
+          "slot_kind": "ro",
+          "slot_offset": 1968,
+          "source_offset": 392,
+          "target_rx_offset": 181664
+        },
+        {
+          "number": 102,
+          "slot_kind": "ro",
+          "slot_offset": 1992,
+          "source_offset": 440,
+          "target_rx_offset": 176672
+        },
+        {
+          "number": 104,
+          "slot_kind": "ro",
+          "slot_offset": 2024,
+          "source_offset": 504,
+          "target_rx_offset": 185200
+        },
+        {
+          "number": 105,
+          "slot_kind": "ro",
+          "slot_offset": 2136,
+          "source_offset": 728,
+          "target_rx_offset": 177280
+        },
+        {
+          "number": 106,
+          "slot_kind": "ro",
+          "slot_offset": 2080,
+          "source_offset": 616,
+          "target_rx_offset": 185456
+        },
+        {
+          "number": 113,
+          "slot_kind": "ro",
+          "slot_offset": 2008,
+          "source_offset": 472,
+          "target_rx_offset": 184576
+        },
+        {
+          "number": 114,
+          "slot_kind": "ro",
+          "slot_offset": 2000,
+          "source_offset": 456,
+          "target_rx_offset": 177920
+        },
+        {
+          "number": 118,
+          "slot_kind": "ro",
+          "slot_offset": 2064,
+          "source_offset": 584,
+          "target_rx_offset": 176864
+        },
+        {
+          "number": 125,
+          "slot_kind": "ro",
+          "slot_offset": 1984,
+          "source_offset": 424,
+          "target_rx_offset": 176512
+        },
+        {
+          "number": 133,
+          "slot_kind": "ro",
+          "slot_offset": 2128,
+          "source_offset": 712,
+          "target_rx_offset": 183360
+        },
+        {
+          "number": 134,
+          "slot_kind": "ro",
+          "slot_offset": 2160,
+          "source_offset": 776,
+          "target_rx_offset": 181760
+        },
+        {
+          "number": 136,
+          "slot_kind": "ro",
+          "slot_offset": 2504,
+          "source_offset": 1464,
+          "target_rx_offset": 180608
+        },
+        {
+          "number": 141,
+          "slot_kind": "ro",
+          "slot_offset": 1960,
+          "source_offset": 376,
+          "target_rx_offset": 180096
+        },
+        {
+          "number": 189,
+          "slot_kind": "ro",
+          "slot_offset": 2480,
+          "source_offset": 1416,
+          "target_rx_offset": 180192
+        },
+        {
+          "number": 362,
+          "slot_kind": "ro",
+          "slot_offset": 2208,
+          "source_offset": 872,
+          "target_rx_offset": 184544
+        },
+        {
+          "number": 363,
+          "slot_kind": "ro",
+          "slot_offset": 2144,
+          "source_offset": 744,
+          "target_rx_offset": 181008
+        }
+      ]
+    },
+    {
+      "handle": 44,
+      "name": "libSceNetCtl.sprx",
+      "direct_wrapper_link_count": 0,
+      "direct_wrapper_numbers": [],
+      "links": []
+    },
+    {
+      "handle": 46,
+      "name": "libSceRandom.sprx",
+      "direct_wrapper_link_count": 1,
+      "direct_wrapper_numbers": [
+        54
+      ],
+      "links": [
+        {
+          "number": 54,
+          "slot_kind": "ro",
+          "slot_offset": 112,
+          "source_offset": 264,
+          "target_rx_offset": 184288
+        }
+      ]
+    },
+    {
+      "handle": 47,
+      "name": "libSceLibreSsl3.sprx",
+      "direct_wrapper_link_count": 11,
+      "direct_wrapper_numbers": [
+        24,
+        54,
+        97,
+        104,
+        105,
+        106,
+        116,
+        118,
+        134,
+        188,
+        189
+      ],
+      "links": [
+        {
+          "number": 24,
+          "slot_kind": "ro",
+          "slot_offset": 122424,
+          "source_offset": 2128,
+          "target_rx_offset": 185808
+        },
+        {
+          "number": 54,
+          "slot_kind": "ro",
+          "slot_offset": 121944,
+          "source_offset": 1168,
+          "target_rx_offset": 184288
+        },
+        {
+          "number": 97,
+          "slot_kind": "ro",
+          "slot_offset": 121952,
+          "source_offset": 1184,
+          "target_rx_offset": 184384
+        },
+        {
+          "number": 104,
+          "slot_kind": "ro",
+          "slot_offset": 121960,
+          "source_offset": 1200,
+          "target_rx_offset": 185200
+        },
+        {
+          "number": 105,
+          "slot_kind": "ro",
+          "slot_offset": 121864,
+          "source_offset": 1008,
+          "target_rx_offset": 177280
+        },
+        {
+          "number": 106,
+          "slot_kind": "ro",
+          "slot_offset": 121984,
+          "source_offset": 1248,
+          "target_rx_offset": 185456
+        },
+        {
+          "number": 116,
+          "slot_kind": "ro",
+          "slot_offset": 122056,
+          "source_offset": 1392,
+          "target_rx_offset": 177504
+        },
+        {
+          "number": 118,
+          "slot_kind": "ro",
+          "slot_offset": 121936,
+          "source_offset": 1152,
+          "target_rx_offset": 176864
+        },
+        {
+          "number": 134,
+          "slot_kind": "ro",
+          "slot_offset": 122024,
+          "source_offset": 1328,
+          "target_rx_offset": 181760
+        },
+        {
+          "number": 188,
+          "slot_kind": "ro",
+          "slot_offset": 122208,
+          "source_offset": 1696,
+          "target_rx_offset": 179776
+        },
+        {
+          "number": 189,
+          "slot_kind": "ro",
+          "slot_offset": 122384,
+          "source_offset": 2048,
+          "target_rx_offset": 180192
+        }
+      ]
+    },
+    {
+      "handle": 48,
+      "name": "libSceRegMgr.sprx",
+      "direct_wrapper_link_count": 1,
+      "direct_wrapper_numbers": [
+        532
+      ],
+      "links": [
+        {
+          "number": 532,
+          "slot_kind": "ro",
+          "slot_offset": 80,
+          "source_offset": 200,
+          "target_rx_offset": 185744
+        }
+      ]
+    },
+    {
+      "handle": 49,
+      "name": "libSceSystemService.sprx",
+      "direct_wrapper_link_count": 11,
+      "direct_wrapper_numbers": [
+        10,
+        20,
+        54,
+        73,
+        97,
+        104,
+        106,
+        189,
+        482,
+        587,
+        607
+      ],
+      "links": [
+        {
+          "number": 10,
+          "slot_kind": "ro",
+          "slot_offset": 1800,
+          "source_offset": 1960,
+          "target_rx_offset": 180352
+        },
+        {
+          "number": 20,
+          "slot_kind": "ro",
+          "slot_offset": 1016,
+          "source_offset": 392,
+          "target_rx_offset": 183136
+        },
+        {
+          "number": 54,
+          "slot_kind": "ro",
+          "slot_offset": 1784,
+          "source_offset": 1928,
+          "target_rx_offset": 184288
+        },
+        {
+          "number": 73,
+          "slot_kind": "ro",
+          "slot_offset": 1488,
+          "source_offset": 1336,
+          "target_rx_offset": 176448
+        },
+        {
+          "number": 97,
+          "slot_kind": "ro",
+          "slot_offset": 1792,
+          "source_offset": 1944,
+          "target_rx_offset": 184384
+        },
+        {
+          "number": 104,
+          "slot_kind": "ro",
+          "slot_offset": 1744,
+          "source_offset": 1848,
+          "target_rx_offset": 185200
+        },
+        {
+          "number": 106,
+          "slot_kind": "ro",
+          "slot_offset": 1680,
+          "source_offset": 1720,
+          "target_rx_offset": 185456
+        },
+        {
+          "number": 189,
+          "slot_kind": "ro",
+          "slot_offset": 1760,
+          "source_offset": 1880,
+          "target_rx_offset": 180192
+        },
+        {
+          "number": 482,
+          "slot_kind": "ro",
+          "slot_offset": 1456,
+          "source_offset": 1272,
+          "target_rx_offset": 179152
+        },
+        {
+          "number": 587,
+          "slot_kind": "ro",
+          "slot_offset": 1768,
+          "source_offset": 1896,
+          "target_rx_offset": 183200
+        },
+        {
+          "number": 607,
+          "slot_kind": "ro",
+          "slot_offset": 1776,
+          "source_offset": 1912,
+          "target_rx_offset": 183856
+        }
+      ]
+    },
+    {
+      "handle": 58,
+      "name": "libSceMbus.sprx",
+      "direct_wrapper_link_count": 3,
+      "direct_wrapper_numbers": [
+        20,
+        362,
+        363
+      ],
+      "links": [
+        {
+          "number": 20,
+          "slot_kind": "ro",
+          "slot_offset": 144,
+          "source_offset": 328,
+          "target_rx_offset": 183136
+        },
+        {
+          "number": 362,
+          "slot_kind": "ro",
+          "slot_offset": 160,
+          "source_offset": 360,
+          "target_rx_offset": 184544
+        },
+        {
+          "number": 363,
+          "slot_kind": "ro",
+          "slot_offset": 152,
+          "source_offset": 344,
+          "target_rx_offset": 181008
+        }
+      ]
+    },
+    {
+      "handle": 59,
+      "name": "libSceAvSetting.sprx",
+      "direct_wrapper_link_count": 4,
+      "direct_wrapper_numbers": [
+        73,
+        189,
+        482,
+        483
+      ],
+      "links": [
+        {
+          "number": 73,
+          "slot_kind": "ro",
+          "slot_offset": 408,
+          "source_offset": 856,
+          "target_rx_offset": 176448
+        },
+        {
+          "number": 189,
+          "slot_kind": "ro",
+          "slot_offset": 384,
+          "source_offset": 808,
+          "target_rx_offset": 180192
+        },
+        {
+          "number": 482,
+          "slot_kind": "ro",
+          "slot_offset": 432,
+          "source_offset": 904,
+          "target_rx_offset": 179152
+        },
+        {
+          "number": 483,
+          "slot_kind": "ro",
+          "slot_offset": 440,
+          "source_offset": 920,
+          "target_rx_offset": 180224
+        }
+      ]
+    },
+    {
+      "handle": 60,
+      "name": "libSceVideoOut.sprx",
+      "direct_wrapper_link_count": 9,
+      "direct_wrapper_numbers": [
+        5,
+        6,
+        20,
+        54,
+        73,
+        363,
+        587,
+        607
+      ],
+      "links": [
+        {
+          "number": 5,
+          "slot_kind": "ro",
+          "slot_offset": 928,
+          "source_offset": 1368,
+          "target_rx_offset": 178528
+        },
+        {
+          "number": 6,
+          "slot_kind": "ro",
+          "slot_offset": 912,
+          "source_offset": 1336,
+          "target_rx_offset": 185872
+        },
+        {
+          "number": 20,
+          "slot_kind": "ro",
+          "slot_offset": 368,
+          "source_offset": 248,
+          "target_rx_offset": 183136
+        },
+        {
+          "number": 54,
+          "slot_kind": "ro",
+          "slot_offset": 376,
+          "source_offset": 264,
+          "target_rx_offset": 184288
+        },
+        {
+          "number": 54,
+          "slot_kind": "ro",
+          "slot_offset": 920,
+          "source_offset": 1352,
+          "target_rx_offset": 184288
+        },
+        {
+          "number": 73,
+          "slot_kind": "ro",
+          "slot_offset": 400,
+          "source_offset": 312,
+          "target_rx_offset": 176448
+        },
+        {
+          "number": 363,
+          "slot_kind": "ro",
+          "slot_offset": 688,
+          "source_offset": 888,
+          "target_rx_offset": 181008
+        },
+        {
+          "number": 587,
+          "slot_kind": "ro",
+          "slot_offset": 888,
+          "source_offset": 1288,
+          "target_rx_offset": 183200
+        },
+        {
+          "number": 607,
+          "slot_kind": "ro",
+          "slot_offset": 896,
+          "source_offset": 1304,
+          "target_rx_offset": 183856
+        }
+      ]
+    },
+    {
+      "handle": 61,
+      "name": "libSceVideoCoreServerInterface.sprx",
+      "direct_wrapper_link_count": 4,
+      "direct_wrapper_numbers": [
+        73,
+        97,
+        482,
+        483
+      ],
+      "links": [
+        {
+          "number": 73,
+          "slot_kind": "ro",
+          "slot_offset": 560,
+          "source_offset": 1096,
+          "target_rx_offset": 176448
+        },
+        {
+          "number": 97,
+          "slot_kind": "ro",
+          "slot_offset": 384,
+          "source_offset": 744,
+          "target_rx_offset": 184384
+        },
+        {
+          "number": 482,
+          "slot_kind": "ro",
+          "slot_offset": 496,
+          "source_offset": 968,
+          "target_rx_offset": 179152
+        },
+        {
+          "number": 483,
+          "slot_kind": "ro",
+          "slot_offset": 488,
+          "source_offset": 952,
+          "target_rx_offset": 180224
+        }
+      ]
+    },
+    {
+      "handle": 72,
+      "name": "libSceNKWebKitRequirements.sprx",
+      "direct_wrapper_link_count": 15,
+      "direct_wrapper_numbers": [
+        10,
+        20,
+        25,
+        33,
+        73,
+        74,
+        92,
+        116,
+        124,
+        136,
+        137,
+        138,
+        188,
+        189,
+        190
+      ],
+      "links": [
+        {
+          "number": 10,
+          "slot_kind": "ro",
+          "slot_offset": 18984,
+          "source_offset": 2728,
+          "target_rx_offset": 180352
+        },
+        {
+          "number": 20,
+          "slot_kind": "ro",
+          "slot_offset": 18568,
+          "source_offset": 1896,
+          "target_rx_offset": 183136
+        },
+        {
+          "number": 25,
+          "slot_kind": "ro",
+          "slot_offset": 19016,
+          "source_offset": 2792,
+          "target_rx_offset": 177344
+        },
+        {
+          "number": 33,
+          "slot_kind": "ro",
+          "slot_offset": 17712,
+          "source_offset": 184,
+          "target_rx_offset": 177696
+        },
+        {
+          "number": 73,
+          "slot_kind": "ro",
+          "slot_offset": 19024,
+          "source_offset": 2808,
+          "target_rx_offset": 176448
+        },
+        {
+          "number": 74,
+          "slot_kind": "ro",
+          "slot_offset": 18624,
+          "source_offset": 2008,
+          "target_rx_offset": 178400
+        },
+        {
+          "number": 92,
+          "slot_kind": "ro",
+          "slot_offset": 18952,
+          "source_offset": 2664,
+          "target_rx_offset": 177728
+        },
+        {
+          "number": 116,
+          "slot_kind": "ro",
+          "slot_offset": 18840,
+          "source_offset": 2440,
+          "target_rx_offset": 177504
+        },
+        {
+          "number": 124,
+          "slot_kind": "ro",
+          "slot_offset": 18976,
+          "source_offset": 2712,
+          "target_rx_offset": 181392
+        },
+        {
+          "number": 136,
+          "slot_kind": "ro",
+          "slot_offset": 18992,
+          "source_offset": 2744,
+          "target_rx_offset": 180608
+        },
+        {
+          "number": 137,
+          "slot_kind": "ro",
+          "slot_offset": 19000,
+          "source_offset": 2760,
+          "target_rx_offset": 180976
+        },
+        {
+          "number": 138,
+          "slot_kind": "ro",
+          "slot_offset": 18888,
+          "source_offset": 2536,
+          "target_rx_offset": 185328
+        },
+        {
+          "number": 188,
+          "slot_kind": "ro",
+          "slot_offset": 18776,
+          "source_offset": 2312,
+          "target_rx_offset": 179776
+        },
+        {
+          "number": 189,
+          "slot_kind": "ro",
+          "slot_offset": 18936,
+          "source_offset": 2632,
+          "target_rx_offset": 180192
+        },
+        {
+          "number": 190,
+          "slot_kind": "ro",
+          "slot_offset": 17720,
+          "source_offset": 200,
+          "target_rx_offset": 177952
+        }
+      ]
+    },
+    {
+      "handle": 73,
+      "name": "libSceNKWebKit.sprx",
+      "direct_wrapper_link_count": 22,
+      "direct_wrapper_numbers": [
+        1,
+        20,
+        32,
+        33,
+        41,
+        73,
+        74,
+        75,
+        97,
+        104,
+        105,
+        106,
+        117,
+        118,
+        128,
+        135,
+        188,
+        189,
+        190,
+        232,
+        331,
+        482
+      ],
+      "links": [
+        {
+          "number": 1,
+          "slot_kind": "ro",
+          "slot_offset": 2235016,
+          "source_offset": 7640,
+          "target_rx_offset": 178832
+        },
+        {
+          "number": 20,
+          "slot_kind": "ro",
+          "slot_offset": 2231512,
+          "source_offset": 632,
+          "target_rx_offset": 183136
+        },
+        {
+          "number": 32,
+          "slot_kind": "ro",
+          "slot_offset": 2232328,
+          "source_offset": 2264,
+          "target_rx_offset": 178768
+        },
+        {
+          "number": 33,
+          "slot_kind": "ro",
+          "slot_offset": 2231296,
+          "source_offset": 200,
+          "target_rx_offset": 177696
+        },
+        {
+          "number": 41,
+          "slot_kind": "ro",
+          "slot_offset": 2235296,
+          "source_offset": 8200,
+          "target_rx_offset": 179120
+        },
+        {
+          "number": 73,
+          "slot_kind": "ro",
+          "slot_offset": 2231592,
+          "source_offset": 792,
+          "target_rx_offset": 176448
+        },
+        {
+          "number": 74,
+          "slot_kind": "ro",
+          "slot_offset": 2234528,
+          "source_offset": 6664,
+          "target_rx_offset": 178400
+        },
+        {
+          "number": 75,
+          "slot_kind": "ro",
+          "slot_offset": 2241392,
+          "source_offset": 20392,
+          "target_rx_offset": 179808
+        },
+        {
+          "number": 97,
+          "slot_kind": "ro",
+          "slot_offset": 2232280,
+          "source_offset": 2168,
+          "target_rx_offset": 184384
+        },
+        {
+          "number": 104,
+          "slot_kind": "ro",
+          "slot_offset": 2232296,
+          "source_offset": 2200,
+          "target_rx_offset": 185200
+        },
+        {
+          "number": 105,
+          "slot_kind": "ro",
+          "slot_offset": 2231920,
+          "source_offset": 1448,
+          "target_rx_offset": 177280
+        },
+        {
+          "number": 106,
+          "slot_kind": "ro",
+          "slot_offset": 2232304,
+          "source_offset": 2216,
+          "target_rx_offset": 185456
+        },
+        {
+          "number": 117,
+          "slot_kind": "ro",
+          "slot_offset": 2234512,
+          "source_offset": 6632,
+          "target_rx_offset": 178144
+        },
+        {
+          "number": 118,
+          "slot_kind": "ro",
+          "slot_offset": 2232320,
+          "source_offset": 2248,
+          "target_rx_offset": 176864
+        },
+        {
+          "number": 128,
+          "slot_kind": "ro",
+          "slot_offset": 2235192,
+          "source_offset": 7992,
+          "target_rx_offset": 180544
+        },
+        {
+          "number": 135,
+          "slot_kind": "ro",
+          "slot_offset": 2231544,
+          "source_offset": 696,
+          "target_rx_offset": 180848
+        },
+        {
+          "number": 188,
+          "slot_kind": "ro",
+          "slot_offset": 2232216,
+          "source_offset": 2040,
+          "target_rx_offset": 179776
+        },
+        {
+          "number": 189,
+          "slot_kind": "ro",
+          "slot_offset": 2234520,
+          "source_offset": 6648,
+          "target_rx_offset": 180192
+        },
+        {
+          "number": 190,
+          "slot_kind": "ro",
+          "slot_offset": 2231304,
+          "source_offset": 216,
+          "target_rx_offset": 177952
+        },
+        {
+          "number": 232,
+          "slot_kind": "ro",
+          "slot_offset": 2234456,
+          "source_offset": 6520,
+          "target_rx_offset": 179616
+        },
+        {
+          "number": 331,
+          "slot_kind": "ro",
+          "slot_offset": 2235456,
+          "source_offset": 8520,
+          "target_rx_offset": 181920
+        },
+        {
+          "number": 482,
+          "slot_kind": "ro",
+          "slot_offset": 2231568,
+          "source_offset": 744,
+          "target_rx_offset": 179152
+        }
+      ]
+    },
+    {
+      "handle": 83,
+      "name": "libSceGLSlimClientVSH.sprx",
+      "direct_wrapper_link_count": 4,
+      "direct_wrapper_numbers": [
+        20,
+        73,
+        97,
+        135
+      ],
+      "links": [
+        {
+          "number": 20,
+          "slot_kind": "ro",
+          "slot_offset": 672,
+          "source_offset": 1352,
+          "target_rx_offset": 183136
+        },
+        {
+          "number": 73,
+          "slot_kind": "ro",
+          "slot_offset": 336,
+          "source_offset": 680,
+          "target_rx_offset": 176448
+        },
+        {
+          "number": 97,
+          "slot_kind": "ro",
+          "slot_offset": 496,
+          "source_offset": 1000,
+          "target_rx_offset": 184384
+        },
+        {
+          "number": 135,
+          "slot_kind": "ro",
+          "slot_offset": 448,
+          "source_offset": 904,
+          "target_rx_offset": 180848
+        }
+      ]
+    },
+    {
+      "handle": 8193,
+      "name": "libkernel_web.sprx",
+      "direct_wrapper_link_count": 0,
+      "direct_wrapper_numbers": [],
+      "links": []
+    }
+  ]
+}

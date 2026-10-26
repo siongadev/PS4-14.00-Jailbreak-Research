@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_fixed_slot_map_v2",
+  "script": "clone_history_fixed_slot_map_v2.js",
+  "check_ids": ["fixed_slot_map_v2"],
+  "timeout_ms": 30000
+}

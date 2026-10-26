@@ -1,0 +1,6 @@
+{
+  "probe_id": "canvas_multi_stale_release_two_v2",
+  "script": "canvas_multi_stale_release_two_v2.js",
+  "check_ids": ["canvas_multi_stale_release_two"],
+  "timeout_ms": 30000
+}

@@ -1,0 +1,170 @@
+Analysis-only ELF built from 14.00 live RX bytes
+
+=== 0x80772ee80 ===
+Function: FUN_80772ee80 @ 80772ee80 body bytes 1042
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+int FUN_80772ee80(int *param_1,undefined4 param_2,long param_3,long *param_4,long param_5)
+
+{
+  bool bVar1;
+  undefined1 auVar2 [16];
+  int iVar3;
+  long lVar4;
+  undefined8 uVar5;
+  long lVar6;
+  long *plVar7;
+  int iVar8;
+  undefined1 auVar9 [16];
+  undefined1 auVar10 [16];
+  undefined8 in_stack_ffffffffffffff48;
+  undefined4 uVar11;
+  int local_80;
+  undefined4 local_7c;
+  undefined1 local_78 [8];
+  undefined1 local_70 [16];
+  long local_60;
+  undefined1 local_58 [16];
+  undefined8 local_48;
+  long local_38;
+  
+  plVar7 = DAT_807764340;
+  local_38 = *DAT_807764340;
+  if ((param_3 == 0) || (param_5 == 0)) {
+    local_80 = -0x7f6bfffb;
+    FUN_8077281d8("[SceLncUtil] %s(%d) %s: LNC_CHECK::0x%x (%s value is false)\n",
+                  "W:\\Build\\J02699047\\vsh\\common_lib\\lnc_util\\src\\lnc_util_ipc_client.cpp",
+                  0xeb,"addLocalProcess",0x80940005,"path && param");
+  }
+  else {
+    local_80 = -0x7f6bffff;
+    if (*param_1 < 1) {
+      FUN_8077281d8("[SceLncUtil] %s(%d) %s: LNC_ISOK::0x%x\n",
+                    "W:\\Build\\J02699047\\vsh\\common_lib\\lnc_util\\src\\lnc_util_ipc_client.cpp",
+                    0xec,"addLocalProcess");
+    }
+    else {
+      local_70._0_12_ = ZEXT812(0);
+      local_70._12_4_ = 0;
+      local_60 = 0;
+      if ((param_4 != (long *)0x0) && (lVar6 = *param_4, lVar6 != 0)) {
+        iVar8 = 0;
+        plVar7 = param_4;
+        do {
+          plVar7 = plVar7 + 1;
+          iVar3 = FUN_807728218();
+          iVar8 = iVar8 + 1 + iVar3;
+        } while (*plVar7 != 0);
+        if (0x1000 < iVar8) {
+          local_80 = -0x7f6bfffb;
+          FUN_8077281d8("[SceLncUtil] %s(%d) %s: LNC_CHECK::0x%x (%s value is false)\n",
+                        "W:\\Build\\J02699047\\vsh\\shell\\shell_core\\include\\lnc_service/lnc_inline.h"
+                        ,0x1f,"getArgsFromArgv",0x80940005,"length <= SCE_LNC_UTIL_MAX_ARGS_SIZE");
+          FUN_8077281d8("[SceLncUtil] %s(%d) %s: LNC_ISOK::0x%x\n",
+                        "W:\\Build\\J02699047\\vsh\\common_lib\\lnc_util\\src\\lnc_util_ipc_client.cpp"
+                        ,0xef,"addLocalProcess",0x80940005);
+          plVar7 = DAT_807764340;
+          goto LAB_80772f292;
+        }
+        lVar4 = FUN_807728218(lVar6);
+        auVar9._0_12_ = ZEXT812(0);
+        auVar9._12_4_ = 0;
+        local_48 = 0;
+        local_58._0_8_ = 0;
+        in_stack_ffffffffffffff48 = local_58._0_8_;
+        local_58 = auVar9;
+        FUN_807733f20(local_78,lVar6,lVar4 + 1 + lVar6);
+        lVar6 = param_4[1];
+        if (lVar6 != 0) {
+          param_4 = param_4 + 2;
+          do {
+            uVar5 = local_70._8_8_;
+            lVar4 = FUN_807728218(lVar6);
+            auVar10._0_12_ = ZEXT812(0);
+            auVar10._12_4_ = 0;
+            local_48 = uVar5;
+            local_58._0_8_ = 0;
+            in_stack_ffffffffffffff48 = local_58._0_8_;
+            local_58 = auVar10;
+            FUN_807733f20(local_78,lVar6,lVar4 + 1 + lVar6);
+            lVar6 = *param_4;
+            param_4 = param_4 + 1;
+          } while (lVar6 != 0);
+        }
+      }
+      local_80 = 0;
+      LOCK();
+      UNLOCK();
+      auVar2._8_8_ = 0;
+      auVar2._0_8_ = 1L << ((byte)_DAT_80776d2f0 & 0x3f);
+      local_58 = auVar2 << 0x40;
+      _DAT_80776d2f0 = _DAT_80776d2f0 + 1;
+      do {
+        uVar11 = (undefined4)((ulong)in_stack_ffffffffffffff48 >> 0x20);
+        iVar8 = FUN_807728408(*(undefined8 *)(param_1 + 0x1012),1,0);
+        if (iVar8 < 0) {
+          FUN_8077281d8("[SceLncUtil] %s(%d) %s: LNC_RTRACE::0x%x\n",
+                        "W:\\Build\\J02699047\\vsh\\shell\\shell_core\\include\\lnc_service/lnc_inline.h"
+                        ,0x59,"SemaLock",iVar8);
+        }
+        lVar6 = 0;
+        if (local_70._0_8_ != local_70._8_8_) {
+          lVar6 = local_70._0_8_;
+        }
+        in_stack_ffffffffffffff48 = CONCAT44(uVar11,local_70._8_4_ - local_70._0_4_);
+        iVar8 = FUN_807734320(*(undefined8 *)(param_1 + 4),&local_7c,local_58,param_2,param_3,lVar6,
+                              in_stack_ffffffffffffff48,param_5);
+        if (iVar8 < 0) {
+          uVar5 = 0xfa;
+LAB_80772f148:
+          FUN_8077281d8("[SceLncUtil] %s(%d) %s: LNC_ISOK::0x%x\n",
+                        "W:\\Build\\J02699047\\vsh\\common_lib\\lnc_util\\src\\lnc_util_ipc_client.cpp"
+                        ,uVar5,"addLocalProcess",iVar8);
+LAB_80772f159:
+          bVar1 = false;
+          local_80 = iVar8;
+        }
+        else {
+          iVar8 = (**(code **)(**(long **)(param_1 + 4) + 0x28))
+                            (*(long **)(param_1 + 4),local_58._0_4_,local_58._8_8_,0x21,0,0);
+          if (iVar8 < 0) {
+            uVar5 = 0xfb;
+            goto LAB_80772f148;
+          }
+          iVar8 = FUN_8077343e0(*(undefined8 *)(param_1 + 4),local_7c);
+          bVar1 = true;
+          if (iVar8 != -0x7f55ffef) {
+            if (iVar8 < 0) {
+              uVar5 = 0xfe;
+              goto LAB_80772f148;
+            }
+            goto LAB_80772f159;
+          }
+        }
+        iVar8 = FUN_807728428(*(undefined8 *)(param_1 + 0x1012),1);
+        if (iVar8 < 0) {
+          FUN_8077281d8("[SceLncUtil] %s(%d) %s: LNC_RTRACE::0x%x\n",
+                        "W:\\Build\\J02699047\\vsh\\shell\\shell_core\\include\\lnc_service/lnc_inline.h"
+                        ,0x5e,"~SemaLock",iVar8);
+        }
+        plVar7 = DAT_807764340;
+      } while (bVar1);
+      if (local_70._0_8_ != 0) {
+        lVar6 = local_70._0_8_;
+        if (0xfff < (ulong)(local_60 - local_70._0_8_)) {
+          lVar6 = *(long *)(local_70._0_8_ + -8);
+        }
+        FUN_807728228(lVar6);
+      }
+    }
+  }
+LAB_80772f292:
+  if (*plVar7 != local_38) {
+                    /* WARNING: Subroutine does not return */
+    FUN_8077280c8();
+  }
+  return local_80;
+}
+
+

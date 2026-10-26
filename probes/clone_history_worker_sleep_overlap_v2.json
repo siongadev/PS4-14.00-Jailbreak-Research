@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_worker_sleep_overlap_v2",
+  "script": "clone_history_worker_sleep_overlap_v2.js",
+  "check_ids": ["worker_sleep_overlap_v2"],
+  "timeout_ms": 15000
+}

@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_worker_owned_plan_v3",
+  "script": "clone_history_worker_owned_plan_v3.js",
+  "check_ids": ["worker_owned_plan_v3"],
+  "timeout_ms": 15000
+}

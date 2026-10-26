@@ -1,0 +1,6 @@
+{
+  "probe_id":"clone_history_jsarray_storage_v4",
+  "script":"clone_history_jsarray_storage_v4.js",
+  "check_ids":["jsarray_storage"],
+  "timeout_ms":30000
+}

@@ -1,0 +1,177 @@
+Analysis-only ELF built from 14.00 live RX bytes
+
+=== 0x8273c9520 ===
+Function: FUN_8273c9520 @ 8273c9520 body bytes 92
+
+long FUN_8273c9520(undefined4 param_1,undefined8 param_2,undefined8 param_3)
+
+{
+  undefined8 uVar1;
+  long lVar2;
+  long in_FS_OFFSET;
+  
+  uVar1 = *(undefined8 *)(in_FS_OFFSET + 0x10);
+  FUN_8273bb390(uVar1);
+  lVar2 = FUN_8273e38c0(param_1,param_2,param_3);
+  FUN_8273c2840(uVar1,lVar2 < 1);
+  return lVar2;
+}
+
+
+
+=== 0x8273d0150 ===
+Function: FUN_8273d0150 @ 8273d0150 body bytes 90
+
+int FUN_8273d0150(undefined4 param_1,undefined8 param_2,undefined4 param_3)
+
+{
+  undefined8 uVar1;
+  int iVar2;
+  long in_FS_OFFSET;
+  
+  uVar1 = *(undefined8 *)(in_FS_OFFSET + 0x10);
+  FUN_8273bb390(uVar1);
+  iVar2 = FUN_8273e35e0(param_1,param_2,param_3);
+  FUN_8273c2840(uVar1,iVar2 == -1);
+  return iVar2;
+}
+
+
+
+=== 0x8273e1a10 ===
+Function: FUN_8273e1a10 @ 8273e1a10 body bytes 93
+
+long FUN_8273e1a10(undefined4 param_1,undefined8 param_2,undefined8 param_3)
+
+{
+  undefined8 uVar1;
+  long lVar2;
+  long in_FS_OFFSET;
+  
+  uVar1 = *(undefined8 *)(in_FS_OFFSET + 0x10);
+  FUN_8273bb390(uVar1);
+  lVar2 = FUN_8273e4160(param_1,param_2,param_3);
+  FUN_8273c2840(uVar1,lVar2 == -1);
+  return lVar2;
+}
+
+
+
+=== 0x8273bb1c0 ===
+Function: FUN_8273bb1c0 @ 8273bb1c0 body bytes 126
+
+undefined8 FUN_8273bb1c0(undefined4 *param_1)
+
+{
+  code *pcVar1;
+  int iVar2;
+  undefined8 uVar3;
+  undefined1 local_38 [8];
+  ulong *local_30;
+  long local_28;
+  
+  uVar3 = 0x80020016;
+  local_28 = DAT_827419410;
+  if (param_1 != (undefined4 *)0x0) {
+    iVar2 = FUN_8273e50c0(&local_30,local_38);
+    if ((((iVar2 == 0) && (local_30 != (ulong *)0x0)) && (0x13 < *local_30)) &&
+       (((int)local_30[1] == 0x4942524f && (*(int *)((long)local_30 + 0xc) != 0)))) {
+      uVar3 = 0;
+      *param_1 = (int)local_30[2];
+    }
+  }
+  if (DAT_827419410 == local_28) {
+    return uVar3;
+  }
+  FUN_8273c5030();
+                    /* WARNING: Does not return */
+  pcVar1 = (code *)invalidInstructionException();
+  (*pcVar1)();
+}
+
+
+
+=== 0x8273d6570 ===
+Function: FUN_8273d6500 @ 8273d6500 body bytes 566
+
+void FUN_8273d6500(undefined8 param_1)
+
+{
+  undefined *puVar1;
+  bool bVar2;
+  bool bVar3;
+  int iVar4;
+  undefined4 uVar5;
+  undefined4 uVar6;
+  long *plVar7;
+  code *pcVar8;
+  uint uVar9;
+  long *plVar10;
+  uint uVar11;
+  undefined1 local_a0 [32];
+  undefined1 local_80 [32];
+  ulong local_60;
+  
+  plVar7 = (long *)&stack0xfffffffffffffff8;
+  plVar10 = (long *)&stack0xfffffffffffffff8;
+  bVar2 = true;
+  uVar9 = 0;
+  do {
+    puVar1 = (undefined *)plVar7[1];
+    plVar7 = (long *)*plVar7;
+    uVar9 = uVar9 + (PTR_FUN_82740ce00 <= puVar1 || (puVar1 < PTR_FUN_82740ce30 || !bVar2));
+    if (PTR_FUN_82740ce00 <= puVar1 || (puVar1 < PTR_FUN_82740ce30 || !bVar2)) {
+      bVar2 = false;
+    }
+  } while (plVar7 != (long *)0x0);
+  FUN_8273b8368("[%s] backtrace:\n",param_1);
+  bVar3 = false;
+  uVar11 = 0;
+  bVar2 = true;
+  do {
+    pcVar8 = (code *)plVar10[1];
+    if (((&UNK_8273ee5ff < pcVar8) || (!bVar2)) || (pcVar8 < FUN_8273b8460)) {
+      if ((uVar11 < 100) || (uVar9 <= uVar11 + 100)) {
+        if ((((ulong)pcVar8 & 0xffffffff00000000) == 0xa00000000) ||
+           (((ulong)pcVar8 & 0xffffffff00000000) == 0x900000000)) {
+          FUN_8273b8368("[%s]    0x%016zx\n",param_1,pcVar8);
+        }
+        else {
+          if (pcVar8 == (code *)0x0) {
+            pcVar8 = (code *)0x0;
+          }
+          else {
+            local_a0 = ZEXT1232(ZEXT812(0));
+            local_60 = 0;
+            local_80 = local_a0;
+            iVar4 = FUN_8273ce200(pcVar8,0,local_a0,0x48);
+            if ((iVar4 == 0) && (local_a0._0_8_ != 0)) {
+              local_60 = local_60 & 0xffffffffffffff00;
+              FUN_8273b8368("[%s]    0x%016zx => %s+0x%lx\n",param_1,pcVar8,local_80 + 1,
+                            (long)pcVar8 - local_a0._0_8_);
+              goto LAB_8273d65cc;
+            }
+          }
+          FUN_8273b8368("[%s]    0x%016zx\n",param_1,pcVar8);
+        }
+      }
+      else if (!bVar3) {
+        FUN_8273b8368("[%s]    ... %d frames are omitted. The number of stack frames is too many to display.\n"
+                      ,param_1,uVar9 - 200);
+        bVar3 = true;
+      }
+LAB_8273d65cc:
+      uVar11 = uVar11 + 1;
+      bVar2 = false;
+    }
+    plVar10 = (long *)*plVar10;
+    if (plVar10 == (long *)0x0) {
+      uVar5 = FUN_8273e4b60();
+      uVar6 = FUN_8273dfac0();
+      FUN_8273b8368("[%s] pid:<0x%x> tid:<0x%x>\n",param_1,uVar5,uVar6);
+      return;
+    }
+  } while( true );
+}
+
+

@@ -1,0 +1,6357 @@
+{
+  "module_name": "libkernel_web.sprx",
+  "firmware_label": "14.00",
+  "session_id": "2119cf8f1a734dc5a6b964e8c2b1d3fb",
+  "module_handle": 8193,
+  "live_rx_base": 35017949184,
+  "rx_size": 344064,
+  "rx_sha256": "63b0e22e855625c3322aab67af54e015baf995b8acf11b6fa4174bde6f1c96e2",
+  "raw_syscall_byte_pairs": 305,
+  "matched_direct_stubs": 293,
+  "unique_numbers": 293,
+  "special_syscall_sites": [
+    {
+      "rx_offset": 178688,
+      "syscall_offset": 178698,
+      "number": 42,
+      "bytes": "48c7c02a0000004989ca0f05"
+    },
+    {
+      "rx_offset": 179353,
+      "syscall_offset": 179363,
+      "number": 251,
+      "bytes": "48c7c0fb0000004989ca0f05"
+    },
+    {
+      "rx_offset": 179386,
+      "syscall_offset": 179396,
+      "number": 1,
+      "bytes": "48c7c0010000004989ca0f05"
+    },
+    {
+      "rx_offset": 180736,
+      "syscall_offset": 180746,
+      "number": 50,
+      "bytes": "48c7c0320000004989ca0f05"
+    },
+    {
+      "rx_offset": 181460,
+      "syscall_offset": 181470,
+      "number": 421,
+      "bytes": "48c7c0a50100004989ca0f05"
+    },
+    {
+      "rx_offset": 182221,
+      "syscall_offset": 182231,
+      "number": 59,
+      "bytes": "48c7c03b0000004989ca0f05"
+    },
+    {
+      "rx_offset": 182416,
+      "syscall_offset": 182426,
+      "number": 454,
+      "bytes": "48c7c0c60100004989ca0f05"
+    },
+    {
+      "rx_offset": 182656,
+      "syscall_offset": 182666,
+      "number": 55,
+      "bytes": "48c7c0370000004989ca0f05"
+    },
+    {
+      "rx_offset": 184115,
+      "syscall_offset": 184125,
+      "number": 340,
+      "bytes": "48c7c0540100004989ca0f05"
+    }
+  ],
+  "other_0f05_byte_offsets": [
+    16051,
+    16090,
+    66724
+  ],
+  "stubs": [
+    {
+      "rx_offset": 176416,
+      "live_address": 35018125600,
+      "number": 12,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c00c0000004989ca0f057201c3488d0da21c0000ffe1"
+    },
+    {
+      "rx_offset": 176448,
+      "live_address": 35018125632,
+      "number": 73,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0490000004989ca0f057201c3488d0d821c0000ffe1"
+    },
+    {
+      "rx_offset": 176480,
+      "live_address": 35018125664,
+      "number": 441,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0b90100004989ca0f057201c3488d0d621c0000ffe1"
+    },
+    {
+      "rx_offset": 176512,
+      "live_address": 35018125696,
+      "number": 125,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c07d0000004989ca0f057201c3488d0d421c0000ffe1"
+    },
+    {
+      "rx_offset": 176544,
+      "live_address": 35018125728,
+      "number": 442,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0ba0100004989ca0f057201c3488d0d221c0000ffe1"
+    },
+    {
+      "rx_offset": 176576,
+      "live_address": 35018125760,
+      "number": 80,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0500000004989ca0f057201c3488d0d021c0000ffe1"
+    },
+    {
+      "rx_offset": 176608,
+      "live_address": 35018125792,
+      "number": 674,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0a20200004989ca0f057201c3488d0de21b0000ffe1"
+    },
+    {
+      "rx_offset": 176640,
+      "live_address": 35018125824,
+      "number": 643,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0830200004989ca0f057201c3488d0dc21b0000ffe1"
+    },
+    {
+      "rx_offset": 176672,
+      "live_address": 35018125856,
+      "number": 102,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0660000004989ca0f057201c3488d0da21b0000ffe1"
+    },
+    {
+      "rx_offset": 176704,
+      "live_address": 35018125888,
+      "number": 550,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0260200004989ca0f057201c3488d0d821b0000ffe1"
+    },
+    {
+      "rx_offset": 176736,
+      "live_address": 35018125920,
+      "number": 430,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0ae0100004989ca0f057201c3488d0d621b0000ffe1"
+    },
+    {
+      "rx_offset": 176768,
+      "live_address": 35018125952,
+      "number": 591,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c04f0200004989ca0f057201c3488d0d421b0000ffe1"
+    },
+    {
+      "rx_offset": 176800,
+      "live_address": 35018125984,
+      "number": 534,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0160200004989ca0f057201c3488d0d221b0000ffe1"
+    },
+    {
+      "rx_offset": 176832,
+      "live_address": 35018126016,
+      "number": 623,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c06f0200004989ca0f057201c3488d0d021b0000ffe1"
+    },
+    {
+      "rx_offset": 176864,
+      "live_address": 35018126048,
+      "number": 118,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0760000004989ca0f057201c3488d0de21a0000ffe1"
+    },
+    {
+      "rx_offset": 176896,
+      "live_address": 35018126080,
+      "number": 622,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c06e0200004989ca0f057201c3488d0dc21a0000ffe1"
+    },
+    {
+      "rx_offset": 176928,
+      "live_address": 35018126112,
+      "number": 563,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0330200004989ca0f057201c3488d0da21a0000ffe1"
+    },
+    {
+      "rx_offset": 176960,
+      "live_address": 35018126144,
+      "number": 555,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c02b0200004989ca0f057201c3488d0d821a0000ffe1"
+    },
+    {
+      "rx_offset": 176992,
+      "live_address": 35018126176,
+      "number": 654,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c08e0200004989ca0f057201c3488d0d621a0000ffe1"
+    },
+    {
+      "rx_offset": 177024,
+      "live_address": 35018126208,
+      "number": 588,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c04c0200004989ca0f057201c3488d0d421a0000ffe1"
+    },
+    {
+      "rx_offset": 177056,
+      "live_address": 35018126240,
+      "number": 236,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0ec0000004989ca0f057201c3488d0d221a0000ffe1"
+    },
+    {
+      "rx_offset": 177088,
+      "live_address": 35018126272,
+      "number": 556,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c02c0200004989ca0f057201c3488d0d021a0000ffe1"
+    },
+    {
+      "rx_offset": 177120,
+      "live_address": 35018126304,
+      "number": 599,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0570200004989ca0f057201c3488d0de2190000ffe1"
+    },
+    {
+      "rx_offset": 177152,
+      "live_address": 35018126336,
+      "number": 620,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c06c0200004989ca0f057201c3488d0dc2190000ffe1"
+    },
+    {
+      "rx_offset": 177184,
+      "live_address": 35018126368,
+      "number": 538,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c01a0200004989ca0f057201c3488d0da2190000ffe1"
+    },
+    {
+      "rx_offset": 177216,
+      "live_address": 35018126400,
+      "number": 596,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0540200004989ca0f057201c3488d0d82190000ffe1"
+    },
+    {
+      "rx_offset": 177248,
+      "live_address": 35018126432,
+      "number": 612,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0640200004989ca0f057201c3488d0d62190000ffe1"
+    },
+    {
+      "rx_offset": 177280,
+      "live_address": 35018126464,
+      "number": 105,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0690000004989ca0f057201c3488d0d42190000ffe1"
+    },
+    {
+      "rx_offset": 177312,
+      "live_address": 35018126496,
+      "number": 423,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0a70100004989ca0f057201c3488d0d22190000ffe1"
+    },
+    {
+      "rx_offset": 177344,
+      "live_address": 35018126528,
+      "number": 25,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0190000004989ca0f057201c3488d0d02190000ffe1"
+    },
+    {
+      "rx_offset": 177376,
+      "live_address": 35018126560,
+      "number": 539,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c01b0200004989ca0f057201c3488d0de2180000ffe1"
+    },
+    {
+      "rx_offset": 177408,
+      "live_address": 35018126592,
+      "number": 432,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0b00100004989ca0f057201c3488d0dc2180000ffe1"
+    },
+    {
+      "rx_offset": 177440,
+      "live_address": 35018126624,
+      "number": 43,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c02b0000004989ca0f057201c3488d0da2180000ffe1"
+    },
+    {
+      "rx_offset": 177472,
+      "live_address": 35018126656,
+      "number": 648,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0880200004989ca0f057201c3488d0d82180000ffe1"
+    },
+    {
+      "rx_offset": 177504,
+      "live_address": 35018126688,
+      "number": 116,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0740000004989ca0f057201c3488d0d62180000ffe1"
+    },
+    {
+      "rx_offset": 177536,
+      "live_address": 35018126720,
+      "number": 100,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0640000004989ca0f057201c3488d0d42180000ffe1"
+    },
+    {
+      "rx_offset": 177568,
+      "live_address": 35018126752,
+      "number": 656,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0900200004989ca0f057201c3488d0d22180000ffe1"
+    },
+    {
+      "rx_offset": 177600,
+      "live_address": 35018126784,
+      "number": 47,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c02f0000004989ca0f057201c3488d0d02180000ffe1"
+    },
+    {
+      "rx_offset": 177632,
+      "live_address": 35018126816,
+      "number": 98,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0620000004989ca0f057201c3488d0de2170000ffe1"
+    },
+    {
+      "rx_offset": 177664,
+      "live_address": 35018126848,
+      "number": 340,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0540100004989ca0f057201c3488d0dc2170000ffe1"
+    },
+    {
+      "rx_offset": 177696,
+      "live_address": 35018126880,
+      "number": 33,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0210000004989ca0f057201c3488d0da2170000ffe1"
+    },
+    {
+      "rx_offset": 177728,
+      "live_address": 35018126912,
+      "number": 92,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c05c0000004989ca0f057201c3488d0d82170000ffe1"
+    },
+    {
+      "rx_offset": 177760,
+      "live_address": 35018126944,
+      "number": 636,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c07c0200004989ca0f057201c3488d0d62170000ffe1"
+    },
+    {
+      "rx_offset": 177792,
+      "live_address": 35018126976,
+      "number": 443,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0bb0100004989ca0f057201c3488d0d42170000ffe1"
+    },
+    {
+      "rx_offset": 177824,
+      "live_address": 35018127008,
+      "number": 327,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0470100004989ca0f057201c3488d0d22170000ffe1"
+    },
+    {
+      "rx_offset": 177856,
+      "live_address": 35018127040,
+      "number": 594,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0520200004989ca0f057201c3488d0d02170000ffe1"
+    },
+    {
+      "rx_offset": 177888,
+      "live_address": 35018127072,
+      "number": 23,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0170000004989ca0f057201c3488d0de2160000ffe1"
+    },
+    {
+      "rx_offset": 177920,
+      "live_address": 35018127104,
+      "number": 114,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0720000004989ca0f057201c3488d0dc2160000ffe1"
+    },
+    {
+      "rx_offset": 177952,
+      "live_address": 35018127136,
+      "number": 190,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0be0000004989ca0f057201c3488d0da2160000ffe1"
+    },
+    {
+      "rx_offset": 177984,
+      "live_address": 35018127168,
+      "number": 39,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0270000004989ca0f057201c3488d0d82160000ffe1"
+    },
+    {
+      "rx_offset": 178016,
+      "live_address": 35018127200,
+      "number": 542,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c01e0200004989ca0f057201c3488d0d62160000ffe1"
+    },
+    {
+      "rx_offset": 178048,
+      "live_address": 35018127232,
+      "number": 675,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0a30200004989ca0f057201c3488d0d42160000ffe1"
+    },
+    {
+      "rx_offset": 178080,
+      "live_address": 35018127264,
+      "number": 393,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0890100004989ca0f057201c3488d0d22160000ffe1"
+    },
+    {
+      "rx_offset": 178112,
+      "live_address": 35018127296,
+      "number": 401,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0910100004989ca0f057201c3488d0d02160000ffe1"
+    },
+    {
+      "rx_offset": 178144,
+      "live_address": 35018127328,
+      "number": 117,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0750000004989ca0f057201c3488d0de2150000ffe1"
+    },
+    {
+      "rx_offset": 178176,
+      "live_address": 35018127360,
+      "number": 310,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0360100004989ca0f057201c3488d0dc2150000ffe1"
+    },
+    {
+      "rx_offset": 178208,
+      "live_address": 35018127392,
+      "number": 444,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0bc0100004989ca0f057201c3488d0da2150000ffe1"
+    },
+    {
+      "rx_offset": 178240,
+      "live_address": 35018127424,
+      "number": 486,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0e60100004989ca0f057201c3488d0d82150000ffe1"
+    },
+    {
+      "rx_offset": 178272,
+      "live_address": 35018127456,
+      "number": 238,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0ee0000004989ca0f057201c3488d0d62150000ffe1"
+    },
+    {
+      "rx_offset": 178304,
+      "live_address": 35018127488,
+      "number": 397,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c08d0100004989ca0f057201c3488d0d42150000ffe1"
+    },
+    {
+      "rx_offset": 178336,
+      "live_address": 35018127520,
+      "number": 233,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0e90000004989ca0f057201c3488d0d22150000ffe1"
+    },
+    {
+      "rx_offset": 178368,
+      "live_address": 35018127552,
+      "number": 4,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0040000004989ca0f057201c3488d0d02150000ffe1"
+    },
+    {
+      "rx_offset": 178400,
+      "live_address": 35018127584,
+      "number": 74,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c04a0000004989ca0f057201c3488d0de2140000ffe1"
+    },
+    {
+      "rx_offset": 178432,
+      "live_address": 35018127616,
+      "number": 548,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0240200004989ca0f057201c3488d0dc2140000ffe1"
+    },
+    {
+      "rx_offset": 178464,
+      "live_address": 35018127648,
+      "number": 670,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c09e0200004989ca0f057201c3488d0da2140000ffe1"
+    },
+    {
+      "rx_offset": 178496,
+      "live_address": 35018127680,
+      "number": 628,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0740200004989ca0f057201c3488d0d82140000ffe1"
+    },
+    {
+      "rx_offset": 178528,
+      "live_address": 35018127712,
+      "number": 5,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0050000004989ca0f057201c3488d0d62140000ffe1"
+    },
+    {
+      "rx_offset": 178560,
+      "live_address": 35018127744,
+      "number": 554,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c02a0200004989ca0f057201c3488d0d42140000ffe1"
+    },
+    {
+      "rx_offset": 178592,
+      "live_address": 35018127776,
+      "number": 53,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0350000004989ca0f057201c3488d0d22140000ffe1"
+    },
+    {
+      "rx_offset": 178624,
+      "live_address": 35018127808,
+      "number": 541,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c01d0200004989ca0f057201c3488d0d02140000ffe1"
+    },
+    {
+      "rx_offset": 178656,
+      "live_address": 35018127840,
+      "number": 96,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0600000004989ca0f057201c3488d0de2130000ffe1"
+    },
+    {
+      "rx_offset": 178736,
+      "live_address": 35018127920,
+      "number": 455,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0c70100004989ca0f057201c3488d0d92130000ffe1"
+    },
+    {
+      "rx_offset": 178768,
+      "live_address": 35018127952,
+      "number": 32,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0200000004989ca0f057201c3488d0d72130000ffe1"
+    },
+    {
+      "rx_offset": 178800,
+      "live_address": 35018127984,
+      "number": 487,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0e70100004989ca0f057201c3488d0d52130000ffe1"
+    },
+    {
+      "rx_offset": 178832,
+      "live_address": 35018128016,
+      "number": 1,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0010000004989ca0f057201c3488d0d32130000ffe1"
+    },
+    {
+      "rx_offset": 178864,
+      "live_address": 35018128048,
+      "number": 454,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0c60100004989ca0f057201c3488d0d12130000ffe1"
+    },
+    {
+      "rx_offset": 178896,
+      "live_address": 35018128080,
+      "number": 499,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0f30100004989ca0f057201c3488d0df2120000ffe1"
+    },
+    {
+      "rx_offset": 178928,
+      "live_address": 35018128112,
+      "number": 627,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0730200004989ca0f057201c3488d0dd2120000ffe1"
+    },
+    {
+      "rx_offset": 178960,
+      "live_address": 35018128144,
+      "number": 89,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0590000004989ca0f057201c3488d0db2120000ffe1"
+    },
+    {
+      "rx_offset": 178992,
+      "live_address": 35018128176,
+      "number": 183,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0b70000004989ca0f057201c3488d0d92120000ffe1"
+    },
+    {
+      "rx_offset": 179024,
+      "live_address": 35018128208,
+      "number": 402,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0920100004989ca0f057201c3488d0d72120000ffe1"
+    },
+    {
+      "rx_offset": 179056,
+      "live_address": 35018128240,
+      "number": 315,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c03b0100004989ca0f057201c3488d0d52120000ffe1"
+    },
+    {
+      "rx_offset": 179088,
+      "live_address": 35018128272,
+      "number": 83,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0530000004989ca0f057201c3488d0d32120000ffe1"
+    },
+    {
+      "rx_offset": 179120,
+      "live_address": 35018128304,
+      "number": 41,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0290000004989ca0f057201c3488d0d12120000ffe1"
+    },
+    {
+      "rx_offset": 179152,
+      "live_address": 35018128336,
+      "number": 482,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0e20100004989ca0f057201c3488d0df2110000ffe1"
+    },
+    {
+      "rx_offset": 179184,
+      "live_address": 35018128368,
+      "number": 332,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c04c0100004989ca0f057201c3488d0dd2110000ffe1"
+    },
+    {
+      "rx_offset": 179216,
+      "live_address": 35018128400,
+      "number": 59,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c03b0000004989ca0f057201c3488d0db2110000ffe1"
+    },
+    {
+      "rx_offset": 179248,
+      "live_address": 35018128432,
+      "number": 431,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0af0100004989ca0f057201c3488d0d92110000ffe1"
+    },
+    {
+      "rx_offset": 179280,
+      "live_address": 35018128464,
+      "number": 585,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0490200004989ca0f057201c3488d0d72110000ffe1"
+    },
+    {
+      "rx_offset": 179312,
+      "live_address": 35018128496,
+      "number": 637,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c07d0200004989ca0f057201c3488d0d52110000ffe1"
+    },
+    {
+      "rx_offset": 179424,
+      "live_address": 35018128608,
+      "number": 595,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0530200004989ca0f057201c3488d0de2100000ffe1"
+    },
+    {
+      "rx_offset": 179456,
+      "live_address": 35018128640,
+      "number": 488,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0e80100004989ca0f057201c3488d0dc2100000ffe1"
+    },
+    {
+      "rx_offset": 179488,
+      "live_address": 35018128672,
+      "number": 600,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0580200004989ca0f057201c3488d0da2100000ffe1"
+    },
+    {
+      "rx_offset": 179520,
+      "live_address": 35018128704,
+      "number": 608,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0600200004989ca0f057201c3488d0d82100000ffe1"
+    },
+    {
+      "rx_offset": 179552,
+      "live_address": 35018128736,
+      "number": 379,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c07b0100004989ca0f057201c3488d0d62100000ffe1"
+    },
+    {
+      "rx_offset": 179584,
+      "live_address": 35018128768,
+      "number": 558,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c02e0200004989ca0f057201c3488d0d42100000ffe1"
+    },
+    {
+      "rx_offset": 179616,
+      "live_address": 35018128800,
+      "number": 232,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0e80000004989ca0f057201c3488d0d22100000ffe1"
+    },
+    {
+      "rx_offset": 179648,
+      "live_address": 35018128832,
+      "number": 204,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0cc0000004989ca0f057201c3488d0d02100000ffe1"
+    },
+    {
+      "rx_offset": 179680,
+      "live_address": 35018128864,
+      "number": 669,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c09d0200004989ca0f057201c3488d0de20f0000ffe1"
+    },
+    {
+      "rx_offset": 179712,
+      "live_address": 35018128896,
+      "number": 624,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0700200004989ca0f057201c3488d0dc20f0000ffe1"
+    },
+    {
+      "rx_offset": 179744,
+      "live_address": 35018128928,
+      "number": 289,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0210100004989ca0f057201c3488d0da20f0000ffe1"
+    },
+    {
+      "rx_offset": 179776,
+      "live_address": 35018128960,
+      "number": 188,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0bc0000004989ca0f057201c3488d0d820f0000ffe1"
+    },
+    {
+      "rx_offset": 179808,
+      "live_address": 35018128992,
+      "number": 75,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c04b0000004989ca0f057201c3488d0d620f0000ffe1"
+    },
+    {
+      "rx_offset": 179840,
+      "live_address": 35018129024,
+      "number": 593,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0510200004989ca0f057201c3488d0d420f0000ffe1"
+    },
+    {
+      "rx_offset": 179872,
+      "live_address": 35018129056,
+      "number": 544,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0200200004989ca0f057201c3488d0d220f0000ffe1"
+    },
+    {
+      "rx_offset": 179904,
+      "live_address": 35018129088,
+      "number": 602,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c05a0200004989ca0f057201c3488d0d020f0000ffe1"
+    },
+    {
+      "rx_offset": 179936,
+      "live_address": 35018129120,
+      "number": 35,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0230000004989ca0f057201c3488d0de20e0000ffe1"
+    },
+    {
+      "rx_offset": 179968,
+      "live_address": 35018129152,
+      "number": 604,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c05c0200004989ca0f057201c3488d0dc20e0000ffe1"
+    },
+    {
+      "rx_offset": 180000,
+      "live_address": 35018129184,
+      "number": 206,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0ce0000004989ca0f057201c3488d0da20e0000ffe1"
+    },
+    {
+      "rx_offset": 180032,
+      "live_address": 35018129216,
+      "number": 202,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0ca0000004989ca0f057201c3488d0d820e0000ffe1"
+    },
+    {
+      "rx_offset": 180064,
+      "live_address": 35018129248,
+      "number": 56,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0380000004989ca0f057201c3488d0d620e0000ffe1"
+    },
+    {
+      "rx_offset": 180096,
+      "live_address": 35018129280,
+      "number": 141,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c08d0000004989ca0f057201c3488d0d420e0000ffe1"
+    },
+    {
+      "rx_offset": 180128,
+      "live_address": 35018129312,
+      "number": 475,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0db0100004989ca0f057201c3488d0d220e0000ffe1"
+    },
+    {
+      "rx_offset": 180160,
+      "live_address": 35018129344,
+      "number": 182,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0b60000004989ca0f057201c3488d0d020e0000ffe1"
+    },
+    {
+      "rx_offset": 180192,
+      "live_address": 35018129376,
+      "number": 189,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0bd0000004989ca0f057201c3488d0de20d0000ffe1"
+    },
+    {
+      "rx_offset": 180224,
+      "live_address": 35018129408,
+      "number": 483,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0e30100004989ca0f057201c3488d0dc20d0000ffe1"
+    },
+    {
+      "rx_offset": 180256,
+      "live_address": 35018129440,
+      "number": 673,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0a10200004989ca0f057201c3488d0da20d0000ffe1"
+    },
+    {
+      "rx_offset": 180288,
+      "live_address": 35018129472,
+      "number": 34,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0220000004989ca0f057201c3488d0d820d0000ffe1"
+    },
+    {
+      "rx_offset": 180320,
+      "live_address": 35018129504,
+      "number": 586,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c04a0200004989ca0f057201c3488d0d620d0000ffe1"
+    },
+    {
+      "rx_offset": 180352,
+      "live_address": 35018129536,
+      "number": 10,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c00a0000004989ca0f057201c3488d0d420d0000ffe1"
+    },
+    {
+      "rx_offset": 180384,
+      "live_address": 35018129568,
+      "number": 610,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0620200004989ca0f057201c3488d0d220d0000ffe1"
+    },
+    {
+      "rx_offset": 180416,
+      "live_address": 35018129600,
+      "number": 655,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c08f0200004989ca0f057201c3488d0d020d0000ffe1"
+    },
+    {
+      "rx_offset": 180448,
+      "live_address": 35018129632,
+      "number": 290,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0220100004989ca0f057201c3488d0de20c0000ffe1"
+    },
+    {
+      "rx_offset": 180480,
+      "live_address": 35018129664,
+      "number": 566,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0360200004989ca0f057201c3488d0dc20c0000ffe1"
+    },
+    {
+      "rx_offset": 180512,
+      "live_address": 35018129696,
+      "number": 668,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c09c0200004989ca0f057201c3488d0da20c0000ffe1"
+    },
+    {
+      "rx_offset": 180544,
+      "live_address": 35018129728,
+      "number": 128,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0800000004989ca0f057201c3488d0d820c0000ffe1"
+    },
+    {
+      "rx_offset": 180576,
+      "live_address": 35018129760,
+      "number": 3,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0030000004989ca0f057201c3488d0d620c0000ffe1"
+    },
+    {
+      "rx_offset": 180608,
+      "live_address": 35018129792,
+      "number": 136,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0880000004989ca0f057201c3488d0d420c0000ffe1"
+    },
+    {
+      "rx_offset": 180640,
+      "live_address": 35018129824,
+      "number": 2,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0020000004989ca0f057201c3488d0d220c0000ffe1"
+    },
+    {
+      "rx_offset": 180672,
+      "live_address": 35018129856,
+      "number": 543,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c01f0200004989ca0f057201c3488d0d020c0000ffe1"
+    },
+    {
+      "rx_offset": 180704,
+      "live_address": 35018129888,
+      "number": 553,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0290200004989ca0f057201c3488d0de20b0000ffe1"
+    },
+    {
+      "rx_offset": 180784,
+      "live_address": 35018129968,
+      "number": 552,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0280200004989ca0f057201c3488d0d920b0000ffe1"
+    },
+    {
+      "rx_offset": 180816,
+      "live_address": 35018130000,
+      "number": 629,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0750200004989ca0f057201c3488d0d720b0000ffe1"
+    },
+    {
+      "rx_offset": 180848,
+      "live_address": 35018130032,
+      "number": 135,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0870000004989ca0f057201c3488d0d520b0000ffe1"
+    },
+    {
+      "rx_offset": 180880,
+      "live_address": 35018130064,
+      "number": 480,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0e00100004989ca0f057201c3488d0d320b0000ffe1"
+    },
+    {
+      "rx_offset": 180912,
+      "live_address": 35018130096,
+      "number": 235,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0eb0000004989ca0f057201c3488d0d120b0000ffe1"
+    },
+    {
+      "rx_offset": 180944,
+      "live_address": 35018130128,
+      "number": 635,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c07b0200004989ca0f057201c3488d0df20a0000ffe1"
+    },
+    {
+      "rx_offset": 180976,
+      "live_address": 35018130160,
+      "number": 137,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0890000004989ca0f057201c3488d0dd20a0000ffe1"
+    },
+    {
+      "rx_offset": 181008,
+      "live_address": 35018130192,
+      "number": 363,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c06b0100004989ca0f057201c3488d0db20a0000ffe1"
+    },
+    {
+      "rx_offset": 181040,
+      "live_address": 35018130224,
+      "number": 29,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c01d0000004989ca0f057201c3488d0d920a0000ffe1"
+    },
+    {
+      "rx_offset": 181072,
+      "live_address": 35018130256,
+      "number": 405,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0950100004989ca0f057201c3488d0d720a0000ffe1"
+    },
+    {
+      "rx_offset": 181104,
+      "live_address": 35018130288,
+      "number": 672,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0a00200004989ca0f057201c3488d0d520a0000ffe1"
+    },
+    {
+      "rx_offset": 181136,
+      "live_address": 35018130320,
+      "number": 121,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0790000004989ca0f057201c3488d0d320a0000ffe1"
+    },
+    {
+      "rx_offset": 181168,
+      "live_address": 35018130352,
+      "number": 616,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0680200004989ca0f057201c3488d0d120a0000ffe1"
+    },
+    {
+      "rx_offset": 181200,
+      "live_address": 35018130384,
+      "number": 663,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0970200004989ca0f057201c3488d0df2090000ffe1"
+    },
+    {
+      "rx_offset": 181232,
+      "live_address": 35018130416,
+      "number": 605,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c05d0200004989ca0f057201c3488d0dd2090000ffe1"
+    },
+    {
+      "rx_offset": 181264,
+      "live_address": 35018130448,
+      "number": 408,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0980100004989ca0f057201c3488d0db2090000ffe1"
+    },
+    {
+      "rx_offset": 181296,
+      "live_address": 35018130480,
+      "number": 140,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c08c0000004989ca0f057201c3488d0d92090000ffe1"
+    },
+    {
+      "rx_offset": 181328,
+      "live_address": 35018130512,
+      "number": 147,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0930000004989ca0f057201c3488d0d72090000ffe1"
+    },
+    {
+      "rx_offset": 181360,
+      "live_address": 35018130544,
+      "number": 272,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0100100004989ca0f057201c3488d0d52090000ffe1"
+    },
+    {
+      "rx_offset": 181392,
+      "live_address": 35018130576,
+      "number": 124,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c07c0000004989ca0f057201c3488d0d32090000ffe1"
+    },
+    {
+      "rx_offset": 181424,
+      "live_address": 35018130608,
+      "number": 476,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0dc0100004989ca0f057201c3488d0d12090000ffe1"
+    },
+    {
+      "rx_offset": 181504,
+      "live_address": 35018130688,
+      "number": 601,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0590200004989ca0f057201c3488d0dc2080000ffe1"
+    },
+    {
+      "rx_offset": 181536,
+      "live_address": 35018130720,
+      "number": 407,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0970100004989ca0f057201c3488d0da2080000ffe1"
+    },
+    {
+      "rx_offset": 181568,
+      "live_address": 35018130752,
+      "number": 417,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0a10100004989ca0f057201c3488d0d82080000ffe1"
+    },
+    {
+      "rx_offset": 181600,
+      "live_address": 35018130784,
+      "number": 44,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c02c0000004989ca0f057201c3488d0d62080000ffe1"
+    },
+    {
+      "rx_offset": 181632,
+      "live_address": 35018130816,
+      "number": 86,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0560000004989ca0f057201c3488d0d42080000ffe1"
+    },
+    {
+      "rx_offset": 181664,
+      "live_address": 35018130848,
+      "number": 101,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0650000004989ca0f057201c3488d0d22080000ffe1"
+    },
+    {
+      "rx_offset": 181696,
+      "live_address": 35018130880,
+      "number": 456,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0c80100004989ca0f057201c3488d0d02080000ffe1"
+    },
+    {
+      "rx_offset": 181728,
+      "live_address": 35018130912,
+      "number": 195,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0c30000004989ca0f057201c3488d0de2070000ffe1"
+    },
+    {
+      "rx_offset": 181760,
+      "live_address": 35018130944,
+      "number": 134,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0860000004989ca0f057201c3488d0dc2070000ffe1"
+    },
+    {
+      "rx_offset": 181792,
+      "live_address": 35018130976,
+      "number": 122,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c07a0000004989ca0f057201c3488d0da2070000ffe1"
+    },
+    {
+      "rx_offset": 181824,
+      "live_address": 35018131008,
+      "number": 131,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0830000004989ca0f057201c3488d0d82070000ffe1"
+    },
+    {
+      "rx_offset": 181856,
+      "live_address": 35018131040,
+      "number": 120,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0780000004989ca0f057201c3488d0d62070000ffe1"
+    },
+    {
+      "rx_offset": 181888,
+      "live_address": 35018131072,
+      "number": 603,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c05b0200004989ca0f057201c3488d0d42070000ffe1"
+    },
+    {
+      "rx_offset": 181920,
+      "live_address": 35018131104,
+      "number": 331,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c04b0100004989ca0f057201c3488d0d22070000ffe1"
+    },
+    {
+      "rx_offset": 181952,
+      "live_address": 35018131136,
+      "number": 464,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0d00100004989ca0f057201c3488d0d02070000ffe1"
+    },
+    {
+      "rx_offset": 181984,
+      "live_address": 35018131168,
+      "number": 559,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c02f0200004989ca0f057201c3488d0de2060000ffe1"
+    },
+    {
+      "rx_offset": 182016,
+      "live_address": 35018131200,
+      "number": 234,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0ea0000004989ca0f057201c3488d0dc2060000ffe1"
+    },
+    {
+      "rx_offset": 182048,
+      "live_address": 35018131232,
+      "number": 36,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0240000004989ca0f057201c3488d0da2060000ffe1"
+    },
+    {
+      "rx_offset": 182080,
+      "live_address": 35018131264,
+      "number": 615,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0670200004989ca0f057201c3488d0d82060000ffe1"
+    },
+    {
+      "rx_offset": 182112,
+      "live_address": 35018131296,
+      "number": 403,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0930100004989ca0f057201c3488d0d62060000ffe1"
+    },
+    {
+      "rx_offset": 182144,
+      "live_address": 35018131328,
+      "number": 660,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0940200004989ca0f057201c3488d0d42060000ffe1"
+    },
+    {
+      "rx_offset": 182176,
+      "live_address": 35018131360,
+      "number": 481,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0e10100004989ca0f057201c3488d0d22060000ffe1"
+    },
+    {
+      "rx_offset": 182256,
+      "live_address": 35018131440,
+      "number": 434,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0b20100004989ca0f057201c3488d0dd2050000ffe1"
+    },
+    {
+      "rx_offset": 182288,
+      "live_address": 35018131472,
+      "number": 653,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c08d0200004989ca0f057201c3488d0db2050000ffe1"
+    },
+    {
+      "rx_offset": 182320,
+      "live_address": 35018131504,
+      "number": 346,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c05a0100004989ca0f057201c3488d0d92050000ffe1"
+    },
+    {
+      "rx_offset": 182352,
+      "live_address": 35018131536,
+      "number": 564,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0340200004989ca0f057201c3488d0d72050000ffe1"
+    },
+    {
+      "rx_offset": 182384,
+      "live_address": 35018131568,
+      "number": 90,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c05a0000004989ca0f057201c3488d0d52050000ffe1"
+    },
+    {
+      "rx_offset": 182432,
+      "live_address": 35018131616,
+      "number": 330,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c04a0100004989ca0f057201c3488d0d22050000ffe1"
+    },
+    {
+      "rx_offset": 182464,
+      "live_address": 35018131648,
+      "number": 625,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0710200004989ca0f057201c3488d0d02050000ffe1"
+    },
+    {
+      "rx_offset": 182496,
+      "live_address": 35018131680,
+      "number": 642,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0820200004989ca0f057201c3488d0de2040000ffe1"
+    },
+    {
+      "rx_offset": 182528,
+      "live_address": 35018131712,
+      "number": 78,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c04e0000004989ca0f057201c3488d0dc2040000ffe1"
+    },
+    {
+      "rx_offset": 182560,
+      "live_address": 35018131744,
+      "number": 127,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c07f0000004989ca0f057201c3488d0da2040000ffe1"
+    },
+    {
+      "rx_offset": 182592,
+      "live_address": 35018131776,
+      "number": 611,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0630200004989ca0f057201c3488d0d82040000ffe1"
+    },
+    {
+      "rx_offset": 182624,
+      "live_address": 35018131808,
+      "number": 567,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0370200004989ca0f057201c3488d0d62040000ffe1"
+    },
+    {
+      "rx_offset": 182688,
+      "live_address": 35018131872,
+      "number": 640,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0800200004989ca0f057201c3488d0d22040000ffe1"
+    },
+    {
+      "rx_offset": 182720,
+      "live_address": 35018131904,
+      "number": 30,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c01e0000004989ca0f057201c3488d0d02040000ffe1"
+    },
+    {
+      "rx_offset": 182752,
+      "live_address": 35018131936,
+      "number": 328,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0480100004989ca0f057201c3488d0de2030000ffe1"
+    },
+    {
+      "rx_offset": 182784,
+      "live_address": 35018131968,
+      "number": 617,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0690200004989ca0f057201c3488d0dc2030000ffe1"
+    },
+    {
+      "rx_offset": 182816,
+      "live_address": 35018132000,
+      "number": 545,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0210200004989ca0f057201c3488d0da2030000ffe1"
+    },
+    {
+      "rx_offset": 182848,
+      "live_address": 35018132032,
+      "number": 638,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c07e0200004989ca0f057201c3488d0d82030000ffe1"
+    },
+    {
+      "rx_offset": 182880,
+      "live_address": 35018132064,
+      "number": 15,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c00f0000004989ca0f057201c3488d0d62030000ffe1"
+    },
+    {
+      "rx_offset": 182912,
+      "live_address": 35018132096,
+      "number": 194,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0c20000004989ca0f057201c3488d0d42030000ffe1"
+    },
+    {
+      "rx_offset": 182944,
+      "live_address": 35018132128,
+      "number": 551,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0270200004989ca0f057201c3488d0d22030000ffe1"
+    },
+    {
+      "rx_offset": 182976,
+      "live_address": 35018132160,
+      "number": 126,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c07e0000004989ca0f057201c3488d0d02030000ffe1"
+    },
+    {
+      "rx_offset": 183008,
+      "live_address": 35018132192,
+      "number": 341,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0550100004989ca0f057201c3488d0de2020000ffe1"
+    },
+    {
+      "rx_offset": 183040,
+      "live_address": 35018132224,
+      "number": 522,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c00a0200004989ca0f057201c3488d0dc2020000ffe1"
+    },
+    {
+      "rx_offset": 183072,
+      "live_address": 35018132256,
+      "number": 646,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0860200004989ca0f057201c3488d0da2020000ffe1"
+    },
+    {
+      "rx_offset": 183104,
+      "live_address": 35018132288,
+      "number": 661,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0950200004989ca0f057201c3488d0d82020000ffe1"
+    },
+    {
+      "rx_offset": 183136,
+      "live_address": 35018132320,
+      "number": 20,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0140000004989ca0f057201c3488d0d62020000ffe1"
+    },
+    {
+      "rx_offset": 183168,
+      "live_address": 35018132352,
+      "number": 7,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0070000004989ca0f057201c3488d0d42020000ffe1"
+    },
+    {
+      "rx_offset": 183200,
+      "live_address": 35018132384,
+      "number": 587,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c04b0200004989ca0f057201c3488d0d22020000ffe1"
+    },
+    {
+      "rx_offset": 183232,
+      "live_address": 35018132416,
+      "number": 95,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c05f0000004989ca0f057201c3488d0d02020000ffe1"
+    },
+    {
+      "rx_offset": 183264,
+      "live_address": 35018132448,
+      "number": 565,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0350200004989ca0f057201c3488d0de2010000ffe1"
+    },
+    {
+      "rx_offset": 183296,
+      "live_address": 35018132480,
+      "number": 422,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0a60100004989ca0f057201c3488d0dc2010000ffe1"
+    },
+    {
+      "rx_offset": 183328,
+      "live_address": 35018132512,
+      "number": 479,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0df0100004989ca0f057201c3488d0da2010000ffe1"
+    },
+    {
+      "rx_offset": 183360,
+      "live_address": 35018132544,
+      "number": 133,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0850000004989ca0f057201c3488d0d82010000ffe1"
+    },
+    {
+      "rx_offset": 183392,
+      "live_address": 35018132576,
+      "number": 466,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0d20100004989ca0f057201c3488d0d62010000ffe1"
+    },
+    {
+      "rx_offset": 183424,
+      "live_address": 35018132608,
+      "number": 652,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c08c0200004989ca0f057201c3488d0d42010000ffe1"
+    },
+    {
+      "rx_offset": 183456,
+      "live_address": 35018132640,
+      "number": 662,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0960200004989ca0f057201c3488d0d22010000ffe1"
+    },
+    {
+      "rx_offset": 183488,
+      "live_address": 35018132672,
+      "number": 404,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0940100004989ca0f057201c3488d0d02010000ffe1"
+    },
+    {
+      "rx_offset": 183520,
+      "live_address": 35018132704,
+      "number": 209,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0d10000004989ca0f057201c3488d0de2000000ffe1"
+    },
+    {
+      "rx_offset": 183552,
+      "live_address": 35018132736,
+      "number": 546,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0220200004989ca0f057201c3488d0dc2000000ffe1"
+    },
+    {
+      "rx_offset": 183584,
+      "live_address": 35018132768,
+      "number": 93,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c05d0000004989ca0f057201c3488d0da2000000ffe1"
+    },
+    {
+      "rx_offset": 183616,
+      "live_address": 35018132800,
+      "number": 79,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c04f0000004989ca0f057201c3488d0d82000000ffe1"
+    },
+    {
+      "rx_offset": 183648,
+      "live_address": 35018132832,
+      "number": 659,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0930200004989ca0f057201c3488d0d62000000ffe1"
+    },
+    {
+      "rx_offset": 183680,
+      "live_address": 35018132864,
+      "number": 560,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0300200004989ca0f057201c3488d0d42000000ffe1"
+    },
+    {
+      "rx_offset": 183712,
+      "live_address": 35018132896,
+      "number": 99,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0630000004989ca0f057201c3488d0d22000000ffe1"
+    },
+    {
+      "rx_offset": 183744,
+      "live_address": 35018132928,
+      "number": 606,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c05e0200004989ca0f057201c3488d0d02000000ffe1"
+    },
+    {
+      "rx_offset": 183792,
+      "live_address": 35018132976,
+      "number": 343,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0570100004989ca0f057201c3488d0dd2ffffffffe1"
+    },
+    {
+      "rx_offset": 183824,
+      "live_address": 35018133008,
+      "number": 535,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0170200004989ca0f057201c3488d0db2ffffffffe1"
+    },
+    {
+      "rx_offset": 183856,
+      "live_address": 35018133040,
+      "number": 607,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c05f0200004989ca0f057201c3488d0d92ffffffffe1"
+    },
+    {
+      "rx_offset": 183888,
+      "live_address": 35018133072,
+      "number": 658,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0920200004989ca0f057201c3488d0d72ffffffffe1"
+    },
+    {
+      "rx_offset": 183920,
+      "live_address": 35018133104,
+      "number": 671,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c09f0200004989ca0f057201c3488d0d52ffffffffe1"
+    },
+    {
+      "rx_offset": 183952,
+      "live_address": 35018133136,
+      "number": 429,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0ad0100004989ca0f057201c3488d0d32ffffffffe1"
+    },
+    {
+      "rx_offset": 183984,
+      "live_address": 35018133168,
+      "number": 478,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0de0100004989ca0f057201c3488d0d12ffffffffe1"
+    },
+    {
+      "rx_offset": 184016,
+      "live_address": 35018133200,
+      "number": 49,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0310000004989ca0f057201c3488d0df2feffffffe1"
+    },
+    {
+      "rx_offset": 184048,
+      "live_address": 35018133232,
+      "number": 540,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c01c0200004989ca0f057201c3488d0dd2feffffffe1"
+    },
+    {
+      "rx_offset": 184080,
+      "live_address": 35018133264,
+      "number": 536,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0180200004989ca0f057201c3488d0db2feffffffe1"
+    },
+    {
+      "rx_offset": 184256,
+      "live_address": 35018133440,
+      "number": 165,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0a50000004989ca0f057201c3488d0d02feffffffe1"
+    },
+    {
+      "rx_offset": 184288,
+      "live_address": 35018133472,
+      "number": 54,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0360000004989ca0f057201c3488d0de2fdffffffe1"
+    },
+    {
+      "rx_offset": 184320,
+      "live_address": 35018133504,
+      "number": 676,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0a40200004989ca0f057201c3488d0dc2fdffffffe1"
+    },
+    {
+      "rx_offset": 184352,
+      "live_address": 35018133536,
+      "number": 28,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c01c0000004989ca0f057201c3488d0da2fdffffffe1"
+    },
+    {
+      "rx_offset": 184384,
+      "live_address": 35018133568,
+      "number": 97,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0610000004989ca0f057201c3488d0d82fdffffffe1"
+    },
+    {
+      "rx_offset": 184416,
+      "live_address": 35018133600,
+      "number": 619,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c06b0200004989ca0f057201c3488d0d62fdffffffe1"
+    },
+    {
+      "rx_offset": 184448,
+      "live_address": 35018133632,
+      "number": 632,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0780200004989ca0f057201c3488d0d42fdffffffe1"
+    },
+    {
+      "rx_offset": 184480,
+      "live_address": 35018133664,
+      "number": 37,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0250000004989ca0f057201c3488d0d22fdffffffe1"
+    },
+    {
+      "rx_offset": 184512,
+      "live_address": 35018133696,
+      "number": 598,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0560200004989ca0f057201c3488d0d02fdffffffe1"
+    },
+    {
+      "rx_offset": 184544,
+      "live_address": 35018133728,
+      "number": 362,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c06a0100004989ca0f057201c3488d0de2fcffffffe1"
+    },
+    {
+      "rx_offset": 184576,
+      "live_address": 35018133760,
+      "number": 113,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0710000004989ca0f057201c3488d0dc2fcffffffe1"
+    },
+    {
+      "rx_offset": 184608,
+      "live_address": 35018133792,
+      "number": 477,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0dd0100004989ca0f057201c3488d0da2fcffffffe1"
+    },
+    {
+      "rx_offset": 184816,
+      "live_address": 35018134000,
+      "number": 647,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0870200004989ca0f057201c3488d0dd2fbffffffe1"
+    },
+    {
+      "rx_offset": 184848,
+      "live_address": 35018134032,
+      "number": 592,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0500200004989ca0f057201c3488d0db2fbffffffe1"
+    },
+    {
+      "rx_offset": 184880,
+      "live_address": 35018134064,
+      "number": 549,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0250200004989ca0f057201c3488d0d92fbffffffe1"
+    },
+    {
+      "rx_offset": 184912,
+      "live_address": 35018134096,
+      "number": 547,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0230200004989ca0f057201c3488d0d72fbffffffe1"
+    },
+    {
+      "rx_offset": 184944,
+      "live_address": 35018134128,
+      "number": 618,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c06a0200004989ca0f057201c3488d0d52fbffffffe1"
+    },
+    {
+      "rx_offset": 184976,
+      "live_address": 35018134160,
+      "number": 31,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c01f0000004989ca0f057201c3488d0d32fbffffffe1"
+    },
+    {
+      "rx_offset": 185008,
+      "live_address": 35018134192,
+      "number": 433,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0b10100004989ca0f057201c3488d0d12fbffffffe1"
+    },
+    {
+      "rx_offset": 185040,
+      "live_address": 35018134224,
+      "number": 639,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c07f0200004989ca0f057201c3488d0df2faffffffe1"
+    },
+    {
+      "rx_offset": 185072,
+      "live_address": 35018134256,
+      "number": 634,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c07a0200004989ca0f057201c3488d0dd2faffffffe1"
+    },
+    {
+      "rx_offset": 185104,
+      "live_address": 35018134288,
+      "number": 334,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c04e0100004989ca0f057201c3488d0db2faffffffe1"
+    },
+    {
+      "rx_offset": 185136,
+      "live_address": 35018134320,
+      "number": 329,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0490100004989ca0f057201c3488d0d92faffffffe1"
+    },
+    {
+      "rx_offset": 185168,
+      "live_address": 35018134352,
+      "number": 253,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0fd0000004989ca0f057201c3488d0d72faffffffe1"
+    },
+    {
+      "rx_offset": 185200,
+      "live_address": 35018134384,
+      "number": 104,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0680000004989ca0f057201c3488d0d52faffffffe1"
+    },
+    {
+      "rx_offset": 185232,
+      "live_address": 35018134416,
+      "number": 572,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c03c0200004989ca0f057201c3488d0d32faffffffe1"
+    },
+    {
+      "rx_offset": 185264,
+      "live_address": 35018134448,
+      "number": 345,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0590100004989ca0f057201c3488d0d12faffffffe1"
+    },
+    {
+      "rx_offset": 185296,
+      "live_address": 35018134480,
+      "number": 641,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0810200004989ca0f057201c3488d0df2f9ffffffe1"
+    },
+    {
+      "rx_offset": 185328,
+      "live_address": 35018134512,
+      "number": 138,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c08a0000004989ca0f057201c3488d0dd2f9ffffffe1"
+    },
+    {
+      "rx_offset": 185360,
+      "live_address": 35018134544,
+      "number": 557,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c02d0200004989ca0f057201c3488d0db2f9ffffffe1"
+    },
+    {
+      "rx_offset": 185392,
+      "live_address": 35018134576,
+      "number": 677,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0a50200004989ca0f057201c3488d0d92f9ffffffe1"
+    },
+    {
+      "rx_offset": 185424,
+      "live_address": 35018134608,
+      "number": 65,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0410000004989ca0f057201c3488d0d72f9ffffffe1"
+    },
+    {
+      "rx_offset": 185456,
+      "live_address": 35018134640,
+      "number": 106,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c06a0000004989ca0f057201c3488d0d52f9ffffffe1"
+    },
+    {
+      "rx_offset": 185488,
+      "live_address": 35018134672,
+      "number": 324,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0440100004989ca0f057201c3488d0d32f9ffffffe1"
+    },
+    {
+      "rx_offset": 185520,
+      "live_address": 35018134704,
+      "number": 240,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0f00000004989ca0f057201c3488d0d12f9ffffffe1"
+    },
+    {
+      "rx_offset": 185552,
+      "live_address": 35018134736,
+      "number": 406,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0960100004989ca0f057201c3488d0df2f8ffffffe1"
+    },
+    {
+      "rx_offset": 185584,
+      "live_address": 35018134768,
+      "number": 239,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0ef0000004989ca0f057201c3488d0dd2f8ffffffe1"
+    },
+    {
+      "rx_offset": 185616,
+      "live_address": 35018134800,
+      "number": 416,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0a00100004989ca0f057201c3488d0db2f8ffffffe1"
+    },
+    {
+      "rx_offset": 185648,
+      "live_address": 35018134832,
+      "number": 666,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c09a0200004989ca0f057201c3488d0d92f8ffffffe1"
+    },
+    {
+      "rx_offset": 185680,
+      "live_address": 35018134864,
+      "number": 392,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0880100004989ca0f057201c3488d0d72f8ffffffe1"
+    },
+    {
+      "rx_offset": 185712,
+      "live_address": 35018134896,
+      "number": 626,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0720200004989ca0f057201c3488d0d52f8ffffffe1"
+    },
+    {
+      "rx_offset": 185744,
+      "live_address": 35018134928,
+      "number": 532,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0140200004989ca0f057201c3488d0d32f8ffffffe1"
+    },
+    {
+      "rx_offset": 185776,
+      "live_address": 35018134960,
+      "number": 192,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0c00000004989ca0f057201c3488d0d12f8ffffffe1"
+    },
+    {
+      "rx_offset": 185808,
+      "live_address": 35018134992,
+      "number": 24,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0180000004989ca0f057201c3488d0df2f7ffffffe1"
+    },
+    {
+      "rx_offset": 185840,
+      "live_address": 35018135024,
+      "number": 435,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0b30100004989ca0f057201c3488d0dd2f7ffffffe1"
+    },
+    {
+      "rx_offset": 185872,
+      "live_address": 35018135056,
+      "number": 6,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0060000004989ca0f057201c3488d0db2f7ffffffe1"
+    },
+    {
+      "rx_offset": 185904,
+      "live_address": 35018135088,
+      "number": 667,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c09b0200004989ca0f057201c3488d0d92f7ffffffe1"
+    },
+    {
+      "rx_offset": 185936,
+      "live_address": 35018135120,
+      "number": 613,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0650200004989ca0f057201c3488d0d72f7ffffffe1"
+    },
+    {
+      "rx_offset": 185968,
+      "live_address": 35018135152,
+      "number": 191,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0bf0000004989ca0f057201c3488d0d52f7ffffffe1"
+    },
+    {
+      "rx_offset": 186000,
+      "live_address": 35018135184,
+      "number": 203,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0cb0000004989ca0f057201c3488d0d32f7ffffffe1"
+    },
+    {
+      "rx_offset": 186032,
+      "live_address": 35018135216,
+      "number": 630,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0760200004989ca0f057201c3488d0d12f7ffffffe1"
+    },
+    {
+      "rx_offset": 186064,
+      "live_address": 35018135248,
+      "number": 649,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0890200004989ca0f057201c3488d0df2f6ffffffe1"
+    },
+    {
+      "rx_offset": 186096,
+      "live_address": 35018135280,
+      "number": 333,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c04d0100004989ca0f057201c3488d0dd2f6ffffffe1"
+    },
+    {
+      "rx_offset": 186128,
+      "live_address": 35018135312,
+      "number": 400,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0900100004989ca0f057201c3488d0db2f6ffffffe1"
+    },
+    {
+      "rx_offset": 186160,
+      "live_address": 35018135344,
+      "number": 664,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0980200004989ca0f057201c3488d0d92f6ffffffe1"
+    },
+    {
+      "rx_offset": 186192,
+      "live_address": 35018135376,
+      "number": 196,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0c40000004989ca0f057201c3488d0d72f6ffffffe1"
+    },
+    {
+      "rx_offset": 186224,
+      "live_address": 35018135408,
+      "number": 27,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c01b0000004989ca0f057201c3488d0d52f6ffffffe1"
+    },
+    {
+      "rx_offset": 186256,
+      "live_address": 35018135440,
+      "number": 325,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0450100004989ca0f057201c3488d0d32f6ffffffe1"
+    },
+    {
+      "rx_offset": 186288,
+      "live_address": 35018135472,
+      "number": 533,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0150200004989ca0f057201c3488d0d12f6ffffffe1"
+    },
+    {
+      "rx_offset": 186320,
+      "live_address": 35018135504,
+      "number": 657,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0910200004989ca0f057201c3488d0df2f5ffffffe1"
+    },
+    {
+      "rx_offset": 186352,
+      "live_address": 35018135536,
+      "number": 665,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0990200004989ca0f057201c3488d0dd2f5ffffffe1"
+    },
+    {
+      "rx_offset": 186384,
+      "live_address": 35018135568,
+      "number": 237,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0ed0000004989ca0f057201c3488d0db2f5ffffffe1"
+    },
+    {
+      "rx_offset": 186416,
+      "live_address": 35018135600,
+      "number": 633,
+      "error_jump_candidate": 35018132952,
+      "bytes": "48c7c0790200004989ca0f057201c3488d0d92f5ffffffe1"
+    }
+  ],
+  "inbound_import_links": 858,
+  "unique_inbound_target_offsets": 338,
+  "inbound_targets": [
+    {
+      "rx_offset": 1904,
+      "direct_syscall_number": null,
+      "links": 3,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceMbus.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 2560,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 3040,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceSystemService.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        636
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 3312,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceSystemService.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        189
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 4416,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 5680,
+      "direct_syscall_number": null,
+      "links": 7,
+      "sources": {
+        "libSceIpmi.sprx": 1,
+        "libSceLibcInternal.sprx": 1,
+        "libSceLibreSsl3.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libcairo.sprx": 1,
+        "libcurl.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 5
+    },
+    {
+      "rx_offset": 6320,
+      "direct_syscall_number": null,
+      "links": 4,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceLibcInternal.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 6560,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceGLSlimClientVSH.sprx": 1,
+        "libScePosixForWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 6848,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 7888,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 9712,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 9744,
+      "direct_syscall_number": null,
+      "links": 5,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceLibreSsl3.sprx": 1,
+        "libSceNetCtl.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 10144,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceSystemService.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 4
+    },
+    {
+      "rx_offset": 10464,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libicu.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 11520,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 12448,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        557,
+        558
+      ],
+      "direct_intra_image_callee_count": 4
+    },
+    {
+      "rx_offset": 12736,
+      "direct_syscall_number": null,
+      "links": 7,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceLibcInternal.sprx": 1,
+        "libSceNetCtl.sprx": 1,
+        "libSceRandom.sprx": 1,
+        "libSceSysmodule.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        598
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 13488,
+      "direct_syscall_number": null,
+      "links": 6,
+      "sources": {
+        "libSceIpmi.sprx": 1,
+        "libSceLibcInternal.sprx": 1,
+        "libSceMbus.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        232
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 14272,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 14976,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        203
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 15744,
+      "direct_syscall_number": null,
+      "links": 9,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceLibcInternal.sprx": 1,
+        "libSceLibreSsl3.sprx": 1,
+        "libSceMbus.sprx": 1,
+        "libSceNetCtl.sprx": 1,
+        "libSceSysmodule.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 15968,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 18320,
+      "direct_syscall_number": null,
+      "links": 7,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceLibcInternal.sprx": 1,
+        "libSceLibreSsl3.sprx": 1,
+        "libSceMbus.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 18640,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceGLSlimClientVSH.sprx": 1,
+        "libScePosixForWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 18784,
+      "direct_syscall_number": null,
+      "links": 6,
+      "sources": {
+        "libSceIpmi.sprx": 1,
+        "libSceLibcInternal.sprx": 1,
+        "libSceLibreSsl3.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        588
+      ],
+      "direct_intra_image_callee_count": 4
+    },
+    {
+      "rx_offset": 20336,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 20432,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 7
+    },
+    {
+      "rx_offset": 21328,
+      "direct_syscall_number": null,
+      "links": 9,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceGLSlimClientVSH.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libScePosixForWebKit.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1,
+        "libSceVideoOut.sprx": 1,
+        "libfreetype.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 21344,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 21376,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 22768,
+      "direct_syscall_number": null,
+      "links": 6,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceMbus.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 3
+    },
+    {
+      "rx_offset": 23040,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libScePosixForWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 4
+    },
+    {
+      "rx_offset": 23248,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceMbus.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 23696,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 23840,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 25712,
+      "direct_syscall_number": null,
+      "links": 4,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libSceRandom.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 3
+    },
+    {
+      "rx_offset": 27184,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceGLSlimClientVSH.sprx": 1,
+        "libSceSystemService.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        232
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 27744,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceNet.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 27888,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceNet.sprx": 1,
+        "libSceSysmodule.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 3
+    },
+    {
+      "rx_offset": 28688,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceNKWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 28768,
+      "direct_syscall_number": null,
+      "links": 3,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        544
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 30144,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 30240,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        642
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 32224,
+      "direct_syscall_number": null,
+      "links": 14,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceGLSlimClientVSH.sprx": 1,
+        "libSceLibreSsl3.sprx": 1,
+        "libSceMbus.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libSceRandom.sprx": 1,
+        "libSceSysmodule.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1,
+        "libSceVideoOut.sprx": 1,
+        "libcurl.sprx": 1,
+        "libfreetype.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        6
+      ],
+      "direct_intra_image_callee_count": 5
+    },
+    {
+      "rx_offset": 33184,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 33888,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 34080,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceSystemService.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        541
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 34176,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 34528,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibreSsl3.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 34848,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 35536,
+      "direct_syscall_number": null,
+      "links": 7,
+      "sources": {
+        "libSceIpmi.sprx": 1,
+        "libSceLibcInternal.sprx": 1,
+        "libSceLibreSsl3.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        73
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 36784,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 37456,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        341
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 37904,
+      "direct_syscall_number": null,
+      "links": 4,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceSysmodule.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 3
+    },
+    {
+      "rx_offset": 39536,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 39584,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibreSsl3.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 42304,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 43552,
+      "direct_syscall_number": null,
+      "links": 3,
+      "sources": {
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libcairo.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 7
+    },
+    {
+      "rx_offset": 45168,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 45184,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libSceSystemService.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 46544,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 46592,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 47472,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libicu.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 48240,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 48880,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceSystemService.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        555
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 49888,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceSystemService.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        554
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 51520,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceSysmodule.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        608
+      ],
+      "direct_intra_image_callee_count": 5
+    },
+    {
+      "rx_offset": 53072,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceNKWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 53296,
+      "direct_syscall_number": null,
+      "links": 25,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceGLSlimClientVSH.sprx": 1,
+        "libSceIpmi.sprx": 1,
+        "libSceLibcInternal.sprx": 1,
+        "libSceLibreSsl3.sprx": 1,
+        "libSceMbus.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libSceNetCtl.sprx": 1,
+        "libScePosixForWebKit.sprx": 1,
+        "libSceRandom.sprx": 1,
+        "libSceRegMgr.sprx": 1,
+        "libSceSysCore.sprx": 1,
+        "libSceSysmodule.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1,
+        "libSceVideoOut.sprx": 1,
+        "libcairo.sprx": 1,
+        "libcurl.sprx": 1,
+        "libfontconfig.sprx": 1,
+        "libfreetype.sprx": 1,
+        "libharfbuzz.sprx": 1,
+        "libicu.sprx": 1,
+        "libpng16.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 54720,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceSystemService.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        549
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 54832,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        464
+      ],
+      "direct_intra_image_callee_count": 9
+    },
+    {
+      "rx_offset": 55312,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceLibreSsl3.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 3
+    },
+    {
+      "rx_offset": 55472,
+      "direct_syscall_number": null,
+      "links": 3,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libScePosixForWebKit.sprx": 1,
+        "libSceSystemService.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 55648,
+      "direct_syscall_number": null,
+      "links": 7,
+      "sources": {
+        "libSceIpmi.sprx": 1,
+        "libSceLibcInternal.sprx": 1,
+        "libSceLibreSsl3.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libcairo.sprx": 1,
+        "libcurl.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 8
+    },
+    {
+      "rx_offset": 56576,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceGLSlimClientVSH.sprx": 1,
+        "libScePosixForWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        464
+      ],
+      "direct_intra_image_callee_count": 9
+    },
+    {
+      "rx_offset": 56928,
+      "direct_syscall_number": null,
+      "links": 3,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 57376,
+      "direct_syscall_number": null,
+      "links": 11,
+      "sources": {
+        "libSceLibreSsl3.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libScePosixForWebKit.sprx": 1,
+        "libSceRandom.sprx": 1,
+        "libSceSysmodule.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoOut.sprx": 1,
+        "libcurl.sprx": 1,
+        "libfreetype.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        5
+      ],
+      "direct_intra_image_callee_count": 4
+    },
+    {
+      "rx_offset": 58400,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 4
+    },
+    {
+      "rx_offset": 58656,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        97,
+        191,
+        194
+      ],
+      "direct_intra_image_callee_count": 9
+    },
+    {
+      "rx_offset": 59888,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 60064,
+      "direct_syscall_number": null,
+      "links": 3,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        542
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 61760,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 61936,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 62080,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceSystemService.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        20
+      ],
+      "direct_intra_image_callee_count": 5
+    },
+    {
+      "rx_offset": 63536,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceIpmi.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 64304,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 66048,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 6
+    },
+    {
+      "rx_offset": 66496,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceVideoCoreServerInterface.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        54
+      ],
+      "direct_intra_image_callee_count": 4
+    },
+    {
+      "rx_offset": 66640,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceSystemService.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        233
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 67584,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceNKWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 67728,
+      "direct_syscall_number": null,
+      "links": 5,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceMbus.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 67856,
+      "direct_syscall_number": null,
+      "links": 4,
+      "sources": {
+        "libSceLibreSsl3.sprx": 1,
+        "libSceSysmodule.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libfontconfig.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        602
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 67968,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceSystemService.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 68816,
+      "direct_syscall_number": null,
+      "links": 3,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 69136,
+      "direct_syscall_number": null,
+      "links": 5,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libSceSysCore.sprx": 1,
+        "libSceSysmodule.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 4
+    },
+    {
+      "rx_offset": 69280,
+      "direct_syscall_number": null,
+      "links": 5,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceLibcInternal.sprx": 1,
+        "libSceLibreSsl3.sprx": 1,
+        "libSceMbus.sprx": 1,
+        "libSceNet.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 70448,
+      "direct_syscall_number": null,
+      "links": 3,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libScePosixForWebKit.sprx": 1,
+        "libSceSystemService.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 70944,
+      "direct_syscall_number": null,
+      "links": 7,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceLibreSsl3.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libcurl.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        4
+      ],
+      "direct_intra_image_callee_count": 3
+    },
+    {
+      "rx_offset": 71040,
+      "direct_syscall_number": null,
+      "links": 3,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libSceSysmodule.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 71712,
+      "direct_syscall_number": null,
+      "links": 4,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceLibcInternal.sprx": 1,
+        "libSceMbus.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 74912,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 75808,
+      "direct_syscall_number": null,
+      "links": 4,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libSceSysmodule.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        202
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 76112,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        608
+      ],
+      "direct_intra_image_callee_count": 4
+    },
+    {
+      "rx_offset": 76736,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 77024,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 77664,
+      "direct_syscall_number": null,
+      "links": 10,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceLibcInternal.sprx": 1,
+        "libSceLibreSsl3.sprx": 1,
+        "libSceMbus.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libSceNetCtl.sprx": 1,
+        "libSceSysmodule.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 77936,
+      "direct_syscall_number": null,
+      "links": 4,
+      "sources": {
+        "libSceLibreSsl3.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libScePosixForWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 80384,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 81504,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 81664,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 82016,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceMbus.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 82688,
+      "direct_syscall_number": null,
+      "links": 6,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceLibcInternal.sprx": 1,
+        "libSceLibreSsl3.sprx": 1,
+        "libSceMbus.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 82720,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceGLSlimClientVSH.sprx": 1,
+        "libSceNKWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        454
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 83280,
+      "direct_syscall_number": null,
+      "links": 11,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceIpmi.sprx": 1,
+        "libSceLibcInternal.sprx": 1,
+        "libSceLibreSsl3.sprx": 1,
+        "libSceMbus.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libSceNetCtl.sprx": 1,
+        "libSceSysmodule.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        557
+      ],
+      "direct_intra_image_callee_count": 5
+    },
+    {
+      "rx_offset": 83440,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceNKWebKit.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 83568,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 4
+    },
+    {
+      "rx_offset": 83808,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 83872,
+      "direct_syscall_number": null,
+      "links": 5,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libScePosixForWebKit.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        588
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 84032,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceVideoCoreServerInterface.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        539
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 85360,
+      "direct_syscall_number": null,
+      "links": 3,
+      "sources": {
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libcairo.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 5
+    },
+    {
+      "rx_offset": 86640,
+      "direct_syscall_number": null,
+      "links": 6,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceMbus.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 86896,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 86960,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceLibreSsl3.sprx": 1,
+        "libcairo.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 4
+    },
+    {
+      "rx_offset": 88384,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 9
+    },
+    {
+      "rx_offset": 88960,
+      "direct_syscall_number": null,
+      "links": 5,
+      "sources": {
+        "libSceLibreSsl3.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libcairo.sprx": 1,
+        "libcurl.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        558
+      ],
+      "direct_intra_image_callee_count": 5
+    },
+    {
+      "rx_offset": 89216,
+      "direct_syscall_number": null,
+      "links": 6,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceGLSlimClientVSH.sprx": 1,
+        "libSceLibreSsl3.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 89648,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceMbus.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 90432,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 90512,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceVideoCoreServerInterface.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        116
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 90576,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 90624,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        572
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 90896,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        116,
+        638
+      ],
+      "direct_intra_image_callee_count": 4
+    },
+    {
+      "rx_offset": 92320,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 92416,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceSystemService.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        232
+      ],
+      "direct_intra_image_callee_count": 5
+    },
+    {
+      "rx_offset": 92992,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceSysmodule.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        598
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 93072,
+      "direct_syscall_number": null,
+      "links": 7,
+      "sources": {
+        "libSceIpmi.sprx": 1,
+        "libSceLibcInternal.sprx": 1,
+        "libSceRegMgr.sprx": 1,
+        "libSceSysmodule.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 93088,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 93184,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibreSsl3.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        29
+      ],
+      "direct_intra_image_callee_count": 3
+    },
+    {
+      "rx_offset": 93472,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceSysmodule.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        593
+      ],
+      "direct_intra_image_callee_count": 4
+    },
+    {
+      "rx_offset": 94000,
+      "direct_syscall_number": null,
+      "links": 3,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libSceNet.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 11
+    },
+    {
+      "rx_offset": 95776,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceVideoCoreServerInterface.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        54
+      ],
+      "direct_intra_image_callee_count": 5
+    },
+    {
+      "rx_offset": 96272,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        209
+      ],
+      "direct_intra_image_callee_count": 3
+    },
+    {
+      "rx_offset": 96624,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceSystemService.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 4
+    },
+    {
+      "rx_offset": 96928,
+      "direct_syscall_number": null,
+      "links": 3,
+      "sources": {
+        "libSceSysCore.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 96992,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 97216,
+      "direct_syscall_number": null,
+      "links": 4,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceMbus.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 97744,
+      "direct_syscall_number": null,
+      "links": 5,
+      "sources": {
+        "libSceLibreSsl3.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libcairo.sprx": 1,
+        "libcurl.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 98400,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceSysmodule.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 98480,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 98640,
+      "direct_syscall_number": null,
+      "links": 6,
+      "sources": {
+        "libSceGLSlimClientVSH.sprx": 1,
+        "libSceLibreSsl3.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1,
+        "libcurl.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        98
+      ],
+      "direct_intra_image_callee_count": 3
+    },
+    {
+      "rx_offset": 99024,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceSystemService.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        543
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 99792,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        487
+      ],
+      "direct_intra_image_callee_count": 10
+    },
+    {
+      "rx_offset": 100352,
+      "direct_syscall_number": null,
+      "links": 4,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceLibcInternal.sprx": 1,
+        "libSceMbus.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 100656,
+      "direct_syscall_number": null,
+      "links": 4,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceLibreSsl3.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libcurl.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        340,
+        416
+      ],
+      "direct_intra_image_callee_count": 6
+    },
+    {
+      "rx_offset": 101184,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        558
+      ],
+      "direct_intra_image_callee_count": 3
+    },
+    {
+      "rx_offset": 102480,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        116,
+        639
+      ],
+      "direct_intra_image_callee_count": 4
+    },
+    {
+      "rx_offset": 103136,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 103792,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 104944,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibreSsl3.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 104960,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceSysmodule.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 105952,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 106048,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 106736,
+      "direct_syscall_number": null,
+      "links": 3,
+      "sources": {
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libcairo.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 107808,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        558
+      ],
+      "direct_intra_image_callee_count": 3
+    },
+    {
+      "rx_offset": 107904,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        95
+      ],
+      "direct_intra_image_callee_count": 3
+    },
+    {
+      "rx_offset": 108624,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceVideoCoreServerInterface.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        54
+      ],
+      "direct_intra_image_callee_count": 4
+    },
+    {
+      "rx_offset": 109600,
+      "direct_syscall_number": null,
+      "links": 10,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceLibcInternal.sprx": 1,
+        "libSceLibreSsl3.sprx": 1,
+        "libSceMbus.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libSceNetCtl.sprx": 1,
+        "libSceSysmodule.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 109968,
+      "direct_syscall_number": null,
+      "links": 3,
+      "sources": {
+        "libSceSysCore.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        553
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 111424,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceGLSlimClientVSH.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 111680,
+      "direct_syscall_number": null,
+      "links": 3,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 11
+    },
+    {
+      "rx_offset": 112176,
+      "direct_syscall_number": null,
+      "links": 5,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceLibcInternal.sprx": 1,
+        "libSceLibreSsl3.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 113520,
+      "direct_syscall_number": null,
+      "links": 3,
+      "sources": {
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libcairo.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 114368,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 5
+    },
+    {
+      "rx_offset": 115040,
+      "direct_syscall_number": null,
+      "links": 9,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceLibcInternal.sprx": 1,
+        "libSceLibreSsl3.sprx": 1,
+        "libSceMbus.sprx": 1,
+        "libSceNetCtl.sprx": 1,
+        "libSceSysmodule.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 115184,
+      "direct_syscall_number": null,
+      "links": 6,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceLibreSsl3.sprx": 1,
+        "libSceMbus.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 115216,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceGLSlimClientVSH.sprx": 1,
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 3
+    },
+    {
+      "rx_offset": 115456,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceSystemService.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 117296,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 122208,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        340,
+        341
+      ],
+      "direct_intra_image_callee_count": 5
+    },
+    {
+      "rx_offset": 122640,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceNKWebKit.sprx": 1,
+        "libcurl.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 5
+    },
+    {
+      "rx_offset": 123056,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 123216,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceSystemService.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        540
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 124160,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        20
+      ],
+      "direct_intra_image_callee_count": 4
+    },
+    {
+      "rx_offset": 124816,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceSystemService.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 126352,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 127568,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceSystemService.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        545
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 127936,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceVideoCoreServerInterface.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        538
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 128512,
+      "direct_syscall_number": null,
+      "links": 3,
+      "sources": {
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libcairo.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 128544,
+      "direct_syscall_number": null,
+      "links": 6,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceLibreSsl3.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libcurl.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 129936,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        591
+      ],
+      "direct_intra_image_callee_count": 4
+    },
+    {
+      "rx_offset": 130352,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 130544,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        340
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 130832,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 134832,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        557
+      ],
+      "direct_intra_image_callee_count": 6
+    },
+    {
+      "rx_offset": 135088,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        610
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 136080,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 136400,
+      "direct_syscall_number": null,
+      "links": 4,
+      "sources": {
+        "libSceGLSlimClientVSH.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libcurl.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 136416,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceGLSlimClientVSH.sprx": 1,
+        "libSceNKWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 136496,
+      "direct_syscall_number": null,
+      "links": 5,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceLibcInternal.sprx": 1,
+        "libSceMbus.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 136560,
+      "direct_syscall_number": null,
+      "links": 4,
+      "sources": {
+        "libSceGLSlimClientVSH.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libScePosixForWebKit.sprx": 1,
+        "libSceSystemService.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        188
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 137296,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceSysmodule.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 138256,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 3
+    },
+    {
+      "rx_offset": 139392,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibreSsl3.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        133
+      ],
+      "direct_intra_image_callee_count": 3
+    },
+    {
+      "rx_offset": 140112,
+      "direct_syscall_number": null,
+      "links": 4,
+      "sources": {
+        "libSceLibreSsl3.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libcurl.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 3
+    },
+    {
+      "rx_offset": 143200,
+      "direct_syscall_number": null,
+      "links": 10,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceIpmi.sprx": 1,
+        "libSceLibcInternal.sprx": 1,
+        "libSceLibreSsl3.sprx": 1,
+        "libSceMbus.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libSceNetCtl.sprx": 1,
+        "libSceSysmodule.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 143232,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        422
+      ],
+      "direct_intra_image_callee_count": 3
+    },
+    {
+      "rx_offset": 143344,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceSystemService.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        550
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 143392,
+      "direct_syscall_number": null,
+      "links": 3,
+      "sources": {
+        "libSceGLSlimClientVSH.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libcurl.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 144384,
+      "direct_syscall_number": null,
+      "links": 5,
+      "sources": {
+        "libSceIpmi.sprx": 1,
+        "libSceLibcInternal.sprx": 1,
+        "libScePosixForWebKit.sprx": 1,
+        "libSceSysmodule.sprx": 1,
+        "libSceSystemService.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        601
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 145216,
+      "direct_syscall_number": null,
+      "links": 3,
+      "sources": {
+        "libSceSysCore.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        552
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 145856,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 146080,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceGLSlimClientVSH.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 146912,
+      "direct_syscall_number": null,
+      "links": 3,
+      "sources": {
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libcairo.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 147008,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 5
+    },
+    {
+      "rx_offset": 147232,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libcurl.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 6
+    },
+    {
+      "rx_offset": 149600,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 9
+    },
+    {
+      "rx_offset": 150256,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceNKWebKit.sprx": 1,
+        "libcurl.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        93
+      ],
+      "direct_intra_image_callee_count": 3
+    },
+    {
+      "rx_offset": 151296,
+      "direct_syscall_number": null,
+      "links": 4,
+      "sources": {
+        "libSceGLSlimClientVSH.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libcurl.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 151808,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 152208,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        588
+      ],
+      "direct_intra_image_callee_count": 4
+    },
+    {
+      "rx_offset": 152832,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceSysmodule.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 3
+    },
+    {
+      "rx_offset": 152912,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceSystemService.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 5
+    },
+    {
+      "rx_offset": 153088,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        232,
+        363
+      ],
+      "direct_intra_image_callee_count": 4
+    },
+    {
+      "rx_offset": 153696,
+      "direct_syscall_number": null,
+      "links": 3,
+      "sources": {
+        "libSceGLSlimClientVSH.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libcurl.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 154144,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 155248,
+      "direct_syscall_number": null,
+      "links": 21,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceGLSlimClientVSH.sprx": 1,
+        "libSceIpmi.sprx": 1,
+        "libSceLibcInternal.sprx": 1,
+        "libSceLibreSsl3.sprx": 1,
+        "libSceMbus.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libScePosixForWebKit.sprx": 1,
+        "libSceRandom.sprx": 1,
+        "libSceRegMgr.sprx": 1,
+        "libSceSysmodule.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1,
+        "libSceVideoOut.sprx": 1,
+        "libcairo.sprx": 1,
+        "libcurl.sprx": 1,
+        "libfreetype.sprx": 1,
+        "libharfbuzz.sprx": 1,
+        "libpng16.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 155360,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libScePosixForWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        272
+      ],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 155440,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceLibreSsl3.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 4
+    },
+    {
+      "rx_offset": 155664,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 155744,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceSystemService.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 155808,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 156448,
+      "direct_syscall_number": null,
+      "links": 3,
+      "sources": {
+        "libSceGLSlimClientVSH.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 156880,
+      "direct_syscall_number": null,
+      "links": 3,
+      "sources": {
+        "libSceGLSlimClientVSH.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 157872,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 11
+    },
+    {
+      "rx_offset": 160512,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libSceSysmodule.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        595,
+        649
+      ],
+      "direct_intra_image_callee_count": 13
+    },
+    {
+      "rx_offset": 161264,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 161280,
+      "direct_syscall_number": null,
+      "links": 3,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceMbus.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 162064,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibreSsl3.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        54
+      ],
+      "direct_intra_image_callee_count": 3
+    },
+    {
+      "rx_offset": 162224,
+      "direct_syscall_number": null,
+      "links": 3,
+      "sources": {
+        "libSceLibreSsl3.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 162304,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        65
+      ],
+      "direct_intra_image_callee_count": 3
+    },
+    {
+      "rx_offset": 162400,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceGLSlimClientVSH.sprx": 1,
+        "libSceNKWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 162416,
+      "direct_syscall_number": null,
+      "links": 3,
+      "sources": {
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libcairo.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 162496,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 162880,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceSysmodule.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 164480,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceGLSlimClientVSH.sprx": 1,
+        "libSceNKWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        27
+      ],
+      "direct_intra_image_callee_count": 3
+    },
+    {
+      "rx_offset": 164784,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceSystemService.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 167056,
+      "direct_syscall_number": null,
+      "links": 4,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceMbus.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 167088,
+      "direct_syscall_number": null,
+      "links": 3,
+      "sources": {
+        "libSceGLSlimClientVSH.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 167200,
+      "direct_syscall_number": null,
+      "links": 4,
+      "sources": {
+        "libSceIpmi.sprx": 1,
+        "libSceSysmodule.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 169168,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libicu.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 169568,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 170512,
+      "direct_syscall_number": null,
+      "links": 6,
+      "sources": {
+        "libSceLibreSsl3.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libcurl.sprx": 1,
+        "libfreetype.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        3
+      ],
+      "direct_intra_image_callee_count": 3
+    },
+    {
+      "rx_offset": 171840,
+      "direct_syscall_number": null,
+      "links": 3,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceMbus.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 172016,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceMbus.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 4
+    },
+    {
+      "rx_offset": 172880,
+      "direct_syscall_number": null,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 173088,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        240
+      ],
+      "direct_intra_image_callee_count": 3
+    },
+    {
+      "rx_offset": 173456,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceSystemService.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    },
+    {
+      "rx_offset": 173600,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        362,
+        557
+      ],
+      "direct_intra_image_callee_count": 4
+    },
+    {
+      "rx_offset": 173728,
+      "direct_syscall_number": null,
+      "links": 3,
+      "sources": {
+        "libSceLibreSsl3.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceSystemService.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        30
+      ],
+      "direct_intra_image_callee_count": 3
+    },
+    {
+      "rx_offset": 176416,
+      "direct_syscall_number": 12,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        12
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 176448,
+      "direct_syscall_number": 73,
+      "links": 8,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceGLSlimClientVSH.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1,
+        "libSceVideoOut.sprx": 1,
+        "libfreetype.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        73
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 176512,
+      "direct_syscall_number": 125,
+      "links": 1,
+      "sources": {
+        "libSceNet.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        125
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 176672,
+      "direct_syscall_number": 102,
+      "links": 1,
+      "sources": {
+        "libSceNet.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        102
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 176864,
+      "direct_syscall_number": 118,
+      "links": 4,
+      "sources": {
+        "libSceLibreSsl3.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libcurl.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        118
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 176896,
+      "direct_syscall_number": 622,
+      "links": 1,
+      "sources": {
+        "libSceIpmi.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        622
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 177248,
+      "direct_syscall_number": 612,
+      "links": 1,
+      "sources": {
+        "libSceSysmodule.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        612
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 177280,
+      "direct_syscall_number": 105,
+      "links": 4,
+      "sources": {
+        "libSceLibreSsl3.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libcurl.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        105
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 177344,
+      "direct_syscall_number": 25,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        25
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 177504,
+      "direct_syscall_number": 116,
+      "links": 5,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceLibreSsl3.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libcurl.sprx": 1,
+        "libicu.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        116
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 177600,
+      "direct_syscall_number": 47,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        47
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 177632,
+      "direct_syscall_number": 98,
+      "links": 1,
+      "sources": {
+        "libSceNet.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        98
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 177696,
+      "direct_syscall_number": 33,
+      "links": 4,
+      "sources": {
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libcairo.sprx": 1,
+        "libcurl.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        33
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 177728,
+      "direct_syscall_number": 92,
+      "links": 3,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libfreetype.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        92
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 177824,
+      "direct_syscall_number": 327,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        327
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 177856,
+      "direct_syscall_number": 594,
+      "links": 1,
+      "sources": {
+        "libSceSysmodule.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        594
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 177920,
+      "direct_syscall_number": 114,
+      "links": 1,
+      "sources": {
+        "libSceNet.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        114
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 177952,
+      "direct_syscall_number": 190,
+      "links": 3,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        190
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 178144,
+      "direct_syscall_number": 117,
+      "links": 2,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceNKWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        117
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 178304,
+      "direct_syscall_number": 397,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        397
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 178368,
+      "direct_syscall_number": 4,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        4
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 178400,
+      "direct_syscall_number": 74,
+      "links": 2,
+      "sources": {
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        74
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 178528,
+      "direct_syscall_number": 5,
+      "links": 4,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libSceSysmodule.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        5
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 178768,
+      "direct_syscall_number": 32,
+      "links": 3,
+      "sources": {
+        "libSceNKWebKit.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libcurl.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        32
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 178832,
+      "direct_syscall_number": 1,
+      "links": 2,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceNKWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        1
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 178896,
+      "direct_syscall_number": 499,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        499
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 178992,
+      "direct_syscall_number": 183,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        183
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 179088,
+      "direct_syscall_number": 83,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        83
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 179120,
+      "direct_syscall_number": 41,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        41
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 179152,
+      "direct_syscall_number": 482,
+      "links": 4,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        482
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 179216,
+      "direct_syscall_number": 59,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        59
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 179424,
+      "direct_syscall_number": 595,
+      "links": 1,
+      "sources": {
+        "libSceSysmodule.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        595
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 179616,
+      "direct_syscall_number": 232,
+      "links": 5,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libScePosixForWebKit.sprx": 1,
+        "libcairo.sprx": 1,
+        "libcurl.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        232
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 179776,
+      "direct_syscall_number": 188,
+      "links": 6,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceLibreSsl3.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libScePosixForWebKit.sprx": 1,
+        "libcurl.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        188
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 179808,
+      "direct_syscall_number": 75,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        75
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 180096,
+      "direct_syscall_number": 141,
+      "links": 1,
+      "sources": {
+        "libSceNet.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        141
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 180160,
+      "direct_syscall_number": 182,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        182
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 180192,
+      "direct_syscall_number": 189,
+      "links": 9,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceLibcInternal.sprx": 1,
+        "libSceLibreSsl3.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libcurl.sprx": 1,
+        "libfreetype.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        189
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 180224,
+      "direct_syscall_number": 483,
+      "links": 2,
+      "sources": {
+        "libSceAvSetting.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        483
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 180352,
+      "direct_syscall_number": 10,
+      "links": 4,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libcurl.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        10
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 180544,
+      "direct_syscall_number": 128,
+      "links": 2,
+      "sources": {
+        "libSceNKWebKit.sprx": 1,
+        "libcurl.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        128
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 180576,
+      "direct_syscall_number": 3,
+      "links": 2,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceNet.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        3
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 180608,
+      "direct_syscall_number": 136,
+      "links": 3,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libSceNet.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        136
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 180848,
+      "direct_syscall_number": 135,
+      "links": 3,
+      "sources": {
+        "libSceGLSlimClientVSH.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libcurl.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        135
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 180976,
+      "direct_syscall_number": 137,
+      "links": 2,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        137
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 181008,
+      "direct_syscall_number": 363,
+      "links": 3,
+      "sources": {
+        "libSceMbus.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        363
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 181040,
+      "direct_syscall_number": 29,
+      "links": 1,
+      "sources": {
+        "libSceNet.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        29
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 181232,
+      "direct_syscall_number": 605,
+      "links": 1,
+      "sources": {
+        "libSceSysmodule.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        605
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 181392,
+      "direct_syscall_number": 124,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        124
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 181664,
+      "direct_syscall_number": 101,
+      "links": 1,
+      "sources": {
+        "libSceNet.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        101
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 181760,
+      "direct_syscall_number": 134,
+      "links": 2,
+      "sources": {
+        "libSceLibreSsl3.sprx": 1,
+        "libSceNet.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        134
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 181920,
+      "direct_syscall_number": 331,
+      "links": 1,
+      "sources": {
+        "libSceNKWebKit.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        331
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 182384,
+      "direct_syscall_number": 90,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        90
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 182720,
+      "direct_syscall_number": 30,
+      "links": 1,
+      "sources": {
+        "libSceNet.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        30
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 182880,
+      "direct_syscall_number": 15,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        15
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 183136,
+      "direct_syscall_number": 20,
+      "links": 9,
+      "sources": {
+        "libSceGLSlimClientVSH.sprx": 1,
+        "libSceIpmi.sprx": 1,
+        "libSceLibcInternal.sprx": 1,
+        "libSceMbus.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1,
+        "libSceSysmodule.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        20
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 183200,
+      "direct_syscall_number": 587,
+      "links": 4,
+      "sources": {
+        "libSceIpmi.sprx": 1,
+        "libSceSysmodule.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        587
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 183360,
+      "direct_syscall_number": 133,
+      "links": 1,
+      "sources": {
+        "libSceNet.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        133
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 183712,
+      "direct_syscall_number": 99,
+      "links": 1,
+      "sources": {
+        "libSceNet.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        99
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 183856,
+      "direct_syscall_number": 607,
+      "links": 4,
+      "sources": {
+        "libSceIpmi.sprx": 1,
+        "libSceSysmodule.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        607
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 184288,
+      "direct_syscall_number": 54,
+      "links": 8,
+      "sources": {
+        "libSceLibreSsl3.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libSceRandom.sprx": 1,
+        "libSceSysmodule.sprx": 2,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoOut.sprx": 2
+      },
+      "one_hop_syscall_numbers": [
+        54
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 184352,
+      "direct_syscall_number": 28,
+      "links": 1,
+      "sources": {
+        "libSceNet.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        28
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 184384,
+      "direct_syscall_number": 97,
+      "links": 6,
+      "sources": {
+        "libSceGLSlimClientVSH.sprx": 1,
+        "libSceLibreSsl3.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libSceVideoCoreServerInterface.sprx": 1,
+        "libcurl.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        97
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 184544,
+      "direct_syscall_number": 362,
+      "links": 2,
+      "sources": {
+        "libSceMbus.sprx": 1,
+        "libSceNet.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        362
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 184576,
+      "direct_syscall_number": 113,
+      "links": 1,
+      "sources": {
+        "libSceNet.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        113
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 184976,
+      "direct_syscall_number": 31,
+      "links": 2,
+      "sources": {
+        "libSceNet.sprx": 1,
+        "libcurl.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        31
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 185136,
+      "direct_syscall_number": 329,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        329
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 185200,
+      "direct_syscall_number": 104,
+      "links": 5,
+      "sources": {
+        "libSceLibreSsl3.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libSceSystemService.sprx": 1,
+        "libcurl.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        104
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 185328,
+      "direct_syscall_number": 138,
+      "links": 2,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceNKWebKitRequirements.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        138
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 185456,
+      "direct_syscall_number": 106,
+      "links": 4,
+      "sources": {
+        "libSceLibreSsl3.sprx": 1,
+        "libSceNKWebKit.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libSceSystemService.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        106
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 185520,
+      "direct_syscall_number": 240,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        240
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 185744,
+      "direct_syscall_number": 532,
+      "links": 3,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceRegMgr.sprx": 1,
+        "libSceSysmodule.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        532
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 185776,
+      "direct_syscall_number": 192,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        192
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 185808,
+      "direct_syscall_number": 24,
+      "links": 2,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceLibreSsl3.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        24
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 185872,
+      "direct_syscall_number": 6,
+      "links": 4,
+      "sources": {
+        "libSceLibcInternal.sprx": 1,
+        "libSceNet.sprx": 1,
+        "libSceSysmodule.sprx": 1,
+        "libSceVideoOut.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        6
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 186064,
+      "direct_syscall_number": 649,
+      "links": 1,
+      "sources": {
+        "libSceSysmodule.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        649
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 186192,
+      "direct_syscall_number": 196,
+      "links": 1,
+      "sources": {
+        "libSceLibcInternal.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        196
+      ],
+      "direct_intra_image_callee_count": 1
+    },
+    {
+      "rx_offset": 186224,
+      "direct_syscall_number": 27,
+      "links": 1,
+      "sources": {
+        "libSceNet.sprx": 1
+      },
+      "one_hop_syscall_numbers": [
+        27
+      ],
+      "direct_intra_image_callee_count": 0
+    },
+    {
+      "rx_offset": 191552,
+      "direct_syscall_number": null,
+      "links": 2,
+      "sources": {
+        "libkernel_web.sprx": 2
+      },
+      "one_hop_syscall_numbers": [],
+      "direct_intra_image_callee_count": 2
+    }
+  ],
+  "callgraph_direct_edges": 3710,
+  "callgraph_scope": "Ghidra direct intra-image calls, one hop only; misses indirect calls and does not prove runtime reachability"
+}

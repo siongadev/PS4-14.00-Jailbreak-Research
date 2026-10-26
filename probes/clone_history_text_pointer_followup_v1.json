@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_text_pointer_followup_v1",
+  "script": "clone_history_text_pointer_followup_v1.js",
+  "check_ids": ["text_pointer_followup"],
+  "timeout_ms": 30000
+}

@@ -1,0 +1,8 @@
+{
+  "probe_id": "clone_history_bisect_b_v1",
+  "script": "clone_history_bisect_b_v1.js",
+  "check_ids": [
+    "bisect_b_v1"
+  ],
+  "timeout_ms": 30000
+}

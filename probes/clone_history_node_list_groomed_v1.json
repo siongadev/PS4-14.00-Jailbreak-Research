@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_node_list_groomed_v1",
+  "script": "clone_history_node_list_groomed_v1.js",
+  "check_ids": ["node_list_groomed"],
+  "timeout_ms": 30000
+}

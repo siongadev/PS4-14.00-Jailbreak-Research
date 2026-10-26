@@ -1,0 +1,20 @@
+Analysis-only ELF built from 14.00 live RX bytes
+
+=== 80772cb10 ===
+Function: FUN_80772cb10 @ 80772cb10 body bytes 62
+
+int FUN_80772cb10(void)
+
+{
+  int iVar1;
+  
+  iVar1 = FUN_80772d930();
+  if (iVar1 < 0) {
+    FUN_8077281d8("[SceSystemServiceImpl] %s(%d) %s: SYSTEM_SERVICE_ISOK::0x%x\n",
+                  "W:\\Build\\J02699047\\vsh\\common_lib\\sce_system_service\\system_service_impl.cpp"
+                  ,0x91,"sceSystemServiceKillLocalProcess",iVar1);
+  }
+  return iVar1;
+}
+
+

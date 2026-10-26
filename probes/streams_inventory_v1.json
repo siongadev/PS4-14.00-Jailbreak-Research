@@ -1,0 +1,6 @@
+{
+  "probe_id": "streams_inventory_v1",
+  "script": "streams_inventory_v1.js",
+  "check_ids": ["stream_apis", "adjacent_apis"],
+  "timeout_ms": 3000
+}

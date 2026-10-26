@@ -1,0 +1,6 @@
+{
+  "probe_id": "transform_stream_short_sequence_v1",
+  "script": "transform_stream_short_sequence_v1.js",
+  "check_ids": ["short_sequence"],
+  "timeout_ms": 5000
+}

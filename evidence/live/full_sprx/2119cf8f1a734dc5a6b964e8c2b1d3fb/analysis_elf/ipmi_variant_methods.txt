@@ -1,0 +1,106 @@
+Analysis-only ELF built from 14.00 live RX bytes
+
+=== 0x83f56ccc0 ===
+No analyzed function at this address
+
+=== 0x83f56cda0 ===
+No analyzed function at this address
+
+=== 0x83f56ccd0 ===
+Function: FUN_83f56ccd0 @ 83f56ccd0 body bytes 200
+
+int FUN_83f56ccd0(long param_1,undefined8 param_2,undefined8 param_3,undefined4 param_4,
+                 undefined8 param_5,undefined4 *param_6)
+
+{
+  int iVar1;
+  undefined4 uVar2;
+  undefined8 uVar3;
+  int iVar4;
+  int iVar5;
+  
+  if (param_6 == (undefined4 *)0x0) {
+    uVar2 = 0xffffffff;
+    uVar3 = 0;
+  }
+  else {
+    uVar2 = *param_6;
+    uVar3 = *(undefined8 *)(param_6 + 2);
+  }
+  iVar1 = FUN_83f570850(*(undefined4 *)(param_1 + 8),param_2,uVar2,uVar3,param_4,param_3,param_5,1);
+  if (-1 < iVar1) {
+    return 0;
+  }
+  iVar5 = -0x7ffdffea;
+  iVar4 = -0x7ffdfffd;
+  switch(iVar1 + 0x7ffdfffeU >> 1 | (uint)((iVar1 + 0x7ffdfffeU & 1) != 0) << 0x1f) {
+  case 0:
+    goto switchD_83f56cd3d_caseD_0;
+  default:
+    if (iVar1 == -0x7ffdffd8) {
+      iVar5 = -0x7ffdffd8;
+    }
+    else {
+      iVar5 = iVar1;
+      if (iVar1 != -0x7ffdffea) {
+        return iVar1;
+      }
+    }
+    break;
+  case 5:
+    iVar5 = -0x7ffdffd8;
+    break;
+  case 6:
+    break;
+  case 7:
+    iVar4 = -0x7ffdffdd;
+    goto switchD_83f56cd3d_caseD_0;
+  }
+  uVar2 = FUN_83f56c0e8();
+  FUN_83f56c0f8("[IPMI(%d) %d] error: 0x%08x (m_clientKid=0x%08x)\n",uVar2,0x1b8,iVar5,
+                *(undefined4 *)(param_1 + 8));
+  iVar4 = iVar5;
+switchD_83f56cd3d_caseD_0:
+  return iVar4;
+}
+
+
+
+=== 0x83f56cdb0 ===
+Function: FUN_83f56cdb0 @ 83f56cdb0 body bytes 136
+
+ulong FUN_83f56cdb0(long param_1)
+
+{
+  int iVar1;
+  undefined4 uVar2;
+  ulong uVar3;
+  ulong uVar4;
+  
+  uVar3 = FUN_83f570a60(*(undefined4 *)(param_1 + 8));
+  iVar1 = (int)uVar3;
+  if (-1 < iVar1) {
+    return uVar3;
+  }
+  if (iVar1 < -0x7ffdffea) {
+    if (iVar1 == -0x7ffdfffe) {
+      return 0x80020003;
+    }
+    uVar4 = 0x80020016;
+    if (iVar1 != -0x7ffdfff2) {
+      return uVar3;
+    }
+  }
+  else {
+    if ((iVar1 != -0x7ffdffa7) && (iVar1 != -0x7ffdffea)) {
+      return uVar3;
+    }
+    uVar4 = uVar3 & 0xffffffff;
+  }
+  uVar2 = FUN_83f56c0e8();
+  FUN_83f56c0f8("[IPMI(%d) %d] error: SCE_KERNEL_ERROR_EBADMSG (m_clientKid=0x%08x)\n",uVar2,0x1e2,
+                *(undefined4 *)(param_1 + 8));
+  return uVar4;
+}
+
+

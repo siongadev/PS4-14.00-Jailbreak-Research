@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_dynlib_block_sweep_v1b",
+  "script": "clone_history_dynlib_block_sweep_v1b.js",
+  "check_ids": ["dynlib_block_sweep_v1b"],
+  "timeout_ms": 30000
+}

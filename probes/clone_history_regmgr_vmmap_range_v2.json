@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_regmgr_vmmap_range_v2",
+  "script": "clone_history_regmgr_vmmap_range_v2.js",
+  "check_ids": ["regmgr_vmmap_range_v2"],
+  "timeout_ms": 15000
+}

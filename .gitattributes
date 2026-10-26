@@ -1,2 +1,18 @@
-# Auto detect text files and perform LF normalization
 * text=auto
+*.py text eol=lf
+*.js text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.java text eol=lf
+*.cpp text eol=lf
+
+# Preserve exact bytes for evidence-linked probe and served browser sources.
+probes/** -text -eol
+web/** -text -eol
+assets/*.mp4 binary
+evidence/live/full_sprx/**/*.bin binary
+evidence/live/full_sprx/**/*.elf binary

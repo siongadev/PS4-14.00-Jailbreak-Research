@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PS4 14.00 Lab</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/probes.js" defer></script>
+  <script src="/sha256.js" defer></script>
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar">PS4 LAB</header>
+  <main id="connection-card" class="connection-card is-connecting">
+    <h1 id="remote-status" role="status">Connecting…</h1>
+    <p class="detail">Firmware <strong>14.00</strong> <span aria-hidden="true">·</span> Session <strong id="session-id">—</strong></p>
+    <button id="connect" type="button" hidden>Reconnect</button>
+    <pre id="remote-log" role="log" aria-label="Remote test log" aria-live="polite"></pre>
+  </main>
+</body>
+</html>

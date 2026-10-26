@@ -1,0 +1,8 @@
+{
+  "probe_id": "clone_history_census_sweep_v5",
+  "script": "clone_history_census_sweep_v5.js",
+  "check_ids": [
+    "census_sweep_v5"
+  ],
+  "timeout_ms": 30000
+}

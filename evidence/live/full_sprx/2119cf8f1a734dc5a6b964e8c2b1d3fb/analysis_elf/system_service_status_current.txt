@@ -1,0 +1,246 @@
+Analysis-only ELF built from 14.00 live RX bytes
+
+=== 0x80772c6d0 ===
+Function: FUN_80772c6d0 @ 80772c6d0 body bytes 203
+
+int FUN_80772c6d0(undefined4 *param_1)
+
+{
+  long *plVar1;
+  int iVar2;
+  undefined8 local_38;
+  undefined4 local_30;
+  long local_28;
+  
+  plVar1 = DAT_807764340;
+  local_28 = *DAT_807764340;
+  if (param_1 == (undefined4 *)0x0) {
+    iVar2 = -0x7f6bfffb;
+    FUN_8077281d8("[SceSystemServiceImpl] %s(%d) %s: SYSTEM_SERVICE_CHECK::0x%x (%s value is false)\n"
+                  ,
+                  "W:\\Build\\J02699047\\vsh\\common_lib\\sce_system_service\\system_service_impl.cpp"
+                  ,0x26,"sceSystemServiceGetAppStatus",0x80940005,"status");
+  }
+  else {
+    local_30 = 0;
+    local_38 = 0;
+    iVar2 = FUN_80772da10(&local_38);
+    if (iVar2 < 0) {
+      FUN_8077281d8("[SceSystemServiceImpl] %s(%d) %s: SYSTEM_SERVICE_ISOK::0x%x\n",
+                    "W:\\Build\\J02699047\\vsh\\common_lib\\sce_system_service\\system_service_impl.cpp"
+                    ,0x2a,"sceSystemServiceGetAppStatus",iVar2);
+    }
+    else {
+      *param_1 = (undefined4)local_38;
+      param_1[1] = local_38._4_4_;
+      param_1[2] = local_30;
+    }
+  }
+  if (*plVar1 == local_28) {
+    return iVar2;
+  }
+                    /* WARNING: Subroutine does not return */
+  FUN_8077280c8();
+}
+
+
+
+=== 0x80772e560 ===
+Function: FUN_80772e560 @ 80772e560 body bytes 222
+
+int FUN_80772e560(int *param_1,long param_2)
+
+{
+  int iVar1;
+  int iVar2;
+  
+  if (param_2 == 0) {
+    iVar2 = -0x7f6bfffb;
+    FUN_8077281d8("[SceLncUtil] %s(%d) %s: LNC_CHECK::0x%x (%s value is false)\n",
+                  "W:\\Build\\J02699047\\vsh\\common_lib\\lnc_util\\src\\lnc_util_ipc_client.cpp",
+                  0x1a1,"getAppStatus",0x80940005,"status");
+  }
+  else if (*param_1 < 1) {
+    iVar2 = -0x7f6bffff;
+    FUN_8077281d8("[SceLncUtil] %s(%d) %s: LNC_ISOK::0x%x\n",
+                  "W:\\Build\\J02699047\\vsh\\common_lib\\lnc_util\\src\\lnc_util_ipc_client.cpp",
+                  0x1a2,"getAppStatus",0x80940001);
+  }
+  else {
+    FUN_807728358(param_1 + 2);
+    iVar1 = FUN_807734aa0(*(undefined8 *)(param_1 + 4),param_2);
+    iVar2 = 0;
+    if (iVar1 < 0) {
+      FUN_8077281d8("[SceLncUtil] %s(%d) %s: LNC_ISOK::0x%x\n",
+                    "W:\\Build\\J02699047\\vsh\\common_lib\\lnc_util\\src\\lnc_util_ipc_client.cpp",
+                    0x1a6,"getAppStatus",iVar1);
+      iVar2 = iVar1;
+    }
+    FUN_807728398(param_1 + 2);
+  }
+  return iVar2;
+}
+
+
+
+=== 0x80772e0f0 ===
+Function: FUN_80772e0f0 @ 80772e0f0 body bytes 1125
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+int FUN_80772e0f0(int *param_1)
+
+{
+  long *plVar1;
+  bool bVar2;
+  bool bVar3;
+  long *plVar4;
+  int iVar5;
+  int iVar6;
+  undefined8 uVar7;
+  int local_1d0 [3];
+  int local_1c4;
+  undefined1 local_1c0 [8];
+  undefined1 local_1b8 [40];
+  undefined1 local_190 [28];
+  undefined4 local_174;
+  undefined8 local_168;
+  undefined8 uStack_160;
+  undefined4 local_158;
+  undefined8 local_150;
+  undefined8 uStack_148;
+  undefined4 local_140;
+  undefined8 local_138;
+  long local_38;
+  
+  plVar4 = DAT_807764340;
+  local_38 = *DAT_807764340;
+  LOCK();
+  iVar5 = *param_1;
+  *param_1 = *param_1 + 1;
+  UNLOCK();
+  if (iVar5 == 0) {
+    iVar5 = FUN_807728478(local_1c0);
+    if (iVar5 < 0) {
+      FUN_8077281d8("[SceLncUtil] %s(%d) %s: LNC_ISOK::0x%x\n",
+                    "W:\\Build\\J02699047\\vsh\\common_lib\\lnc_util\\src\\lnc_util_ipc_client.cpp",
+                    0x76,"initialize",iVar5);
+      bVar2 = true;
+LAB_80772e33b:
+      FUN_80772e640(&DAT_807768050);
+      local_1c4 = iVar5;
+    }
+    else {
+      iVar6 = FUN_807728488(local_1c0,2);
+      if (iVar6 < 0) {
+        FUN_8077281d8("[SceLncUtil] %s(%d) %s: LNC_ISOK::0x%x\n",
+                      "W:\\Build\\J02699047\\vsh\\common_lib\\lnc_util\\src\\lnc_util_ipc_client.cpp"
+                      ,0x77,"initialize",iVar6);
+        bVar2 = true;
+        iVar5 = iVar6;
+        goto LAB_80772e33b;
+      }
+      iVar6 = FUN_8077283a8(param_1 + 2,local_1c0,"SceLncIpcClient");
+      if (iVar6 < 0) {
+        uVar7 = 0x78;
+LAB_80772e328:
+        FUN_8077281d8("[SceLncUtil] %s(%d) %s: LNC_ISOK::0x%x\n",
+                      "W:\\Build\\J02699047\\vsh\\common_lib\\lnc_util\\src\\lnc_util_ipc_client.cpp"
+                      ,uVar7,"initialize",iVar6);
+        bVar2 = true;
+        iVar5 = iVar6;
+        goto LAB_80772e33b;
+      }
+      iVar6 = FUN_807728498(local_1c0);
+      if (iVar6 < 0) {
+        uVar7 = 0x79;
+        goto LAB_80772e328;
+      }
+      FUN_8077283b8(local_190);
+      FUN_807728288(local_190,"SceLncService",0x18);
+      local_168 = _DAT_807755da0;
+      uStack_160 = _UNK_807755da8;
+      local_150 = _DAT_807755da0;
+      uStack_148 = _UNK_807755da8;
+      local_158 = 2;
+      local_174 = 1;
+      local_140 = 1;
+      local_138 = FUN_8077283c8(0x1558,0x40);
+      iVar6 = FUN_8077283e8(param_1 + 4,local_190,0,param_1 + 6);
+      if (iVar6 < 0) {
+        uVar7 = 0x88;
+        goto LAB_80772e328;
+      }
+      plVar1 = *(long **)(param_1 + 4);
+      iVar6 = (**(code **)(*plVar1 + 0x10))(plVar1,0,0,&local_1c4);
+      if (iVar6 < 0) {
+        uVar7 = 0x8b;
+LAB_80772e390:
+        FUN_8077281d8("[SceLncUtil] %s(%d) %s: LNC_ISOK::0x%x\n",
+                      "W:\\Build\\J02699047\\vsh\\common_lib\\lnc_util\\src\\lnc_util_ipc_client.cpp"
+                      ,uVar7,"initialize",iVar6);
+        bVar2 = true;
+        bVar3 = true;
+        local_1c4 = iVar6;
+      }
+      else {
+        if (-1 < local_1c4) {
+          iVar6 = FUN_80772e560(param_1,local_1d0);
+          if (iVar6 == 0) {
+            param_1[0x1006] = local_1d0[0];
+          }
+          else {
+            local_1d0[0] = param_1[0x1006];
+          }
+          if (local_1d0[0] == -1) {
+LAB_80772e486:
+            bVar3 = false;
+            iVar6 = FUN_8077284a8(param_1 + 0x1012,"SceLncAsyncCallSema",2,2,2,0);
+            bVar2 = false;
+            local_1c4 = iVar5;
+            if (-1 < iVar6) goto LAB_80772e4bb;
+            uVar7 = 0x9e;
+          }
+          else {
+            param_1[0x100a] = 0;
+            iVar6 = FUN_8077283a8(param_1 + 0x1008,0,"SceLncSuspendBlock");
+            if (iVar6 < 0) {
+              uVar7 = 0x97;
+            }
+            else {
+              iVar6 = FUN_8077284a8(param_1 + 0x100c,"SceLncSuspendBlockCount",0,0,0x7fffffff,0);
+              if (iVar6 < 0) {
+                uVar7 = 0x98;
+              }
+              else {
+                FUN_8077281a8(local_1b8,0x20,"SceLncSuspendBlock%08x",param_1[0x1006]);
+                iVar6 = FUN_807728388(param_1 + 0x100e,local_1b8);
+                if (-1 < iVar6) goto LAB_80772e486;
+                uVar7 = 0x9b;
+              }
+            }
+          }
+          goto LAB_80772e390;
+        }
+        FUN_8077281d8("[SceLncUtil] %s(%d) %s: LNC_ISOK::0x%x\n",
+                      "W:\\Build\\J02699047\\vsh\\common_lib\\lnc_util\\src\\lnc_util_ipc_client.cpp"
+                      ,0x8c,"initialize");
+        bVar2 = true;
+        bVar3 = true;
+      }
+LAB_80772e4bb:
+      iVar5 = local_1c4;
+      if (bVar3) goto LAB_80772e33b;
+    }
+    if (bVar2) goto LAB_80772e350;
+  }
+  local_1c4 = 0;
+LAB_80772e350:
+  if (*plVar4 != local_38) {
+                    /* WARNING: Subroutine does not return */
+    FUN_8077280c8();
+  }
+  return local_1c4;
+}
+
+

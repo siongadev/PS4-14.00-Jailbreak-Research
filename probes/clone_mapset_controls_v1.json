@@ -1,0 +1,13 @@
+{
+  "probe_id": "clone_mapset_controls_v1",
+  "script": "clone_mapset_controls_v1.js",
+  "check_ids": [
+    "map_alias_no_bigint",
+    "map_alias_with_bigint",
+    "set_alias_no_bigint",
+    "set_alias_with_bigint",
+    "repeated_map_no_bigint",
+    "repeated_set_no_bigint"
+  ],
+  "timeout_ms": 3000
+}

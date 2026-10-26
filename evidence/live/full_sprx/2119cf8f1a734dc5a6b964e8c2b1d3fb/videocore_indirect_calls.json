@@ -1,0 +1,434 @@
+[
+  {
+    "address": "0x81408c529",
+    "module_offset": "0x529",
+    "function": "0x81408c4e0",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408c5f7",
+    "module_offset": "0x5f7",
+    "function": "0x81408c550",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408c689",
+    "module_offset": "0x689",
+    "function": "0x81408c620",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408c757",
+    "module_offset": "0x757",
+    "function": "0x81408c6b0",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408c827",
+    "module_offset": "0x827",
+    "function": "0x81408c780",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408c8ad",
+    "module_offset": "0x8ad",
+    "function": "0x81408c850",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408c920",
+    "module_offset": "0x920",
+    "function": "0x81408c8d0",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408c9ab",
+    "module_offset": "0x9ab",
+    "function": "0x81408c950",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408ca2d",
+    "module_offset": "0xa2d",
+    "function": "0x81408c9d0",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408caad",
+    "module_offset": "0xaad",
+    "function": "0x81408ca50",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408cb23",
+    "module_offset": "0xb23",
+    "function": "0x81408cad0",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408cba3",
+    "module_offset": "0xba3",
+    "function": "0x81408cb50",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408cc23",
+    "module_offset": "0xc23",
+    "function": "0x81408cbd0",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408cca3",
+    "module_offset": "0xca3",
+    "function": "0x81408cc50",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408cd39",
+    "module_offset": "0xd39",
+    "function": "0x81408ccd0",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408cdbd",
+    "module_offset": "0xdbd",
+    "function": "0x81408cd60",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408ce48",
+    "module_offset": "0xe48",
+    "function": "0x81408cde0",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408ced8",
+    "module_offset": "0xed8",
+    "function": "0x81408ce70",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408cf50",
+    "module_offset": "0xf50",
+    "function": "0x81408cf00",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408cfd0",
+    "module_offset": "0xfd0",
+    "function": "0x81408cf80",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408d05c",
+    "module_offset": "0x105c",
+    "function": "0x81408d000",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408d0dc",
+    "module_offset": "0x10dc",
+    "function": "0x81408d080",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408d153",
+    "module_offset": "0x1153",
+    "function": "0x81408d100",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408d1c5",
+    "module_offset": "0x11c5",
+    "function": "0x81408d180",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408d259",
+    "module_offset": "0x1259",
+    "function": "0x81408d1f0",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408d2eb",
+    "module_offset": "0x12eb",
+    "function": "0x81408d280",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408d391",
+    "module_offset": "0x1391",
+    "function": "0x81408d310",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408d410",
+    "module_offset": "0x1410",
+    "function": "0x81408d3c0",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408d4a1",
+    "module_offset": "0x14a1",
+    "function": "0x81408d440",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408d527",
+    "module_offset": "0x1527",
+    "function": "0x81408d4d0",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408d5a0",
+    "module_offset": "0x15a0",
+    "function": "0x81408d550",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408d63e",
+    "module_offset": "0x163e",
+    "function": "0x81408d5d0",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408d698",
+    "module_offset": "0x1698",
+    "function": "0x81408d660",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408d710",
+    "module_offset": "0x1710",
+    "function": "0x81408d6c0",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408d7ad",
+    "module_offset": "0x17ad",
+    "function": "0x81408d740",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408d83d",
+    "module_offset": "0x183d",
+    "function": "0x81408d7d0",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408d8b0",
+    "module_offset": "0x18b0",
+    "function": "0x81408d860",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408d930",
+    "module_offset": "0x1930",
+    "function": "0x81408d8e0",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408d9cb",
+    "module_offset": "0x19cb",
+    "function": "0x81408d960",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408da5b",
+    "module_offset": "0x1a5b",
+    "function": "0x81408d9f0",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408dad1",
+    "module_offset": "0x1ad1",
+    "function": "0x81408da80",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408dbab",
+    "module_offset": "0x1bab",
+    "function": "0x81408db00",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408dc3d",
+    "module_offset": "0x1c3d",
+    "function": "0x81408dbe0",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408dcb0",
+    "module_offset": "0x1cb0",
+    "function": "0x81408dc60",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408dd33",
+    "module_offset": "0x1d33",
+    "function": "0x81408dce0",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408ddb5",
+    "module_offset": "0x1db5",
+    "function": "0x81408dd60",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408de30",
+    "module_offset": "0x1e30",
+    "function": "0x81408dde0",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408debd",
+    "module_offset": "0x1ebd",
+    "function": "0x81408de60",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408df18",
+    "module_offset": "0x1f18",
+    "function": "0x81408dee0",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408df93",
+    "module_offset": "0x1f93",
+    "function": "0x81408df40",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408e010",
+    "module_offset": "0x2010",
+    "function": "0x81408dfc0",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408e09d",
+    "module_offset": "0x209d",
+    "function": "0x81408e040",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408e120",
+    "module_offset": "0x2120",
+    "function": "0x81408e0c0",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408e188",
+    "module_offset": "0x2188",
+    "function": "0x81408e150",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408e1e8",
+    "module_offset": "0x21e8",
+    "function": "0x81408e1b0",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408e248",
+    "module_offset": "0x2248",
+    "function": "0x81408e210",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408e2a8",
+    "module_offset": "0x22a8",
+    "function": "0x81408e270",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408e308",
+    "module_offset": "0x2308",
+    "function": "0x81408e2d0",
+    "operand": "qword ptr [rax + 0x58]"
+  },
+  {
+    "address": "0x81408e66a",
+    "module_offset": "0x266a",
+    "function": "0x81408e620",
+    "operand": "qword ptr [rax + 0x18]"
+  },
+  {
+    "address": "0x81408e674",
+    "module_offset": "0x2674",
+    "function": "0x81408e620",
+    "operand": "qword ptr [rax]"
+  },
+  {
+    "address": "0x81408e8de",
+    "module_offset": "0x28de",
+    "function": "0x81408e6e0",
+    "operand": "qword ptr [rax]"
+  },
+  {
+    "address": "0x81408e984",
+    "module_offset": "0x2984",
+    "function": "0x81408e6e0",
+    "operand": "qword ptr [rax + 0x80]"
+  },
+  {
+    "address": "0x81408eaac",
+    "module_offset": "0x2aac",
+    "function": "0x81408ea70",
+    "operand": "qword ptr [rax + 0x80]"
+  },
+  {
+    "address": "0x81408eb9d",
+    "module_offset": "0x2b9d",
+    "function": "0x81408eb60",
+    "operand": "qword ptr [rax + 0x80]"
+  },
+  {
+    "address": "0x8140902bb",
+    "module_offset": "0x42bb",
+    "function": "0x814090170",
+    "operand": "qword ptr [rax + 0x28]"
+  },
+  {
+    "address": "0x8140906fe",
+    "module_offset": "0x46fe",
+    "function": "0x814090170",
+    "operand": "qword ptr [rax + 0x38]"
+  },
+  {
+    "address": "0x8140907df",
+    "module_offset": "0x47df",
+    "function": "0x814090170",
+    "operand": "qword ptr [rax + 0x38]"
+  },
+  {
+    "address": "0x81409089e",
+    "module_offset": "0x489e",
+    "function": "0x814090170",
+    "operand": "qword ptr [rax + 0x38]"
+  },
+  {
+    "address": "0x814090a57",
+    "module_offset": "0x4a57",
+    "function": "0x814090170",
+    "operand": "qword ptr [rax + 0x38]"
+  },
+  {
+    "address": "0x814090bd1",
+    "module_offset": "0x4bd1",
+    "function": "0x814090170",
+    "operand": "qword ptr [rax + 0x38]"
+  },
+  {
+    "address": "0x814090c6d",
+    "module_offset": "0x4c6d",
+    "function": "0x814090170",
+    "operand": "qword ptr [rax + 0x38]"
+  },
+  {
+    "address": "0x814090cfd",
+    "module_offset": "0x4cfd",
+    "function": "0x814090170",
+    "operand": "qword ptr [rax + 0x38]"
+  }
+]

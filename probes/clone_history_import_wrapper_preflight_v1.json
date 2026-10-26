@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_import_wrapper_preflight_v1",
+  "script": "clone_history_import_wrapper_preflight_v1.js",
+  "check_ids": ["import_wrapper_preflight"],
+  "timeout_ms": 30000
+}

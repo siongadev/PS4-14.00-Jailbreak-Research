@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_rab_oob_write_matrix_v1",
+  "script": "clone_rab_oob_write_matrix_v1.js",
+  "check_ids": ["legitimate_oob_write_control", "shifted_oob_write_compare"],
+  "timeout_ms": 15000
+}

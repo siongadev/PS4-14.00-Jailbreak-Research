@@ -1,0 +1,6 @@
+{
+  "probe_id": "canvas_bitmap_spray_control_v1",
+  "script": "canvas_bitmap_spray_control_v1.js",
+  "check_ids": ["canvas_bitmap_spray_control"],
+  "timeout_ms": 30000
+}

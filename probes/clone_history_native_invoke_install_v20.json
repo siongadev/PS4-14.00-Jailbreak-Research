@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_native_invoke_install_v20",
+  "script": "clone_history_native_invoke_install_v20.js",
+  "check_ids": ["native_invoke_install_v20"],
+  "timeout_ms": 30000
+}

@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_socket_alias_close_v2",
+  "script": "clone_history_socket_alias_close_v2.js",
+  "check_ids": ["socket_alias_close_v2"],
+  "timeout_ms": 12000
+}

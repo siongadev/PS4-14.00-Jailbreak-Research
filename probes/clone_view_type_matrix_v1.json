@@ -1,0 +1,12 @@
+{
+  "probe_id": "clone_view_type_matrix_v1",
+  "script": "clone_view_type_matrix_v1.js",
+  "check_ids": [
+    "u8_control", "u8_bigint",
+    "u16_control", "u16_bigint",
+    "i32_control", "i32_bigint",
+    "f64_control", "f64_bigint",
+    "data_control", "data_bigint"
+  ],
+  "timeout_ms": 10000
+}

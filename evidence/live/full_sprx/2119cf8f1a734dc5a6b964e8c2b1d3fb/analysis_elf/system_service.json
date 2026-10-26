@@ -1,0 +1,34 @@
+{
+  "kind": "analysis-only synthetic ELF64",
+  "not_original_binary": true,
+  "module_handle": 49,
+  "module_name": "libSceSystemService.sprx",
+  "firmware_label": "14.00",
+  "session_id": "2119cf8f1a734dc5a6b964e8c2b1d3fb",
+  "source_manifest": "evidence/live/full_sprx/2119cf8f1a734dc5a6b964e8c2b1d3fb/manifest.json",
+  "source_manifest_sha256": "32003ded198218a18497526b51c40463878ea6fa88222f9c31afd23223540b80",
+  "segments": [
+    {
+      "kind": "rx",
+      "virtual_address": 34484682752,
+      "file_offset": 4096,
+      "size": 245760,
+      "sha256": "8dfeb423c92508348e6da8e75fdaf2d71fd4e5e3a09d6a73e3883da512213e05"
+    },
+    {
+      "kind": "ro",
+      "virtual_address": 34484928512,
+      "file_offset": 249856,
+      "size": 16384,
+      "sha256": "44768d71c13c795f25381d0c9df53cbd4f2201b69a44e511621b6734f762d03e"
+    },
+    {
+      "kind": "rw",
+      "virtual_address": 34484944896,
+      "file_offset": 266240,
+      "size": 16384,
+      "sha256": "4503719eff1dd47f6f2e86af4021bdb0160569c817e720311666df743a15f8ea"
+    }
+  ],
+  "synthetic_sha256": "3c26284f836cdd9ebb6cbd5be85bfb943f7c4f63d6904f5110bfdfa21e1c06c7"
+}

@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_live_list_search_v1",
+  "script": "clone_history_live_list_search_v1.js",
+  "check_ids": ["live_list_search"],
+  "timeout_ms": 30000
+}

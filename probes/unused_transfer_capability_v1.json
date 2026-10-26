@@ -1,0 +1,6 @@
+{
+  "probe_id": "unused_transfer_capability_v1",
+  "script": "unused_transfer_capability_v1.js",
+  "check_ids": ["unused_transfer_capability"],
+  "timeout_ms": 15000
+}

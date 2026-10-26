@@ -1,0 +1,6 @@
+{
+  "probe_id": "transform_stream_full_sequence_marked_v4",
+  "script": "transform_stream_full_sequence_marked_v4.js",
+  "check_ids": ["full_sequence_type_guard"],
+  "timeout_ms": 5000
+}

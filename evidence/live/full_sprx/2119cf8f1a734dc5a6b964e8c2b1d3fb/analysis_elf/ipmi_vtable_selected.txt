@@ -1,0 +1,221 @@
+Analysis-only ELF built from 14.00 live RX bytes
+
+=== 0x83f56cb30 ===
+Function: FUN_83f56cb30 @ 83f56cb30 body bytes 385
+
+uint FUN_83f56cb30(long param_1,undefined4 param_2,undefined8 param_3,undefined4 param_4,
+                  undefined8 param_5,undefined8 param_6,undefined4 param_7)
+
+{
+  code *pcVar1;
+  int iVar2;
+  uint uVar3;
+  int iVar4;
+  undefined4 uVar5;
+  long lVar6;
+  long lVar7;
+  uint uVar8;
+  uint uVar9;
+  undefined1 local_58 [32];
+  long local_38;
+  
+  iVar4 = DAT_83f57c030._4_4_;
+  local_38 = *DAT_83f5783c0;
+  iVar2 = thunk_FUN_83f56c158();
+  if (iVar4 == iVar2) {
+    lVar6 = thunk_FUN_83f56c128();
+  }
+  else {
+    lVar6 = 0;
+  }
+  uVar3 = FUN_83f5706c0(*(undefined4 *)(param_1 + 8),param_2,param_4,param_7,param_3,param_6,param_5
+                        ,1);
+  if ((int)uVar3 < 0) {
+    uVar8 = 0x80020003;
+    if ((uVar3 | 1) != 0x80020003) {
+      uVar8 = uVar3;
+      uVar9 = 0x80020016;
+      switch(uVar3) {
+      case 0x8002000c:
+        uVar9 = 0x80020028;
+        break;
+      case 0x8002000d:
+      case 0x8002000f:
+      case 0x80020010:
+      case 0x80020011:
+      case 0x80020012:
+      case 0x80020013:
+      case 0x80020014:
+      case 0x80020015:
+      case 0x80020017:
+      case 0x80020018:
+      case 0x80020019:
+      case 0x8002001a:
+      case 0x8002001b:
+      case 0x8002001c:
+      case 0x8002001d:
+      case 0x8002001e:
+      case 0x8002001f:
+      case 0x80020020:
+      case 0x80020021:
+      case 0x80020022:
+      case 0x80020023:
+      case 0x80020024:
+      case 0x80020025:
+      case 0x80020026:
+      case 0x80020027:
+        goto switchD_83f56cc49_caseD_8002000d;
+      case 0x8002000e:
+        break;
+      default:
+        if (uVar3 != 0x80020059) goto switchD_83f56cc49_caseD_8002000d;
+      case 0x80020016:
+      case 0x80020028:
+        uVar9 = uVar3;
+      }
+      uVar5 = FUN_83f56c0e8();
+      FUN_83f56c0f8("[IPMI(%d) %d] error: 0x%08x (m_clientKid=0x%08x)\n",uVar5,0x287,uVar9,
+                    *(undefined4 *)(param_1 + 8));
+      uVar8 = uVar9;
+    }
+  }
+  else {
+    uVar8 = uVar3;
+    if ((uVar3 == 0) && (uVar8 = 0, lVar6 != 0)) {
+      lVar7 = thunk_FUN_83f56c128();
+      if (DAT_83f57c060 < (ulong)(lVar7 - lVar6)) {
+        iVar4 = FUN_83f5714f0(*(undefined4 *)(param_1 + 8),local_58);
+        if (iVar4 != 0) {
+          local_58[0] = 0;
+        }
+        FUN_83f56c0f8("sync call performance warning tid:0x%08X kid:0x%08x name:%s method id:0x%08X time:%016lu micro sec\n"
+                      ,DAT_83f57c030._4_4_,*(undefined4 *)(param_1 + 8),local_58,param_2,
+                      lVar7 - lVar6);
+        uVar8 = 0;
+      }
+    }
+  }
+switchD_83f56cc49_caseD_8002000d:
+  if (*DAT_83f5783c0 != local_38) {
+    FUN_83f56c0d8();
+                    /* WARNING: Does not return */
+    pcVar1 = (code *)invalidInstructionException();
+    (*pcVar1)();
+  }
+  return uVar8;
+}
+
+
+
+=== 0x83f56cc30 ===
+Function: FUN_83f56cb30 @ 83f56cb30 body bytes 385
+
+uint FUN_83f56cb30(long param_1,undefined4 param_2,undefined8 param_3,undefined4 param_4,
+                  undefined8 param_5,undefined8 param_6,undefined4 param_7)
+
+{
+  code *pcVar1;
+  int iVar2;
+  uint uVar3;
+  int iVar4;
+  undefined4 uVar5;
+  long lVar6;
+  long lVar7;
+  uint uVar8;
+  uint uVar9;
+  undefined1 local_58 [32];
+  long local_38;
+  
+  iVar4 = DAT_83f57c030._4_4_;
+  local_38 = *DAT_83f5783c0;
+  iVar2 = thunk_FUN_83f56c158();
+  if (iVar4 == iVar2) {
+    lVar6 = thunk_FUN_83f56c128();
+  }
+  else {
+    lVar6 = 0;
+  }
+  uVar3 = FUN_83f5706c0(*(undefined4 *)(param_1 + 8),param_2,param_4,param_7,param_3,param_6,param_5
+                        ,1);
+  if ((int)uVar3 < 0) {
+    uVar8 = 0x80020003;
+    if ((uVar3 | 1) != 0x80020003) {
+      uVar8 = uVar3;
+      uVar9 = 0x80020016;
+      switch(uVar3) {
+      case 0x8002000c:
+        uVar9 = 0x80020028;
+        break;
+      case 0x8002000d:
+      case 0x8002000f:
+      case 0x80020010:
+      case 0x80020011:
+      case 0x80020012:
+      case 0x80020013:
+      case 0x80020014:
+      case 0x80020015:
+      case 0x80020017:
+      case 0x80020018:
+      case 0x80020019:
+      case 0x8002001a:
+      case 0x8002001b:
+      case 0x8002001c:
+      case 0x8002001d:
+      case 0x8002001e:
+      case 0x8002001f:
+      case 0x80020020:
+      case 0x80020021:
+      case 0x80020022:
+      case 0x80020023:
+      case 0x80020024:
+      case 0x80020025:
+      case 0x80020026:
+      case 0x80020027:
+        goto switchD_83f56cc49_caseD_8002000d;
+      case 0x8002000e:
+        break;
+      default:
+        if (uVar3 != 0x80020059) goto switchD_83f56cc49_caseD_8002000d;
+      case 0x80020016:
+      case 0x80020028:
+        uVar9 = uVar3;
+      }
+      uVar5 = FUN_83f56c0e8();
+      FUN_83f56c0f8("[IPMI(%d) %d] error: 0x%08x (m_clientKid=0x%08x)\n",uVar5,0x287,uVar9,
+                    *(undefined4 *)(param_1 + 8));
+      uVar8 = uVar9;
+    }
+  }
+  else {
+    uVar8 = uVar3;
+    if ((uVar3 == 0) && (uVar8 = 0, lVar6 != 0)) {
+      lVar7 = thunk_FUN_83f56c128();
+      if (DAT_83f57c060 < (ulong)(lVar7 - lVar6)) {
+        iVar4 = FUN_83f5714f0(*(undefined4 *)(param_1 + 8),local_58);
+        if (iVar4 != 0) {
+          local_58[0] = 0;
+        }
+        FUN_83f56c0f8("sync call performance warning tid:0x%08X kid:0x%08x name:%s method id:0x%08X time:%016lu micro sec\n"
+                      ,DAT_83f57c030._4_4_,*(undefined4 *)(param_1 + 8),local_58,param_2,
+                      lVar7 - lVar6);
+        uVar8 = 0;
+      }
+    }
+  }
+switchD_83f56cc49_caseD_8002000d:
+  if (*DAT_83f5783c0 != local_38) {
+    FUN_83f56c0d8();
+                    /* WARNING: Does not return */
+    pcVar1 = (code *)invalidInstructionException();
+    (*pcVar1)();
+  }
+  return uVar8;
+}
+
+
+
+=== 0x83f56ccc0 ===
+No analyzed function at this address
+
+=== 0x83f56cda0 ===
+No analyzed function at this address

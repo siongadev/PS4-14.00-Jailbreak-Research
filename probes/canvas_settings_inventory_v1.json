@@ -1,0 +1,6 @@
+{
+  "probe_id": "canvas_settings_inventory_v1",
+  "script": "canvas_settings_inventory_v1.js",
+  "check_ids": ["canvas_2d_settings", "canvas_bitmaprenderer_settings", "canvas_webgl_settings", "canvas_webgl2_settings"],
+  "timeout_ms": 5000
+}

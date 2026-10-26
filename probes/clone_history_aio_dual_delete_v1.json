@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_aio_dual_delete_v1",
+  "script": "clone_history_aio_dual_delete_v1_packed.js",
+  "check_ids": ["aio_dual_delete_v1"],
+  "timeout_ms": 15000
+}

@@ -1,0 +1,6 @@
+{
+  "probe_id": "canvas_cross_context_reentry_v1",
+  "script": "canvas_cross_context_reentry_v1.js",
+  "check_ids": ["canvas_cross_context_reentry"],
+  "timeout_ms": 5000
+}

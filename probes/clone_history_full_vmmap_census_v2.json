@@ -1,0 +1,13 @@
+{
+  "probe_id": "clone_history_full_vmmap_census_v2",
+  "script": "clone_history_full_vmmap_census_v2.js",
+  "check_ids": [
+    "full_vmmap_0_v2",
+    "full_vmmap_1_v2",
+    "full_vmmap_2_v2",
+    "full_vmmap_3_v2",
+    "full_vmmap_4_v2",
+    "full_vmmap_5_v2"
+  ],
+  "timeout_ms": 30000
+}

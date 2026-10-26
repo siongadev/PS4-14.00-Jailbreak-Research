@@ -1,0 +1,34 @@
+{
+  "kind": "analysis-only synthetic ELF64",
+  "not_original_binary": true,
+  "module_handle": 16,
+  "module_name": "libSceSysmodule.sprx",
+  "firmware_label": "14.00",
+  "session_id": "2119cf8f1a734dc5a6b964e8c2b1d3fb",
+  "source_manifest": "evidence/live/full_sprx/2119cf8f1a734dc5a6b964e8c2b1d3fb/manifest.json",
+  "source_manifest_sha256": "32003ded198218a18497526b51c40463878ea6fa88222f9c31afd23223540b80",
+  "segments": [
+    {
+      "kind": "rx",
+      "virtual_address": 35191324672,
+      "file_offset": 4096,
+      "size": 49152,
+      "sha256": "7d438209edfe7a87be058c81ed4613c869e300a38706ee91a81bd1819689ca01"
+    },
+    {
+      "kind": "ro",
+      "virtual_address": 35191373824,
+      "file_offset": 53248,
+      "size": 16384,
+      "sha256": "39097329320beae99200fef8f07ee1f306af998915daee46c336e3e59cce6d26"
+    },
+    {
+      "kind": "rw",
+      "virtual_address": 35191390208,
+      "file_offset": 69632,
+      "size": 32768,
+      "sha256": "d3b90fa1b0e7563d4d23e273b4b97b426c8798fb4c44dd8bf882f3cfe0d431a3"
+    }
+  ],
+  "synthetic_sha256": "ca0eda5549f85321ba6ffda36ff62b00e47089f138a334ad193da171a0c76b68"
+}

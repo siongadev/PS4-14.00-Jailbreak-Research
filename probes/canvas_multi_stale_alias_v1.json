@@ -1,0 +1,6 @@
+{
+  "probe_id": "canvas_multi_stale_alias_v1",
+  "script": "canvas_multi_stale_alias_v1.js",
+  "check_ids": ["canvas_multi_stale_alias"],
+  "timeout_ms": 30000
+}

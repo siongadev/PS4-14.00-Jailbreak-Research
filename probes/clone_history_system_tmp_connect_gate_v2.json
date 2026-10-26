@@ -1,0 +1,8 @@
+{
+  "probe_id": "clone_history_system_tmp_connect_gate_v2",
+  "script": "clone_history_system_tmp_connect_gate_v2.js",
+  "check_ids": [
+    "system_tmp_connect_gate_v2"
+  ],
+  "timeout_ms": 30000
+}

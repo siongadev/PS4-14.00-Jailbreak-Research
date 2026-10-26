@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_live_self_dump_v2",
+  "script": "clone_history_live_self_dump_v2.js",
+  "check_ids": ["live_self_dump_a_v2", "live_self_dump_b_v2"],
+  "timeout_ms": 30000
+}

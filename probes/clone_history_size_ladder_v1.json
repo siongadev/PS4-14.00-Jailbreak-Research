@@ -1,0 +1,14 @@
+{
+  "probe_id": "clone_history_size_ladder_v1",
+  "script": "clone_history_size_ladder_v1.js",
+  "check_ids": [
+    "small_number_control",
+    "bigint_size_256",
+    "bigint_size_4096",
+    "bigint_size_16384",
+    "bigint_size_32768",
+    "bigint_size_65535",
+    "bigint_size_65536"
+  ],
+  "timeout_ms": 30000
+}

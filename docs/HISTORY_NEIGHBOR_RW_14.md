@@ -1,0 +1,33 @@
+# Firmware 14.00 History deserialization: controlled cross-allocation read/write
+
+**Further result:** a [live cloned fixed buffer was later read and written](HISTORY_FIXED_BUFFER_RW_14.md) through the same forged view. The resizable-buffer neighbor result below remains the simpler allocation map.
+
+On the retail PS4 reporting firmware 14.00, the forged `Uint8Array` from the [History out-of-bounds finding](HISTORY_NATIVE_OOB_14.md) reached separately cloned resizable `ArrayBuffer` backing stores. The target buffer had an eight-byte logical length. The forged view began at its byte offset 8, and indexed reads at view index 65,528 reached the first byte of a second buffer. Eight distinct cloned buffers were readable at successive 65,536-byte intervals. A write through the forged view changed the chosen second buffer's normal `Uint8Array` view, and a second forged-view write restored it. The same near-neighbor cross-write passed in a fresh page session.
+
+This establishes **controlled, address-directed cross-allocation read/write among the tested resizable-buffer backing stores** on this 14.00 console. It does not establish an arbitrary process address, a read or write of a JavaScript object or code pointer, WebKit code execution, a sandbox escape, or kernel access.
+
+## Verified captures
+
+Each completed capture below passed `python -m fw14lab.verify`. The collector recorded the probe source and manifest SHA-256, command, and page session. The operator checked System Information and reported 14.00; the collected user agent reports `PlayStation 4/14.00`. The exact running browser binary has not been recovered.
+
+The local, Git-ignored [evidence snapshot](../evidence/2026-10-19-history-neighbor-rw.zip) contains 120 raw captures, 226 exact probe snapshots, and a consistent SQLite backup. ZIP SHA-256: `5b862ceece5f5d6b5c0f2cb3dc8d46de4698eca245e1fe8be03d0aedf6de9c4c`.
+
+| Probe | Capture and SHA-256 | Direct observation |
+| --- | --- | --- |
+| 64-byte scan with fixed-buffer markers | [`b20e4b6aca034aa3939266ef6c94c289`](../captures/b20e4b6aca034aa3939266ef6c94c289.json), `f14facb3d5e5ecd922f34d2ef63f444f0a5059a986541305d45511529e1857b4` | All 64 bytes after the eight-byte buffer read as zero; the distinct fixed-buffer markers remained intact. |
+| Page-end and boundary reads | [`0b5a74635ebe4013b774812193a4e50f`](../captures/0b5a74635ebe4013b774812193a4e50f.json), [`078e78e6cb594648a63385028e3b2c9e`](../captures/078e78e6cb594648a63385028e3b2c9e.json), [`379dd7969ad74b6aa33af6c20f23a422`](../captures/379dd7969ad74b6aa33af6c20f23a422.json), [`5b9b57367e57482db1704924db82905d`](../captures/5b9b57367e57482db1704924db82905d.json), [`6912c2c55fba444c84e7c94204531218`](../captures/6912c2c55fba444c84e7c94204531218.json) | Selected offsets through 16 KiB returned zero with 24 resizable-buffer markers present. |
+| Bounded 32 KiB scan | [`563ea6ed7a8e49ffa560849e3d70b0cf`](../captures/563ea6ed7a8e49ffa560849e3d70b0cf.json), `57871c93f00edcc1ffc7ebee17843517386167dfbcb2a9986708e03b11cf2b01` | All 32,768 bytes read as zero. |
+| Bounded 64 KiB scan | [`e59f8728cd214aee84097e2e2557edc6`](../captures/e59f8728cd214aee84097e2e2557edc6.json), `779ecc40eb510e08d1f533c36179f74d72d5a354c67edfa86a6ce07cf8208c30` | Exactly eight nonzero bytes appeared at forged-view indices 65,528–65,535; each was `0x5A`, the sprayed RAB marker. |
+| Unique-marker alias | [`2a253888be9c44a9b30713ae1b475c5c`](../captures/2a253888be9c44a9b30713ae1b475c5c.json), `d47f867d9af526ea3e82bdc72232fb229397cb631fca083fce024bc8f425f51e` | The eight bytes at index 65,528 matched `output.filler[2]` (`0x42`). A normal write of `0xDB` to that buffer's byte 0 was immediately visible at forged-view index 65,528. |
+| Near-neighbor forged-view write | [`dba3a2e1c3ff48d99f5fc0c2d81640ec`](../captures/dba3a2e1c3ff48d99f5fc0c2d81640ec.json), `2b63a806fe2930c795f0dc6623da79a80cec83eb6c241e5afdd3d374c85881be` | A forged-view write changed the second buffer's normal byte from `0x42` to `0xDB`; another forged-view write restored `0x42`. Normal out-of-bounds control and backing-buffer canaries passed. |
+| Fresh-page repeat of same write source | [`f206e4555ac34bc1a8720b19ac3a68a9`](../captures/f206e4555ac34bc1a8720b19ac3a68a9.json), `873ed91b27536a34c4bc5b90bce3a9d569d030c7b51fbae73b8d9fb32b9352bd` | The same `0x42 → 0xDB → 0x42` cross-allocation write and restore passed in a new session. Both writes used source SHA-256 `efc7de36a443033d7c592063480f75ae097b5bef9a36ddd4e8bfebf2dd443f9e`. |
+| Eight-buffer stride map | [`90a80eae8bb7488ab512d4bf0961f0dd`](../captures/90a80eae8bb7488ab512d4bf0961f0dd.json), `1bcdac7b884800e6707e7e40dbd46d23d53989279cd8a87b3f5462f2752f1367` | Forged-view bytes at successive 65,536-byte intervals matched the normal first bytes of `output.filler[2]` through `[9]`: `66,67,68,69,70,71,72,73`. |
+| Eighth-buffer forged-view write | [`166c6d6b028c4feb8733ed02c7ffe6b4`](../captures/166c6d6b028c4feb8733ed02c7ffe6b4.json), `d0ac02fcb74a098f255cce2c89bd0587f1bef1a25a1f014e96cc02a4b8f9ae21` | At forged-view index 524,280, a write changed `output.filler[9]` from `73` to `208`; another write restored `73`. |
+
+The no-BigInt control in each probe passed. The cross-write runs verified the forged view's `buffer` identity, its byte offset of 8, the backing buffer's length of 8, the normal view's inaccessible index 8, and unchanged first and last backing bytes. The page continued reporting after these commands.
+
+## Mechanism and next gate
+
+The [WebKit `ArrayBuffer` implementation](https://raw.githubusercontent.com/WebKit/WebKit/7841b2790f42d00eb2a8a9357a38d9df5509e047/Source/JavaScriptCore/runtime/ArrayBuffer.cpp) rounds resizable-buffer physical and maximum allocations to page units and requests growable virtual memory. The [memory manager](https://raw.githubusercontent.com/WebKit/WebKit/7841b2790f42d00eb2a8a9357a38d9df5509e047/Source/JavaScriptCore/runtime/BufferMemoryHandle.cpp) obtains zeroed virtual pages from the Primitive Gigacage allocator. The live 65,536-byte spacing is consistent with those allocations occupying adjacent mapped regions; it is a measured layout for these runs, not a claim about every PS4 allocation or the enabled state of Gigacage in this binary.
+
+The next gate is to distinguish access to **unrelated** native data from access among attacker-created resizable buffers. A fixed-buffer or other allocation class placed at a measured address, a reversible cross-object effect, and a fresh-page repeat would advance that gate. Only then would a route to a pointer-bearing object or control-flow target be supported. The current result does not yet meet the WebKit code-execution goal.

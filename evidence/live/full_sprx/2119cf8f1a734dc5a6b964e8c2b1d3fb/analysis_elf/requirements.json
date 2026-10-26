@@ -1,0 +1,34 @@
+{
+  "kind": "analysis-only synthetic ELF64",
+  "not_original_binary": true,
+  "module_handle": 72,
+  "module_name": "libSceNKWebKitRequirements.sprx",
+  "firmware_label": "14.00",
+  "session_id": "2119cf8f1a734dc5a6b964e8c2b1d3fb",
+  "source_manifest": "evidence/live/full_sprx/2119cf8f1a734dc5a6b964e8c2b1d3fb/manifest.json",
+  "source_manifest_sha256": "32003ded198218a18497526b51c40463878ea6fa88222f9c31afd23223540b80",
+  "segments": [
+    {
+      "kind": "rx",
+      "virtual_address": 34742239232,
+      "file_offset": 4096,
+      "size": 2818048,
+      "sha256": "bd3fc956e1f94b718d7bb92ab590a91cccd871067b70f301f3d972fdf67b513a"
+    },
+    {
+      "kind": "ro",
+      "virtual_address": 34745057280,
+      "file_offset": 2822144,
+      "size": 32768,
+      "sha256": "acb8389eac990e26e81d1c914b3e0eaf0213725058d8fb0780520bdcf961db79"
+    },
+    {
+      "kind": "rw",
+      "virtual_address": 34745090048,
+      "file_offset": 2854912,
+      "size": 32768,
+      "sha256": "8434ad109425cc0b62e82b25542ded258751c1c1d43e9d75de84609601d6555a"
+    }
+  ],
+  "synthetic_sha256": "dbf0ac8fae1ea9067103cba8dac92278cf7ea10ac8ca3e649a6e20d3a58e6783"
+}

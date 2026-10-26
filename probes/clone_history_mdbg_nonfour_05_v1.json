@@ -1,0 +1,9 @@
+{
+  "probe_id": "clone_history_mdbg_nonfour_05_v1",
+  "script": "clone_history_mdbg_nonfour_05_v1.js",
+  "check_ids": ["mdbg_nonfour_05_v1"],
+  "timeout_ms": 30000
+}
+
+
+

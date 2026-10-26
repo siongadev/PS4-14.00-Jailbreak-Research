@@ -1,0 +1,636 @@
+Analysis-only ELF built from 14.00 live RX bytes
+
+=== 0x816ed5c50 ===
+Function: FUN_816ed5c50 @ 816ed5c50 body bytes 152
+
+void FUN_816ed5c50(void)
+
+{
+  code *pcVar1;
+  long *plVar2;
+  int iVar3;
+  undefined4 local_30;
+  undefined8 local_2c;
+  undefined4 local_24;
+  long local_20;
+  
+  plVar2 = DAT_816f7c4b8;
+  local_20 = *DAT_816f7c4b8;
+  FUN_816edcd60();
+  local_24 = 0;
+  local_2c = 0;
+  local_30 = 1;
+  iVar3 = FUN_816cc8e18(&local_30);
+  if (iVar3 == 0) {
+    DAT_816f84954 = 1;
+    if (*plVar2 != local_20) goto LAB_816ed5ce1;
+  }
+  else {
+    FUN_816edda50(0,0,"PSMediaPlayerPlayerUtils.cpp",0x3b,0,
+                  "ERROR: sceVideoCoreSetInitializeInfo() = 0x%08x, info.version=%d",iVar3,local_30)
+    ;
+    if (*plVar2 != local_20) {
+LAB_816ed5ce1:
+      FUN_816cc8218();
+                    /* WARNING: Does not return */
+      pcVar1 = (code *)invalidInstructionException();
+      (*pcVar1)();
+    }
+  }
+  return;
+}
+
+
+
+=== 0x816ed6c80 ===
+Function: FUN_816ed6c80 @ 816ed6c80 body bytes 178
+
+void FUN_816ed6c80(undefined8 *param_1)
+
+{
+  long *plVar1;
+  int iVar2;
+  int iVar3;
+  
+  *param_1 = &PTR_FUN_816f7c1d8;
+  iVar3 = *(int *)((long)param_1 + 100);
+  if (iVar3 != 0) {
+    iVar2 = FUN_816cc8e28(iVar3);
+    if (iVar2 != 0) {
+      FUN_816edda50(0,0,"PSMediaPlayerBackendVCS.cpp",0x517,iVar3,
+                    "ERROR: sceVideoCoreDeleteStream() = 0x%08x(%s)",iVar2,&DAT_816f4d09c);
+    }
+    *(undefined4 *)((long)param_1 + 100) = 0;
+    if (*(int *)(param_1 + 10) != -1) {
+      *(undefined4 *)(param_1 + 10) = 0xffffffff;
+      (**(code **)(*(long *)param_1[3] + 0x78))((long *)param_1[3],0xffffffff);
+    }
+  }
+  plVar1 = (long *)param_1[2];
+  if (plVar1 != (long *)0x0) {
+    iVar3 = FUN_816cc8df8((long)plVar1 + 0xc,1,3);
+    if (iVar3 == 1) {
+                    /* WARNING: Could not recover jumptable at 0x000816ed6d2a. Too many branches */
+                    /* WARNING: Treating indirect jump as call */
+      (**(code **)(*plVar1 + 8))(plVar1);
+      return;
+    }
+  }
+  return;
+}
+
+
+
+=== 0x816ed6d40 ===
+Function: FUN_816ed6d40 @ 816ed6d40 body bytes 192
+
+void FUN_816ed6d40(undefined8 *param_1)
+
+{
+  long *plVar1;
+  int iVar2;
+  int iVar3;
+  
+  *param_1 = &PTR_FUN_816f7c1d8;
+  iVar3 = *(int *)((long)param_1 + 100);
+  if (iVar3 != 0) {
+    iVar2 = FUN_816cc8e28(iVar3);
+    if (iVar2 != 0) {
+      FUN_816edda50(0,0,"PSMediaPlayerBackendVCS.cpp",0x517,iVar3,
+                    "ERROR: sceVideoCoreDeleteStream() = 0x%08x(%s)",iVar2,&DAT_816f4d09c);
+    }
+    *(undefined4 *)((long)param_1 + 100) = 0;
+    if (*(int *)(param_1 + 10) != -1) {
+      *(undefined4 *)(param_1 + 10) = 0xffffffff;
+      (**(code **)(*(long *)param_1[3] + 0x78))((long *)param_1[3],0xffffffff);
+    }
+  }
+  plVar1 = (long *)param_1[2];
+  if (plVar1 != (long *)0x0) {
+    iVar3 = FUN_816cc8df8((long)plVar1 + 0xc,1,3);
+    if (iVar3 == 1) {
+      (**(code **)(*plVar1 + 8))(plVar1);
+    }
+  }
+  FUN_816cc8208(param_1);
+  return;
+}
+
+
+
+=== 0x816ed6e00 ===
+Function: FUN_816ed6e00 @ 816ed6e00 body bytes 783
+
+uint FUN_816ed6e00(long param_1,long param_2)
+
+{
+  int *piVar1;
+  code *pcVar2;
+  long *plVar3;
+  char cVar4;
+  int iVar5;
+  int iVar6;
+  undefined4 uVar7;
+  uint uVar8;
+  long lVar9;
+  undefined8 uVar10;
+  char *pcVar11;
+  undefined1 local_a28 [32];
+  undefined1 local_a08 [2520];
+  long local_30;
+  
+  plVar3 = DAT_816f7c4b8;
+  local_30 = *DAT_816f7c4b8;
+  cVar4 = FUN_816ed5cf0();
+  if (cVar4 == '\0') {
+    uVar7 = *(undefined4 *)(param_1 + 100);
+    pcVar11 = "ERROR: This process has failed to initialize the VCS.";
+    uVar10 = 0x67;
+LAB_816ed6e6a:
+    FUN_816edda50(0,0,"PSMediaPlayerBackendVCS.cpp",uVar10,uVar7,pcVar11);
+    if (*(int *)(param_1 + 0x20) != 4) {
+      *(undefined4 *)(param_1 + 0x20) = 4;
+      (**(code **)(**(long **)(param_1 + 0x18) + 0x10))();
+    }
+    iVar6 = *(int *)(param_1 + 100);
+    if (iVar6 != 0) {
+LAB_816ed6e9a:
+      iVar5 = FUN_816cc8e28(iVar6);
+      if (iVar5 != 0) {
+        FUN_816edda50(0,0,"PSMediaPlayerBackendVCS.cpp",0x517,iVar6,
+                      "ERROR: sceVideoCoreDeleteStream() = 0x%08x(%s)",iVar5,&DAT_816f4d09c);
+      }
+      *(undefined4 *)(param_1 + 100) = 0;
+      if (*(int *)(param_1 + 0x50) != -1) {
+        *(undefined4 *)(param_1 + 0x50) = 0xffffffff;
+        (**(code **)(**(long **)(param_1 + 0x18) + 0x78))(*(long **)(param_1 + 0x18),0xffffffff);
+        if (*plVar3 == local_30) {
+          return 0;
+        }
+        goto LAB_816ed7108;
+      }
+    }
+  }
+  else {
+    if (*(char *)(param_2 + 0x78) != '\0') {
+      uVar7 = *(undefined4 *)(param_1 + 100);
+      pcVar11 = "ERROR: VCS isn\'t supporte MSE.";
+      uVar10 = 0x6d;
+      goto LAB_816ed6e6a;
+    }
+    cVar4 = FUN_816ed7110(param_1,local_a28,param_2,param_2 + 0x28,param_2 + 0x50);
+    piVar1 = (int *)(param_1 + 100);
+    if (cVar4 == '\0') {
+      FUN_816edda50(0,0,"PSMediaPlayerBackendVCS.cpp",0x77,*(int *)(param_1 + 100),
+                    "ERROR: setVideoCoreStreamInfo() = false");
+      if (*(int *)(param_1 + 0x20) != 4) {
+        *(undefined4 *)(param_1 + 0x20) = 4;
+        (**(code **)(**(long **)(param_1 + 0x18) + 0x10))();
+      }
+      iVar6 = *piVar1;
+      if (iVar6 == 0) goto LAB_816ed70c1;
+      goto LAB_816ed6e9a;
+    }
+    if (*(int *)(param_1 + 100) == 0) {
+      lVar9 = FUN_816cc82b8(local_a08);
+      if (lVar9 == 0) {
+        FUN_816edda50(0,0,"PSMediaPlayerBackendVCS.cpp",0x4d4,0,
+                      "ERROR: The m_streamInfo.streamSrcUri string is blank.");
+        iVar6 = -0x7f23ffff;
+      }
+      else {
+        *piVar1 = 0;
+        iVar5 = FUN_816cc8e38(local_a28,0,0,piVar1);
+        iVar6 = 0;
+        if (iVar5 != 0) {
+          *piVar1 = 0;
+          iVar6 = iVar5;
+        }
+      }
+      cVar4 = FUN_816ed78b0(param_1,iVar6);
+      if (cVar4 == '\0') {
+        uVar7 = *(undefined4 *)(param_1 + 100);
+        iVar6 = FUN_816cc8e48(uVar7,param_1 + 0x68);
+        if (iVar6 != 0) {
+          FUN_816edda50(0,0,"PSMediaPlayerBackendVCS.cpp",0x52f,uVar7,
+                        "ERROR: sceVideoCoreGetPlayStatus2(%d) = 0x%08x(%s)",uVar7,iVar6,
+                        &DAT_816f4d09c);
+        }
+        cVar4 = FUN_816ed78b0(param_1,iVar6);
+        if (cVar4 == '\0') {
+          uVar7 = FUN_816ed79e0(param_1,*(undefined4 *)(param_1 + 100),
+                                *(undefined1 *)(param_1 + 0x41));
+          cVar4 = FUN_816ed78b0(param_1,uVar7);
+          if (cVar4 == '\0') {
+            uVar7 = FUN_816ed7a50(param_1,*(undefined4 *)(param_1 + 100),4,0,0);
+            cVar4 = FUN_816ed78b0(param_1,uVar7);
+            if (cVar4 == '\0') {
+              uVar7 = FUN_816ed7ad0(param_1,*(undefined4 *)(param_1 + 100),
+                                    *(undefined1 *)(param_1 + 0x40));
+              cVar4 = FUN_816ed78b0(param_1,uVar7);
+              if (cVar4 == '\0') {
+                uVar7 = FUN_816ed7b40(*(undefined8 *)(param_1 + 0x38),param_1,
+                                      *(undefined4 *)(param_1 + 100));
+                uVar8 = FUN_816ed78b0(param_1,uVar7);
+                if (*plVar3 == local_30) {
+                  return uVar8 ^ 1;
+                }
+                goto LAB_816ed7108;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+LAB_816ed70c1:
+  if (*plVar3 == local_30) {
+    return 0;
+  }
+LAB_816ed7108:
+  FUN_816cc8218();
+                    /* WARNING: Does not return */
+  pcVar2 = (code *)invalidInstructionException();
+  (*pcVar2)();
+}
+
+
+
+=== 0x816ed78b0 ===
+Function: FUN_816ed78b0 @ 816ed78b0 body bytes 299
+
+ulong FUN_816ed78b0(long param_1,int param_2)
+
+{
+  int iVar1;
+  int iVar2;
+  undefined8 unaff_R14;
+  ulong uVar3;
+  undefined7 uVar4;
+  
+  if (param_2 == -0x7f23fd00) {
+LAB_816ed78d3:
+    FUN_816edda50(0,0,"PSMediaPlayerBackendVCS.cpp",0x2a8,*(undefined4 *)(param_1 + 100),
+                  "ERROR: NetworkState::FormatError!! errCd = %d",param_2);
+    if (*(int *)(param_1 + 0x20) != 4) {
+      *(undefined4 *)(param_1 + 0x20) = 4;
+LAB_816ed7951:
+      (**(code **)(**(long **)(param_1 + 0x18) + 0x10))();
+    }
+  }
+  else {
+    if (param_2 == 0) {
+      uVar3 = 0;
+      goto LAB_816ed79cd;
+    }
+    if (param_2 == -0x7f23fc00) goto LAB_816ed78d3;
+    FUN_816edda50(0,0,"PSMediaPlayerBackendVCS.cpp",0x2ad,*(undefined4 *)(param_1 + 100),
+                  "ERROR: NetworkState::NetworkError!! errCd = %d",param_2);
+    if (*(int *)(param_1 + 0x20) != 5) {
+      *(undefined4 *)(param_1 + 0x20) = 5;
+      goto LAB_816ed7951;
+    }
+  }
+  iVar1 = *(int *)(param_1 + 100);
+  uVar4 = (undefined7)((ulong)unaff_R14 >> 8);
+  uVar3 = CONCAT71(uVar4,1);
+  if (iVar1 != 0) {
+    iVar2 = FUN_816cc8e28(iVar1);
+    if (iVar2 != 0) {
+      FUN_816edda50(0,0,"PSMediaPlayerBackendVCS.cpp",0x517,iVar1,
+                    "ERROR: sceVideoCoreDeleteStream() = 0x%08x(%s)",iVar2,&DAT_816f4d09c);
+    }
+    *(undefined4 *)(param_1 + 100) = 0;
+    if (*(int *)(param_1 + 0x50) != -1) {
+      *(undefined4 *)(param_1 + 0x50) = 0xffffffff;
+      (**(code **)(**(long **)(param_1 + 0x18) + 0x78))(*(long **)(param_1 + 0x18),0xffffffff);
+      uVar3 = CONCAT71(uVar4,1);
+    }
+  }
+LAB_816ed79cd:
+  return uVar3 & 0xffffffff;
+}
+
+
+
+=== 0x816ed85d0 ===
+Function: FUN_816ed85d0 @ 816ed85d0 body bytes 282
+
+void FUN_816ed85d0(long param_1)
+
+{
+  code *pcVar1;
+  long *plVar2;
+  char cVar3;
+  undefined4 uVar4;
+  int iVar5;
+  ulong uVar6;
+  ulong local_40;
+  ulong uStack_38;
+  long local_30;
+  
+  plVar2 = DAT_816f7c4b8;
+  local_30 = *DAT_816f7c4b8;
+  if (*(int *)(param_1 + 100) == 0) goto LAB_816ed86cc;
+  FUN_816ed86f0();
+  local_40 = CONCAT44(local_40._4_4_,0xffffffff);
+  uVar4 = FUN_816cc8ec8(*(undefined4 *)(param_1 + 100),&local_40);
+  cVar3 = FUN_816ed78b0(param_1,uVar4);
+  if (cVar3 == '\0') {
+    uVar6 = local_40 & 0xffffffff;
+    if (*(int *)(param_1 + 0x50) != (int)local_40) {
+      *(int *)(param_1 + 0x50) = (int)local_40;
+      goto LAB_816ed8640;
+    }
+  }
+  else if (*(int *)(param_1 + 0x50) != -1) {
+    *(undefined4 *)(param_1 + 0x50) = 0xffffffff;
+    uVar6 = 0xffffffff;
+LAB_816ed8640:
+    (**(code **)(**(long **)(param_1 + 0x18) + 0x78))(*(long **)(param_1 + 0x18),uVar6);
+  }
+  if ((*(uint *)(param_1 + 0x5c) != *(uint *)(param_1 + 0x54)) ||
+     (*(int *)(param_1 + 0x60) != *(int *)(param_1 + 0x58))) {
+    *(ulong *)(param_1 + 0x5c) = *(ulong *)(param_1 + 0x54);
+    uStack_38 = *(ulong *)(param_1 + 0x54) >> 0x20;
+    uVar4 = *(undefined4 *)(param_1 + 100);
+    local_40 = (ulong)*(uint *)(param_1 + 0x54);
+    iVar5 = FUN_816cc8ed8(uVar4,&local_40);
+    if (iVar5 != 0) {
+      FUN_816edda50(0,0,"PSMediaPlayerBackendVCS.cpp",0x5b3,uVar4,
+                    "ERROR: sceVideoCoreChangeDisplaySize() = 0x%08x(%s), displaySize:%zd x %zd",
+                    iVar5,&DAT_816f4d09c,local_40,uStack_38);
+    }
+    FUN_816ed78b0(param_1,iVar5);
+  }
+LAB_816ed86cc:
+  if (*plVar2 == local_30) {
+    return;
+  }
+  FUN_816cc8218();
+                    /* WARNING: Does not return */
+  pcVar1 = (code *)invalidInstructionException();
+  (*pcVar1)();
+}
+
+
+
+=== 0x816ed86f0 ===
+Function: FUN_816ed86f0 @ 816ed86f0 body bytes 1489
+
+void FUN_816ed86f0(long *param_1)
+
+{
+  char cVar1;
+  long lVar2;
+  long lVar3;
+  long lVar4;
+  code *pcVar5;
+  long lVar6;
+  long lVar7;
+  long lVar8;
+  long lVar9;
+  undefined8 uVar10;
+  undefined8 uVar11;
+  long lVar12;
+  undefined8 uVar13;
+  undefined8 uVar14;
+  long lVar15;
+  long lVar16;
+  long lVar17;
+  long lVar18;
+  long lVar19;
+  long lVar20;
+  long lVar21;
+  long lVar22;
+  long lVar23;
+  long lVar24;
+  long lVar25;
+  char cVar26;
+  char cVar27;
+  int iVar28;
+  int iVar29;
+  int iVar30;
+  undefined4 uVar31;
+  undefined1 uVar32;
+  int iVar33;
+  double dVar34;
+  double dVar35;
+  undefined2 local_7a;
+  undefined6 uStack_78;
+  undefined2 uStack_5a;
+  undefined6 uStack_58;
+  
+  lVar2 = *DAT_816f7c4b8;
+  iVar29 = *(int *)((long)param_1 + 100);
+  if (iVar29 == 0) goto LAB_816ed8974;
+  lVar6 = param_1[0xe];
+  lVar7 = param_1[0xf];
+  iVar30 = *(int *)((long)param_1 + 0x6c);
+  lVar22 = param_1[0xd];
+  lVar8 = param_1[0x10];
+  lVar9 = param_1[0x11];
+  lVar15 = param_1[0x17];
+  lVar16 = param_1[0x18];
+  lVar17 = param_1[0x19];
+  lVar23 = param_1[0x12];
+  iVar33 = *(int *)((long)param_1 + 0x94);
+  lVar18 = param_1[0x13];
+  lVar19 = param_1[0x14];
+  lVar20 = param_1[0x15];
+  lVar21 = param_1[0x16];
+  lVar3 = param_1[0x1a];
+  lVar4 = param_1[0x1b];
+  lVar24 = param_1[0x1c];
+  cVar27 = *(char *)((long)param_1 + 0xe1);
+  uStack_58 = (undefined6)((ulong)param_1[0x1e] >> 0x10);
+  uVar10 = *(undefined8 *)((long)param_1 + 0xe2);
+  uVar11 = *(undefined8 *)((long)param_1 + 0xea);
+  uStack_5a = (undefined2)((ulong)uVar11 >> 0x30);
+  lVar12 = param_1[0x22];
+  lVar25 = param_1[0x1f];
+  cVar1 = *(char *)((long)param_1 + 0xf9);
+  uStack_78 = (undefined6)((ulong)param_1[0x21] >> 0x10);
+  uVar13 = *(undefined8 *)((long)param_1 + 0xfa);
+  uVar14 = *(undefined8 *)((long)param_1 + 0x102);
+  local_7a = (undefined2)((ulong)uVar14 >> 0x30);
+  param_1[0x1d] = 0;
+  param_1[0x1e] = 0;
+  param_1[0x1f] = 0;
+  param_1[0x20] = 0;
+  param_1[0xd] = 0;
+  param_1[0xe] = 0;
+  param_1[0xf] = 0;
+  param_1[0x10] = 0;
+  param_1[0x11] = 0;
+  param_1[0x12] = 0;
+  param_1[0x13] = 0;
+  param_1[0x14] = 0;
+  param_1[0x15] = 0;
+  param_1[0x16] = 0;
+  param_1[0x17] = 0;
+  param_1[0x18] = 0;
+  param_1[0x19] = 0;
+  param_1[0x1a] = 0;
+  param_1[0x1b] = 0;
+  param_1[0x1c] = 0;
+  param_1[0x1f] = 0;
+  param_1[0x20] = 0;
+  param_1[0x21] = 0;
+  param_1[0x22] = 0;
+  iVar28 = FUN_816cc8e48(iVar29,param_1 + 0xd);
+  if (iVar28 != 0) {
+    FUN_816edda50(0,0,"PSMediaPlayerBackendVCS.cpp",0x52f,iVar29,
+                  "ERROR: sceVideoCoreGetPlayStatus2(%d) = 0x%08x(%s)",iVar29,iVar28,&DAT_816f4d09c)
+    ;
+  }
+  cVar26 = FUN_816ed78b0(param_1,iVar28);
+  if (cVar26 != '\0') {
+    *(int *)(param_1 + 0xd) = (int)lVar22;
+    *(int *)((long)param_1 + 0x6c) = iVar30;
+    param_1[0xe] = lVar6;
+    param_1[0xf] = lVar7;
+    param_1[0x10] = lVar8;
+    param_1[0x11] = lVar9;
+    *(int *)(param_1 + 0x12) = (int)lVar23;
+    *(int *)((long)param_1 + 0x94) = iVar33;
+    param_1[0x16] = lVar21;
+    param_1[0x17] = lVar15;
+    param_1[0x18] = lVar16;
+    param_1[0x19] = lVar17;
+    param_1[0x13] = lVar18;
+    param_1[0x14] = lVar19;
+    param_1[0x15] = lVar20;
+    param_1[0x16] = lVar21;
+    param_1[0x1a] = lVar3;
+    *(char *)(param_1 + 0x1c) = (char)lVar24;
+    param_1[0x1b] = lVar4;
+    *(char *)((long)param_1 + 0xe1) = cVar27;
+    param_1[0x1e] = CONCAT62(uStack_58,uStack_5a);
+    *(undefined8 *)((long)param_1 + 0xe2) = uVar10;
+    *(undefined8 *)((long)param_1 + 0xea) = uVar11;
+    *(char *)(param_1 + 0x1f) = (char)lVar25;
+    *(char *)((long)param_1 + 0xf9) = cVar1;
+    param_1[0x21] = CONCAT62(uStack_78,local_7a);
+    param_1[0x22] = lVar12;
+    *(undefined8 *)((long)param_1 + 0xfa) = uVar13;
+    *(undefined8 *)((long)param_1 + 0x102) = uVar14;
+    goto LAB_816ed8974;
+  }
+  if (((int)param_1[0xd] != (int)lVar22) && (cVar26 = FUN_816ed78b0(param_1), cVar26 != '\0'))
+  goto LAB_816ed8974;
+  if (((int)param_1[5] < 3) && (*(char *)((long)param_1 + 0xf9) != '\0')) {
+    param_1[0x12] = 0x100000003;
+    iVar29 = 1;
+    *(undefined4 *)(param_1 + 5) = 3;
+  }
+  else {
+    iVar29 = *(int *)((long)param_1 + 0x94);
+  }
+  if (((iVar30 == 1) && (*(int *)((long)param_1 + 0x6c) == 2)) && (iVar29 == 1)) {
+    (**(code **)(*param_1 + 0x90))(param_1);
+    iVar29 = FUN_816cc8ee8();
+    if (iVar29 == 0) {
+      dVar34 = (double)(**(code **)(*param_1 + 0x90))(param_1);
+      if ((dVar34 != 0.0) || (NAN(dVar34))) {
+        dVar34 = (double)(**(code **)(*param_1 + 0xa0))(param_1);
+        dVar35 = (double)(**(code **)(*param_1 + 0x90))(param_1);
+        if (dVar35 <= dVar34) {
+          *(undefined1 *)((long)param_1 + 0x2c) = 1;
+        }
+      }
+    }
+  }
+  if ((param_1[0x1a] == lVar3) && (*(char *)((long)param_1 + 0xe1) == cVar27)) {
+    if (param_1[0xf] == lVar7) goto LAB_816ed8a43;
+LAB_816ed8a71:
+    (**(code **)(*(long *)param_1[3] + 0x30))();
+    (**(code **)(*(long *)param_1[3] + 0x70))();
+    iVar29 = *(int *)((long)param_1 + 0x94);
+  }
+  else {
+    (**(code **)(*(long *)param_1[3] + 0x50))();
+    if (param_1[0xf] != lVar7) goto LAB_816ed8a71;
+LAB_816ed8a43:
+    iVar29 = *(int *)((long)param_1 + 0x94);
+  }
+  if (iVar29 != iVar33) {
+    uVar31 = 0;
+    if (iVar29 - 1U < 6) {
+      uVar31 = (&DAT_816f4d0ec)[(int)(iVar29 - 1U)];
+    }
+    *(undefined4 *)(param_1 + 4) = uVar31;
+    (**(code **)(*(long *)param_1[3] + 0x10))();
+    if (3 < (int)param_1[4]) {
+      FUN_816edda50(0,0,"PSMediaPlayerBackendVCS.cpp",0x30a,*(undefined4 *)((long)param_1 + 100),
+                    "ERROR: network state failed.");
+      iVar29 = *(int *)((long)param_1 + 100);
+      if (iVar29 != 0) {
+        iVar30 = FUN_816cc8e28(iVar29);
+        if (iVar30 != 0) {
+          FUN_816edda50(0,0,"PSMediaPlayerBackendVCS.cpp",0x517,iVar29,
+                        "ERROR: sceVideoCoreDeleteStream() = 0x%08x(%s)",iVar30,&DAT_816f4d09c);
+        }
+        *(undefined4 *)((long)param_1 + 100) = 0;
+        if ((int)param_1[10] != -1) {
+          *(undefined4 *)(param_1 + 10) = 0xffffffff;
+          (**(code **)(*(long *)param_1[3] + 0x78))((long *)param_1[3],0xffffffff);
+        }
+      }
+      goto LAB_816ed8974;
+    }
+  }
+  iVar29 = (int)param_1[0x12];
+  if (iVar29 != (int)lVar23) {
+    iVar30 = *(int *)((long)param_1 + 0x24);
+    iVar33 = 0;
+    if (iVar29 - 1U < 4) {
+      iVar33 = iVar29;
+    }
+    *(int *)((long)param_1 + 0x24) = iVar33;
+    (**(code **)(*(long *)param_1[3] + 0x18))();
+    if ((int)param_1[5] < *(int *)((long)param_1 + 0x24)) {
+      *(int *)(param_1 + 5) = *(int *)((long)param_1 + 0x24);
+    }
+    if ((iVar30 == 0) && (cVar27 = (**(code **)(*param_1 + 0xe8))(param_1), cVar27 != '\0')) {
+      dVar34 = (double)(**(code **)(*param_1 + 0xa0))(param_1);
+      if ((dVar34 == 0.0) && (!NAN(dVar34))) {
+        uVar31 = FUN_816ed7a50(param_1,*(undefined4 *)((long)param_1 + 100),5,0,0);
+        cVar27 = FUN_816ed78b0(param_1,uVar31);
+        if (cVar27 != '\0') goto LAB_816ed8974;
+      }
+    }
+  }
+  if ((char)param_1[0x1f] != (char)lVar25) {
+    if ((char)param_1[0x1f] == '\0') {
+      if (*(int *)((long)param_1 + 0x6c) == 1) {
+        uVar32 = 0;
+        goto LAB_816ed8c6c;
+      }
+    }
+    else {
+      cVar27 = (**(code **)(*param_1 + 0xe8))(param_1);
+      uVar32 = 1;
+      if (cVar27 == '\0') {
+LAB_816ed8c6c:
+        *(undefined1 *)((long)param_1 + 0x2c) = uVar32;
+        (**(code **)(*(long *)param_1[3] + 0x48))();
+      }
+    }
+  }
+  if (((*(char *)((long)param_1 + 0xf9) != cVar1) && (*(char *)((long)param_1 + 0xf9) != '\0')) &&
+     (cVar27 = (**(code **)(*param_1 + 0xe8))(param_1), cVar27 == '\0')) {
+    *(undefined1 *)((long)param_1 + 0x2c) = 1;
+    (**(code **)(*(long *)param_1[3] + 0x48))();
+  }
+LAB_816ed8974:
+  if (*DAT_816f7c4b8 == lVar2) {
+    return;
+  }
+  FUN_816cc8218();
+                    /* WARNING: Does not return */
+  pcVar5 = (code *)invalidInstructionException();
+  (*pcVar5)();
+}
+
+

@@ -1,0 +1,689 @@
+{
+  "count": 76,
+  "requests": [
+    {
+      "method_id": "0x30000",
+      "function_address": "0x807734130",
+      "rx_offset": "0xc130",
+      "function_body_bytes": 176,
+      "vtable_offset": "0x60",
+      "output_descriptor_length": null,
+      "decompiled_call": "(**(code **)(*param_1 + 0x60))(param_1,0x30000,&local_78,4,param_2,param_3);"
+    },
+    {
+      "method_id": "0x30001",
+      "function_address": "0x8077341f0",
+      "rx_offset": "0xc1f0",
+      "function_body_bytes": 81,
+      "vtable_offset": "0x68",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x68))(param_1,0x30001,param_2,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x30002",
+      "function_address": "0x807734250",
+      "rx_offset": "0xc250",
+      "function_body_bytes": 107,
+      "vtable_offset": "0x60",
+      "output_descriptor_length": 12,
+      "decompiled_call": "(**(code **)(*param_1 + 0x60))(param_1,0x30002,&local_38,1,param_2,param_3);"
+    },
+    {
+      "method_id": "0x30003",
+      "function_address": "0x8077342c0",
+      "rx_offset": "0xc2c0",
+      "function_body_bytes": 81,
+      "vtable_offset": "0x68",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x68))(param_1,0x30003,param_2,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x30004",
+      "function_address": "0x807734320",
+      "rx_offset": "0xc320",
+      "function_body_bytes": 178,
+      "vtable_offset": "0x60",
+      "output_descriptor_length": null,
+      "decompiled_call": "(**(code **)(*param_1 + 0x60))(param_1,0x30004,&local_78,4,param_2,param_3);"
+    },
+    {
+      "method_id": "0x30005",
+      "function_address": "0x8077343e0",
+      "rx_offset": "0xc3e0",
+      "function_body_bytes": 81,
+      "vtable_offset": "0x68",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x68))(param_1,0x30005,param_2,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x30006",
+      "function_address": "0x807734440",
+      "rx_offset": "0xc440",
+      "function_body_bytes": 178,
+      "vtable_offset": "0x60",
+      "output_descriptor_length": null,
+      "decompiled_call": "(**(code **)(*param_1 + 0x60))(param_1,0x30006,&local_78,4,param_2,param_3);"
+    },
+    {
+      "method_id": "0x30007",
+      "function_address": "0x807734500",
+      "rx_offset": "0xc500",
+      "function_body_bytes": 81,
+      "vtable_offset": "0x68",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x68))(param_1,0x30007,param_2,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x30008",
+      "function_address": "0x807734560",
+      "rx_offset": "0xc560",
+      "function_body_bytes": 107,
+      "vtable_offset": "0x60",
+      "output_descriptor_length": 12,
+      "decompiled_call": "(**(code **)(*param_1 + 0x60))(param_1,0x30008,&local_38,1,param_2,param_3);"
+    },
+    {
+      "method_id": "0x30009",
+      "function_address": "0x8077345d0",
+      "rx_offset": "0xc5d0",
+      "function_body_bytes": 81,
+      "vtable_offset": "0x68",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x68))(param_1,0x30009,param_2,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x3000a",
+      "function_address": "0x807734630",
+      "rx_offset": "0xc630",
+      "function_body_bytes": 89,
+      "vtable_offset": "0x60",
+      "output_descriptor_length": null,
+      "decompiled_call": "(**(code **)(*param_1 + 0x60))(param_1,0x3000a,&local_28,1,param_2,param_3);"
+    },
+    {
+      "method_id": "0x3000b",
+      "function_address": "0x807734690",
+      "rx_offset": "0xc690",
+      "function_body_bytes": 81,
+      "vtable_offset": "0x68",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x68))(param_1,0x3000b,param_2,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x3000c",
+      "function_address": "0x8077346f0",
+      "rx_offset": "0xc6f0",
+      "function_body_bytes": 89,
+      "vtable_offset": "0x60",
+      "output_descriptor_length": null,
+      "decompiled_call": "(**(code **)(*param_1 + 0x60))(param_1,0x3000c,&local_28,1,param_2,param_3);"
+    },
+    {
+      "method_id": "0x3000d",
+      "function_address": "0x807734750",
+      "rx_offset": "0xc750",
+      "function_body_bytes": 81,
+      "vtable_offset": "0x68",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x68))(param_1,0x3000d,param_2,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x3000e",
+      "function_address": "0x8077347b0",
+      "rx_offset": "0xc7b0",
+      "function_body_bytes": 147,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x3000e,&local_28,1,&local_5c,&local_58,2);"
+    },
+    {
+      "method_id": "0x3000f",
+      "function_address": "0x807734850",
+      "rx_offset": "0xc850",
+      "function_body_bytes": 147,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x3000f,&local_28,1,&local_5c,&local_58,2);"
+    },
+    {
+      "method_id": "0x30010",
+      "function_address": "0x8077348f0",
+      "rx_offset": "0xc8f0",
+      "function_body_bytes": 167,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x30010,&local_68,3,&local_6c,0,0);"
+    },
+    {
+      "method_id": "0x30011",
+      "function_address": "0x8077349a0",
+      "rx_offset": "0xc9a0",
+      "function_body_bytes": 125,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x30011,&local_28,1,&local_4c,&local_48,1);"
+    },
+    {
+      "method_id": "0x30012",
+      "function_address": "0x807734a20",
+      "rx_offset": "0xca20",
+      "function_body_bytes": 112,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x30012,&local_28,1,&local_2c,0,0);"
+    },
+    {
+      "method_id": "0x30013",
+      "function_address": "0x807734aa0",
+      "rx_offset": "0xcaa0",
+      "function_body_bytes": 100,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": 12,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x30013,0,0,&local_3c,&local_38,1);"
+    },
+    {
+      "method_id": "0x30014",
+      "function_address": "0x807734b10",
+      "rx_offset": "0xcb10",
+      "function_body_bytes": 87,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x30014,0,0,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x30015",
+      "function_address": "0x807734b70",
+      "rx_offset": "0xcb70",
+      "function_body_bytes": 87,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x30015,0,0,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x30016",
+      "function_address": "0x807734bd0",
+      "rx_offset": "0xcbd0",
+      "function_body_bytes": 87,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x30016,0,0,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x30017",
+      "function_address": "0x807734c30",
+      "rx_offset": "0xcc30",
+      "function_body_bytes": 87,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x30017,0,0,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x30018",
+      "function_address": "0x807734c90",
+      "rx_offset": "0xcc90",
+      "function_body_bytes": 100,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": 1,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x30018,0,0,&local_3c,&local_38,1);"
+    },
+    {
+      "method_id": "0x30019",
+      "function_address": "0x807734d00",
+      "rx_offset": "0xcd00",
+      "function_body_bytes": 87,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x30019,0,0,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x3001a",
+      "function_address": "0x807734d60",
+      "rx_offset": "0xcd60",
+      "function_body_bytes": 87,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x3001a,0,0,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x3001b",
+      "function_address": "0x807734dc0",
+      "rx_offset": "0xcdc0",
+      "function_body_bytes": 124,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x3001b,&local_28,1,&local_4c,&local_48,1);"
+    },
+    {
+      "method_id": "0x3001c",
+      "function_address": "0x807734e40",
+      "rx_offset": "0xce40",
+      "function_body_bytes": 121,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x3001c,&local_38,1,&local_3c,0,0);"
+    },
+    {
+      "method_id": "0x3001d",
+      "function_address": "0x807734ec0",
+      "rx_offset": "0xcec0",
+      "function_body_bytes": 141,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x3001d,&local_38,1,&local_5c,&local_58,1);"
+    },
+    {
+      "method_id": "0x3001e",
+      "function_address": "0x807734f50",
+      "rx_offset": "0xcf50",
+      "function_body_bytes": 124,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x3001e,&local_28,1,&local_4c,&local_48,1);"
+    },
+    {
+      "method_id": "0x3001f",
+      "function_address": "0x807734fd0",
+      "rx_offset": "0xcfd0",
+      "function_body_bytes": 124,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x3001f,&local_28,1,&local_4c,&local_48,1);"
+    },
+    {
+      "method_id": "0x30020",
+      "function_address": "0x807735050",
+      "rx_offset": "0xd050",
+      "function_body_bytes": 100,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": 12,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x30020,0,0,&local_3c,&local_38,1);"
+    },
+    {
+      "method_id": "0x30021",
+      "function_address": "0x8077350c0",
+      "rx_offset": "0xd0c0",
+      "function_body_bytes": 87,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x30021,0,0,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x30022",
+      "function_address": "0x807735120",
+      "rx_offset": "0xd120",
+      "function_body_bytes": 87,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x30022,0,0,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x30023",
+      "function_address": "0x807735180",
+      "rx_offset": "0xd180",
+      "function_body_bytes": 124,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x30023,&local_28,1,&local_4c,&local_48,1);"
+    },
+    {
+      "method_id": "0x30024",
+      "function_address": "0x807735200",
+      "rx_offset": "0xd200",
+      "function_body_bytes": 124,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x30024,&local_28,1,&local_4c,&local_48,1);"
+    },
+    {
+      "method_id": "0x30025",
+      "function_address": "0x807735280",
+      "rx_offset": "0xd280",
+      "function_body_bytes": 100,
+      "vtable_offset": "0x60",
+      "output_descriptor_length": 16,
+      "decompiled_call": "(**(code **)(*param_1 + 0x60))(param_1,0x30025,&local_38,1,param_2,param_3);"
+    },
+    {
+      "method_id": "0x30026",
+      "function_address": "0x8077352f0",
+      "rx_offset": "0xd2f0",
+      "function_body_bytes": 81,
+      "vtable_offset": "0x68",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x68))(param_1,0x30026,param_2,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x30027",
+      "function_address": "0x807735350",
+      "rx_offset": "0xd350",
+      "function_body_bytes": 89,
+      "vtable_offset": "0x60",
+      "output_descriptor_length": null,
+      "decompiled_call": "(**(code **)(*param_1 + 0x60))(param_1,0x30027,&local_28,1,param_2,param_3);"
+    },
+    {
+      "method_id": "0x30028",
+      "function_address": "0x8077353b0",
+      "rx_offset": "0xd3b0",
+      "function_body_bytes": 81,
+      "vtable_offset": "0x68",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x68))(param_1,0x30028,param_2,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x30029",
+      "function_address": "0x807735410",
+      "rx_offset": "0xd410",
+      "function_body_bytes": 100,
+      "vtable_offset": "0x60",
+      "output_descriptor_length": 16,
+      "decompiled_call": "(**(code **)(*param_1 + 0x60))(param_1,0x30029,&local_38,1,param_2,param_3);"
+    },
+    {
+      "method_id": "0x3002a",
+      "function_address": "0x807735480",
+      "rx_offset": "0xd480",
+      "function_body_bytes": 81,
+      "vtable_offset": "0x68",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x68))(param_1,0x3002a,param_2,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x3002b",
+      "function_address": "0x8077354e0",
+      "rx_offset": "0xd4e0",
+      "function_body_bytes": 100,
+      "vtable_offset": "0x60",
+      "output_descriptor_length": 16,
+      "decompiled_call": "(**(code **)(*param_1 + 0x60))(param_1,0x3002b,&local_38,1,param_2,param_3);"
+    },
+    {
+      "method_id": "0x3002c",
+      "function_address": "0x807735550",
+      "rx_offset": "0xd550",
+      "function_body_bytes": 81,
+      "vtable_offset": "0x68",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x68))(param_1,0x3002c,param_2,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x3002d",
+      "function_address": "0x8077355b0",
+      "rx_offset": "0xd5b0",
+      "function_body_bytes": 100,
+      "vtable_offset": "0x60",
+      "output_descriptor_length": 8,
+      "decompiled_call": "(**(code **)(*param_1 + 0x60))(param_1,0x3002d,&local_38,1,param_2,param_3);"
+    },
+    {
+      "method_id": "0x3002e",
+      "function_address": "0x807735620",
+      "rx_offset": "0xd620",
+      "function_body_bytes": 81,
+      "vtable_offset": "0x68",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x68))(param_1,0x3002e,param_2,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x3002f",
+      "function_address": "0x807735680",
+      "rx_offset": "0xd680",
+      "function_body_bytes": 142,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x3002f,&local_28,1,&local_5c,&local_58,2);"
+    },
+    {
+      "method_id": "0x30030",
+      "function_address": "0x807735710",
+      "rx_offset": "0xd710",
+      "function_body_bytes": 100,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": 1316,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x30030,0,0,&local_3c,&local_38,1);"
+    },
+    {
+      "method_id": "0x30031",
+      "function_address": "0x807735780",
+      "rx_offset": "0xd780",
+      "function_body_bytes": 87,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x30031,0,0,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x30032",
+      "function_address": "0x8077357e0",
+      "rx_offset": "0xd7e0",
+      "function_body_bytes": 87,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x30032,0,0,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x30033",
+      "function_address": "0x807735840",
+      "rx_offset": "0xd840",
+      "function_body_bytes": 87,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x30033,0,0,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x30034",
+      "function_address": "0x8077358a0",
+      "rx_offset": "0xd8a0",
+      "function_body_bytes": 87,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x30034,0,0,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x30035",
+      "function_address": "0x807735900",
+      "rx_offset": "0xd900",
+      "function_body_bytes": 24,
+      "vtable_offset": "0x60",
+      "output_descriptor_length": null,
+      "decompiled_call": "(**(code **)(*param_1 + 0x60))(param_1,0x30035,0,0,param_2,param_3);"
+    },
+    {
+      "method_id": "0x30036",
+      "function_address": "0x807735920",
+      "rx_offset": "0xd920",
+      "function_body_bytes": 81,
+      "vtable_offset": "0x68",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x68))(param_1,0x30036,param_2,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x30037",
+      "function_address": "0x807735980",
+      "rx_offset": "0xd980",
+      "function_body_bytes": 127,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x30037,&local_28,1,&local_4c,&local_48,1);"
+    },
+    {
+      "method_id": "0x30038",
+      "function_address": "0x807735a10",
+      "rx_offset": "0xda10",
+      "function_body_bytes": 117,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x30038,&local_28,1,&local_2c,0,0);"
+    },
+    {
+      "method_id": "0x30039",
+      "function_address": "0x807735a90",
+      "rx_offset": "0xda90",
+      "function_body_bytes": 117,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x30039,&local_28,1,&local_2c,0,0);"
+    },
+    {
+      "method_id": "0x3003a",
+      "function_address": "0x807735b10",
+      "rx_offset": "0xdb10",
+      "function_body_bytes": 115,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x3003a,&local_28,1,&local_2c,0,0);"
+    },
+    {
+      "method_id": "0x3003b",
+      "function_address": "0x807735b90",
+      "rx_offset": "0xdb90",
+      "function_body_bytes": 118,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x3003b,&local_28,1,&local_2c,0,0);"
+    },
+    {
+      "method_id": "0x3003c",
+      "function_address": "0x807735c10",
+      "rx_offset": "0xdc10",
+      "function_body_bytes": 111,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x3003c,&local_28,1,&local_2c,0,0);"
+    },
+    {
+      "method_id": "0x3003d",
+      "function_address": "0x807735c90",
+      "rx_offset": "0xdc90",
+      "function_body_bytes": 169,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x3003d,&local_58,3,&local_5c,0,0);"
+    },
+    {
+      "method_id": "0x3003e",
+      "function_address": "0x807735d40",
+      "rx_offset": "0xdd40",
+      "function_body_bytes": 111,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x3003e,&local_28,1,&local_2c,0,0);"
+    },
+    {
+      "method_id": "0x3003f",
+      "function_address": "0x807735dc0",
+      "rx_offset": "0xddc0",
+      "function_body_bytes": 87,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x3003f,0,0,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x30040",
+      "function_address": "0x807735e20",
+      "rx_offset": "0xde20",
+      "function_body_bytes": 176,
+      "vtable_offset": "0x60",
+      "output_descriptor_length": null,
+      "decompiled_call": "(**(code **)(*param_1 + 0x60))(param_1,0x30040,&local_78,4,param_2,param_3);"
+    },
+    {
+      "method_id": "0x30041",
+      "function_address": "0x807735ee0",
+      "rx_offset": "0xdee0",
+      "function_body_bytes": 81,
+      "vtable_offset": "0x68",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x68))(param_1,0x30041,param_2,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x30042",
+      "function_address": "0x807735f40",
+      "rx_offset": "0xdf40",
+      "function_body_bytes": 89,
+      "vtable_offset": "0x60",
+      "output_descriptor_length": null,
+      "decompiled_call": "(**(code **)(*param_1 + 0x60))(param_1,0x30042,&local_28,1,param_2,param_3);"
+    },
+    {
+      "method_id": "0x30043",
+      "function_address": "0x807735fa0",
+      "rx_offset": "0xdfa0",
+      "function_body_bytes": 81,
+      "vtable_offset": "0x68",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x68))(param_1,0x30043,param_2,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x30044",
+      "function_address": "0x807736000",
+      "rx_offset": "0xe000",
+      "function_body_bytes": 121,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x30044,&local_38,1,&local_3c,0,0);"
+    },
+    {
+      "method_id": "0x30045",
+      "function_address": "0x807736080",
+      "rx_offset": "0xe080",
+      "function_body_bytes": 121,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x30045,&local_38,1,&local_3c,0,0);"
+    },
+    {
+      "method_id": "0x30046",
+      "function_address": "0x807736100",
+      "rx_offset": "0xe100",
+      "function_body_bytes": 87,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x30046,0,0,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x30047",
+      "function_address": "0x807736160",
+      "rx_offset": "0xe160",
+      "function_body_bytes": 87,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x30047,0,0,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x30048",
+      "function_address": "0x8077361c0",
+      "rx_offset": "0xe1c0",
+      "function_body_bytes": 87,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x30048,0,0,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x30049",
+      "function_address": "0x807736220",
+      "rx_offset": "0xe220",
+      "function_body_bytes": 87,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x30049,0,0,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x3004a",
+      "function_address": "0x807736280",
+      "rx_offset": "0xe280",
+      "function_body_bytes": 87,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x3004a,0,0,&local_1c,0,0);"
+    },
+    {
+      "method_id": "0x3004b",
+      "function_address": "0x8077362e0",
+      "rx_offset": "0xe2e0",
+      "function_body_bytes": 87,
+      "vtable_offset": "0x58",
+      "output_descriptor_length": null,
+      "decompiled_call": "uVar2 = (**(code **)(*param_1 + 0x58))(param_1,0x3004b,0,0,&local_1c,0,0);"
+    }
+  ]
+}

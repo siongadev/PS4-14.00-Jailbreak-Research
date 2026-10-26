@@ -1,0 +1,6 @@
+{
+  "probe_id": "page_address_status_v1",
+  "script": "page_address_status_v1.js",
+  "check_ids": ["address_status_v1"],
+  "timeout_ms": 10000
+}

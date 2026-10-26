@@ -1,0 +1,5 @@
+# Fontconfig ownership report: not present in the published Sony branch
+
+WebKit [bug 302858](https://bugs.webkit.org/show_bug.cgi?id=302858) reports a double-free/use-after-free when `FontPlatformDataFreeType::create()` repeatedly calls `adoptRef(pattern)` on a static `FcPattern*`. A WebKit maintainer explicitly said the affected code is also used by the PlayStation port. The [upstream fix](https://github.com/WebKit/WebKit/commit/d4f46e50d65d) landed in November 2025.
+
+The Sony [PS4 WebKit source archive labeled 13.00 and later](https://www.playstation.com/en-us/oss/ps4/webkit/) contains a `FontPlatformDataFreeType.cpp` that does **not** have `FontPlatformData::create()`, `static FcPattern* pattern`, or `adoptRef(pattern)`. The extracted file's SHA-256 and exact archive member are in [source provenance](../references/README.md). This is a source-level negative for the reported ownership pattern in that published branch, not a 14.00 binary check: the actual browser may contain Sony changes or a different version. No font-stress test was sent to the console because the public source does not support this hypothesis for it.

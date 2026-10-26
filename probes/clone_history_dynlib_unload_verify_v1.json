@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_dynlib_unload_verify_v1",
+  "script": "clone_history_dynlib_unload_verify_v1.js",
+  "check_ids": ["dynlib_unload_verify_v1"],
+  "timeout_ms": 30000
+}

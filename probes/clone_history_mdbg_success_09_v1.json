@@ -1,0 +1,7 @@
+{
+  "probe_id":"clone_history_mdbg_success_09_v1",
+  "script":"clone_history_mdbg_success_09_v1.js",
+  "check_ids":["mdbg_success_09_v1"],
+  "timeout_ms":30000
+}
+

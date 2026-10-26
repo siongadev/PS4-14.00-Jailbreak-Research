@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_large_control_v1",
+  "script": "clone_history_large_control_v1.js",
+  "check_ids": ["small_number_control", "large_no_bigint_control"],
+  "timeout_ms": 30000
+}

@@ -1,0 +1,493 @@
+Analysis-only ELF built from 14.00 live RX bytes
+
+=== 807728fb0 ===
+Function: FUN_807728fb0 @ 807728fb0 body bytes 43
+
+void FUN_807728fb0(void)
+
+{
+  FUN_8077280b8(0x80776c2a0,&LAB_80772bbb0);
+  FUN_807728138(1,0,1,0);
+  return;
+}
+
+
+
+=== 807728fe0 ===
+Function: FUN_807728fe0 @ 807728fe0 body bytes 46
+
+void FUN_807728fe0(void)
+
+{
+  FUN_8077280b8(0x80776c2a0,&LAB_80772bbb0);
+  FUN_807728138(1,0,1,1);
+  return;
+}
+
+
+
+=== 807729010 ===
+Function: FUN_807729010 @ 807729010 body bytes 66
+
+undefined8 FUN_807729010(int param_1)
+
+{
+  undefined8 uVar1;
+  undefined4 uVar2;
+  
+  FUN_8077280b8(0x80776c2a0,&LAB_80772bbb0);
+  uVar2 = 0;
+  if (param_1 != 0) {
+    if (param_1 != 1) {
+      return 0x80a10003;
+    }
+    uVar2 = 1;
+  }
+  uVar1 = FUN_807728148(uVar2);
+  return uVar1;
+}
+
+
+
+=== 80772d1d0 ===
+Function: FUN_80772d1d0 @ 80772d1d0 body bytes 306
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+int FUN_80772d1d0(void)
+
+{
+  long *plVar1;
+  int iVar2;
+  ulong uVar3;
+  undefined1 local_17c [4];
+  char local_178 [8];
+  char acStack_170 [8];
+  undefined8 local_168;
+  undefined8 local_150;
+  undefined4 local_128;
+  undefined8 local_120;
+  long local_20;
+  
+  plVar1 = DAT_807764340;
+  local_20 = *DAT_807764340;
+  iVar2 = FUN_8077283a8(0x80776c2b8,0,"SceAppMessaging");
+  if (iVar2 == 0) {
+    FUN_8077283b8(local_178);
+    local_168 = 0;
+    local_178[0] = s_SceAppMessaging_807755d60[0];
+    local_178[1] = s_SceAppMessaging_807755d60[1];
+    local_178[2] = s_SceAppMessaging_807755d60[2];
+    local_178[3] = s_SceAppMessaging_807755d60[3];
+    local_178[4] = s_SceAppMessaging_807755d60[4];
+    local_178[5] = s_SceAppMessaging_807755d60[5];
+    local_178[6] = s_SceAppMessaging_807755d60[6];
+    local_178[7] = s_SceAppMessaging_807755d60[7];
+    acStack_170[0] = s_SceAppMessaging_807755d60[8];
+    acStack_170[1] = s_SceAppMessaging_807755d60[9];
+    acStack_170[2] = s_SceAppMessaging_807755d60[10];
+    acStack_170[3] = s_SceAppMessaging_807755d60[0xb];
+    acStack_170[4] = s_SceAppMessaging_807755d60[0xc];
+    acStack_170[5] = s_SceAppMessaging_807755d60[0xd];
+    acStack_170[6] = s_SceAppMessaging_807755d60[0xe];
+    acStack_170[7] = s_SceAppMessaging_807755d60[0xf];
+    local_150 = 0x2400;
+    local_128 = 1;
+    local_120 = FUN_8077283c8(0x2018,1);
+    uVar3 = FUN_8077283d8(local_178);
+    iVar2 = -1;
+    if (uVar3 < 0x1001) {
+      iVar2 = FUN_8077283e8(&DAT_80776c2c0,local_178,0,0x80776c2d0);
+      if (iVar2 == 0) {
+        iVar2 = (**(code **)(*_DAT_80776c2c0 + 0x10))(_DAT_80776c2c0,0,0,local_17c);
+        if (iVar2 != 0) {
+          (**(code **)*_DAT_80776c2c0)();
+          FUN_8077283f8(0x80776c2b8);
+          _DAT_80776c2c0 = (long *)0x0;
+        }
+      }
+      else {
+        FUN_8077283f8(0x80776c2b8);
+      }
+    }
+  }
+  if (*plVar1 == local_20) {
+    return iVar2;
+  }
+                    /* WARNING: Subroutine does not return */
+  FUN_8077280c8();
+}
+
+
+
+=== 80772e0f0 ===
+Function: FUN_80772e0f0 @ 80772e0f0 body bytes 1125
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+int FUN_80772e0f0(int *param_1)
+
+{
+  long *plVar1;
+  bool bVar2;
+  bool bVar3;
+  long *plVar4;
+  int iVar5;
+  int iVar6;
+  undefined8 uVar7;
+  int local_1d0 [3];
+  int local_1c4;
+  undefined1 local_1c0 [8];
+  undefined1 local_1b8 [40];
+  undefined1 local_190 [28];
+  undefined4 local_174;
+  undefined8 local_168;
+  undefined8 uStack_160;
+  undefined4 local_158;
+  undefined8 local_150;
+  undefined8 uStack_148;
+  undefined4 local_140;
+  undefined8 local_138;
+  long local_38;
+  
+  plVar4 = DAT_807764340;
+  local_38 = *DAT_807764340;
+  LOCK();
+  iVar5 = *param_1;
+  *param_1 = *param_1 + 1;
+  UNLOCK();
+  if (iVar5 == 0) {
+    iVar5 = FUN_807728478(local_1c0);
+    if (iVar5 < 0) {
+      FUN_8077281d8("[SceLncUtil] %s(%d) %s: LNC_ISOK::0x%x\n",
+                    "W:\\Build\\J02699047\\vsh\\common_lib\\lnc_util\\src\\lnc_util_ipc_client.cpp",
+                    0x76,"initialize",iVar5);
+      bVar2 = true;
+LAB_80772e33b:
+      FUN_80772e640(&DAT_807768050);
+      local_1c4 = iVar5;
+    }
+    else {
+      iVar6 = FUN_807728488(local_1c0,2);
+      if (iVar6 < 0) {
+        FUN_8077281d8("[SceLncUtil] %s(%d) %s: LNC_ISOK::0x%x\n",
+                      "W:\\Build\\J02699047\\vsh\\common_lib\\lnc_util\\src\\lnc_util_ipc_client.cpp"
+                      ,0x77,"initialize",iVar6);
+        bVar2 = true;
+        iVar5 = iVar6;
+        goto LAB_80772e33b;
+      }
+      iVar6 = FUN_8077283a8(param_1 + 2,local_1c0,"SceLncIpcClient");
+      if (iVar6 < 0) {
+        uVar7 = 0x78;
+LAB_80772e328:
+        FUN_8077281d8("[SceLncUtil] %s(%d) %s: LNC_ISOK::0x%x\n",
+                      "W:\\Build\\J02699047\\vsh\\common_lib\\lnc_util\\src\\lnc_util_ipc_client.cpp"
+                      ,uVar7,"initialize",iVar6);
+        bVar2 = true;
+        iVar5 = iVar6;
+        goto LAB_80772e33b;
+      }
+      iVar6 = FUN_807728498(local_1c0);
+      if (iVar6 < 0) {
+        uVar7 = 0x79;
+        goto LAB_80772e328;
+      }
+      FUN_8077283b8(local_190);
+      FUN_807728288(local_190,"SceLncService",0x18);
+      local_168 = _DAT_807755da0;
+      uStack_160 = _UNK_807755da8;
+      local_150 = _DAT_807755da0;
+      uStack_148 = _UNK_807755da8;
+      local_158 = 2;
+      local_174 = 1;
+      local_140 = 1;
+      local_138 = FUN_8077283c8(0x1558,0x40);
+      iVar6 = FUN_8077283e8(param_1 + 4,local_190,0,param_1 + 6);
+      if (iVar6 < 0) {
+        uVar7 = 0x88;
+        goto LAB_80772e328;
+      }
+      plVar1 = *(long **)(param_1 + 4);
+      iVar6 = (**(code **)(*plVar1 + 0x10))(plVar1,0,0,&local_1c4);
+      if (iVar6 < 0) {
+        uVar7 = 0x8b;
+LAB_80772e390:
+        FUN_8077281d8("[SceLncUtil] %s(%d) %s: LNC_ISOK::0x%x\n",
+                      "W:\\Build\\J02699047\\vsh\\common_lib\\lnc_util\\src\\lnc_util_ipc_client.cpp"
+                      ,uVar7,"initialize",iVar6);
+        bVar2 = true;
+        bVar3 = true;
+        local_1c4 = iVar6;
+      }
+      else {
+        if (-1 < local_1c4) {
+          iVar6 = FUN_80772e560(param_1,local_1d0);
+          if (iVar6 == 0) {
+            param_1[0x1006] = local_1d0[0];
+          }
+          else {
+            local_1d0[0] = param_1[0x1006];
+          }
+          if (local_1d0[0] == -1) {
+LAB_80772e486:
+            bVar3 = false;
+            iVar6 = FUN_8077284a8(param_1 + 0x1012,"SceLncAsyncCallSema",2,2,2,0);
+            bVar2 = false;
+            local_1c4 = iVar5;
+            if (-1 < iVar6) goto LAB_80772e4bb;
+            uVar7 = 0x9e;
+          }
+          else {
+            param_1[0x100a] = 0;
+            iVar6 = FUN_8077283a8(param_1 + 0x1008,0,"SceLncSuspendBlock");
+            if (iVar6 < 0) {
+              uVar7 = 0x97;
+            }
+            else {
+              iVar6 = FUN_8077284a8(param_1 + 0x100c,"SceLncSuspendBlockCount",0,0,0x7fffffff,0);
+              if (iVar6 < 0) {
+                uVar7 = 0x98;
+              }
+              else {
+                FUN_8077281a8(local_1b8,0x20,"SceLncSuspendBlock%08x",param_1[0x1006]);
+                iVar6 = FUN_807728388(param_1 + 0x100e,local_1b8);
+                if (-1 < iVar6) goto LAB_80772e486;
+                uVar7 = 0x9b;
+              }
+            }
+          }
+          goto LAB_80772e390;
+        }
+        FUN_8077281d8("[SceLncUtil] %s(%d) %s: LNC_ISOK::0x%x\n",
+                      "W:\\Build\\J02699047\\vsh\\common_lib\\lnc_util\\src\\lnc_util_ipc_client.cpp"
+                      ,0x8c,"initialize");
+        bVar2 = true;
+        bVar3 = true;
+      }
+LAB_80772e4bb:
+      iVar5 = local_1c4;
+      if (bVar3) goto LAB_80772e33b;
+    }
+    if (bVar2) goto LAB_80772e350;
+  }
+  local_1c4 = 0;
+LAB_80772e350:
+  if (*plVar4 != local_38) {
+                    /* WARNING: Subroutine does not return */
+    FUN_8077280c8();
+  }
+  return local_1c4;
+}
+
+
+
+=== 8077364a0 ===
+Function: FUN_8077364a0 @ 8077364a0 body bytes 720
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+int FUN_8077364a0(void)
+
+{
+  long *plVar1;
+  int iVar2;
+  int iVar3;
+  ulong uVar4;
+  long *plVar5;
+  undefined1 local_194 [4];
+  undefined1 local_190 [8];
+  char local_188 [8];
+  char acStack_180 [8];
+  undefined8 local_178;
+  undefined4 local_16c;
+  undefined4 local_150;
+  long local_30;
+  
+  plVar1 = DAT_807764340;
+  local_30 = *DAT_807764340;
+  iVar2 = FUN_8077283a8(0x80776d300,0,"SceShellCoreUtil");
+  if ((iVar2 == 0) && (iVar2 = FUN_8077283a8(0x80776e320,0,"SceShellCoreUtilPowerLock"), iVar2 == 0)
+     ) {
+    FUN_807728478(local_190);
+    FUN_807728488(local_190,2);
+    iVar2 = FUN_8077283a8(0x80776e310,local_190,"SceShellCoreUtilAppMessage");
+    FUN_807728498(local_190);
+    if (iVar2 == 0) {
+      FUN_8077283b8(local_188);
+      local_178 = 0;
+      local_188[0] = s_SceShellCoreUtil_807756dde[0];
+      local_188[1] = s_SceShellCoreUtil_807756dde[1];
+      local_188[2] = s_SceShellCoreUtil_807756dde[2];
+      local_188[3] = s_SceShellCoreUtil_807756dde[3];
+      local_188[4] = s_SceShellCoreUtil_807756dde[4];
+      local_188[5] = s_SceShellCoreUtil_807756dde[5];
+      local_188[6] = s_SceShellCoreUtil_807756dde[6];
+      local_188[7] = s_SceShellCoreUtil_807756dde[7];
+      acStack_180[0] = s_SceShellCoreUtil_807756dde[8];
+      acStack_180[1] = s_SceShellCoreUtil_807756dde[9];
+      acStack_180[2] = s_SceShellCoreUtil_807756dde[10];
+      acStack_180[3] = s_SceShellCoreUtil_807756dde[0xb];
+      acStack_180[4] = s_SceShellCoreUtil_807756dde[0xc];
+      acStack_180[5] = s_SceShellCoreUtil_807756dde[0xd];
+      acStack_180[6] = s_SceShellCoreUtil_807756dde[0xe];
+      acStack_180[7] = s_SceShellCoreUtil_807756dde[0xf];
+      local_150 = 1;
+      local_16c = 1;
+      uVar4 = FUN_8077283d8(local_188);
+      iVar2 = -1;
+      if (uVar4 < 0x1001) {
+        iVar2 = FUN_8077283e8(&DAT_80776d308,local_188,0,0x80776d310);
+        if (iVar2 == 0) {
+          iVar2 = (**(code **)(*_DAT_80776d308 + 0x10))(_DAT_80776d308,0,0,local_194);
+          if (iVar2 == 0) {
+            if (_DAT_80776c0b8 == -1) {
+              FUN_807728378(&DAT_80776c0b8,"SceShellCoreUtilAppFocus");
+            }
+            if (_DAT_80776c0c0 == -1) {
+              FUN_807728378(&DAT_80776c0c0,"SceShellCoreUtilCtrlFocus");
+            }
+            if (_DAT_80776c0c8 == -1) {
+              FUN_807728378(&DAT_80776c0c8,"SceShellCoreUtilPowerControl");
+            }
+            if ((_DAT_80776d2f8 == (long *)0x0) &&
+               (iVar3 = FUN_8077284f8("/SceShellCoreUtil",0,0x124), -1 < iVar3)) {
+              plVar5 = (long *)FUN_807728508(0,0x4000,1,1,iVar3,0);
+              FUN_807728518(iVar3);
+              if (plVar5 != (long *)0xffffffffffffffff) {
+                if (*plVar5 == 0x6ed81ede6df17259) {
+                  _DAT_80776d2f8 = plVar5;
+                  FUN_807728528(plVar5,0x4000,"SceShellCoreUtil");
+                }
+                else {
+                  _DAT_80776d2f8 = (long *)0x0;
+                  FUN_807728538(plVar5,0x4000);
+                }
+              }
+            }
+          }
+          else {
+            (**(code **)*_DAT_80776d308)();
+            FUN_8077283f8(0x80776d300);
+            FUN_8077283f8(0x80776e310);
+            _DAT_80776d308 = (long *)0x0;
+          }
+        }
+        else {
+          FUN_8077283f8(0x80776d300);
+          FUN_8077283f8(0x80776e310);
+        }
+      }
+    }
+    else {
+      FUN_8077283f8(0x80776d300);
+    }
+  }
+  if (*plVar1 != local_30) {
+                    /* WARNING: Subroutine does not return */
+    FUN_8077280c8();
+  }
+  return iVar2;
+}
+
+
+
+=== 807740c50 ===
+Function: FUN_807740c50 @ 807740c50 body bytes 246
+
+/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
+
+int FUN_807740c50(void)
+
+{
+  long *plVar1;
+  int iVar2;
+  ulong uVar3;
+  undefined1 local_17c [4];
+  char local_178 [8];
+  char acStack_170 [8];
+  undefined8 local_168;
+  long local_20;
+  
+  plVar1 = DAT_807764340;
+  local_20 = *DAT_807764340;
+  FUN_807728358(0x807771350);
+  iVar2 = 0;
+  if (_DAT_807771358 == (long *)0x0) {
+    FUN_8077283b8(local_178);
+    local_168 = 0x72;
+    local_178[0] = s_SceSystemStateMgr_807757002[0];
+    local_178[1] = s_SceSystemStateMgr_807757002[1];
+    local_178[2] = s_SceSystemStateMgr_807757002[2];
+    local_178[3] = s_SceSystemStateMgr_807757002[3];
+    local_178[4] = s_SceSystemStateMgr_807757002[4];
+    local_178[5] = s_SceSystemStateMgr_807757002[5];
+    local_178[6] = s_SceSystemStateMgr_807757002[6];
+    local_178[7] = s_SceSystemStateMgr_807757002[7];
+    acStack_170[0] = s_SceSystemStateMgr_807757002[8];
+    acStack_170[1] = s_SceSystemStateMgr_807757002[9];
+    acStack_170[2] = s_SceSystemStateMgr_807757002[10];
+    acStack_170[3] = s_SceSystemStateMgr_807757002[0xb];
+    acStack_170[4] = s_SceSystemStateMgr_807757002[0xc];
+    acStack_170[5] = s_SceSystemStateMgr_807757002[0xd];
+    acStack_170[6] = s_SceSystemStateMgr_807757002[0xe];
+    acStack_170[7] = s_SceSystemStateMgr_807757002[0xf];
+    uVar3 = FUN_8077283d8(local_178);
+    iVar2 = -0x7eecffff;
+    if (uVar3 < 0x1001) {
+      iVar2 = FUN_8077283e8(&DAT_807771358,local_178,0,0x807771360);
+      if (iVar2 == 0) {
+        iVar2 = (**(code **)(*_DAT_807771358 + 0x10))(_DAT_807771358,0,0,local_17c);
+        if (iVar2 != 0) {
+          (**(code **)*_DAT_807771358)();
+          _DAT_807771358 = (long *)0x0;
+        }
+      }
+    }
+  }
+  FUN_807728398(0x807771350);
+  if (*plVar1 == local_20) {
+    return iVar2;
+  }
+                    /* WARNING: Subroutine does not return */
+  FUN_8077280c8();
+}
+
+
+
+=== 80773aa00 ===
+Function: FUN_80773aa00 @ 80773aa00 body bytes 137
+
+bool FUN_80773aa00(undefined8 param_1)
+
+{
+  long *plVar1;
+  bool bVar2;
+  int iVar3;
+  int local_a4;
+  undefined1 local_a0 [32];
+  undefined1 local_80 [32];
+  undefined8 local_60;
+  long local_40;
+  
+  plVar1 = DAT_807764340;
+  local_40 = *DAT_807764340;
+  local_a0 = ZEXT1232(ZEXT812(0));
+  local_60 = 0;
+  local_80 = local_a0;
+  iVar3 = FUN_8077285b8(param_1,local_a0);
+  if (iVar3 < 0) {
+    bVar2 = false;
+  }
+  else {
+    iVar3 = FUN_8077282c8(local_80 + 0x10,1,&local_a4);
+    bVar2 = local_a4 == 1 && -1 < iVar3;
+  }
+  if (*plVar1 == local_40) {
+    return bVar2;
+  }
+                    /* WARNING: Subroutine does not return */
+  FUN_8077280c8();
+}
+
+

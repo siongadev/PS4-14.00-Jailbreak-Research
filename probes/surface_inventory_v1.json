@@ -1,0 +1,13 @@
+{
+  "probe_id": "surface_inventory_v1",
+  "script": "surface_inventory_v1.js",
+  "check_ids": [
+    "dom_features",
+    "storage_features",
+    "graphics_features",
+    "media_features",
+    "binary_features",
+    "messaging_features"
+  ],
+  "timeout_ms": 3000
+}

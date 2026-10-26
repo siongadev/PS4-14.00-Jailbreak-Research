@@ -1,0 +1,6 @@
+{
+  "probe_id":"clone_history_route_ipv6_reply_v1",
+  "script":"clone_history_route_ipv6_reply_v1.js",
+  "check_ids":["route_ipv6_reply_v1"],
+  "timeout_ms":30000
+}

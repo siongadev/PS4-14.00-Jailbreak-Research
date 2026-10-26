@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_small_free_pair_v1",
+  "script": "clone_history_small_free_pair_v1.js",
+  "check_ids": ["small_free_pair"],
+  "timeout_ms": 15000
+}

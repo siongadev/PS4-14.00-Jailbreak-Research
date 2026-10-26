@@ -1,0 +1,16 @@
+{
+  "probe_id": "clone_view_size_matrix_v2",
+  "script": "clone_view_size_matrix_v2.js",
+  "check_ids": [
+    "number_zero",
+    "bigint_zero",
+    "bigint_one",
+    "bigint_eight",
+    "bigint_eleven",
+    "bigint_twelve",
+    "bigint_sixteen",
+    "bigint_thirtytwo",
+    "number_sixteen"
+  ],
+  "timeout_ms": 10000
+}

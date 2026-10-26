@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_bound_native_target_swap_v1",
+  "script": "clone_history_bound_native_target_swap_v1.js",
+  "check_ids": ["bound_native_target_swap"],
+  "timeout_ms": 30000
+}

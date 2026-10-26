@@ -1,0 +1,7 @@
+{
+  "probe_id":"clone_history_batch_map_ops_04_v1",
+  "script":"clone_history_batch_map_ops_04_v1.js",
+  "check_ids":["batch_map_ops_04_v1"],
+  "timeout_ms":30000
+}
+

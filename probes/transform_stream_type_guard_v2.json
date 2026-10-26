@@ -1,0 +1,6 @@
+{
+  "probe_id": "transform_stream_type_guard_v2",
+  "script": "transform_stream_type_guard_v2.js",
+  "check_ids": ["type_guard"],
+  "timeout_ms": 5000
+}

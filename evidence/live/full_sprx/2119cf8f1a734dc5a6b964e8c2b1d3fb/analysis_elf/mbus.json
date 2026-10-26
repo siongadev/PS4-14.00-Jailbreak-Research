@@ -1,0 +1,34 @@
+{
+  "kind": "analysis-only synthetic ELF64",
+  "not_original_binary": true,
+  "module_handle": 58,
+  "module_name": "libSceMbus.sprx",
+  "firmware_label": "14.00",
+  "session_id": "2119cf8f1a734dc5a6b964e8c2b1d3fb",
+  "source_manifest": "evidence/live/full_sprx/2119cf8f1a734dc5a6b964e8c2b1d3fb/manifest.json",
+  "source_manifest_sha256": "32003ded198218a18497526b51c40463878ea6fa88222f9c31afd23223540b80",
+  "segments": [
+    {
+      "kind": "rx",
+      "virtual_address": 35351937024,
+      "file_offset": 4096,
+      "size": 49152,
+      "sha256": "05d321bee5c3e39680d87b466ae506072c203fffaa6dd92895a950ec9ffe9ee0"
+    },
+    {
+      "kind": "ro",
+      "virtual_address": 35351986176,
+      "file_offset": 53248,
+      "size": 16384,
+      "sha256": "450bade1fcffe2f894a3765e588f2266dbf094a949b8359143bf594094590050"
+    },
+    {
+      "kind": "rw",
+      "virtual_address": 35352002560,
+      "file_offset": 69632,
+      "size": 16384,
+      "sha256": "5fdf59f59358564fe9fc1f09e4897855333a0e7ccd659766896f6b8d0d16908e"
+    }
+  ],
+  "synthetic_sha256": "40e4bf9f809040747ff21da29425fbbfa441982ccaa1eef638f8b1a3879f08c8"
+}

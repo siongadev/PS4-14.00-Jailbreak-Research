@@ -1,0 +1,118 @@
+Analysis-only ELF built from 14.00 live RX bytes
+
+=== 0x807730600 ===
+Function: FUN_807730600 @ 807730600 body bytes 218
+
+int FUN_807730600(int *param_1,long param_2)
+
+{
+  int iVar1;
+  int iVar2;
+  
+  if (param_2 == 0) {
+    iVar2 = -0x7f6bfffb;
+    FUN_8077281d8("[SceLncUtil] %s(%d) %s: LNC_CHECK::0x%x (%s value is false)\n",
+                  "W:\\Build\\J02699047\\vsh\\common_lib\\lnc_util\\src\\lnc_util_ipc_client.cpp",
+                  0x1d9,"isPs2Emu",0x80940005,"isPs2Emu");
+  }
+  else if (*param_1 < 1) {
+    iVar2 = -0x7f6bffff;
+    FUN_8077281d8("[SceLncUtil] %s(%d) %s: LNC_ISOK::0x%x\n",
+                  "W:\\Build\\J02699047\\vsh\\common_lib\\lnc_util\\src\\lnc_util_ipc_client.cpp",
+                  0x1da,"isPs2Emu",0x80940001);
+  }
+  else {
+    FUN_807728358(param_1 + 2);
+    iVar1 = FUN_807734c90(*(undefined8 *)(param_1 + 4),param_2);
+    iVar2 = 0;
+    if (iVar1 < 0) {
+      FUN_8077281d8("[SceLncUtil] %s(%d) %s: LNC_ISOK::0x%x\n",
+                    "W:\\Build\\J02699047\\vsh\\common_lib\\lnc_util\\src\\lnc_util_ipc_client.cpp",
+                    0x1de,"isPs2Emu",iVar1);
+      iVar2 = iVar1;
+    }
+    FUN_807728398(param_1 + 2);
+  }
+  return iVar2;
+}
+
+
+
+=== 0x807730e70 ===
+Function: FUN_807730e70 @ 807730e70 body bytes 234
+
+int FUN_807730e70(int *param_1,long param_2)
+
+{
+  int iVar1;
+  int iVar2;
+  
+  if (param_2 == 0) {
+    iVar2 = -0x7f6bfffb;
+    FUN_8077281d8("[SceLncUtil] %s(%d) %s: LNC_CHECK::0x%x (%s value is false)\n",
+                  "W:\\Build\\J02699047\\vsh\\common_lib\\lnc_util\\src\\lnc_util_ipc_client.cpp",
+                  0x248,"getAppFocusedAppStatus",0x80940005,"status");
+  }
+  else if (*param_1 < 1) {
+    iVar2 = -0x7f6bffff;
+    FUN_8077281d8("[SceLncUtil] %s(%d) %s: LNC_ISOK::0x%x\n",
+                  "W:\\Build\\J02699047\\vsh\\common_lib\\lnc_util\\src\\lnc_util_ipc_client.cpp",
+                  0x249,"getAppFocusedAppStatus",0x80940001);
+  }
+  else {
+    FUN_807728358(param_1 + 2);
+    iVar1 = FUN_807735050(*(undefined8 *)(param_1 + 4),param_2);
+    iVar2 = -0x7f6bfffc;
+    if (iVar1 != -0x7f6bfffc) {
+      iVar2 = 0;
+      if (iVar1 < 0) {
+        FUN_8077281d8("[SceLncUtil] %s(%d) %s: LNC_ISOK::0x%x\n",
+                      "W:\\Build\\J02699047\\vsh\\common_lib\\lnc_util\\src\\lnc_util_ipc_client.cpp"
+                      ,0x24e,"getAppFocusedAppStatus",iVar1);
+        iVar2 = iVar1;
+      }
+    }
+    FUN_807728398(param_1 + 2);
+  }
+  return iVar2;
+}
+
+
+
+=== 0x807731cd0 ===
+Function: FUN_807731cd0 @ 807731cd0 body bytes 222
+
+int FUN_807731cd0(int *param_1,long param_2)
+
+{
+  int iVar1;
+  int iVar2;
+  
+  if (param_2 == 0) {
+    iVar2 = -0x7f6bfffb;
+    FUN_8077281d8("[SceLncUtil] %s(%d) %s: LNC_CHECK::0x%x (%s value is false)\n",
+                  "W:\\Build\\J02699047\\vsh\\common_lib\\lnc_util\\src\\lnc_util_ipc_client.cpp",
+                  0x2e3,"getGpuCrashFullDumpAppStatus",0x80940005,"status");
+  }
+  else if (*param_1 < 1) {
+    iVar2 = -0x7f6bffff;
+    FUN_8077281d8("[SceLncUtil] %s(%d) %s: LNC_ISOK::0x%x\n",
+                  "W:\\Build\\J02699047\\vsh\\common_lib\\lnc_util\\src\\lnc_util_ipc_client.cpp",
+                  0x2e4,"getGpuCrashFullDumpAppStatus",0x80940001);
+  }
+  else {
+    FUN_807728358(param_1 + 2);
+    iVar1 = FUN_807735710(*(undefined8 *)(param_1 + 4),param_2);
+    iVar2 = 0;
+    if (iVar1 < 0) {
+      FUN_8077281d8("[SceLncUtil] %s(%d) %s: LNC_ISOK::0x%x\n",
+                    "W:\\Build\\J02699047\\vsh\\common_lib\\lnc_util\\src\\lnc_util_ipc_client.cpp",
+                    0x2e8,"getGpuCrashFullDumpAppStatus",iVar1);
+      iVar2 = iVar1;
+    }
+    FUN_807728398(param_1 + 2);
+  }
+  return iVar2;
+}
+
+

@@ -1,0 +1,125 @@
+Analysis-only ELF built from 14.00 live RX bytes
+
+=== 0x831911be0 ===
+Function: FUN_831911be0 @ 831911be0 body bytes 155
+
+undefined4 FUN_831911be0(undefined8 param_1)
+
+{
+  code *pcVar1;
+  long *plVar2;
+  int iVar3;
+  undefined4 uVar4;
+  undefined4 uVar5;
+  undefined4 *puVar6;
+  undefined4 local_2c;
+  long local_28;
+  
+  plVar2 = DAT_83191c028;
+  local_28 = *DAT_83191c028;
+  iVar3 = FUN_831910258(param_1,0x10000,&local_2c,0);
+  if (iVar3 < 0) {
+    puVar6 = (undefined4 *)FUN_831910278();
+    uVar4 = FUN_831910288(*puVar6);
+  }
+  else {
+    uVar4 = FUN_831911c80(local_2c);
+    iVar3 = FUN_831910268(local_2c,0,0);
+    if (iVar3 != 0) {
+      uVar5 = FUN_831910188();
+      FUN_831910198("[Sysmodule(%d) %d] Rollback error 0x%x 0x%x\n",uVar5,0x523,local_2c,iVar3);
+    }
+  }
+  if (*plVar2 == local_28) {
+    return uVar4;
+  }
+  FUN_8319100f8();
+                    /* WARNING: Does not return */
+  pcVar1 = (code *)invalidInstructionException();
+  (*pcVar1)();
+}
+
+
+
+=== 0x831913670 ===
+Function: FUN_831913670 @ 831913670 body bytes 313
+
+undefined4 FUN_831913670(undefined4 *param_1)
+
+{
+  code *pcVar1;
+  long *plVar2;
+  undefined4 uVar3;
+  int iVar4;
+  long lVar5;
+  char local_138 [8];
+  char acStack_130 [5];
+  char acStack_12b [3];
+  char acStack_128 [5];
+  char acStack_123 [243];
+  long local_30;
+  
+  plVar2 = DAT_83191c028;
+  local_30 = *DAT_83191c028;
+  uVar3 = FUN_831910188();
+  iVar4 = FUN_8319139b0(uVar3);
+  if (((((iVar4 == 1) || (DAT_8319289c8 != '\0')) || (DAT_8319289c9 != '\0')) ||
+      ((DAT_83192885e == '\x01' && ((DAT_8319289ca & 1) != 0)))) ||
+     ((DAT_8319289cc != '\0' || (((DAT_8319289cd & 1) != 0 || (DAT_8319289cb == '\x01')))))) {
+    *param_1 = 0xffffffff;
+    uVar3 = 0x5d;
+  }
+  else {
+    uVar3 = 0;
+    iVar4 = FUN_831910258("/app0/sce_module/libc.prx",0,param_1,0);
+    if (iVar4 != 0) {
+      lVar5 = FUN_831910108();
+      if (lVar5 != 0) {
+        uVar3 = 0;
+        FUN_831910118(local_138,0x100,"/%s/common/lib/libc.sprx",lVar5);
+        iVar4 = FUN_831910258(local_138,0,param_1,0);
+        if (iVar4 == 0) goto LAB_8319136f0;
+      }
+      acStack_128[0] = s__system_common_lib_libc_sprx_831918847[0x10];
+      acStack_128[1] = s__system_common_lib_libc_sprx_831918847[0x11];
+      acStack_128[2] = s__system_common_lib_libc_sprx_831918847[0x12];
+      acStack_128[3] = s__system_common_lib_libc_sprx_831918847[0x13];
+      acStack_128[4] = s__system_common_lib_libc_sprx_831918847[0x14];
+      acStack_123[0] = s__system_common_lib_libc_sprx_831918847[0x15];
+      acStack_123[1] = s__system_common_lib_libc_sprx_831918847[0x16];
+      acStack_123[2] = s__system_common_lib_libc_sprx_831918847[0x17];
+      acStack_123[3] = s__system_common_lib_libc_sprx_831918847[0x18];
+      acStack_123[4] = s__system_common_lib_libc_sprx_831918847[0x19];
+      acStack_123[5] = s__system_common_lib_libc_sprx_831918847[0x1a];
+      acStack_123[6] = s__system_common_lib_libc_sprx_831918847[0x1b];
+      acStack_123[7] = s__system_common_lib_libc_sprx_831918847[0x1c];
+      local_138[0] = s__system_common_lib_libc_sprx_831918847[0];
+      local_138[1] = s__system_common_lib_libc_sprx_831918847[1];
+      local_138[2] = s__system_common_lib_libc_sprx_831918847[2];
+      local_138[3] = s__system_common_lib_libc_sprx_831918847[3];
+      local_138[4] = s__system_common_lib_libc_sprx_831918847[4];
+      local_138[5] = s__system_common_lib_libc_sprx_831918847[5];
+      local_138[6] = s__system_common_lib_libc_sprx_831918847[6];
+      local_138[7] = s__system_common_lib_libc_sprx_831918847[7];
+      acStack_130[0] = s__system_common_lib_libc_sprx_831918847[8];
+      acStack_130[1] = s__system_common_lib_libc_sprx_831918847[9];
+      acStack_130[2] = s__system_common_lib_libc_sprx_831918847[10];
+      acStack_130[3] = s__system_common_lib_libc_sprx_831918847[0xb];
+      acStack_130[4] = s__system_common_lib_libc_sprx_831918847[0xc];
+      acStack_12b[0] = s__system_common_lib_libc_sprx_831918847[0xd];
+      acStack_12b[1] = s__system_common_lib_libc_sprx_831918847[0xe];
+      acStack_12b[2] = s__system_common_lib_libc_sprx_831918847[0xf];
+      uVar3 = FUN_831910258(local_138,0,param_1,0);
+    }
+  }
+LAB_8319136f0:
+  if (*plVar2 == local_30) {
+    return uVar3;
+  }
+  FUN_8319100f8();
+                    /* WARNING: Does not return */
+  pcVar1 = (code *)invalidInstructionException();
+  (*pcVar1)();
+}
+
+

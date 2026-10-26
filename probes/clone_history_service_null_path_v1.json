@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_service_null_path_v1",
+  "script": "clone_history_service_null_path_v1.js",
+  "check_ids": ["service_null_path_v1"],
+  "timeout_ms": 30000
+}

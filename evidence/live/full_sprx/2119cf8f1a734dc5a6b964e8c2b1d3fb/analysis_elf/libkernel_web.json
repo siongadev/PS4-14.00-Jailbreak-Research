@@ -1,0 +1,34 @@
+{
+  "kind": "analysis-only synthetic ELF64",
+  "not_original_binary": true,
+  "module_handle": 8193,
+  "module_name": "libkernel_web.sprx",
+  "firmware_label": "14.00",
+  "session_id": "2119cf8f1a734dc5a6b964e8c2b1d3fb",
+  "source_manifest": "evidence/live/full_sprx/2119cf8f1a734dc5a6b964e8c2b1d3fb/manifest.json",
+  "source_manifest_sha256": "32003ded198218a18497526b51c40463878ea6fa88222f9c31afd23223540b80",
+  "segments": [
+    {
+      "kind": "rx",
+      "virtual_address": 35017949184,
+      "file_offset": 4096,
+      "size": 344064,
+      "sha256": "63b0e22e855625c3322aab67af54e015baf995b8acf11b6fa4174bde6f1c96e2"
+    },
+    {
+      "kind": "ro",
+      "virtual_address": 35018293248,
+      "file_offset": 348160,
+      "size": 16384,
+      "sha256": "058b2a117ab884d60f59d96f4a82f1f77c8941ef8422e5307298fd3268e02eb7"
+    },
+    {
+      "kind": "rw",
+      "virtual_address": 35018309632,
+      "file_offset": 364544,
+      "size": 229376,
+      "sha256": "23102e862c01b2ad1752db94a9aaaf99434a810f0000ca45bf0b2b7624422d6c"
+    }
+  ],
+  "synthetic_sha256": "83fad84247ac529cc6dbab46ab621a79a1afae0f1e2291a2c6f0bf6ef6cc83aa"
+}

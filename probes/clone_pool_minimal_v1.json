@@ -1,0 +1,12 @@
+{
+  "probe_id": "clone_pool_minimal_v1",
+  "script": "clone_pool_minimal_v1.js",
+  "check_ids": [
+    "number_before_alias",
+    "bigint_before_alias",
+    "bigint_after_alias",
+    "bigint_between_alias",
+    "two_bigints_before_alias"
+  ],
+  "timeout_ms": 3000
+}

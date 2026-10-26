@@ -1,0 +1,4034 @@
+[
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 607,
+    "call_offset": 14588,
+    "thunk_offset": 840,
+    "preceding_instructions": [
+      "+0x38c0: mov rbx, qword ptr [rip + 0x8761]",
+      "+0x38c7: mov rsi, rsp",
+      "+0x38ca: vxorps xmm0, xmm0, xmm0",
+      "+0x38ce: mov rax, qword ptr [rbx]",
+      "+0x38d1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x38d9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x38df: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x38e5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x38eb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x38f0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x3901: mov ecx, eax",
+      "+0x3903: mov eax, 0x11a",
+      "+0x3908: bextr eax, dword ptr [rsp + 0x28], eax",
+      "+0x390f: cmp ecx, -1",
+      "+0x3912: cmove eax, ecx",
+      "+0x3915: mov rcx, qword ptr [rbx]",
+      "+0x3918: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x3920: jne 0x831913929"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 607,
+    "call_offset": 14716,
+    "thunk_offset": 840,
+    "preceding_instructions": [
+      "+0x3940: mov rbx, qword ptr [rip + 0x86e1]",
+      "+0x3947: mov rsi, rsp",
+      "+0x394a: vxorps xmm0, xmm0, xmm0",
+      "+0x394e: mov rax, qword ptr [rbx]",
+      "+0x3951: mov qword ptr [rsp + 0xa0], rax",
+      "+0x3959: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x395f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x3965: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x396b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x3970: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x3981: mov ecx, eax",
+      "+0x3983: mov eax, 0x11a",
+      "+0x3988: bextr eax, dword ptr [rsp + 0x28], eax",
+      "+0x398f: cmp ecx, -1",
+      "+0x3992: cmove eax, ecx",
+      "+0x3995: mov rcx, qword ptr [rbx]",
+      "+0x3998: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x39a0: jne 0x8319139a9"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 14844,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x39c0: mov rbx, qword ptr [rip + 0x8661]",
+      "+0x39c7: mov rsi, rsp",
+      "+0x39ca: vxorps xmm0, xmm0, xmm0",
+      "+0x39ce: mov rax, qword ptr [rbx]",
+      "+0x39d1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x39d9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x39df: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x39e5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x39eb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x39f0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x3a01: mov ecx, eax",
+      "+0x3a03: xor eax, eax",
+      "+0x3a05: mov rdx, qword ptr [rsp + 8]",
+      "+0x3a0a: cmp ecx, 1",
+      "+0x3a0d: mov rcx, qword ptr [rbx]",
+      "+0x3a10: sbb eax, eax",
+      "+0x3a12: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x3a1a: jne 0x831913a2e"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 14988,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x3a50: mov rbx, qword ptr [rip + 0x85d1]",
+      "+0x3a57: mov rsi, rsp",
+      "+0x3a5a: vxorps xmm0, xmm0, xmm0",
+      "+0x3a5e: mov rax, qword ptr [rbx]",
+      "+0x3a61: mov qword ptr [rsp + 0xa0], rax",
+      "+0x3a69: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x3a6f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x3a75: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x3a7b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x3a80: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x3a91: mov ecx, eax",
+      "+0x3a93: xor eax, eax",
+      "+0x3a95: mov rdx, qword ptr [rsp + 8]",
+      "+0x3a9a: cmp ecx, 1",
+      "+0x3a9d: mov rcx, qword ptr [rbx]",
+      "+0x3aa0: sbb eax, eax",
+      "+0x3aa2: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x3aaa: jne 0x831913abe"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 15132,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x3ae0: mov rbx, qword ptr [rip + 0x8541]",
+      "+0x3ae7: mov rsi, rsp",
+      "+0x3aea: vxorps xmm0, xmm0, xmm0",
+      "+0x3aee: mov rax, qword ptr [rbx]",
+      "+0x3af1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x3af9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x3aff: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x3b05: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x3b0b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x3b10: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x3b21: mov ecx, eax",
+      "+0x3b23: movabs rax, 0x3800000000000006",
+      "+0x3b2d: xor edx, edx",
+      "+0x3b2f: cmp qword ptr [rsp], rax",
+      "+0x3b33: sete sil",
+      "+0x3b37: xor eax, eax",
+      "+0x3b39: cmp ecx, 1",
+      "+0x3b3c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 15276,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x3b70: mov rbx, qword ptr [rip + 0x84b1]",
+      "+0x3b77: mov rsi, rsp",
+      "+0x3b7a: vxorps xmm0, xmm0, xmm0",
+      "+0x3b7e: mov rax, qword ptr [rbx]",
+      "+0x3b81: mov qword ptr [rsp + 0xa0], rax",
+      "+0x3b89: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x3b8f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x3b95: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x3b9b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x3ba0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x3bb1: mov ecx, eax",
+      "+0x3bb3: movabs rax, 0x3800000000010003",
+      "+0x3bbd: xor edx, edx",
+      "+0x3bbf: cmp qword ptr [rsp], rax",
+      "+0x3bc3: sete sil",
+      "+0x3bc7: xor eax, eax",
+      "+0x3bc9: cmp ecx, 1",
+      "+0x3bcc: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 15420,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x3c00: mov rbx, qword ptr [rip + 0x8421]",
+      "+0x3c07: mov rsi, rsp",
+      "+0x3c0a: vxorps xmm0, xmm0, xmm0",
+      "+0x3c0e: mov rax, qword ptr [rbx]",
+      "+0x3c11: mov qword ptr [rsp + 0xa0], rax",
+      "+0x3c19: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x3c1f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x3c25: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x3c2b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x3c30: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x3c41: mov ecx, eax",
+      "+0x3c43: movabs rax, 0x3800000000020002",
+      "+0x3c4d: xor edx, edx",
+      "+0x3c4f: cmp qword ptr [rsp], rax",
+      "+0x3c53: sete sil",
+      "+0x3c57: xor eax, eax",
+      "+0x3c59: cmp ecx, 1",
+      "+0x3c5c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 15564,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x3c90: mov rbx, qword ptr [rip + 0x8391]",
+      "+0x3c97: mov rsi, rsp",
+      "+0x3c9a: vxorps xmm0, xmm0, xmm0",
+      "+0x3c9e: mov rax, qword ptr [rbx]",
+      "+0x3ca1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x3ca9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x3caf: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x3cb5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x3cbb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x3cc0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x3cd1: mov ecx, eax",
+      "+0x3cd3: movabs rax, 0x3800000010000009",
+      "+0x3cdd: xor edx, edx",
+      "+0x3cdf: cmp qword ptr [rsp], rax",
+      "+0x3ce3: sete sil",
+      "+0x3ce7: xor eax, eax",
+      "+0x3ce9: cmp ecx, 1",
+      "+0x3cec: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 15708,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x3d20: mov rbx, qword ptr [rip + 0x8301]",
+      "+0x3d27: mov rsi, rsp",
+      "+0x3d2a: vxorps xmm0, xmm0, xmm0",
+      "+0x3d2e: mov rax, qword ptr [rbx]",
+      "+0x3d31: mov qword ptr [rsp + 0xa0], rax",
+      "+0x3d39: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x3d3f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x3d45: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x3d4b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x3d50: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x3d61: mov ecx, eax",
+      "+0x3d63: movabs rax, 0x3800000000000015",
+      "+0x3d6d: xor edx, edx",
+      "+0x3d6f: cmp qword ptr [rsp], rax",
+      "+0x3d73: sete sil",
+      "+0x3d77: xor eax, eax",
+      "+0x3d79: cmp ecx, 1",
+      "+0x3d7c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 15852,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x3db0: mov rbx, qword ptr [rip + 0x8271]",
+      "+0x3db7: mov rsi, rsp",
+      "+0x3dba: vxorps xmm0, xmm0, xmm0",
+      "+0x3dbe: mov rax, qword ptr [rbx]",
+      "+0x3dc1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x3dc9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x3dcf: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x3dd5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x3ddb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x3de0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x3df1: mov ecx, eax",
+      "+0x3df3: movabs rax, 0x3800000000000016",
+      "+0x3dfd: xor edx, edx",
+      "+0x3dff: cmp qword ptr [rsp], rax",
+      "+0x3e03: sete sil",
+      "+0x3e07: xor eax, eax",
+      "+0x3e09: cmp ecx, 1",
+      "+0x3e0c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 15996,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x3e40: mov rbx, qword ptr [rip + 0x81e1]",
+      "+0x3e47: mov rsi, rsp",
+      "+0x3e4a: vxorps xmm0, xmm0, xmm0",
+      "+0x3e4e: mov rax, qword ptr [rbx]",
+      "+0x3e51: mov qword ptr [rsp + 0xa0], rax",
+      "+0x3e59: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x3e5f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x3e65: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x3e6b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x3e70: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x3e81: mov ecx, eax",
+      "+0x3e83: movabs rax, 0x3800000000000017",
+      "+0x3e8d: xor edx, edx",
+      "+0x3e8f: cmp qword ptr [rsp], rax",
+      "+0x3e93: sete sil",
+      "+0x3e97: xor eax, eax",
+      "+0x3e99: cmp ecx, 1",
+      "+0x3e9c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 16140,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x3ed0: mov rbx, qword ptr [rip + 0x8151]",
+      "+0x3ed7: mov rsi, rsp",
+      "+0x3eda: vxorps xmm0, xmm0, xmm0",
+      "+0x3ede: mov rax, qword ptr [rbx]",
+      "+0x3ee1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x3ee9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x3eef: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x3ef5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x3efb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x3f00: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x3f11: mov ecx, eax",
+      "+0x3f13: movabs rax, 0x3800000000000018",
+      "+0x3f1d: xor edx, edx",
+      "+0x3f1f: cmp qword ptr [rsp], rax",
+      "+0x3f23: sete sil",
+      "+0x3f27: xor eax, eax",
+      "+0x3f29: cmp ecx, 1",
+      "+0x3f2c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 16284,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x3f60: mov rbx, qword ptr [rip + 0x80c1]",
+      "+0x3f67: mov rsi, rsp",
+      "+0x3f6a: vxorps xmm0, xmm0, xmm0",
+      "+0x3f6e: mov rax, qword ptr [rbx]",
+      "+0x3f71: mov qword ptr [rsp + 0xa0], rax",
+      "+0x3f79: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x3f7f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x3f85: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x3f8b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x3f90: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x3fa1: mov ecx, eax",
+      "+0x3fa3: movabs rax, 0x380000000000001c",
+      "+0x3fad: xor edx, edx",
+      "+0x3faf: cmp qword ptr [rsp], rax",
+      "+0x3fb3: sete sil",
+      "+0x3fb7: xor eax, eax",
+      "+0x3fb9: cmp ecx, 1",
+      "+0x3fbc: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 16428,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x3ff0: mov rbx, qword ptr [rip + 0x8031]",
+      "+0x3ff7: mov rsi, rsp",
+      "+0x3ffa: vxorps xmm0, xmm0, xmm0",
+      "+0x3ffe: mov rax, qword ptr [rbx]",
+      "+0x4001: mov qword ptr [rsp + 0xa0], rax",
+      "+0x4009: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x400f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x4015: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x401b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x4020: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x4031: mov ecx, eax",
+      "+0x4033: mov eax, 0xffffffff",
+      "+0x4038: test ecx, ecx",
+      "+0x403a: jne 0x83191405a",
+      "+0x403c: mov rcx, qword ptr [rsp]",
+      "+0x4040: movabs rdx, 0x380000000000003c",
+      "+0x404a: mov eax, 1",
+      "+0x404f: or rcx, 8"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 16588,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x4090: mov rbx, qword ptr [rip + 0x7f91]",
+      "+0x4097: mov rsi, rsp",
+      "+0x409a: vxorps xmm0, xmm0, xmm0",
+      "+0x409e: mov rax, qword ptr [rbx]",
+      "+0x40a1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x40a9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x40af: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x40b5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x40bb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x40c0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x40d1: mov ecx, eax",
+      "+0x40d3: movabs rax, 0x3800000000000033",
+      "+0x40dd: xor edx, edx",
+      "+0x40df: cmp qword ptr [rsp], rax",
+      "+0x40e3: sete sil",
+      "+0x40e7: xor eax, eax",
+      "+0x40e9: cmp ecx, 1",
+      "+0x40ec: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 16732,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x4120: mov rbx, qword ptr [rip + 0x7f01]",
+      "+0x4127: mov rsi, rsp",
+      "+0x412a: vxorps xmm0, xmm0, xmm0",
+      "+0x412e: mov rax, qword ptr [rbx]",
+      "+0x4131: mov qword ptr [rsp + 0xa0], rax",
+      "+0x4139: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x413f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x4145: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x414b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x4150: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x4161: mov ecx, eax",
+      "+0x4163: mov eax, 0xffffffff",
+      "+0x4168: test ecx, ecx",
+      "+0x416a: jne 0x83191418a",
+      "+0x416c: mov rcx, qword ptr [rsp]",
+      "+0x4170: movabs rdx, 0x380000000000003d",
+      "+0x417a: mov eax, 1",
+      "+0x417f: or rcx, 8"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 16892,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x41c0: mov rbx, qword ptr [rip + 0x7e61]",
+      "+0x41c7: mov rsi, rsp",
+      "+0x41ca: vxorps xmm0, xmm0, xmm0",
+      "+0x41ce: mov rax, qword ptr [rbx]",
+      "+0x41d1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x41d9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x41df: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x41e5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x41eb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x41f0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x4201: mov ecx, eax",
+      "+0x4203: movabs rax, 0x3800000000000036",
+      "+0x420d: xor edx, edx",
+      "+0x420f: cmp qword ptr [rsp], rax",
+      "+0x4213: sete sil",
+      "+0x4217: xor eax, eax",
+      "+0x4219: cmp ecx, 1",
+      "+0x421c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 17036,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x4250: mov rbx, qword ptr [rip + 0x7dd1]",
+      "+0x4257: mov rsi, rsp",
+      "+0x425a: vxorps xmm0, xmm0, xmm0",
+      "+0x425e: mov rax, qword ptr [rbx]",
+      "+0x4261: mov qword ptr [rsp + 0xa0], rax",
+      "+0x4269: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x426f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x4275: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x427b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x4280: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x4291: mov ecx, eax",
+      "+0x4293: movabs rax, 0x3800000010000001",
+      "+0x429d: xor edx, edx",
+      "+0x429f: cmp qword ptr [rsp], rax",
+      "+0x42a3: sete sil",
+      "+0x42a7: xor eax, eax",
+      "+0x42a9: cmp ecx, 1",
+      "+0x42ac: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 17180,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x42e0: mov rbx, qword ptr [rip + 0x7d41]",
+      "+0x42e7: mov rsi, rsp",
+      "+0x42ea: vxorps xmm0, xmm0, xmm0",
+      "+0x42ee: mov rax, qword ptr [rbx]",
+      "+0x42f1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x42f9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x42ff: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x4305: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x430b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x4310: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x4321: mov ecx, eax",
+      "+0x4323: movabs rax, 0x3800000010000002",
+      "+0x432d: xor edx, edx",
+      "+0x432f: cmp qword ptr [rsp], rax",
+      "+0x4333: sete sil",
+      "+0x4337: xor eax, eax",
+      "+0x4339: cmp ecx, 1",
+      "+0x433c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 17324,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x4370: mov rbx, qword ptr [rip + 0x7cb1]",
+      "+0x4377: mov rsi, rsp",
+      "+0x437a: vxorps xmm0, xmm0, xmm0",
+      "+0x437e: mov rax, qword ptr [rbx]",
+      "+0x4381: mov qword ptr [rsp + 0xa0], rax",
+      "+0x4389: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x438f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x4395: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x439b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x43a0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x43b1: mov ecx, eax",
+      "+0x43b3: movabs rax, 0x3800000010000005",
+      "+0x43bd: xor edx, edx",
+      "+0x43bf: cmp qword ptr [rsp], rax",
+      "+0x43c3: sete sil",
+      "+0x43c7: xor eax, eax",
+      "+0x43c9: cmp ecx, 1",
+      "+0x43cc: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 17468,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x4400: mov rbx, qword ptr [rip + 0x7c21]",
+      "+0x4407: mov rsi, rsp",
+      "+0x440a: vxorps xmm0, xmm0, xmm0",
+      "+0x440e: mov rax, qword ptr [rbx]",
+      "+0x4411: mov qword ptr [rsp + 0xa0], rax",
+      "+0x4419: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x441f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x4425: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x442b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x4430: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x4441: mov ecx, eax",
+      "+0x4443: movabs rax, 0x380000000000000f",
+      "+0x444d: xor edx, edx",
+      "+0x444f: cmp qword ptr [rsp], rax",
+      "+0x4453: sete sil",
+      "+0x4457: xor eax, eax",
+      "+0x4459: cmp ecx, 1",
+      "+0x445c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 17612,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x4490: mov rbx, qword ptr [rip + 0x7b91]",
+      "+0x4497: mov rsi, rsp",
+      "+0x449a: vxorps xmm0, xmm0, xmm0",
+      "+0x449e: mov rax, qword ptr [rbx]",
+      "+0x44a1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x44a9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x44af: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x44b5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x44bb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x44c0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x44d1: mov ecx, eax",
+      "+0x44d3: movabs rax, 0x3800000000000010",
+      "+0x44dd: xor edx, edx",
+      "+0x44df: cmp qword ptr [rsp], rax",
+      "+0x44e3: sete sil",
+      "+0x44e7: xor eax, eax",
+      "+0x44e9: cmp ecx, 1",
+      "+0x44ec: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 17756,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x4520: mov rbx, qword ptr [rip + 0x7b01]",
+      "+0x4527: mov rsi, rsp",
+      "+0x452a: vxorps xmm0, xmm0, xmm0",
+      "+0x452e: mov rax, qword ptr [rbx]",
+      "+0x4531: mov qword ptr [rsp + 0xa0], rax",
+      "+0x4539: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x453f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x4545: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x454b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x4550: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x4561: mov ecx, eax",
+      "+0x4563: movabs rax, 0x3800000010000003",
+      "+0x456d: xor edx, edx",
+      "+0x456f: cmp qword ptr [rsp], rax",
+      "+0x4573: sete sil",
+      "+0x4577: xor eax, eax",
+      "+0x4579: cmp ecx, 1",
+      "+0x457c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 17900,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x45b0: mov rbx, qword ptr [rip + 0x7a71]",
+      "+0x45b7: mov rsi, rsp",
+      "+0x45ba: vxorps xmm0, xmm0, xmm0",
+      "+0x45be: mov rax, qword ptr [rbx]",
+      "+0x45c1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x45c9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x45cf: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x45d5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x45db: vmovups ymmword ptr [rsp], ymm0",
+      "+0x45e0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x45f1: mov ecx, eax",
+      "+0x45f3: mov eax, 0xffffffff",
+      "+0x45f8: test ecx, ecx",
+      "+0x45fa: jne 0x831914622",
+      "+0x45fc: movabs rcx, 0xc7ffffffeffffffc",
+      "+0x4606: add rcx, qword ptr [rsp]",
+      "+0x460a: cmp rcx, 0xe",
+      "+0x460e: ja 0x831914620"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 18060,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x4650: mov rbx, qword ptr [rip + 0x79d1]",
+      "+0x4657: mov rsi, rsp",
+      "+0x465a: vxorps xmm0, xmm0, xmm0",
+      "+0x465e: mov rax, qword ptr [rbx]",
+      "+0x4661: mov qword ptr [rsp + 0xa0], rax",
+      "+0x4669: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x466f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x4675: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x467b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x4680: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x4691: mov ecx, eax",
+      "+0x4693: mov eax, 0xffffffff",
+      "+0x4698: test ecx, ecx",
+      "+0x469a: je 0x8319146b0",
+      "+0x469c: mov rcx, qword ptr [rbx]",
+      "+0x469f: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x46a7: jne 0x8319146db",
+      "+0x46a9: lea rsp, [rbp - 8]"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 18236,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x4700: mov rbx, qword ptr [rip + 0x7921]",
+      "+0x4707: mov rsi, rsp",
+      "+0x470a: vxorps xmm0, xmm0, xmm0",
+      "+0x470e: mov rax, qword ptr [rbx]",
+      "+0x4711: mov qword ptr [rsp + 0xa0], rax",
+      "+0x4719: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x471f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x4725: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x472b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x4730: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x4741: mov ecx, eax",
+      "+0x4743: movabs rax, 0x3800000010000010",
+      "+0x474d: xor edx, edx",
+      "+0x474f: cmp qword ptr [rsp], rax",
+      "+0x4753: sete sil",
+      "+0x4757: xor eax, eax",
+      "+0x4759: cmp ecx, 1",
+      "+0x475c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 18380,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x4790: mov rbx, qword ptr [rip + 0x7891]",
+      "+0x4797: mov rsi, rsp",
+      "+0x479a: vxorps xmm0, xmm0, xmm0",
+      "+0x479e: mov rax, qword ptr [rbx]",
+      "+0x47a1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x47a9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x47af: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x47b5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x47bb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x47c0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x47d1: mov ecx, eax",
+      "+0x47d3: mov eax, 0xffffffff",
+      "+0x47d8: test ecx, ecx",
+      "+0x47da: jne 0x8319147f1",
+      "+0x47dc: test byte ptr [rsp + 0x17], 0x20",
+      "+0x47e1: je 0x8319147ef",
+      "+0x47e3: test byte ptr [rsp + 0x2a], 0x80",
+      "+0x47e8: mov eax, 1"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 18524,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x4820: mov rbx, qword ptr [rip + 0x7801]",
+      "+0x4827: mov rsi, rsp",
+      "+0x482a: vxorps xmm0, xmm0, xmm0",
+      "+0x482e: mov rax, qword ptr [rbx]",
+      "+0x4831: mov qword ptr [rsp + 0xa0], rax",
+      "+0x4839: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x483f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x4845: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x484b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x4850: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x4861: mov ecx, eax",
+      "+0x4863: mov eax, 0xffffffff",
+      "+0x4868: test ecx, ecx",
+      "+0x486a: jne 0x831914881",
+      "+0x486c: test byte ptr [rsp + 0x17], 0x40",
+      "+0x4871: je 0x83191487f",
+      "+0x4873: test byte ptr [rsp + 0x2a], 0x80",
+      "+0x4878: mov eax, 1"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 18668,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x48b0: mov rbx, qword ptr [rip + 0x7771]",
+      "+0x48b7: mov rsi, rsp",
+      "+0x48ba: vxorps xmm0, xmm0, xmm0",
+      "+0x48be: mov rax, qword ptr [rbx]",
+      "+0x48c1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x48c9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x48cf: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x48d5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x48db: vmovups ymmword ptr [rsp], ymm0",
+      "+0x48e0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x48f1: mov ecx, eax",
+      "+0x48f3: mov eax, 0xffffffff",
+      "+0x48f8: test ecx, ecx",
+      "+0x48fa: jne 0x831914911",
+      "+0x48fc: test byte ptr [rsp + 0x17], 0x20",
+      "+0x4901: je 0x83191490f",
+      "+0x4903: test byte ptr [rsp + 0x2a], 0x40",
+      "+0x4908: mov eax, 1"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 18812,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x4940: mov rbx, qword ptr [rip + 0x76e1]",
+      "+0x4947: mov rsi, rsp",
+      "+0x494a: vxorps xmm0, xmm0, xmm0",
+      "+0x494e: mov rax, qword ptr [rbx]",
+      "+0x4951: mov qword ptr [rsp + 0xa0], rax",
+      "+0x4959: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x495f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x4965: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x496b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x4970: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x4981: mov ecx, eax",
+      "+0x4983: mov eax, 0xffffffff",
+      "+0x4988: test ecx, ecx",
+      "+0x498a: jne 0x8319149a1",
+      "+0x498c: test byte ptr [rsp + 0x17], 0x40",
+      "+0x4991: je 0x83191499f",
+      "+0x4993: test byte ptr [rsp + 0x2a], 0x40",
+      "+0x4998: mov eax, 1"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 18956,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x49d0: mov rbx, qword ptr [rip + 0x7651]",
+      "+0x49d7: mov rsi, rsp",
+      "+0x49da: vxorps xmm0, xmm0, xmm0",
+      "+0x49de: mov rax, qword ptr [rbx]",
+      "+0x49e1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x49e9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x49ef: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x49f5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x49fb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x4a00: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x4a11: mov ecx, eax",
+      "+0x4a13: xor eax, eax",
+      "+0x4a15: mov rdx, qword ptr [rsp + 8]",
+      "+0x4a1a: cmp ecx, 1",
+      "+0x4a1d: mov rcx, qword ptr [rbx]",
+      "+0x4a20: sbb eax, eax",
+      "+0x4a22: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x4a2a: jne 0x831914a3e"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 19100,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x4a60: mov rbx, qword ptr [rip + 0x75c1]",
+      "+0x4a67: mov rsi, rsp",
+      "+0x4a6a: vxorps xmm0, xmm0, xmm0",
+      "+0x4a6e: mov rax, qword ptr [rbx]",
+      "+0x4a71: mov qword ptr [rsp + 0xa0], rax",
+      "+0x4a79: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x4a7f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x4a85: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x4a8b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x4a90: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x4aa1: mov ecx, eax",
+      "+0x4aa3: mov eax, 0xffffffff",
+      "+0x4aa8: test ecx, ecx",
+      "+0x4aaa: je 0x831914ac0",
+      "+0x4aac: mov rcx, qword ptr [rbx]",
+      "+0x4aaf: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x4ab7: jne 0x831914af5",
+      "+0x4ab9: lea rsp, [rbp - 8]"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 19278,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x4b12: mov r14, qword ptr [rip + 0x750f]",
+      "+0x4b19: mov rsi, rsp",
+      "+0x4b1c: vxorps xmm0, xmm0, xmm0",
+      "+0x4b20: mov rax, qword ptr [r14]",
+      "+0x4b23: mov qword ptr [rsp + 0x98], rax",
+      "+0x4b2b: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x4b31: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x4b37: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x4b3d: vmovups ymmword ptr [rsp], ymm0",
+      "+0x4b42: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x4b53: mov ebx, 0xffffffff",
+      "+0x4b58: test eax, eax",
+      "+0x4b5a: jne 0x831914b7a",
+      "+0x4b5c: test byte ptr [rsp + 0x16], 0x80",
+      "+0x4b61: mov ebx, 1",
+      "+0x4b66: jne 0x831914b7a",
+      "+0x4b68: cmp byte ptr [rsp + 7], 0x31",
+      "+0x4b6d: jne 0x831914b78"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 587,
+    "call_offset": 19436,
+    "thunk_offset": 824,
+    "preceding_instructions": [
+      "+0x4bb0: mov rbx, qword ptr [rip + 0x7471]",
+      "+0x4bb7: mov rsi, rsp",
+      "+0x4bba: vxorps xmm0, xmm0, xmm0",
+      "+0x4bbe: mov rax, qword ptr [rbx]",
+      "+0x4bc1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x4bc9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x4bcf: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x4bd5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x4bdb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x4be0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x4bf1: mov ecx, eax",
+      "+0x4bf3: xor eax, eax",
+      "+0x4bf5: mov rdx, qword ptr [rsp + 0x10]",
+      "+0x4bfa: cmp ecx, 1",
+      "+0x4bfd: mov rcx, qword ptr [rbx]",
+      "+0x4c00: sbb eax, eax",
+      "+0x4c02: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x4c0a: jne 0x831914c1e"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 607,
+    "call_offset": 19580,
+    "thunk_offset": 840,
+    "preceding_instructions": [
+      "+0x4c40: mov rbx, qword ptr [rip + 0x73e1]",
+      "+0x4c47: mov rsi, rsp",
+      "+0x4c4a: vxorps xmm0, xmm0, xmm0",
+      "+0x4c4e: mov rax, qword ptr [rbx]",
+      "+0x4c51: mov qword ptr [rsp + 0xa0], rax",
+      "+0x4c59: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x4c5f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x4c65: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x4c6b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x4c70: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x4c81: mov ecx, eax",
+      "+0x4c83: cmp eax, -1",
+      "+0x4c86: movzx eax, byte ptr [rsp + 0x38]",
+      "+0x4c8b: cmove eax, ecx",
+      "+0x4c8e: mov rcx, qword ptr [rbx]",
+      "+0x4c91: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x4c99: jne 0x831914ca2",
+      "+0x4c9b: lea rsp, [rbp - 8]"
+    ]
+  },
+  {
+    "module": "libSceSysmodule.sprx",
+    "number": 607,
+    "call_offset": 19713,
+    "thunk_offset": 840,
+    "preceding_instructions": [
+      "+0x4cc9: mov rbx, rsi",
+      "+0x4ccc: mov rsi, rsp",
+      "+0x4ccf: vxorps xmm0, xmm0, xmm0",
+      "+0x4cd3: mov rax, qword ptr [r14]",
+      "+0x4cd6: mov qword ptr [rsp + 0x98], rax",
+      "+0x4cde: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x4ce4: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x4cea: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x4cf0: vmovups ymmword ptr [rsp], ymm0",
+      "+0x4cf5: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x4d06: mov ecx, eax",
+      "+0x4d08: mov eax, 0xffffffff",
+      "+0x4d0d: cmp ecx, -1",
+      "+0x4d10: je 0x831914d30",
+      "+0x4d12: mov rcx, qword ptr [rsp]",
+      "+0x4d16: xor eax, eax",
+      "+0x4d18: test rcx, rcx",
+      "+0x4d1b: mov qword ptr [rbx], rcx"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 607,
+    "call_offset": 23292,
+    "thunk_offset": 552,
+    "preceding_instructions": [
+      "+0x5ac0: mov rbx, qword ptr [rip + 0x68f9]",
+      "+0x5ac7: mov rsi, rsp",
+      "+0x5aca: vxorps xmm0, xmm0, xmm0",
+      "+0x5ace: mov rax, qword ptr [rbx]",
+      "+0x5ad1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x5ad9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x5adf: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x5ae5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x5aeb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x5af0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x5b01: mov ecx, eax",
+      "+0x5b03: mov eax, 0x11a",
+      "+0x5b08: bextr eax, dword ptr [rsp + 0x28], eax",
+      "+0x5b0f: cmp ecx, -1",
+      "+0x5b12: cmove eax, ecx",
+      "+0x5b15: mov rcx, qword ptr [rbx]",
+      "+0x5b18: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x5b20: jne 0x83f571b29"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 607,
+    "call_offset": 23420,
+    "thunk_offset": 552,
+    "preceding_instructions": [
+      "+0x5b40: mov rbx, qword ptr [rip + 0x6879]",
+      "+0x5b47: mov rsi, rsp",
+      "+0x5b4a: vxorps xmm0, xmm0, xmm0",
+      "+0x5b4e: mov rax, qword ptr [rbx]",
+      "+0x5b51: mov qword ptr [rsp + 0xa0], rax",
+      "+0x5b59: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x5b5f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x5b65: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x5b6b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x5b70: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x5b81: mov ecx, eax",
+      "+0x5b83: mov eax, 0x11a",
+      "+0x5b88: bextr eax, dword ptr [rsp + 0x28], eax",
+      "+0x5b8f: cmp ecx, -1",
+      "+0x5b92: cmove eax, ecx",
+      "+0x5b95: mov rcx, qword ptr [rbx]",
+      "+0x5b98: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x5ba0: jne 0x83f571ba9"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 23548,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x5bc0: mov rbx, qword ptr [rip + 0x67f9]",
+      "+0x5bc7: mov rsi, rsp",
+      "+0x5bca: vxorps xmm0, xmm0, xmm0",
+      "+0x5bce: mov rax, qword ptr [rbx]",
+      "+0x5bd1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x5bd9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x5bdf: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x5be5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x5beb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x5bf0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x5c01: mov ecx, eax",
+      "+0x5c03: xor eax, eax",
+      "+0x5c05: mov rdx, qword ptr [rsp + 8]",
+      "+0x5c0a: cmp ecx, 1",
+      "+0x5c0d: mov rcx, qword ptr [rbx]",
+      "+0x5c10: sbb eax, eax",
+      "+0x5c12: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x5c1a: jne 0x83f571c2e"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 23692,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x5c50: mov rbx, qword ptr [rip + 0x6769]",
+      "+0x5c57: mov rsi, rsp",
+      "+0x5c5a: vxorps xmm0, xmm0, xmm0",
+      "+0x5c5e: mov rax, qword ptr [rbx]",
+      "+0x5c61: mov qword ptr [rsp + 0xa0], rax",
+      "+0x5c69: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x5c6f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x5c75: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x5c7b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x5c80: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x5c91: mov ecx, eax",
+      "+0x5c93: xor eax, eax",
+      "+0x5c95: mov rdx, qword ptr [rsp + 8]",
+      "+0x5c9a: cmp ecx, 1",
+      "+0x5c9d: mov rcx, qword ptr [rbx]",
+      "+0x5ca0: sbb eax, eax",
+      "+0x5ca2: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x5caa: jne 0x83f571cbe"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 23836,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x5ce0: mov rbx, qword ptr [rip + 0x66d9]",
+      "+0x5ce7: mov rsi, rsp",
+      "+0x5cea: vxorps xmm0, xmm0, xmm0",
+      "+0x5cee: mov rax, qword ptr [rbx]",
+      "+0x5cf1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x5cf9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x5cff: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x5d05: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x5d0b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x5d10: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x5d21: mov ecx, eax",
+      "+0x5d23: movabs rax, 0x3800000000000006",
+      "+0x5d2d: xor edx, edx",
+      "+0x5d2f: cmp qword ptr [rsp], rax",
+      "+0x5d33: sete sil",
+      "+0x5d37: xor eax, eax",
+      "+0x5d39: cmp ecx, 1",
+      "+0x5d3c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 23980,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x5d70: mov rbx, qword ptr [rip + 0x6649]",
+      "+0x5d77: mov rsi, rsp",
+      "+0x5d7a: vxorps xmm0, xmm0, xmm0",
+      "+0x5d7e: mov rax, qword ptr [rbx]",
+      "+0x5d81: mov qword ptr [rsp + 0xa0], rax",
+      "+0x5d89: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x5d8f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x5d95: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x5d9b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x5da0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x5db1: mov ecx, eax",
+      "+0x5db3: movabs rax, 0x3800000000010003",
+      "+0x5dbd: xor edx, edx",
+      "+0x5dbf: cmp qword ptr [rsp], rax",
+      "+0x5dc3: sete sil",
+      "+0x5dc7: xor eax, eax",
+      "+0x5dc9: cmp ecx, 1",
+      "+0x5dcc: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 24124,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x5e00: mov rbx, qword ptr [rip + 0x65b9]",
+      "+0x5e07: mov rsi, rsp",
+      "+0x5e0a: vxorps xmm0, xmm0, xmm0",
+      "+0x5e0e: mov rax, qword ptr [rbx]",
+      "+0x5e11: mov qword ptr [rsp + 0xa0], rax",
+      "+0x5e19: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x5e1f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x5e25: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x5e2b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x5e30: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x5e41: mov ecx, eax",
+      "+0x5e43: movabs rax, 0x3800000000020002",
+      "+0x5e4d: xor edx, edx",
+      "+0x5e4f: cmp qword ptr [rsp], rax",
+      "+0x5e53: sete sil",
+      "+0x5e57: xor eax, eax",
+      "+0x5e59: cmp ecx, 1",
+      "+0x5e5c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 24268,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x5e90: mov rbx, qword ptr [rip + 0x6529]",
+      "+0x5e97: mov rsi, rsp",
+      "+0x5e9a: vxorps xmm0, xmm0, xmm0",
+      "+0x5e9e: mov rax, qword ptr [rbx]",
+      "+0x5ea1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x5ea9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x5eaf: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x5eb5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x5ebb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x5ec0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x5ed1: mov ecx, eax",
+      "+0x5ed3: movabs rax, 0x3800000010000009",
+      "+0x5edd: xor edx, edx",
+      "+0x5edf: cmp qword ptr [rsp], rax",
+      "+0x5ee3: sete sil",
+      "+0x5ee7: xor eax, eax",
+      "+0x5ee9: cmp ecx, 1",
+      "+0x5eec: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 24412,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x5f20: mov rbx, qword ptr [rip + 0x6499]",
+      "+0x5f27: mov rsi, rsp",
+      "+0x5f2a: vxorps xmm0, xmm0, xmm0",
+      "+0x5f2e: mov rax, qword ptr [rbx]",
+      "+0x5f31: mov qword ptr [rsp + 0xa0], rax",
+      "+0x5f39: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x5f3f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x5f45: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x5f4b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x5f50: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x5f61: mov ecx, eax",
+      "+0x5f63: movabs rax, 0x3800000000000015",
+      "+0x5f6d: xor edx, edx",
+      "+0x5f6f: cmp qword ptr [rsp], rax",
+      "+0x5f73: sete sil",
+      "+0x5f77: xor eax, eax",
+      "+0x5f79: cmp ecx, 1",
+      "+0x5f7c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 24556,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x5fb0: mov rbx, qword ptr [rip + 0x6409]",
+      "+0x5fb7: mov rsi, rsp",
+      "+0x5fba: vxorps xmm0, xmm0, xmm0",
+      "+0x5fbe: mov rax, qword ptr [rbx]",
+      "+0x5fc1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x5fc9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x5fcf: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x5fd5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x5fdb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x5fe0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x5ff1: mov ecx, eax",
+      "+0x5ff3: movabs rax, 0x3800000000000016",
+      "+0x5ffd: xor edx, edx",
+      "+0x5fff: cmp qword ptr [rsp], rax",
+      "+0x6003: sete sil",
+      "+0x6007: xor eax, eax",
+      "+0x6009: cmp ecx, 1",
+      "+0x600c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 24700,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x6040: mov rbx, qword ptr [rip + 0x6379]",
+      "+0x6047: mov rsi, rsp",
+      "+0x604a: vxorps xmm0, xmm0, xmm0",
+      "+0x604e: mov rax, qword ptr [rbx]",
+      "+0x6051: mov qword ptr [rsp + 0xa0], rax",
+      "+0x6059: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x605f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x6065: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x606b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x6070: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x6081: mov ecx, eax",
+      "+0x6083: movabs rax, 0x3800000000000017",
+      "+0x608d: xor edx, edx",
+      "+0x608f: cmp qword ptr [rsp], rax",
+      "+0x6093: sete sil",
+      "+0x6097: xor eax, eax",
+      "+0x6099: cmp ecx, 1",
+      "+0x609c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 24844,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x60d0: mov rbx, qword ptr [rip + 0x62e9]",
+      "+0x60d7: mov rsi, rsp",
+      "+0x60da: vxorps xmm0, xmm0, xmm0",
+      "+0x60de: mov rax, qword ptr [rbx]",
+      "+0x60e1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x60e9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x60ef: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x60f5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x60fb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x6100: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x6111: mov ecx, eax",
+      "+0x6113: movabs rax, 0x3800000000000018",
+      "+0x611d: xor edx, edx",
+      "+0x611f: cmp qword ptr [rsp], rax",
+      "+0x6123: sete sil",
+      "+0x6127: xor eax, eax",
+      "+0x6129: cmp ecx, 1",
+      "+0x612c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 24988,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x6160: mov rbx, qword ptr [rip + 0x6259]",
+      "+0x6167: mov rsi, rsp",
+      "+0x616a: vxorps xmm0, xmm0, xmm0",
+      "+0x616e: mov rax, qword ptr [rbx]",
+      "+0x6171: mov qword ptr [rsp + 0xa0], rax",
+      "+0x6179: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x617f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x6185: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x618b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x6190: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x61a1: mov ecx, eax",
+      "+0x61a3: movabs rax, 0x380000000000001c",
+      "+0x61ad: xor edx, edx",
+      "+0x61af: cmp qword ptr [rsp], rax",
+      "+0x61b3: sete sil",
+      "+0x61b7: xor eax, eax",
+      "+0x61b9: cmp ecx, 1",
+      "+0x61bc: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 25132,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x61f0: mov rbx, qword ptr [rip + 0x61c9]",
+      "+0x61f7: mov rsi, rsp",
+      "+0x61fa: vxorps xmm0, xmm0, xmm0",
+      "+0x61fe: mov rax, qword ptr [rbx]",
+      "+0x6201: mov qword ptr [rsp + 0xa0], rax",
+      "+0x6209: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x620f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x6215: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x621b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x6220: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x6231: mov ecx, eax",
+      "+0x6233: mov eax, 0xffffffff",
+      "+0x6238: test ecx, ecx",
+      "+0x623a: jne 0x83f57225a",
+      "+0x623c: mov rcx, qword ptr [rsp]",
+      "+0x6240: movabs rdx, 0x380000000000003c",
+      "+0x624a: mov eax, 1",
+      "+0x624f: or rcx, 8"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 25292,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x6290: mov rbx, qword ptr [rip + 0x6129]",
+      "+0x6297: mov rsi, rsp",
+      "+0x629a: vxorps xmm0, xmm0, xmm0",
+      "+0x629e: mov rax, qword ptr [rbx]",
+      "+0x62a1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x62a9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x62af: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x62b5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x62bb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x62c0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x62d1: mov ecx, eax",
+      "+0x62d3: movabs rax, 0x3800000000000033",
+      "+0x62dd: xor edx, edx",
+      "+0x62df: cmp qword ptr [rsp], rax",
+      "+0x62e3: sete sil",
+      "+0x62e7: xor eax, eax",
+      "+0x62e9: cmp ecx, 1",
+      "+0x62ec: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 25436,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x6320: mov rbx, qword ptr [rip + 0x6099]",
+      "+0x6327: mov rsi, rsp",
+      "+0x632a: vxorps xmm0, xmm0, xmm0",
+      "+0x632e: mov rax, qword ptr [rbx]",
+      "+0x6331: mov qword ptr [rsp + 0xa0], rax",
+      "+0x6339: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x633f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x6345: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x634b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x6350: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x6361: mov ecx, eax",
+      "+0x6363: mov eax, 0xffffffff",
+      "+0x6368: test ecx, ecx",
+      "+0x636a: jne 0x83f57238a",
+      "+0x636c: mov rcx, qword ptr [rsp]",
+      "+0x6370: movabs rdx, 0x380000000000003d",
+      "+0x637a: mov eax, 1",
+      "+0x637f: or rcx, 8"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 25596,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x63c0: mov rbx, qword ptr [rip + 0x5ff9]",
+      "+0x63c7: mov rsi, rsp",
+      "+0x63ca: vxorps xmm0, xmm0, xmm0",
+      "+0x63ce: mov rax, qword ptr [rbx]",
+      "+0x63d1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x63d9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x63df: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x63e5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x63eb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x63f0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x6401: mov ecx, eax",
+      "+0x6403: movabs rax, 0x3800000000000036",
+      "+0x640d: xor edx, edx",
+      "+0x640f: cmp qword ptr [rsp], rax",
+      "+0x6413: sete sil",
+      "+0x6417: xor eax, eax",
+      "+0x6419: cmp ecx, 1",
+      "+0x641c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 25740,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x6450: mov rbx, qword ptr [rip + 0x5f69]",
+      "+0x6457: mov rsi, rsp",
+      "+0x645a: vxorps xmm0, xmm0, xmm0",
+      "+0x645e: mov rax, qword ptr [rbx]",
+      "+0x6461: mov qword ptr [rsp + 0xa0], rax",
+      "+0x6469: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x646f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x6475: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x647b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x6480: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x6491: mov ecx, eax",
+      "+0x6493: movabs rax, 0x3800000010000001",
+      "+0x649d: xor edx, edx",
+      "+0x649f: cmp qword ptr [rsp], rax",
+      "+0x64a3: sete sil",
+      "+0x64a7: xor eax, eax",
+      "+0x64a9: cmp ecx, 1",
+      "+0x64ac: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 25884,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x64e0: mov rbx, qword ptr [rip + 0x5ed9]",
+      "+0x64e7: mov rsi, rsp",
+      "+0x64ea: vxorps xmm0, xmm0, xmm0",
+      "+0x64ee: mov rax, qword ptr [rbx]",
+      "+0x64f1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x64f9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x64ff: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x6505: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x650b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x6510: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x6521: mov ecx, eax",
+      "+0x6523: movabs rax, 0x3800000010000002",
+      "+0x652d: xor edx, edx",
+      "+0x652f: cmp qword ptr [rsp], rax",
+      "+0x6533: sete sil",
+      "+0x6537: xor eax, eax",
+      "+0x6539: cmp ecx, 1",
+      "+0x653c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 26028,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x6570: mov rbx, qword ptr [rip + 0x5e49]",
+      "+0x6577: mov rsi, rsp",
+      "+0x657a: vxorps xmm0, xmm0, xmm0",
+      "+0x657e: mov rax, qword ptr [rbx]",
+      "+0x6581: mov qword ptr [rsp + 0xa0], rax",
+      "+0x6589: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x658f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x6595: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x659b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x65a0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x65b1: mov ecx, eax",
+      "+0x65b3: movabs rax, 0x3800000010000005",
+      "+0x65bd: xor edx, edx",
+      "+0x65bf: cmp qword ptr [rsp], rax",
+      "+0x65c3: sete sil",
+      "+0x65c7: xor eax, eax",
+      "+0x65c9: cmp ecx, 1",
+      "+0x65cc: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 26172,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x6600: mov rbx, qword ptr [rip + 0x5db9]",
+      "+0x6607: mov rsi, rsp",
+      "+0x660a: vxorps xmm0, xmm0, xmm0",
+      "+0x660e: mov rax, qword ptr [rbx]",
+      "+0x6611: mov qword ptr [rsp + 0xa0], rax",
+      "+0x6619: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x661f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x6625: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x662b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x6630: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x6641: mov ecx, eax",
+      "+0x6643: movabs rax, 0x380000000000000f",
+      "+0x664d: xor edx, edx",
+      "+0x664f: cmp qword ptr [rsp], rax",
+      "+0x6653: sete sil",
+      "+0x6657: xor eax, eax",
+      "+0x6659: cmp ecx, 1",
+      "+0x665c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 26316,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x6690: mov rbx, qword ptr [rip + 0x5d29]",
+      "+0x6697: mov rsi, rsp",
+      "+0x669a: vxorps xmm0, xmm0, xmm0",
+      "+0x669e: mov rax, qword ptr [rbx]",
+      "+0x66a1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x66a9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x66af: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x66b5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x66bb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x66c0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x66d1: mov ecx, eax",
+      "+0x66d3: movabs rax, 0x3800000000000010",
+      "+0x66dd: xor edx, edx",
+      "+0x66df: cmp qword ptr [rsp], rax",
+      "+0x66e3: sete sil",
+      "+0x66e7: xor eax, eax",
+      "+0x66e9: cmp ecx, 1",
+      "+0x66ec: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 26460,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x6720: mov rbx, qword ptr [rip + 0x5c99]",
+      "+0x6727: mov rsi, rsp",
+      "+0x672a: vxorps xmm0, xmm0, xmm0",
+      "+0x672e: mov rax, qword ptr [rbx]",
+      "+0x6731: mov qword ptr [rsp + 0xa0], rax",
+      "+0x6739: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x673f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x6745: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x674b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x6750: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x6761: mov ecx, eax",
+      "+0x6763: movabs rax, 0x3800000010000003",
+      "+0x676d: xor edx, edx",
+      "+0x676f: cmp qword ptr [rsp], rax",
+      "+0x6773: sete sil",
+      "+0x6777: xor eax, eax",
+      "+0x6779: cmp ecx, 1",
+      "+0x677c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 26604,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x67b0: mov rbx, qword ptr [rip + 0x5c09]",
+      "+0x67b7: mov rsi, rsp",
+      "+0x67ba: vxorps xmm0, xmm0, xmm0",
+      "+0x67be: mov rax, qword ptr [rbx]",
+      "+0x67c1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x67c9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x67cf: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x67d5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x67db: vmovups ymmword ptr [rsp], ymm0",
+      "+0x67e0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x67f1: mov ecx, eax",
+      "+0x67f3: mov eax, 0xffffffff",
+      "+0x67f8: test ecx, ecx",
+      "+0x67fa: jne 0x83f572822",
+      "+0x67fc: movabs rcx, 0xc7ffffffeffffffc",
+      "+0x6806: add rcx, qword ptr [rsp]",
+      "+0x680a: cmp rcx, 0xe",
+      "+0x680e: ja 0x83f572820"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 26764,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x6850: mov rbx, qword ptr [rip + 0x5b69]",
+      "+0x6857: mov rsi, rsp",
+      "+0x685a: vxorps xmm0, xmm0, xmm0",
+      "+0x685e: mov rax, qword ptr [rbx]",
+      "+0x6861: mov qword ptr [rsp + 0xa0], rax",
+      "+0x6869: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x686f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x6875: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x687b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x6880: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x6891: mov ecx, eax",
+      "+0x6893: mov eax, 0xffffffff",
+      "+0x6898: test ecx, ecx",
+      "+0x689a: je 0x83f5728b0",
+      "+0x689c: mov rcx, qword ptr [rbx]",
+      "+0x689f: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x68a7: jne 0x83f5728db",
+      "+0x68a9: lea rsp, [rbp - 8]"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 26940,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x6900: mov rbx, qword ptr [rip + 0x5ab9]",
+      "+0x6907: mov rsi, rsp",
+      "+0x690a: vxorps xmm0, xmm0, xmm0",
+      "+0x690e: mov rax, qword ptr [rbx]",
+      "+0x6911: mov qword ptr [rsp + 0xa0], rax",
+      "+0x6919: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x691f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x6925: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x692b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x6930: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x6941: mov ecx, eax",
+      "+0x6943: movabs rax, 0x3800000010000010",
+      "+0x694d: xor edx, edx",
+      "+0x694f: cmp qword ptr [rsp], rax",
+      "+0x6953: sete sil",
+      "+0x6957: xor eax, eax",
+      "+0x6959: cmp ecx, 1",
+      "+0x695c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 27084,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x6990: mov rbx, qword ptr [rip + 0x5a29]",
+      "+0x6997: mov rsi, rsp",
+      "+0x699a: vxorps xmm0, xmm0, xmm0",
+      "+0x699e: mov rax, qword ptr [rbx]",
+      "+0x69a1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x69a9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x69af: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x69b5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x69bb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x69c0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x69d1: mov ecx, eax",
+      "+0x69d3: mov eax, 0xffffffff",
+      "+0x69d8: test ecx, ecx",
+      "+0x69da: jne 0x83f5729f1",
+      "+0x69dc: test byte ptr [rsp + 0x17], 0x20",
+      "+0x69e1: je 0x83f5729ef",
+      "+0x69e3: test byte ptr [rsp + 0x2a], 0x80",
+      "+0x69e8: mov eax, 1"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 27228,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x6a20: mov rbx, qword ptr [rip + 0x5999]",
+      "+0x6a27: mov rsi, rsp",
+      "+0x6a2a: vxorps xmm0, xmm0, xmm0",
+      "+0x6a2e: mov rax, qword ptr [rbx]",
+      "+0x6a31: mov qword ptr [rsp + 0xa0], rax",
+      "+0x6a39: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x6a3f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x6a45: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x6a4b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x6a50: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x6a61: mov ecx, eax",
+      "+0x6a63: mov eax, 0xffffffff",
+      "+0x6a68: test ecx, ecx",
+      "+0x6a6a: jne 0x83f572a81",
+      "+0x6a6c: test byte ptr [rsp + 0x17], 0x40",
+      "+0x6a71: je 0x83f572a7f",
+      "+0x6a73: test byte ptr [rsp + 0x2a], 0x80",
+      "+0x6a78: mov eax, 1"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 27372,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x6ab0: mov rbx, qword ptr [rip + 0x5909]",
+      "+0x6ab7: mov rsi, rsp",
+      "+0x6aba: vxorps xmm0, xmm0, xmm0",
+      "+0x6abe: mov rax, qword ptr [rbx]",
+      "+0x6ac1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x6ac9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x6acf: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x6ad5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x6adb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x6ae0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x6af1: mov ecx, eax",
+      "+0x6af3: mov eax, 0xffffffff",
+      "+0x6af8: test ecx, ecx",
+      "+0x6afa: jne 0x83f572b11",
+      "+0x6afc: test byte ptr [rsp + 0x17], 0x20",
+      "+0x6b01: je 0x83f572b0f",
+      "+0x6b03: test byte ptr [rsp + 0x2a], 0x40",
+      "+0x6b08: mov eax, 1"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 27516,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x6b40: mov rbx, qword ptr [rip + 0x5879]",
+      "+0x6b47: mov rsi, rsp",
+      "+0x6b4a: vxorps xmm0, xmm0, xmm0",
+      "+0x6b4e: mov rax, qword ptr [rbx]",
+      "+0x6b51: mov qword ptr [rsp + 0xa0], rax",
+      "+0x6b59: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x6b5f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x6b65: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x6b6b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x6b70: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x6b81: mov ecx, eax",
+      "+0x6b83: mov eax, 0xffffffff",
+      "+0x6b88: test ecx, ecx",
+      "+0x6b8a: jne 0x83f572ba1",
+      "+0x6b8c: test byte ptr [rsp + 0x17], 0x40",
+      "+0x6b91: je 0x83f572b9f",
+      "+0x6b93: test byte ptr [rsp + 0x2a], 0x40",
+      "+0x6b98: mov eax, 1"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 27660,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x6bd0: mov rbx, qword ptr [rip + 0x57e9]",
+      "+0x6bd7: mov rsi, rsp",
+      "+0x6bda: vxorps xmm0, xmm0, xmm0",
+      "+0x6bde: mov rax, qword ptr [rbx]",
+      "+0x6be1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x6be9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x6bef: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x6bf5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x6bfb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x6c00: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x6c11: mov ecx, eax",
+      "+0x6c13: xor eax, eax",
+      "+0x6c15: mov rdx, qword ptr [rsp + 8]",
+      "+0x6c1a: cmp ecx, 1",
+      "+0x6c1d: mov rcx, qword ptr [rbx]",
+      "+0x6c20: sbb eax, eax",
+      "+0x6c22: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x6c2a: jne 0x83f572c3e"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 27804,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x6c60: mov rbx, qword ptr [rip + 0x5759]",
+      "+0x6c67: mov rsi, rsp",
+      "+0x6c6a: vxorps xmm0, xmm0, xmm0",
+      "+0x6c6e: mov rax, qword ptr [rbx]",
+      "+0x6c71: mov qword ptr [rsp + 0xa0], rax",
+      "+0x6c79: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x6c7f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x6c85: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x6c8b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x6c90: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x6ca1: mov ecx, eax",
+      "+0x6ca3: mov eax, 0xffffffff",
+      "+0x6ca8: test ecx, ecx",
+      "+0x6caa: je 0x83f572cc0",
+      "+0x6cac: mov rcx, qword ptr [rbx]",
+      "+0x6caf: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x6cb7: jne 0x83f572cf5",
+      "+0x6cb9: lea rsp, [rbp - 8]"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 27982,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x6d12: mov r14, qword ptr [rip + 0x56a7]",
+      "+0x6d19: mov rsi, rsp",
+      "+0x6d1c: vxorps xmm0, xmm0, xmm0",
+      "+0x6d20: mov rax, qword ptr [r14]",
+      "+0x6d23: mov qword ptr [rsp + 0x98], rax",
+      "+0x6d2b: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x6d31: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x6d37: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x6d3d: vmovups ymmword ptr [rsp], ymm0",
+      "+0x6d42: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x6d53: mov ebx, 0xffffffff",
+      "+0x6d58: test eax, eax",
+      "+0x6d5a: jne 0x83f572d7a",
+      "+0x6d5c: test byte ptr [rsp + 0x16], 0x80",
+      "+0x6d61: mov ebx, 1",
+      "+0x6d66: jne 0x83f572d7a",
+      "+0x6d68: cmp byte ptr [rsp + 7], 0x31",
+      "+0x6d6d: jne 0x83f572d78"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 587,
+    "call_offset": 28140,
+    "thunk_offset": 536,
+    "preceding_instructions": [
+      "+0x6db0: mov rbx, qword ptr [rip + 0x5609]",
+      "+0x6db7: mov rsi, rsp",
+      "+0x6dba: vxorps xmm0, xmm0, xmm0",
+      "+0x6dbe: mov rax, qword ptr [rbx]",
+      "+0x6dc1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x6dc9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x6dcf: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x6dd5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x6ddb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x6de0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x6df1: mov ecx, eax",
+      "+0x6df3: xor eax, eax",
+      "+0x6df5: mov rdx, qword ptr [rsp + 0x10]",
+      "+0x6dfa: cmp ecx, 1",
+      "+0x6dfd: mov rcx, qword ptr [rbx]",
+      "+0x6e00: sbb eax, eax",
+      "+0x6e02: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x6e0a: jne 0x83f572e1e"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 607,
+    "call_offset": 28284,
+    "thunk_offset": 552,
+    "preceding_instructions": [
+      "+0x6e40: mov rbx, qword ptr [rip + 0x5579]",
+      "+0x6e47: mov rsi, rsp",
+      "+0x6e4a: vxorps xmm0, xmm0, xmm0",
+      "+0x6e4e: mov rax, qword ptr [rbx]",
+      "+0x6e51: mov qword ptr [rsp + 0xa0], rax",
+      "+0x6e59: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x6e5f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x6e65: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x6e6b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x6e70: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x6e81: mov ecx, eax",
+      "+0x6e83: cmp eax, -1",
+      "+0x6e86: movzx eax, byte ptr [rsp + 0x38]",
+      "+0x6e8b: cmove eax, ecx",
+      "+0x6e8e: mov rcx, qword ptr [rbx]",
+      "+0x6e91: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x6e99: jne 0x83f572ea2",
+      "+0x6e9b: lea rsp, [rbp - 8]"
+    ]
+  },
+  {
+    "module": "libSceIpmi.sprx",
+    "number": 607,
+    "call_offset": 28417,
+    "thunk_offset": 552,
+    "preceding_instructions": [
+      "+0x6ec9: mov rbx, rsi",
+      "+0x6ecc: mov rsi, rsp",
+      "+0x6ecf: vxorps xmm0, xmm0, xmm0",
+      "+0x6ed3: mov rax, qword ptr [r14]",
+      "+0x6ed6: mov qword ptr [rsp + 0x98], rax",
+      "+0x6ede: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x6ee4: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x6eea: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x6ef0: vmovups ymmword ptr [rsp], ymm0",
+      "+0x6ef5: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x6f06: mov ecx, eax",
+      "+0x6f08: mov eax, 0xffffffff",
+      "+0x6f0d: cmp ecx, -1",
+      "+0x6f10: je 0x83f572f30",
+      "+0x6f12: mov rcx, qword ptr [rsp]",
+      "+0x6f16: xor eax, eax",
+      "+0x6f18: test rcx, rcx",
+      "+0x6f1b: mov qword ptr [rbx], rcx"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 607,
+    "call_offset": 173180,
+    "thunk_offset": 1912,
+    "preceding_instructions": [
+      "+0x2a440: mov rbx, qword ptr [rip + 0x11ef9]",
+      "+0x2a447: mov rsi, rsp",
+      "+0x2a44a: vxorps xmm0, xmm0, xmm0",
+      "+0x2a44e: mov rax, qword ptr [rbx]",
+      "+0x2a451: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2a459: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2a45f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2a465: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2a46b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2a470: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2a481: mov ecx, eax",
+      "+0x2a483: mov eax, 0x11a",
+      "+0x2a488: bextr eax, dword ptr [rsp + 0x28], eax",
+      "+0x2a48f: cmp ecx, -1",
+      "+0x2a492: cmove eax, ecx",
+      "+0x2a495: mov rcx, qword ptr [rbx]",
+      "+0x2a498: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x2a4a0: jne 0x8077524a9"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 607,
+    "call_offset": 173308,
+    "thunk_offset": 1912,
+    "preceding_instructions": [
+      "+0x2a4c0: mov rbx, qword ptr [rip + 0x11e79]",
+      "+0x2a4c7: mov rsi, rsp",
+      "+0x2a4ca: vxorps xmm0, xmm0, xmm0",
+      "+0x2a4ce: mov rax, qword ptr [rbx]",
+      "+0x2a4d1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2a4d9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2a4df: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2a4e5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2a4eb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2a4f0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2a501: mov ecx, eax",
+      "+0x2a503: mov eax, 0x11a",
+      "+0x2a508: bextr eax, dword ptr [rsp + 0x28], eax",
+      "+0x2a50f: cmp ecx, -1",
+      "+0x2a512: cmove eax, ecx",
+      "+0x2a515: mov rcx, qword ptr [rbx]",
+      "+0x2a518: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x2a520: jne 0x807752529"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 173436,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2a540: mov rbx, qword ptr [rip + 0x11df9]",
+      "+0x2a547: mov rsi, rsp",
+      "+0x2a54a: vxorps xmm0, xmm0, xmm0",
+      "+0x2a54e: mov rax, qword ptr [rbx]",
+      "+0x2a551: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2a559: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2a55f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2a565: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2a56b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2a570: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2a581: mov ecx, eax",
+      "+0x2a583: xor eax, eax",
+      "+0x2a585: mov rdx, qword ptr [rsp + 8]",
+      "+0x2a58a: cmp ecx, 1",
+      "+0x2a58d: mov rcx, qword ptr [rbx]",
+      "+0x2a590: sbb eax, eax",
+      "+0x2a592: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x2a59a: jne 0x8077525ae"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 173580,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2a5d0: mov rbx, qword ptr [rip + 0x11d69]",
+      "+0x2a5d7: mov rsi, rsp",
+      "+0x2a5da: vxorps xmm0, xmm0, xmm0",
+      "+0x2a5de: mov rax, qword ptr [rbx]",
+      "+0x2a5e1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2a5e9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2a5ef: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2a5f5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2a5fb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2a600: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2a611: mov ecx, eax",
+      "+0x2a613: xor eax, eax",
+      "+0x2a615: mov rdx, qword ptr [rsp + 8]",
+      "+0x2a61a: cmp ecx, 1",
+      "+0x2a61d: mov rcx, qword ptr [rbx]",
+      "+0x2a620: sbb eax, eax",
+      "+0x2a622: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x2a62a: jne 0x80775263e"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 173724,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2a660: mov rbx, qword ptr [rip + 0x11cd9]",
+      "+0x2a667: mov rsi, rsp",
+      "+0x2a66a: vxorps xmm0, xmm0, xmm0",
+      "+0x2a66e: mov rax, qword ptr [rbx]",
+      "+0x2a671: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2a679: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2a67f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2a685: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2a68b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2a690: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2a6a1: mov ecx, eax",
+      "+0x2a6a3: movabs rax, 0x3800000000000006",
+      "+0x2a6ad: xor edx, edx",
+      "+0x2a6af: cmp qword ptr [rsp], rax",
+      "+0x2a6b3: sete sil",
+      "+0x2a6b7: xor eax, eax",
+      "+0x2a6b9: cmp ecx, 1",
+      "+0x2a6bc: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 173868,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2a6f0: mov rbx, qword ptr [rip + 0x11c49]",
+      "+0x2a6f7: mov rsi, rsp",
+      "+0x2a6fa: vxorps xmm0, xmm0, xmm0",
+      "+0x2a6fe: mov rax, qword ptr [rbx]",
+      "+0x2a701: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2a709: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2a70f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2a715: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2a71b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2a720: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2a731: mov ecx, eax",
+      "+0x2a733: movabs rax, 0x3800000000010003",
+      "+0x2a73d: xor edx, edx",
+      "+0x2a73f: cmp qword ptr [rsp], rax",
+      "+0x2a743: sete sil",
+      "+0x2a747: xor eax, eax",
+      "+0x2a749: cmp ecx, 1",
+      "+0x2a74c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 174012,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2a780: mov rbx, qword ptr [rip + 0x11bb9]",
+      "+0x2a787: mov rsi, rsp",
+      "+0x2a78a: vxorps xmm0, xmm0, xmm0",
+      "+0x2a78e: mov rax, qword ptr [rbx]",
+      "+0x2a791: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2a799: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2a79f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2a7a5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2a7ab: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2a7b0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2a7c1: mov ecx, eax",
+      "+0x2a7c3: movabs rax, 0x3800000000020002",
+      "+0x2a7cd: xor edx, edx",
+      "+0x2a7cf: cmp qword ptr [rsp], rax",
+      "+0x2a7d3: sete sil",
+      "+0x2a7d7: xor eax, eax",
+      "+0x2a7d9: cmp ecx, 1",
+      "+0x2a7dc: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 174156,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2a810: mov rbx, qword ptr [rip + 0x11b29]",
+      "+0x2a817: mov rsi, rsp",
+      "+0x2a81a: vxorps xmm0, xmm0, xmm0",
+      "+0x2a81e: mov rax, qword ptr [rbx]",
+      "+0x2a821: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2a829: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2a82f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2a835: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2a83b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2a840: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2a851: mov ecx, eax",
+      "+0x2a853: movabs rax, 0x3800000010000009",
+      "+0x2a85d: xor edx, edx",
+      "+0x2a85f: cmp qword ptr [rsp], rax",
+      "+0x2a863: sete sil",
+      "+0x2a867: xor eax, eax",
+      "+0x2a869: cmp ecx, 1",
+      "+0x2a86c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 174300,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2a8a0: mov rbx, qword ptr [rip + 0x11a99]",
+      "+0x2a8a7: mov rsi, rsp",
+      "+0x2a8aa: vxorps xmm0, xmm0, xmm0",
+      "+0x2a8ae: mov rax, qword ptr [rbx]",
+      "+0x2a8b1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2a8b9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2a8bf: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2a8c5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2a8cb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2a8d0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2a8e1: mov ecx, eax",
+      "+0x2a8e3: movabs rax, 0x3800000000000015",
+      "+0x2a8ed: xor edx, edx",
+      "+0x2a8ef: cmp qword ptr [rsp], rax",
+      "+0x2a8f3: sete sil",
+      "+0x2a8f7: xor eax, eax",
+      "+0x2a8f9: cmp ecx, 1",
+      "+0x2a8fc: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 174444,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2a930: mov rbx, qword ptr [rip + 0x11a09]",
+      "+0x2a937: mov rsi, rsp",
+      "+0x2a93a: vxorps xmm0, xmm0, xmm0",
+      "+0x2a93e: mov rax, qword ptr [rbx]",
+      "+0x2a941: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2a949: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2a94f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2a955: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2a95b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2a960: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2a971: mov ecx, eax",
+      "+0x2a973: movabs rax, 0x3800000000000016",
+      "+0x2a97d: xor edx, edx",
+      "+0x2a97f: cmp qword ptr [rsp], rax",
+      "+0x2a983: sete sil",
+      "+0x2a987: xor eax, eax",
+      "+0x2a989: cmp ecx, 1",
+      "+0x2a98c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 174588,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2a9c0: mov rbx, qword ptr [rip + 0x11979]",
+      "+0x2a9c7: mov rsi, rsp",
+      "+0x2a9ca: vxorps xmm0, xmm0, xmm0",
+      "+0x2a9ce: mov rax, qword ptr [rbx]",
+      "+0x2a9d1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2a9d9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2a9df: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2a9e5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2a9eb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2a9f0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2aa01: mov ecx, eax",
+      "+0x2aa03: movabs rax, 0x3800000000000017",
+      "+0x2aa0d: xor edx, edx",
+      "+0x2aa0f: cmp qword ptr [rsp], rax",
+      "+0x2aa13: sete sil",
+      "+0x2aa17: xor eax, eax",
+      "+0x2aa19: cmp ecx, 1",
+      "+0x2aa1c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 174732,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2aa50: mov rbx, qword ptr [rip + 0x118e9]",
+      "+0x2aa57: mov rsi, rsp",
+      "+0x2aa5a: vxorps xmm0, xmm0, xmm0",
+      "+0x2aa5e: mov rax, qword ptr [rbx]",
+      "+0x2aa61: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2aa69: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2aa6f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2aa75: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2aa7b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2aa80: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2aa91: mov ecx, eax",
+      "+0x2aa93: movabs rax, 0x3800000000000018",
+      "+0x2aa9d: xor edx, edx",
+      "+0x2aa9f: cmp qword ptr [rsp], rax",
+      "+0x2aaa3: sete sil",
+      "+0x2aaa7: xor eax, eax",
+      "+0x2aaa9: cmp ecx, 1",
+      "+0x2aaac: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 174876,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2aae0: mov rbx, qword ptr [rip + 0x11859]",
+      "+0x2aae7: mov rsi, rsp",
+      "+0x2aaea: vxorps xmm0, xmm0, xmm0",
+      "+0x2aaee: mov rax, qword ptr [rbx]",
+      "+0x2aaf1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2aaf9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2aaff: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2ab05: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2ab0b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2ab10: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2ab21: mov ecx, eax",
+      "+0x2ab23: movabs rax, 0x380000000000001c",
+      "+0x2ab2d: xor edx, edx",
+      "+0x2ab2f: cmp qword ptr [rsp], rax",
+      "+0x2ab33: sete sil",
+      "+0x2ab37: xor eax, eax",
+      "+0x2ab39: cmp ecx, 1",
+      "+0x2ab3c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 175020,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2ab70: mov rbx, qword ptr [rip + 0x117c9]",
+      "+0x2ab77: mov rsi, rsp",
+      "+0x2ab7a: vxorps xmm0, xmm0, xmm0",
+      "+0x2ab7e: mov rax, qword ptr [rbx]",
+      "+0x2ab81: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2ab89: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2ab8f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2ab95: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2ab9b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2aba0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2abb1: mov ecx, eax",
+      "+0x2abb3: mov eax, 0xffffffff",
+      "+0x2abb8: test ecx, ecx",
+      "+0x2abba: jne 0x807752bda",
+      "+0x2abbc: mov rcx, qword ptr [rsp]",
+      "+0x2abc0: movabs rdx, 0x380000000000003c",
+      "+0x2abca: mov eax, 1",
+      "+0x2abcf: or rcx, 8"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 175180,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2ac10: mov rbx, qword ptr [rip + 0x11729]",
+      "+0x2ac17: mov rsi, rsp",
+      "+0x2ac1a: vxorps xmm0, xmm0, xmm0",
+      "+0x2ac1e: mov rax, qword ptr [rbx]",
+      "+0x2ac21: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2ac29: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2ac2f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2ac35: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2ac3b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2ac40: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2ac51: mov ecx, eax",
+      "+0x2ac53: movabs rax, 0x3800000000000033",
+      "+0x2ac5d: xor edx, edx",
+      "+0x2ac5f: cmp qword ptr [rsp], rax",
+      "+0x2ac63: sete sil",
+      "+0x2ac67: xor eax, eax",
+      "+0x2ac69: cmp ecx, 1",
+      "+0x2ac6c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 175324,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2aca0: mov rbx, qword ptr [rip + 0x11699]",
+      "+0x2aca7: mov rsi, rsp",
+      "+0x2acaa: vxorps xmm0, xmm0, xmm0",
+      "+0x2acae: mov rax, qword ptr [rbx]",
+      "+0x2acb1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2acb9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2acbf: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2acc5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2accb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2acd0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2ace1: mov ecx, eax",
+      "+0x2ace3: mov eax, 0xffffffff",
+      "+0x2ace8: test ecx, ecx",
+      "+0x2acea: jne 0x807752d0a",
+      "+0x2acec: mov rcx, qword ptr [rsp]",
+      "+0x2acf0: movabs rdx, 0x380000000000003d",
+      "+0x2acfa: mov eax, 1",
+      "+0x2acff: or rcx, 8"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 175484,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2ad40: mov rbx, qword ptr [rip + 0x115f9]",
+      "+0x2ad47: mov rsi, rsp",
+      "+0x2ad4a: vxorps xmm0, xmm0, xmm0",
+      "+0x2ad4e: mov rax, qword ptr [rbx]",
+      "+0x2ad51: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2ad59: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2ad5f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2ad65: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2ad6b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2ad70: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2ad81: mov ecx, eax",
+      "+0x2ad83: movabs rax, 0x3800000000000036",
+      "+0x2ad8d: xor edx, edx",
+      "+0x2ad8f: cmp qword ptr [rsp], rax",
+      "+0x2ad93: sete sil",
+      "+0x2ad97: xor eax, eax",
+      "+0x2ad99: cmp ecx, 1",
+      "+0x2ad9c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 175628,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2add0: mov rbx, qword ptr [rip + 0x11569]",
+      "+0x2add7: mov rsi, rsp",
+      "+0x2adda: vxorps xmm0, xmm0, xmm0",
+      "+0x2adde: mov rax, qword ptr [rbx]",
+      "+0x2ade1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2ade9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2adef: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2adf5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2adfb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2ae00: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2ae11: mov ecx, eax",
+      "+0x2ae13: movabs rax, 0x3800000010000001",
+      "+0x2ae1d: xor edx, edx",
+      "+0x2ae1f: cmp qword ptr [rsp], rax",
+      "+0x2ae23: sete sil",
+      "+0x2ae27: xor eax, eax",
+      "+0x2ae29: cmp ecx, 1",
+      "+0x2ae2c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 175772,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2ae60: mov rbx, qword ptr [rip + 0x114d9]",
+      "+0x2ae67: mov rsi, rsp",
+      "+0x2ae6a: vxorps xmm0, xmm0, xmm0",
+      "+0x2ae6e: mov rax, qword ptr [rbx]",
+      "+0x2ae71: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2ae79: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2ae7f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2ae85: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2ae8b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2ae90: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2aea1: mov ecx, eax",
+      "+0x2aea3: movabs rax, 0x3800000010000002",
+      "+0x2aead: xor edx, edx",
+      "+0x2aeaf: cmp qword ptr [rsp], rax",
+      "+0x2aeb3: sete sil",
+      "+0x2aeb7: xor eax, eax",
+      "+0x2aeb9: cmp ecx, 1",
+      "+0x2aebc: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 175916,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2aef0: mov rbx, qword ptr [rip + 0x11449]",
+      "+0x2aef7: mov rsi, rsp",
+      "+0x2aefa: vxorps xmm0, xmm0, xmm0",
+      "+0x2aefe: mov rax, qword ptr [rbx]",
+      "+0x2af01: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2af09: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2af0f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2af15: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2af1b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2af20: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2af31: mov ecx, eax",
+      "+0x2af33: movabs rax, 0x3800000010000005",
+      "+0x2af3d: xor edx, edx",
+      "+0x2af3f: cmp qword ptr [rsp], rax",
+      "+0x2af43: sete sil",
+      "+0x2af47: xor eax, eax",
+      "+0x2af49: cmp ecx, 1",
+      "+0x2af4c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 176060,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2af80: mov rbx, qword ptr [rip + 0x113b9]",
+      "+0x2af87: mov rsi, rsp",
+      "+0x2af8a: vxorps xmm0, xmm0, xmm0",
+      "+0x2af8e: mov rax, qword ptr [rbx]",
+      "+0x2af91: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2af99: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2af9f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2afa5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2afab: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2afb0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2afc1: mov ecx, eax",
+      "+0x2afc3: movabs rax, 0x380000000000000f",
+      "+0x2afcd: xor edx, edx",
+      "+0x2afcf: cmp qword ptr [rsp], rax",
+      "+0x2afd3: sete sil",
+      "+0x2afd7: xor eax, eax",
+      "+0x2afd9: cmp ecx, 1",
+      "+0x2afdc: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 176204,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2b010: mov rbx, qword ptr [rip + 0x11329]",
+      "+0x2b017: mov rsi, rsp",
+      "+0x2b01a: vxorps xmm0, xmm0, xmm0",
+      "+0x2b01e: mov rax, qword ptr [rbx]",
+      "+0x2b021: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2b029: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2b02f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2b035: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2b03b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2b040: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2b051: mov ecx, eax",
+      "+0x2b053: movabs rax, 0x3800000000000010",
+      "+0x2b05d: xor edx, edx",
+      "+0x2b05f: cmp qword ptr [rsp], rax",
+      "+0x2b063: sete sil",
+      "+0x2b067: xor eax, eax",
+      "+0x2b069: cmp ecx, 1",
+      "+0x2b06c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 176348,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2b0a0: mov rbx, qword ptr [rip + 0x11299]",
+      "+0x2b0a7: mov rsi, rsp",
+      "+0x2b0aa: vxorps xmm0, xmm0, xmm0",
+      "+0x2b0ae: mov rax, qword ptr [rbx]",
+      "+0x2b0b1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2b0b9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2b0bf: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2b0c5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2b0cb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2b0d0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2b0e1: mov ecx, eax",
+      "+0x2b0e3: movabs rax, 0x3800000010000003",
+      "+0x2b0ed: xor edx, edx",
+      "+0x2b0ef: cmp qword ptr [rsp], rax",
+      "+0x2b0f3: sete sil",
+      "+0x2b0f7: xor eax, eax",
+      "+0x2b0f9: cmp ecx, 1",
+      "+0x2b0fc: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 176492,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2b130: mov rbx, qword ptr [rip + 0x11209]",
+      "+0x2b137: mov rsi, rsp",
+      "+0x2b13a: vxorps xmm0, xmm0, xmm0",
+      "+0x2b13e: mov rax, qword ptr [rbx]",
+      "+0x2b141: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2b149: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2b14f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2b155: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2b15b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2b160: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2b171: mov ecx, eax",
+      "+0x2b173: mov eax, 0xffffffff",
+      "+0x2b178: test ecx, ecx",
+      "+0x2b17a: jne 0x8077531a2",
+      "+0x2b17c: movabs rcx, 0xc7ffffffeffffffc",
+      "+0x2b186: add rcx, qword ptr [rsp]",
+      "+0x2b18a: cmp rcx, 0xe",
+      "+0x2b18e: ja 0x8077531a0"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 176652,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2b1d0: mov rbx, qword ptr [rip + 0x11169]",
+      "+0x2b1d7: mov rsi, rsp",
+      "+0x2b1da: vxorps xmm0, xmm0, xmm0",
+      "+0x2b1de: mov rax, qword ptr [rbx]",
+      "+0x2b1e1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2b1e9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2b1ef: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2b1f5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2b1fb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2b200: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2b211: mov ecx, eax",
+      "+0x2b213: mov eax, 0xffffffff",
+      "+0x2b218: test ecx, ecx",
+      "+0x2b21a: je 0x807753230",
+      "+0x2b21c: mov rcx, qword ptr [rbx]",
+      "+0x2b21f: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x2b227: jne 0x80775325b",
+      "+0x2b229: lea rsp, [rbp - 8]"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 176828,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2b280: mov rbx, qword ptr [rip + 0x110b9]",
+      "+0x2b287: mov rsi, rsp",
+      "+0x2b28a: vxorps xmm0, xmm0, xmm0",
+      "+0x2b28e: mov rax, qword ptr [rbx]",
+      "+0x2b291: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2b299: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2b29f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2b2a5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2b2ab: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2b2b0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2b2c1: mov ecx, eax",
+      "+0x2b2c3: movabs rax, 0x3800000010000010",
+      "+0x2b2cd: xor edx, edx",
+      "+0x2b2cf: cmp qword ptr [rsp], rax",
+      "+0x2b2d3: sete sil",
+      "+0x2b2d7: xor eax, eax",
+      "+0x2b2d9: cmp ecx, 1",
+      "+0x2b2dc: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 176972,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2b310: mov rbx, qword ptr [rip + 0x11029]",
+      "+0x2b317: mov rsi, rsp",
+      "+0x2b31a: vxorps xmm0, xmm0, xmm0",
+      "+0x2b31e: mov rax, qword ptr [rbx]",
+      "+0x2b321: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2b329: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2b32f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2b335: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2b33b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2b340: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2b351: mov ecx, eax",
+      "+0x2b353: mov eax, 0xffffffff",
+      "+0x2b358: test ecx, ecx",
+      "+0x2b35a: jne 0x807753371",
+      "+0x2b35c: test byte ptr [rsp + 0x17], 0x20",
+      "+0x2b361: je 0x80775336f",
+      "+0x2b363: test byte ptr [rsp + 0x2a], 0x80",
+      "+0x2b368: mov eax, 1"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 177116,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2b3a0: mov rbx, qword ptr [rip + 0x10f99]",
+      "+0x2b3a7: mov rsi, rsp",
+      "+0x2b3aa: vxorps xmm0, xmm0, xmm0",
+      "+0x2b3ae: mov rax, qword ptr [rbx]",
+      "+0x2b3b1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2b3b9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2b3bf: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2b3c5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2b3cb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2b3d0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2b3e1: mov ecx, eax",
+      "+0x2b3e3: mov eax, 0xffffffff",
+      "+0x2b3e8: test ecx, ecx",
+      "+0x2b3ea: jne 0x807753401",
+      "+0x2b3ec: test byte ptr [rsp + 0x17], 0x40",
+      "+0x2b3f1: je 0x8077533ff",
+      "+0x2b3f3: test byte ptr [rsp + 0x2a], 0x80",
+      "+0x2b3f8: mov eax, 1"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 177260,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2b430: mov rbx, qword ptr [rip + 0x10f09]",
+      "+0x2b437: mov rsi, rsp",
+      "+0x2b43a: vxorps xmm0, xmm0, xmm0",
+      "+0x2b43e: mov rax, qword ptr [rbx]",
+      "+0x2b441: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2b449: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2b44f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2b455: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2b45b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2b460: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2b471: mov ecx, eax",
+      "+0x2b473: mov eax, 0xffffffff",
+      "+0x2b478: test ecx, ecx",
+      "+0x2b47a: jne 0x807753491",
+      "+0x2b47c: test byte ptr [rsp + 0x17], 0x20",
+      "+0x2b481: je 0x80775348f",
+      "+0x2b483: test byte ptr [rsp + 0x2a], 0x40",
+      "+0x2b488: mov eax, 1"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 177404,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2b4c0: mov rbx, qword ptr [rip + 0x10e79]",
+      "+0x2b4c7: mov rsi, rsp",
+      "+0x2b4ca: vxorps xmm0, xmm0, xmm0",
+      "+0x2b4ce: mov rax, qword ptr [rbx]",
+      "+0x2b4d1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2b4d9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2b4df: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2b4e5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2b4eb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2b4f0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2b501: mov ecx, eax",
+      "+0x2b503: mov eax, 0xffffffff",
+      "+0x2b508: test ecx, ecx",
+      "+0x2b50a: jne 0x807753521",
+      "+0x2b50c: test byte ptr [rsp + 0x17], 0x40",
+      "+0x2b511: je 0x80775351f",
+      "+0x2b513: test byte ptr [rsp + 0x2a], 0x40",
+      "+0x2b518: mov eax, 1"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 177548,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2b550: mov rbx, qword ptr [rip + 0x10de9]",
+      "+0x2b557: mov rsi, rsp",
+      "+0x2b55a: vxorps xmm0, xmm0, xmm0",
+      "+0x2b55e: mov rax, qword ptr [rbx]",
+      "+0x2b561: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2b569: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2b56f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2b575: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2b57b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2b580: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2b591: mov ecx, eax",
+      "+0x2b593: xor eax, eax",
+      "+0x2b595: mov rdx, qword ptr [rsp + 8]",
+      "+0x2b59a: cmp ecx, 1",
+      "+0x2b59d: mov rcx, qword ptr [rbx]",
+      "+0x2b5a0: sbb eax, eax",
+      "+0x2b5a2: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x2b5aa: jne 0x8077535be"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 177692,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2b5e0: mov rbx, qword ptr [rip + 0x10d59]",
+      "+0x2b5e7: mov rsi, rsp",
+      "+0x2b5ea: vxorps xmm0, xmm0, xmm0",
+      "+0x2b5ee: mov rax, qword ptr [rbx]",
+      "+0x2b5f1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2b5f9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2b5ff: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2b605: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2b60b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2b610: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2b621: mov ecx, eax",
+      "+0x2b623: mov eax, 0xffffffff",
+      "+0x2b628: test ecx, ecx",
+      "+0x2b62a: je 0x807753640",
+      "+0x2b62c: mov rcx, qword ptr [rbx]",
+      "+0x2b62f: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x2b637: jne 0x807753675",
+      "+0x2b639: lea rsp, [rbp - 8]"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 177870,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2b692: mov r14, qword ptr [rip + 0x10ca7]",
+      "+0x2b699: mov rsi, rsp",
+      "+0x2b69c: vxorps xmm0, xmm0, xmm0",
+      "+0x2b6a0: mov rax, qword ptr [r14]",
+      "+0x2b6a3: mov qword ptr [rsp + 0x98], rax",
+      "+0x2b6ab: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2b6b1: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2b6b7: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2b6bd: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2b6c2: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2b6d3: mov ebx, 0xffffffff",
+      "+0x2b6d8: test eax, eax",
+      "+0x2b6da: jne 0x8077536fa",
+      "+0x2b6dc: test byte ptr [rsp + 0x16], 0x80",
+      "+0x2b6e1: mov ebx, 1",
+      "+0x2b6e6: jne 0x8077536fa",
+      "+0x2b6e8: cmp byte ptr [rsp + 7], 0x31",
+      "+0x2b6ed: jne 0x8077536f8"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 587,
+    "call_offset": 178028,
+    "thunk_offset": 1896,
+    "preceding_instructions": [
+      "+0x2b730: mov rbx, qword ptr [rip + 0x10c09]",
+      "+0x2b737: mov rsi, rsp",
+      "+0x2b73a: vxorps xmm0, xmm0, xmm0",
+      "+0x2b73e: mov rax, qword ptr [rbx]",
+      "+0x2b741: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2b749: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2b74f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2b755: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2b75b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2b760: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2b771: mov ecx, eax",
+      "+0x2b773: xor eax, eax",
+      "+0x2b775: mov rdx, qword ptr [rsp + 0x10]",
+      "+0x2b77a: cmp ecx, 1",
+      "+0x2b77d: mov rcx, qword ptr [rbx]",
+      "+0x2b780: sbb eax, eax",
+      "+0x2b782: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x2b78a: jne 0x80775379e"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 607,
+    "call_offset": 178172,
+    "thunk_offset": 1912,
+    "preceding_instructions": [
+      "+0x2b7c0: mov rbx, qword ptr [rip + 0x10b79]",
+      "+0x2b7c7: mov rsi, rsp",
+      "+0x2b7ca: vxorps xmm0, xmm0, xmm0",
+      "+0x2b7ce: mov rax, qword ptr [rbx]",
+      "+0x2b7d1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x2b7d9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2b7df: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2b7e5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2b7eb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2b7f0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2b801: mov ecx, eax",
+      "+0x2b803: cmp eax, -1",
+      "+0x2b806: movzx eax, byte ptr [rsp + 0x38]",
+      "+0x2b80b: cmove eax, ecx",
+      "+0x2b80e: mov rcx, qword ptr [rbx]",
+      "+0x2b811: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x2b819: jne 0x807753822",
+      "+0x2b81b: lea rsp, [rbp - 8]"
+    ]
+  },
+  {
+    "module": "libSceSystemService.sprx",
+    "number": 607,
+    "call_offset": 178305,
+    "thunk_offset": 1912,
+    "preceding_instructions": [
+      "+0x2b849: mov rbx, rsi",
+      "+0x2b84c: mov rsi, rsp",
+      "+0x2b84f: vxorps xmm0, xmm0, xmm0",
+      "+0x2b853: mov rax, qword ptr [r14]",
+      "+0x2b856: mov qword ptr [rsp + 0x98], rax",
+      "+0x2b85e: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x2b864: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x2b86a: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x2b870: vmovups ymmword ptr [rsp], ymm0",
+      "+0x2b875: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x2b886: mov ecx, eax",
+      "+0x2b888: mov eax, 0xffffffff",
+      "+0x2b88d: cmp ecx, -1",
+      "+0x2b890: je 0x8077538b0",
+      "+0x2b892: mov rcx, qword ptr [rsp]",
+      "+0x2b896: xor eax, eax",
+      "+0x2b898: test rcx, rcx",
+      "+0x2b89b: mov qword ptr [rbx], rcx"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 607,
+    "call_offset": 64924,
+    "thunk_offset": 1304,
+    "preceding_instructions": [
+      "+0xfd60: mov rbx, qword ptr [rip + 0x83c9]",
+      "+0xfd67: mov rsi, rsp",
+      "+0xfd6a: vxorps xmm0, xmm0, xmm0",
+      "+0xfd6e: mov rax, qword ptr [rbx]",
+      "+0xfd71: mov qword ptr [rsp + 0xa0], rax",
+      "+0xfd79: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0xfd7f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0xfd85: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0xfd8b: vmovups ymmword ptr [rsp], ymm0",
+      "+0xfd90: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0xfda1: mov ecx, eax",
+      "+0xfda3: mov eax, 0x11a",
+      "+0xfda8: bextr eax, dword ptr [rsp + 0x28], eax",
+      "+0xfdaf: cmp ecx, -1",
+      "+0xfdb2: cmove eax, ecx",
+      "+0xfdb5: mov rcx, qword ptr [rbx]",
+      "+0xfdb8: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0xfdc0: jne 0x8146efdc9"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 607,
+    "call_offset": 65052,
+    "thunk_offset": 1304,
+    "preceding_instructions": [
+      "+0xfde0: mov rbx, qword ptr [rip + 0x8349]",
+      "+0xfde7: mov rsi, rsp",
+      "+0xfdea: vxorps xmm0, xmm0, xmm0",
+      "+0xfdee: mov rax, qword ptr [rbx]",
+      "+0xfdf1: mov qword ptr [rsp + 0xa0], rax",
+      "+0xfdf9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0xfdff: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0xfe05: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0xfe0b: vmovups ymmword ptr [rsp], ymm0",
+      "+0xfe10: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0xfe21: mov ecx, eax",
+      "+0xfe23: mov eax, 0x11a",
+      "+0xfe28: bextr eax, dword ptr [rsp + 0x28], eax",
+      "+0xfe2f: cmp ecx, -1",
+      "+0xfe32: cmove eax, ecx",
+      "+0xfe35: mov rcx, qword ptr [rbx]",
+      "+0xfe38: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0xfe40: jne 0x8146efe49"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 65180,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0xfe60: mov rbx, qword ptr [rip + 0x82c9]",
+      "+0xfe67: mov rsi, rsp",
+      "+0xfe6a: vxorps xmm0, xmm0, xmm0",
+      "+0xfe6e: mov rax, qword ptr [rbx]",
+      "+0xfe71: mov qword ptr [rsp + 0xa0], rax",
+      "+0xfe79: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0xfe7f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0xfe85: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0xfe8b: vmovups ymmword ptr [rsp], ymm0",
+      "+0xfe90: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0xfea1: mov ecx, eax",
+      "+0xfea3: xor eax, eax",
+      "+0xfea5: mov rdx, qword ptr [rsp + 8]",
+      "+0xfeaa: cmp ecx, 1",
+      "+0xfead: mov rcx, qword ptr [rbx]",
+      "+0xfeb0: sbb eax, eax",
+      "+0xfeb2: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0xfeba: jne 0x8146efece"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 65324,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0xfef0: mov rbx, qword ptr [rip + 0x8239]",
+      "+0xfef7: mov rsi, rsp",
+      "+0xfefa: vxorps xmm0, xmm0, xmm0",
+      "+0xfefe: mov rax, qword ptr [rbx]",
+      "+0xff01: mov qword ptr [rsp + 0xa0], rax",
+      "+0xff09: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0xff0f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0xff15: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0xff1b: vmovups ymmword ptr [rsp], ymm0",
+      "+0xff20: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0xff31: mov ecx, eax",
+      "+0xff33: xor eax, eax",
+      "+0xff35: mov rdx, qword ptr [rsp + 8]",
+      "+0xff3a: cmp ecx, 1",
+      "+0xff3d: mov rcx, qword ptr [rbx]",
+      "+0xff40: sbb eax, eax",
+      "+0xff42: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0xff4a: jne 0x8146eff5e"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 65468,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0xff80: mov rbx, qword ptr [rip + 0x81a9]",
+      "+0xff87: mov rsi, rsp",
+      "+0xff8a: vxorps xmm0, xmm0, xmm0",
+      "+0xff8e: mov rax, qword ptr [rbx]",
+      "+0xff91: mov qword ptr [rsp + 0xa0], rax",
+      "+0xff99: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0xff9f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0xffa5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0xffab: vmovups ymmword ptr [rsp], ymm0",
+      "+0xffb0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0xffc1: mov ecx, eax",
+      "+0xffc3: movabs rax, 0x3800000000000006",
+      "+0xffcd: xor edx, edx",
+      "+0xffcf: cmp qword ptr [rsp], rax",
+      "+0xffd3: sete sil",
+      "+0xffd7: xor eax, eax",
+      "+0xffd9: cmp ecx, 1",
+      "+0xffdc: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 65612,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0x10010: mov rbx, qword ptr [rip + 0x8119]",
+      "+0x10017: mov rsi, rsp",
+      "+0x1001a: vxorps xmm0, xmm0, xmm0",
+      "+0x1001e: mov rax, qword ptr [rbx]",
+      "+0x10021: mov qword ptr [rsp + 0xa0], rax",
+      "+0x10029: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x1002f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x10035: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x1003b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x10040: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x10051: mov ecx, eax",
+      "+0x10053: movabs rax, 0x3800000000010003",
+      "+0x1005d: xor edx, edx",
+      "+0x1005f: cmp qword ptr [rsp], rax",
+      "+0x10063: sete sil",
+      "+0x10067: xor eax, eax",
+      "+0x10069: cmp ecx, 1",
+      "+0x1006c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 65756,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0x100a0: mov rbx, qword ptr [rip + 0x8089]",
+      "+0x100a7: mov rsi, rsp",
+      "+0x100aa: vxorps xmm0, xmm0, xmm0",
+      "+0x100ae: mov rax, qword ptr [rbx]",
+      "+0x100b1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x100b9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x100bf: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x100c5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x100cb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x100d0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x100e1: mov ecx, eax",
+      "+0x100e3: movabs rax, 0x3800000000020002",
+      "+0x100ed: xor edx, edx",
+      "+0x100ef: cmp qword ptr [rsp], rax",
+      "+0x100f3: sete sil",
+      "+0x100f7: xor eax, eax",
+      "+0x100f9: cmp ecx, 1",
+      "+0x100fc: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 65900,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0x10130: mov rbx, qword ptr [rip + 0x7ff9]",
+      "+0x10137: mov rsi, rsp",
+      "+0x1013a: vxorps xmm0, xmm0, xmm0",
+      "+0x1013e: mov rax, qword ptr [rbx]",
+      "+0x10141: mov qword ptr [rsp + 0xa0], rax",
+      "+0x10149: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x1014f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x10155: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x1015b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x10160: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x10171: mov ecx, eax",
+      "+0x10173: movabs rax, 0x3800000010000009",
+      "+0x1017d: xor edx, edx",
+      "+0x1017f: cmp qword ptr [rsp], rax",
+      "+0x10183: sete sil",
+      "+0x10187: xor eax, eax",
+      "+0x10189: cmp ecx, 1",
+      "+0x1018c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 66044,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0x101c0: mov rbx, qword ptr [rip + 0x7f69]",
+      "+0x101c7: mov rsi, rsp",
+      "+0x101ca: vxorps xmm0, xmm0, xmm0",
+      "+0x101ce: mov rax, qword ptr [rbx]",
+      "+0x101d1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x101d9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x101df: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x101e5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x101eb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x101f0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x10201: mov ecx, eax",
+      "+0x10203: movabs rax, 0x3800000000000015",
+      "+0x1020d: xor edx, edx",
+      "+0x1020f: cmp qword ptr [rsp], rax",
+      "+0x10213: sete sil",
+      "+0x10217: xor eax, eax",
+      "+0x10219: cmp ecx, 1",
+      "+0x1021c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 66188,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0x10250: mov rbx, qword ptr [rip + 0x7ed9]",
+      "+0x10257: mov rsi, rsp",
+      "+0x1025a: vxorps xmm0, xmm0, xmm0",
+      "+0x1025e: mov rax, qword ptr [rbx]",
+      "+0x10261: mov qword ptr [rsp + 0xa0], rax",
+      "+0x10269: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x1026f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x10275: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x1027b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x10280: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x10291: mov ecx, eax",
+      "+0x10293: movabs rax, 0x3800000000000016",
+      "+0x1029d: xor edx, edx",
+      "+0x1029f: cmp qword ptr [rsp], rax",
+      "+0x102a3: sete sil",
+      "+0x102a7: xor eax, eax",
+      "+0x102a9: cmp ecx, 1",
+      "+0x102ac: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 66332,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0x102e0: mov rbx, qword ptr [rip + 0x7e49]",
+      "+0x102e7: mov rsi, rsp",
+      "+0x102ea: vxorps xmm0, xmm0, xmm0",
+      "+0x102ee: mov rax, qword ptr [rbx]",
+      "+0x102f1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x102f9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x102ff: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x10305: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x1030b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x10310: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x10321: mov ecx, eax",
+      "+0x10323: movabs rax, 0x3800000000000017",
+      "+0x1032d: xor edx, edx",
+      "+0x1032f: cmp qword ptr [rsp], rax",
+      "+0x10333: sete sil",
+      "+0x10337: xor eax, eax",
+      "+0x10339: cmp ecx, 1",
+      "+0x1033c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 66476,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0x10370: mov rbx, qword ptr [rip + 0x7db9]",
+      "+0x10377: mov rsi, rsp",
+      "+0x1037a: vxorps xmm0, xmm0, xmm0",
+      "+0x1037e: mov rax, qword ptr [rbx]",
+      "+0x10381: mov qword ptr [rsp + 0xa0], rax",
+      "+0x10389: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x1038f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x10395: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x1039b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x103a0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x103b1: mov ecx, eax",
+      "+0x103b3: movabs rax, 0x3800000000000018",
+      "+0x103bd: xor edx, edx",
+      "+0x103bf: cmp qword ptr [rsp], rax",
+      "+0x103c3: sete sil",
+      "+0x103c7: xor eax, eax",
+      "+0x103c9: cmp ecx, 1",
+      "+0x103cc: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 66620,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0x10400: mov rbx, qword ptr [rip + 0x7d29]",
+      "+0x10407: mov rsi, rsp",
+      "+0x1040a: vxorps xmm0, xmm0, xmm0",
+      "+0x1040e: mov rax, qword ptr [rbx]",
+      "+0x10411: mov qword ptr [rsp + 0xa0], rax",
+      "+0x10419: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x1041f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x10425: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x1042b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x10430: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x10441: mov ecx, eax",
+      "+0x10443: movabs rax, 0x380000000000001c",
+      "+0x1044d: xor edx, edx",
+      "+0x1044f: cmp qword ptr [rsp], rax",
+      "+0x10453: sete sil",
+      "+0x10457: xor eax, eax",
+      "+0x10459: cmp ecx, 1",
+      "+0x1045c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 66764,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0x10490: mov rbx, qword ptr [rip + 0x7c99]",
+      "+0x10497: mov rsi, rsp",
+      "+0x1049a: vxorps xmm0, xmm0, xmm0",
+      "+0x1049e: mov rax, qword ptr [rbx]",
+      "+0x104a1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x104a9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x104af: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x104b5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x104bb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x104c0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x104d1: mov ecx, eax",
+      "+0x104d3: mov eax, 0xffffffff",
+      "+0x104d8: test ecx, ecx",
+      "+0x104da: jne 0x8146f04fa",
+      "+0x104dc: mov rcx, qword ptr [rsp]",
+      "+0x104e0: movabs rdx, 0x380000000000003c",
+      "+0x104ea: mov eax, 1",
+      "+0x104ef: or rcx, 8"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 66924,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0x10530: mov rbx, qword ptr [rip + 0x7bf9]",
+      "+0x10537: mov rsi, rsp",
+      "+0x1053a: vxorps xmm0, xmm0, xmm0",
+      "+0x1053e: mov rax, qword ptr [rbx]",
+      "+0x10541: mov qword ptr [rsp + 0xa0], rax",
+      "+0x10549: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x1054f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x10555: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x1055b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x10560: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x10571: mov ecx, eax",
+      "+0x10573: movabs rax, 0x3800000000000033",
+      "+0x1057d: xor edx, edx",
+      "+0x1057f: cmp qword ptr [rsp], rax",
+      "+0x10583: sete sil",
+      "+0x10587: xor eax, eax",
+      "+0x10589: cmp ecx, 1",
+      "+0x1058c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 67068,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0x105c0: mov rbx, qword ptr [rip + 0x7b69]",
+      "+0x105c7: mov rsi, rsp",
+      "+0x105ca: vxorps xmm0, xmm0, xmm0",
+      "+0x105ce: mov rax, qword ptr [rbx]",
+      "+0x105d1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x105d9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x105df: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x105e5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x105eb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x105f0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x10601: mov ecx, eax",
+      "+0x10603: mov eax, 0xffffffff",
+      "+0x10608: test ecx, ecx",
+      "+0x1060a: jne 0x8146f062a",
+      "+0x1060c: mov rcx, qword ptr [rsp]",
+      "+0x10610: movabs rdx, 0x380000000000003d",
+      "+0x1061a: mov eax, 1",
+      "+0x1061f: or rcx, 8"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 67228,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0x10660: mov rbx, qword ptr [rip + 0x7ac9]",
+      "+0x10667: mov rsi, rsp",
+      "+0x1066a: vxorps xmm0, xmm0, xmm0",
+      "+0x1066e: mov rax, qword ptr [rbx]",
+      "+0x10671: mov qword ptr [rsp + 0xa0], rax",
+      "+0x10679: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x1067f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x10685: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x1068b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x10690: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x106a1: mov ecx, eax",
+      "+0x106a3: movabs rax, 0x3800000000000036",
+      "+0x106ad: xor edx, edx",
+      "+0x106af: cmp qword ptr [rsp], rax",
+      "+0x106b3: sete sil",
+      "+0x106b7: xor eax, eax",
+      "+0x106b9: cmp ecx, 1",
+      "+0x106bc: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 67372,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0x106f0: mov rbx, qword ptr [rip + 0x7a39]",
+      "+0x106f7: mov rsi, rsp",
+      "+0x106fa: vxorps xmm0, xmm0, xmm0",
+      "+0x106fe: mov rax, qword ptr [rbx]",
+      "+0x10701: mov qword ptr [rsp + 0xa0], rax",
+      "+0x10709: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x1070f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x10715: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x1071b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x10720: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x10731: mov ecx, eax",
+      "+0x10733: movabs rax, 0x3800000010000001",
+      "+0x1073d: xor edx, edx",
+      "+0x1073f: cmp qword ptr [rsp], rax",
+      "+0x10743: sete sil",
+      "+0x10747: xor eax, eax",
+      "+0x10749: cmp ecx, 1",
+      "+0x1074c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 67516,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0x10780: mov rbx, qword ptr [rip + 0x79a9]",
+      "+0x10787: mov rsi, rsp",
+      "+0x1078a: vxorps xmm0, xmm0, xmm0",
+      "+0x1078e: mov rax, qword ptr [rbx]",
+      "+0x10791: mov qword ptr [rsp + 0xa0], rax",
+      "+0x10799: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x1079f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x107a5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x107ab: vmovups ymmword ptr [rsp], ymm0",
+      "+0x107b0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x107c1: mov ecx, eax",
+      "+0x107c3: movabs rax, 0x3800000010000002",
+      "+0x107cd: xor edx, edx",
+      "+0x107cf: cmp qword ptr [rsp], rax",
+      "+0x107d3: sete sil",
+      "+0x107d7: xor eax, eax",
+      "+0x107d9: cmp ecx, 1",
+      "+0x107dc: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 67660,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0x10810: mov rbx, qword ptr [rip + 0x7919]",
+      "+0x10817: mov rsi, rsp",
+      "+0x1081a: vxorps xmm0, xmm0, xmm0",
+      "+0x1081e: mov rax, qword ptr [rbx]",
+      "+0x10821: mov qword ptr [rsp + 0xa0], rax",
+      "+0x10829: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x1082f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x10835: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x1083b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x10840: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x10851: mov ecx, eax",
+      "+0x10853: movabs rax, 0x3800000010000005",
+      "+0x1085d: xor edx, edx",
+      "+0x1085f: cmp qword ptr [rsp], rax",
+      "+0x10863: sete sil",
+      "+0x10867: xor eax, eax",
+      "+0x10869: cmp ecx, 1",
+      "+0x1086c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 67804,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0x108a0: mov rbx, qword ptr [rip + 0x7889]",
+      "+0x108a7: mov rsi, rsp",
+      "+0x108aa: vxorps xmm0, xmm0, xmm0",
+      "+0x108ae: mov rax, qword ptr [rbx]",
+      "+0x108b1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x108b9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x108bf: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x108c5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x108cb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x108d0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x108e1: mov ecx, eax",
+      "+0x108e3: movabs rax, 0x380000000000000f",
+      "+0x108ed: xor edx, edx",
+      "+0x108ef: cmp qword ptr [rsp], rax",
+      "+0x108f3: sete sil",
+      "+0x108f7: xor eax, eax",
+      "+0x108f9: cmp ecx, 1",
+      "+0x108fc: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 67948,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0x10930: mov rbx, qword ptr [rip + 0x77f9]",
+      "+0x10937: mov rsi, rsp",
+      "+0x1093a: vxorps xmm0, xmm0, xmm0",
+      "+0x1093e: mov rax, qword ptr [rbx]",
+      "+0x10941: mov qword ptr [rsp + 0xa0], rax",
+      "+0x10949: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x1094f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x10955: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x1095b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x10960: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x10971: mov ecx, eax",
+      "+0x10973: movabs rax, 0x3800000000000010",
+      "+0x1097d: xor edx, edx",
+      "+0x1097f: cmp qword ptr [rsp], rax",
+      "+0x10983: sete sil",
+      "+0x10987: xor eax, eax",
+      "+0x10989: cmp ecx, 1",
+      "+0x1098c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 68092,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0x109c0: mov rbx, qword ptr [rip + 0x7769]",
+      "+0x109c7: mov rsi, rsp",
+      "+0x109ca: vxorps xmm0, xmm0, xmm0",
+      "+0x109ce: mov rax, qword ptr [rbx]",
+      "+0x109d1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x109d9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x109df: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x109e5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x109eb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x109f0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x10a01: mov ecx, eax",
+      "+0x10a03: movabs rax, 0x3800000010000003",
+      "+0x10a0d: xor edx, edx",
+      "+0x10a0f: cmp qword ptr [rsp], rax",
+      "+0x10a13: sete sil",
+      "+0x10a17: xor eax, eax",
+      "+0x10a19: cmp ecx, 1",
+      "+0x10a1c: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 68236,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0x10a50: mov rbx, qword ptr [rip + 0x76d9]",
+      "+0x10a57: mov rsi, rsp",
+      "+0x10a5a: vxorps xmm0, xmm0, xmm0",
+      "+0x10a5e: mov rax, qword ptr [rbx]",
+      "+0x10a61: mov qword ptr [rsp + 0xa0], rax",
+      "+0x10a69: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x10a6f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x10a75: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x10a7b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x10a80: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x10a91: mov ecx, eax",
+      "+0x10a93: mov eax, 0xffffffff",
+      "+0x10a98: test ecx, ecx",
+      "+0x10a9a: jne 0x8146f0ac2",
+      "+0x10a9c: movabs rcx, 0xc7ffffffeffffffc",
+      "+0x10aa6: add rcx, qword ptr [rsp]",
+      "+0x10aaa: cmp rcx, 0xe",
+      "+0x10aae: ja 0x8146f0ac0"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 68396,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0x10af0: mov rbx, qword ptr [rip + 0x7639]",
+      "+0x10af7: mov rsi, rsp",
+      "+0x10afa: vxorps xmm0, xmm0, xmm0",
+      "+0x10afe: mov rax, qword ptr [rbx]",
+      "+0x10b01: mov qword ptr [rsp + 0xa0], rax",
+      "+0x10b09: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x10b0f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x10b15: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x10b1b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x10b20: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x10b31: mov ecx, eax",
+      "+0x10b33: mov eax, 0xffffffff",
+      "+0x10b38: test ecx, ecx",
+      "+0x10b3a: je 0x8146f0b50",
+      "+0x10b3c: mov rcx, qword ptr [rbx]",
+      "+0x10b3f: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x10b47: jne 0x8146f0b7b",
+      "+0x10b49: lea rsp, [rbp - 8]"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 68572,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0x10ba0: mov rbx, qword ptr [rip + 0x7589]",
+      "+0x10ba7: mov rsi, rsp",
+      "+0x10baa: vxorps xmm0, xmm0, xmm0",
+      "+0x10bae: mov rax, qword ptr [rbx]",
+      "+0x10bb1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x10bb9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x10bbf: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x10bc5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x10bcb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x10bd0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x10be1: mov ecx, eax",
+      "+0x10be3: movabs rax, 0x3800000010000010",
+      "+0x10bed: xor edx, edx",
+      "+0x10bef: cmp qword ptr [rsp], rax",
+      "+0x10bf3: sete sil",
+      "+0x10bf7: xor eax, eax",
+      "+0x10bf9: cmp ecx, 1",
+      "+0x10bfc: mov rcx, qword ptr [rbx]"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 68716,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0x10c30: mov rbx, qword ptr [rip + 0x74f9]",
+      "+0x10c37: mov rsi, rsp",
+      "+0x10c3a: vxorps xmm0, xmm0, xmm0",
+      "+0x10c3e: mov rax, qword ptr [rbx]",
+      "+0x10c41: mov qword ptr [rsp + 0xa0], rax",
+      "+0x10c49: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x10c4f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x10c55: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x10c5b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x10c60: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x10c71: mov ecx, eax",
+      "+0x10c73: mov eax, 0xffffffff",
+      "+0x10c78: test ecx, ecx",
+      "+0x10c7a: jne 0x8146f0c91",
+      "+0x10c7c: test byte ptr [rsp + 0x17], 0x20",
+      "+0x10c81: je 0x8146f0c8f",
+      "+0x10c83: test byte ptr [rsp + 0x2a], 0x80",
+      "+0x10c88: mov eax, 1"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 68860,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0x10cc0: mov rbx, qword ptr [rip + 0x7469]",
+      "+0x10cc7: mov rsi, rsp",
+      "+0x10cca: vxorps xmm0, xmm0, xmm0",
+      "+0x10cce: mov rax, qword ptr [rbx]",
+      "+0x10cd1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x10cd9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x10cdf: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x10ce5: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x10ceb: vmovups ymmword ptr [rsp], ymm0",
+      "+0x10cf0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x10d01: mov ecx, eax",
+      "+0x10d03: mov eax, 0xffffffff",
+      "+0x10d08: test ecx, ecx",
+      "+0x10d0a: jne 0x8146f0d21",
+      "+0x10d0c: test byte ptr [rsp + 0x17], 0x40",
+      "+0x10d11: je 0x8146f0d1f",
+      "+0x10d13: test byte ptr [rsp + 0x2a], 0x80",
+      "+0x10d18: mov eax, 1"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 69004,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0x10d50: mov rbx, qword ptr [rip + 0x73d9]",
+      "+0x10d57: mov rsi, rsp",
+      "+0x10d5a: vxorps xmm0, xmm0, xmm0",
+      "+0x10d5e: mov rax, qword ptr [rbx]",
+      "+0x10d61: mov qword ptr [rsp + 0xa0], rax",
+      "+0x10d69: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x10d6f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x10d75: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x10d7b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x10d80: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x10d91: mov ecx, eax",
+      "+0x10d93: mov eax, 0xffffffff",
+      "+0x10d98: test ecx, ecx",
+      "+0x10d9a: jne 0x8146f0db1",
+      "+0x10d9c: test byte ptr [rsp + 0x17], 0x20",
+      "+0x10da1: je 0x8146f0daf",
+      "+0x10da3: test byte ptr [rsp + 0x2a], 0x40",
+      "+0x10da8: mov eax, 1"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 69148,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0x10de0: mov rbx, qword ptr [rip + 0x7349]",
+      "+0x10de7: mov rsi, rsp",
+      "+0x10dea: vxorps xmm0, xmm0, xmm0",
+      "+0x10dee: mov rax, qword ptr [rbx]",
+      "+0x10df1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x10df9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x10dff: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x10e05: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x10e0b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x10e10: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x10e21: mov ecx, eax",
+      "+0x10e23: mov eax, 0xffffffff",
+      "+0x10e28: test ecx, ecx",
+      "+0x10e2a: jne 0x8146f0e41",
+      "+0x10e2c: test byte ptr [rsp + 0x17], 0x40",
+      "+0x10e31: je 0x8146f0e3f",
+      "+0x10e33: test byte ptr [rsp + 0x2a], 0x40",
+      "+0x10e38: mov eax, 1"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 69292,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0x10e70: mov rbx, qword ptr [rip + 0x72b9]",
+      "+0x10e77: mov rsi, rsp",
+      "+0x10e7a: vxorps xmm0, xmm0, xmm0",
+      "+0x10e7e: mov rax, qword ptr [rbx]",
+      "+0x10e81: mov qword ptr [rsp + 0xa0], rax",
+      "+0x10e89: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x10e8f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x10e95: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x10e9b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x10ea0: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x10eb1: mov ecx, eax",
+      "+0x10eb3: xor eax, eax",
+      "+0x10eb5: mov rdx, qword ptr [rsp + 8]",
+      "+0x10eba: cmp ecx, 1",
+      "+0x10ebd: mov rcx, qword ptr [rbx]",
+      "+0x10ec0: sbb eax, eax",
+      "+0x10ec2: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x10eca: jne 0x8146f0ede"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 69436,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0x10f00: mov rbx, qword ptr [rip + 0x7229]",
+      "+0x10f07: mov rsi, rsp",
+      "+0x10f0a: vxorps xmm0, xmm0, xmm0",
+      "+0x10f0e: mov rax, qword ptr [rbx]",
+      "+0x10f11: mov qword ptr [rsp + 0xa0], rax",
+      "+0x10f19: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x10f1f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x10f25: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x10f2b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x10f30: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x10f41: mov ecx, eax",
+      "+0x10f43: mov eax, 0xffffffff",
+      "+0x10f48: test ecx, ecx",
+      "+0x10f4a: je 0x8146f0f60",
+      "+0x10f4c: mov rcx, qword ptr [rbx]",
+      "+0x10f4f: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x10f57: jne 0x8146f0f95",
+      "+0x10f59: lea rsp, [rbp - 8]"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 69614,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0x10fb2: mov r14, qword ptr [rip + 0x7177]",
+      "+0x10fb9: mov rsi, rsp",
+      "+0x10fbc: vxorps xmm0, xmm0, xmm0",
+      "+0x10fc0: mov rax, qword ptr [r14]",
+      "+0x10fc3: mov qword ptr [rsp + 0x98], rax",
+      "+0x10fcb: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x10fd1: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x10fd7: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x10fdd: vmovups ymmword ptr [rsp], ymm0",
+      "+0x10fe2: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x10ff3: mov ebx, 0xffffffff",
+      "+0x10ff8: test eax, eax",
+      "+0x10ffa: jne 0x8146f101a",
+      "+0x10ffc: test byte ptr [rsp + 0x16], 0x80",
+      "+0x11001: mov ebx, 1",
+      "+0x11006: jne 0x8146f101a",
+      "+0x11008: cmp byte ptr [rsp + 7], 0x31",
+      "+0x1100d: jne 0x8146f1018"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 587,
+    "call_offset": 69772,
+    "thunk_offset": 1288,
+    "preceding_instructions": [
+      "+0x11050: mov rbx, qword ptr [rip + 0x70d9]",
+      "+0x11057: mov rsi, rsp",
+      "+0x1105a: vxorps xmm0, xmm0, xmm0",
+      "+0x1105e: mov rax, qword ptr [rbx]",
+      "+0x11061: mov qword ptr [rsp + 0xa0], rax",
+      "+0x11069: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x1106f: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x11075: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x1107b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x11080: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x11091: mov ecx, eax",
+      "+0x11093: xor eax, eax",
+      "+0x11095: mov rdx, qword ptr [rsp + 0x10]",
+      "+0x1109a: cmp ecx, 1",
+      "+0x1109d: mov rcx, qword ptr [rbx]",
+      "+0x110a0: sbb eax, eax",
+      "+0x110a2: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x110aa: jne 0x8146f10be"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 607,
+    "call_offset": 69916,
+    "thunk_offset": 1304,
+    "preceding_instructions": [
+      "+0x110e0: mov rbx, qword ptr [rip + 0x7049]",
+      "+0x110e7: mov rsi, rsp",
+      "+0x110ea: vxorps xmm0, xmm0, xmm0",
+      "+0x110ee: mov rax, qword ptr [rbx]",
+      "+0x110f1: mov qword ptr [rsp + 0xa0], rax",
+      "+0x110f9: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x110ff: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x11105: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x1110b: vmovups ymmword ptr [rsp], ymm0",
+      "+0x11110: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x11121: mov ecx, eax",
+      "+0x11123: cmp eax, -1",
+      "+0x11126: movzx eax, byte ptr [rsp + 0x38]",
+      "+0x1112b: cmove eax, ecx",
+      "+0x1112e: mov rcx, qword ptr [rbx]",
+      "+0x11131: cmp rcx, qword ptr [rsp + 0xa0]",
+      "+0x11139: jne 0x8146f1142",
+      "+0x1113b: lea rsp, [rbp - 8]"
+    ]
+  },
+  {
+    "module": "libSceVideoOut.sprx",
+    "number": 607,
+    "call_offset": 70049,
+    "thunk_offset": 1304,
+    "preceding_instructions": [
+      "+0x11169: mov rbx, rsi",
+      "+0x1116c: mov rsi, rsp",
+      "+0x1116f: vxorps xmm0, xmm0, xmm0",
+      "+0x11173: mov rax, qword ptr [r14]",
+      "+0x11176: mov qword ptr [rsp + 0x98], rax",
+      "+0x1117e: vmovups ymmword ptr [rsp + 0x60], ymm0",
+      "+0x11184: vmovups ymmword ptr [rsp + 0x40], ymm0",
+      "+0x1118a: vmovups ymmword ptr [rsp + 0x20], ymm0",
+      "+0x11190: vmovups ymmword ptr [rsp], ymm0",
+      "+0x11195: mov qword ptr [rsp + 0x80], 0"
+    ],
+    "following_instructions": [
+      "+0x111a6: mov ecx, eax",
+      "+0x111a8: mov eax, 0xffffffff",
+      "+0x111ad: cmp ecx, -1",
+      "+0x111b0: je 0x8146f11d0",
+      "+0x111b2: mov rcx, qword ptr [rsp]",
+      "+0x111b6: xor eax, eax",
+      "+0x111b8: test rcx, rcx",
+      "+0x111bb: mov qword ptr [rbx], rcx"
+    ]
+  }
+]

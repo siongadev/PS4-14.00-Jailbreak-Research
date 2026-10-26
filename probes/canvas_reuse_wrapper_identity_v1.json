@@ -1,0 +1,6 @@
+{
+  "probe_id": "canvas_reuse_wrapper_identity_v1",
+  "script": "canvas_reuse_wrapper_identity_v1.js",
+  "check_ids": ["canvas_reuse_wrapper_identity"],
+  "timeout_ms": 30000
+}

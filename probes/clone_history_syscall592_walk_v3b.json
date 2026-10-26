@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_syscall592_walk_v3b",
+  "script": "clone_history_syscall592_walk_v3b.js",
+  "check_ids": ["syscall592_walk_v3b"],
+  "timeout_ms": 30000
+}

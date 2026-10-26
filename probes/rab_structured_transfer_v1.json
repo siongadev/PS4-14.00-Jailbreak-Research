@@ -1,0 +1,6 @@
+{
+  "probe_id": "rab_structured_transfer_v1",
+  "script": "rab_structured_transfer_v1.js",
+  "check_ids": ["rab_structured_transfer"],
+  "timeout_ms": 15000
+}

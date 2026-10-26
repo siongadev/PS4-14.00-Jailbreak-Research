@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_bulk_module_census_v1",
+  "script": "clone_history_bulk_module_census_v1.js",
+  "check_ids": ["bulk_modules_0_v1", "bulk_modules_1_v1", "bulk_modules_2_v1", "bulk_modules_3_v1", "bulk_modules_4_v1", "bulk_modules_5_v1", "bulk_modules_6_v1", "bulk_modules_7_v1"],
+  "timeout_ms": 30000
+}

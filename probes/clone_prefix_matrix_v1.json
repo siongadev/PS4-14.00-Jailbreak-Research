@@ -1,0 +1,17 @@
+{
+  "probe_id": "clone_prefix_matrix_v1",
+  "script": "clone_prefix_matrix_v1.js",
+  "check_ids": [
+    "number_prefix",
+    "bigint_prefix",
+    "empty_map_prefix",
+    "entry_map_prefix",
+    "empty_set_prefix",
+    "entry_set_prefix",
+    "date_prefix",
+    "regexp_prefix",
+    "arraybuffer_prefix",
+    "typedarray_prefix"
+  ],
+  "timeout_ms": 3000
+}

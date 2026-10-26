@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_full_vmmap_tail_v1",
+  "script": "clone_history_full_vmmap_tail_v1.js",
+  "check_ids": ["full_vmmap_tail_0_v1", "full_vmmap_tail_1_v1", "full_vmmap_tail_2_v1", "full_vmmap_tail_3_v1", "full_vmmap_tail_4_v1", "full_vmmap_tail_5_v1"],
+  "timeout_ms": 30000
+}

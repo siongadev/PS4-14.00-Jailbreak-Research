@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_unix_socket_buffer_v1",
+  "script": "clone_history_unix_socket_buffer_v1.js",
+  "check_ids": ["unix_socket_buffer_v1"],
+  "timeout_ms": 15000
+}

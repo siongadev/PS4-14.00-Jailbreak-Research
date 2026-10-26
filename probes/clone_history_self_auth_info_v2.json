@@ -1,0 +1,1 @@
+{"probe_id":"clone_history_self_auth_info_v2","script":"clone_history_self_auth_info_v2.js","check_ids":["self_auth_info_v2"],"timeout_ms":30000}

@@ -1,0 +1,557 @@
+Analysis-only ELF built from 14.00 live RX bytes
+
+=== 0x8273c5030 ===
+Function: FUN_8273c5030 @ 8273c5030 body bytes 18
+
+void FUN_8273c5030(void)
+
+{
+  code *pcVar1;
+  
+  pcVar1 = (code *)swi(0x44);
+  (*pcVar1)();
+                    /* WARNING: Does not return */
+  pcVar1 = (code *)invalidInstructionException();
+  (*pcVar1)();
+}
+
+
+
+=== 0x8273caf60 ===
+Function: FUN_8273caf60 @ 8273caf60 body bytes 22
+
+int FUN_8273caf60(void)
+
+{
+  int iVar1;
+  
+  iVar1 = FUN_8273db030();
+  if (iVar1 != 0) {
+    iVar1 = iVar1 + -0x7ffe0000;
+  }
+  return iVar1;
+}
+
+
+
+=== 0x8273d2c20 ===
+Function: FUN_8273d2c20 @ 8273d2c20 body bytes 22
+
+int FUN_8273d2c20(void)
+
+{
+  int iVar1;
+  
+  iVar1 = FUN_8273ccee0();
+  if (iVar1 != 0) {
+    iVar1 = iVar1 + -0x7ffe0000;
+  }
+  return iVar1;
+}
+
+
+
+=== 0x8273daf60 ===
+Function: FUN_8273daf60 @ 8273daf60 body bytes 22
+
+int FUN_8273daf60(void)
+
+{
+  int iVar1;
+  
+  iVar1 = FUN_8273b9010();
+  if (iVar1 != 0) {
+    iVar1 = iVar1 + -0x7ffe0000;
+  }
+  return iVar1;
+}
+
+
+
+=== 0x8273bbd80 ===
+Function: FUN_8273bbd80 @ 8273bbd80 body bytes 22
+
+int FUN_8273bbd80(void)
+
+{
+  int iVar1;
+  
+  iVar1 = FUN_8273d3b70();
+  if (iVar1 != 0) {
+    iVar1 = iVar1 + -0x7ffe0000;
+  }
+  return iVar1;
+}
+
+
+
+=== 0x8273bd350 ===
+Function: thunk_FUN_8273e5120 @ 8273bd350 body bytes 5
+
+undefined8 thunk_FUN_8273e5120(void)
+
+{
+  undefined8 uVar1;
+  bool in_CF;
+  
+  syscall();
+  if (!in_CF) {
+    return 0x1dd;
+  }
+  uVar1 = FUN_8273e4dd8();
+  return uVar1;
+}
+
+
+
+=== 0x8273d4160 ===
+Function: FUN_8273d4160 @ 8273d4160 body bytes 22
+
+int FUN_8273d4160(void)
+
+{
+  int iVar1;
+  
+  iVar1 = FUN_8273d20f0();
+  if (iVar1 != 0) {
+    iVar1 = iVar1 + -0x7ffe0000;
+  }
+  return iVar1;
+}
+
+
+
+=== 0x8273b9630 ===
+Function: FUN_8273b9630 @ 8273b9630 body bytes 483
+
+undefined4 FUN_8273b9630(undefined8 *param_1)
+
+{
+  byte bVar1;
+  uint uVar2;
+  uint *puVar3;
+  uint *puVar4;
+  long lVar5;
+  code *pcVar6;
+  undefined4 uVar7;
+  uint uVar8;
+  long *plVar9;
+  uint uVar10;
+  long in_FS_OFFSET;
+  bool bVar11;
+  
+  puVar3 = (uint *)*param_1;
+  puVar4 = *(uint **)(in_FS_OFFSET + 0x10);
+  if (puVar3 < (uint *)0x3) {
+    uVar7 = 1;
+    if (puVar3 == (uint *)0x2) {
+      uVar7 = 0x16;
+    }
+  }
+  else if (*(uint **)(puVar3 + 10) == puVar4) {
+    uVar8 = puVar3[8];
+    uVar2 = *puVar4;
+    if (((char)uVar8 == '\x02') && (0 < (int)puVar3[0xc])) {
+      uVar7 = 0;
+      puVar3[0xc] = puVar3[0xc] - 1;
+      bVar1 = *(byte *)((long)puVar3 + 0x21);
+    }
+    else {
+      bVar11 = (uVar8 & 0x200) != 0;
+      if (bVar11) {
+        puVar3[8] = uVar8 & 0xfffffdff;
+      }
+      puVar3[10] = 0;
+      puVar3[0xb] = 0;
+      plVar9 = *(long **)(puVar3 + 0x12);
+      if (plVar9 == (long *)0x0) {
+        FUN_8273c1b20("W:\\Build\\J02699045\\sys\\internal\\usermode\\src\\libkernel\\pthread\\src\\thread\\thr_mutex.c"
+                      ,0x5bd,"mutex is not on list");
+                    /* WARNING: Does not return */
+        pcVar6 = (code *)invalidInstructionException();
+        (*pcVar6)();
+      }
+      if (puVar3[0xf] == 0x5eaf00d) {
+        puVar3[0x1d] = 0xdeadbeef;
+      }
+      lVar5 = *(long *)(puVar3 + 0x10);
+      if ((puVar3[1] & 8) == 0) {
+        if (lVar5 == 0) {
+          *(long **)(puVar4 + 0x6a) = plVar9;
+        }
+        else {
+          *(long **)(lVar5 + 0x48) = plVar9;
+          plVar9 = *(long **)(puVar3 + 0x12);
+        }
+        *plVar9 = lVar5;
+      }
+      else {
+        if (lVar5 == 0) {
+          *(long **)(puVar4 + 0x6e) = plVar9;
+        }
+        else {
+          *(long **)(lVar5 + 0x48) = plVar9;
+          plVar9 = *(long **)(puVar3 + 0x12);
+        }
+        *plVar9 = lVar5;
+        if (**(long **)(*(long *)(puVar4 + 0x6e) + 8) == 0) {
+          uVar8 = 0xffffffff;
+        }
+        else {
+          uVar8 = *(uint *)(**(long **)(*(long *)(puVar4 + 0x6e) + 8) + 8);
+        }
+        puVar3[3] = uVar8;
+      }
+      puVar3[0x12] = 0;
+      puVar3[0x13] = 0;
+      uVar7 = 0;
+      puVar3[0x10] = 0;
+      puVar3[0x11] = 0;
+      uVar10 = puVar3[0xf];
+      LOCK();
+      uVar8 = *puVar3;
+      if (uVar2 == uVar8) {
+        *puVar3 = 0;
+      }
+      UNLOCK();
+      if (uVar2 != uVar8) {
+        if (uVar10 == 0x5eaf00d) {
+          uVar10 = 0xffffffff;
+        }
+        uVar7 = FUN_8273c1d70(puVar3,uVar2,uVar10);
+      }
+      if ((bVar11) && (puVar4[0x94] == 0)) {
+        FUN_8273cb210(puVar4 + 0x96,puVar4[0x95]);
+        puVar4[0x95] = 0;
+      }
+      bVar1 = *(byte *)((long)puVar3 + 0x21);
+    }
+    if ((bVar1 & 1) != 0) {
+      puVar4[0xc] = puVar4[0xc] - 1;
+      FUN_8273bd410(puVar4);
+    }
+  }
+  else {
+    uVar7 = 0x16;
+    if ((*puVar3 & 0x40000000) == 0) {
+      uVar7 = 1;
+    }
+  }
+  FUN_8273ee3f0(param_1,uVar7);
+  return uVar7;
+}
+
+
+
+=== 0x8273bc790 ===
+No analyzed function at this address
+
+=== 0x8273c5960 ===
+Function: FUN_8273c5960 @ 8273c5960 body bytes 595
+
+int FUN_8273c5960(undefined8 *param_1)
+
+{
+  uint uVar1;
+  uint uVar2;
+  uint *puVar3;
+  uint *puVar4;
+  undefined8 *puVar5;
+  ulong uVar6;
+  code *pcVar7;
+  int iVar8;
+  long in_FS_OFFSET;
+  
+  puVar3 = *(uint **)(in_FS_OFFSET + 0x10);
+  if (DAT_827446430 == 0) {
+    FUN_8273deda0(0);
+  }
+  puVar4 = (uint *)*param_1;
+  if (puVar4 < (uint *)0x3) {
+    if (puVar4 == (uint *)0x2) {
+      FUN_8273edc70(param_1);
+      return 0x16;
+    }
+    iVar8 = FUN_8273edc90(puVar3,param_1);
+    if (iVar8 != 0) {
+      return iVar8;
+    }
+    puVar4 = (uint *)*param_1;
+  }
+  if (((DAT_827446438 == 1) && (puVar4 != &DAT_827445e30)) &&
+     (uVar6 = *(ulong *)(puVar4 + -2), (uVar6 & 0xff7ffffffffffffe) != 0x62)) {
+    FUN_8273ca4b0(1,"[ScePthread] Error: This mutex is already destroyed. - Bug88187\n");
+    FUN_8273ca4b0(1,"[ScePthread]   - Address : 0x%lx\n",param_1);
+    FUN_8273ca4b0(1,"[ScePthread]     (cont.  : 0x%lx)\n",puVar4);
+    FUN_8273ca4b0(1,"[ScePthread]     (status : 0x%lx)\n",uVar6);
+    FUN_8273ca4b0(1,"[ScePthread] Operation of a destroyed sync object causes memory corruption.\n")
+    ;
+    FUN_8273ca4b0(1,"[ScePthread] abort() is called.\n");
+    FUN_8273b8118();
+                    /* WARNING: Does not return */
+    pcVar7 = (code *)invalidInstructionException();
+    (*pcVar7)();
+  }
+  if ((*(byte *)((long)puVar4 + 0x21) & 1) != 0) {
+    puVar3[0xc] = puVar3[0xc] + 1;
+  }
+  uVar2 = *puVar3;
+  LOCK();
+  uVar1 = *puVar4;
+  if (uVar1 == 0) {
+    *puVar4 = uVar2;
+  }
+  UNLOCK();
+  if (uVar1 == 0) {
+LAB_8273c59c6:
+    *(uint **)(puVar4 + 10) = puVar3;
+    if ((*(long *)(puVar4 + 0x12) != 0) || (*(long *)(puVar4 + 0x10) != 0)) {
+      FUN_8273c1b20("W:\\Build\\J02699045\\sys\\internal\\usermode\\src\\libkernel\\pthread\\src\\thread\\thr_mutex.c"
+                    ,0x40d,"mutex is on list");
+                    /* WARNING: Does not return */
+      pcVar7 = (code *)invalidInstructionException();
+      (*pcVar7)();
+    }
+    if (puVar4[0xf] == 0x5eaf00d) {
+      puVar4[0x1c] = *puVar3;
+      puVar4[0x1d] = 0xacce55;
+    }
+    puVar4[0x10] = 0;
+    puVar4[0x11] = 0;
+    if ((puVar4[1] & 8) == 0) {
+      puVar5 = *(undefined8 **)(puVar3 + 0x6a);
+      *(undefined8 **)(puVar4 + 0x12) = puVar5;
+      *puVar5 = puVar4;
+      *(uint **)(puVar3 + 0x6a) = puVar4 + 0x10;
+      return 0;
+    }
+    puVar5 = *(undefined8 **)(puVar3 + 0x6e);
+    *(undefined8 **)(puVar4 + 0x12) = puVar5;
+    *puVar5 = puVar4;
+    *(uint **)(puVar3 + 0x6e) = puVar4 + 0x10;
+    return 0;
+  }
+  if ((*puVar4 == 0x80000000) && ((puVar4[1] & 0xc) == 0)) {
+    LOCK();
+    uVar1 = *puVar4;
+    if (uVar1 == 0x80000000) {
+      *puVar4 = uVar2 | 0x80000000;
+    }
+    UNLOCK();
+    if (uVar1 == 0x80000000) goto LAB_8273c59c6;
+  }
+  if ((*puVar4 & 0x40000000) == 0) {
+    iVar8 = FUN_8273edd80(puVar3,puVar4,0,0);
+    if (iVar8 == 0) {
+      return 0;
+    }
+    if (iVar8 != 0x16) goto LAB_8273c5a72;
+  }
+  FUN_8273edc70(param_1);
+  iVar8 = 0x16;
+LAB_8273c5a72:
+  if ((*(byte *)((long)puVar4 + 0x21) & 1) != 0) {
+    puVar3[0xc] = puVar3[0xc] - 1;
+    FUN_8273bd410(puVar3);
+  }
+  return iVar8;
+}
+
+
+
+=== 0x8273ceb90 ===
+Function: FUN_8273ceb90 @ 8273ceb90 body bytes 12
+
+int FUN_8273ceb90(int param_1)
+
+{
+  int iVar1;
+  
+  iVar1 = param_1 + -0x7ffe0000;
+  if (param_1 == 0) {
+    iVar1 = 0;
+  }
+  return iVar1;
+}
+
+
+
+=== 0x8273cc300 ===
+Function: FUN_8273cc300 @ 8273cc300 body bytes 22
+
+int FUN_8273cc300(void)
+
+{
+  int iVar1;
+  
+  iVar1 = FUN_8273c6b10();
+  if (iVar1 != 0) {
+    iVar1 = iVar1 + -0x7ffe0000;
+  }
+  return iVar1;
+}
+
+
+
+=== 0x8273cd270 ===
+Function: FUN_8273cd270 @ 8273cd270 body bytes 22
+
+int FUN_8273cd270(void)
+
+{
+  int iVar1;
+  
+  iVar1 = FUN_8273e2900();
+  if (iVar1 != 0) {
+    iVar1 = iVar1 + -0x7ffe0000;
+  }
+  return iVar1;
+}
+
+
+
+=== 0x8273d1c80 ===
+Function: FUN_8273d1b20 @ 8273d1b20 body bytes 603
+
+undefined4 FUN_8273d1b20(char *param_1)
+
+{
+  char *pcVar1;
+  code *pcVar2;
+  char cVar3;
+  int iVar4;
+  uint uVar5;
+  undefined1 *puVar6;
+  undefined4 uVar7;
+  long lVar8;
+  char *pcVar9;
+  int iVar10;
+  int iVar11;
+  undefined1 local_548 [1040];
+  char local_138 [256];
+  long local_38;
+  
+  local_38 = DAT_827419410;
+  FUN_8273b8108(local_548,0,0x401);
+  if ((param_1 == (char *)0x0) || (*param_1 != '/')) {
+LAB_8273d1d4a:
+    uVar7 = 0x80020002;
+  }
+  else {
+    cVar3 = '/';
+    iVar10 = 0;
+    do {
+      pcVar9 = param_1;
+      while (cVar3 == '/') {
+        pcVar1 = pcVar9 + 1;
+        pcVar9 = pcVar9 + 1;
+        cVar3 = *pcVar1;
+      }
+      local_138[0] = '\0';
+      cVar3 = *pcVar9;
+      while (cVar3 == '.') {
+        if (pcVar9[1] != '/') {
+          if (pcVar9[1] == '.') {
+            cVar3 = '.';
+            if (pcVar9[2] == '/') {
+              param_1 = pcVar9 + 3;
+              goto LAB_8273d1cc3;
+            }
+          }
+          else {
+            cVar3 = '.';
+          }
+          break;
+        }
+        pcVar9 = pcVar9 + 1;
+        do {
+          cVar3 = pcVar9[1];
+          pcVar9 = pcVar9 + 1;
+        } while (cVar3 == '/');
+      }
+      lVar8 = -0xff;
+      param_1 = pcVar9;
+      while (cVar3 != '/') {
+        if (cVar3 == '\0') {
+          local_138[lVar8 + 0xff] = '\0';
+          goto LAB_8273d1cec;
+        }
+        local_138[lVar8 + 0xff] = cVar3;
+        if (lVar8 == 0) goto LAB_8273d1d4a;
+        pcVar1 = param_1 + 1;
+        param_1 = param_1 + 1;
+        lVar8 = lVar8 + 1;
+        cVar3 = *pcVar1;
+      }
+      local_138[lVar8 + 0xff] = '\0';
+      iVar11 = (int)((long)param_1 - (long)pcVar9);
+      if (iVar11 == -2) {
+LAB_8273d1cc3:
+        puVar6 = (undefined1 *)FUN_8273b8308(local_548,0x2f);
+        if (puVar6 == (undefined1 *)0x0) {
+          puVar6 = local_548;
+        }
+        *puVar6 = 0;
+        iVar10 = (int)puVar6 - (int)local_548;
+      }
+      else if (iVar11 != 0) {
+        if (iVar11 == -1) goto LAB_8273d1d4a;
+        iVar4 = FUN_8273e85d0(local_548,local_138,1);
+        if (iVar4 != 1) {
+          if (iVar4 == 0) goto LAB_8273d1d4a;
+          uVar7 = 0x8002000c;
+          goto LAB_8273d1d4f;
+        }
+        lVar8 = (long)iVar10;
+        if (0x400 < (ulong)(lVar8 + 2 + (long)iVar11)) goto LAB_8273d1d4a;
+        local_548[lVar8] = 0x2f;
+        FUN_8273b80f8(local_548 + lVar8 + 1,local_138,
+                      ((long)param_1 - (long)pcVar9 << 0x20) + 0x100000000 >> 0x20);
+        iVar10 = iVar10 + 1 + iVar11;
+      }
+LAB_8273d1cec:
+      cVar3 = *param_1;
+    } while (cVar3 != '\0');
+    if (local_138[0] == '\0') {
+      uVar5 = (uint)(iVar10 < 1);
+    }
+    else {
+      uVar5 = FUN_8273e85d0(local_548,local_138,0);
+    }
+    uVar7 = 0x80020016;
+    if (uVar5 + 1 < 3) {
+      if (DAT_827419410 == local_38) {
+        return *(undefined4 *)(&DAT_8273ef448 + (long)(int)(uVar5 + 1) * 4);
+      }
+      goto LAB_8273d1d74;
+    }
+  }
+LAB_8273d1d4f:
+  if (DAT_827419410 == local_38) {
+    return uVar7;
+  }
+LAB_8273d1d74:
+  FUN_8273c5030();
+                    /* WARNING: Does not return */
+  pcVar2 = (code *)invalidInstructionException();
+  (*pcVar2)();
+}
+
+
+
+=== 0x8273d41f0 ===
+Function: FUN_8273d41f0 @ 8273d41f0 body bytes 22
+
+int FUN_8273d41f0(void)
+
+{
+  int iVar1;
+  
+  iVar1 = FUN_8273c1790();
+  if (iVar1 != 0) {
+    iVar1 = iVar1 + -0x7ffe0000;
+  }
+  return iVar1;
+}
+
+

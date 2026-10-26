@@ -1,0 +1,12 @@
+Analysis-only ELF built from 14.00 live RX bytes
+
+=== 816cc8e58 FUN_816cc8e58 references=3 ===
+816ed72f4 UNCONDITIONAL_CALL caller=816ed7110
+816eddf5b UNCONDITIONAL_CALL caller=816eddef0
+816ede04e UNCONDITIONAL_CALL caller=816ede000
+
+=== 816cc8f08 FUN_816cc8f08 references=1 ===
+816eddfca UNCONDITIONAL_CALL caller=816eddef0
+
+=== 816cc8f18 FUN_816cc8f18 references=1 ===
+816ede058 UNCONDITIONAL_CALL caller=816ede000

@@ -1,0 +1,6 @@
+{
+  "probe_id": "canvas_unrooted_gc_cross_v1",
+  "script": "canvas_unrooted_gc_cross_v1.js",
+  "check_ids": ["canvas_unrooted_gc_cross"],
+  "timeout_ms": 30000
+}

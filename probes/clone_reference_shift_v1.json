@@ -1,0 +1,14 @@
+{
+  "probe_id": "clone_reference_shift_v1",
+  "script": "clone_reference_shift_v1.js",
+  "check_ids": [
+    "zero_fillers_control",
+    "three_fillers_control",
+    "bigint_zero_fillers",
+    "bigint_one_filler",
+    "bigint_two_fillers",
+    "bigint_three_fillers",
+    "bigint_four_fillers"
+  ],
+  "timeout_ms": 3000
+}

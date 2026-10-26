@@ -1,0 +1,19 @@
+{
+  "probe_id": "clone_history_boundary_matrix_v1",
+  "script": "clone_history_boundary_matrix_v1.js",
+  "check_ids": [
+    "small_number_control",
+    "bigint_size_128",
+    "bigint_size_129",
+    "bigint_size_130",
+    "bigint_size_144",
+    "bigint_size_160",
+    "bigint_size_192",
+    "bigint_size_224",
+    "bigint_size_240",
+    "bigint_size_248",
+    "bigint_size_255",
+    "bigint_size_256"
+  ],
+  "timeout_ms": 30000
+}

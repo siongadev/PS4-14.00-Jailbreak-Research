@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_callable_cell_matrix_v1",
+  "script": "clone_history_callable_cell_matrix_v1.js",
+  "check_ids": ["callable_cell_matrix"],
+  "timeout_ms": 30000
+}

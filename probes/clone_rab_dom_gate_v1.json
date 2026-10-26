@@ -1,0 +1,10 @@
+{
+  "probe_id": "clone_rab_dom_gate_v1",
+  "script": "clone_rab_dom_gate_v1.js",
+  "check_ids": [
+    "decoder_fixed_control", "decoder_rab_gate",
+    "blob_fixed_control", "blob_rab_gate",
+    "image_data_fixed_control", "image_data_rab_gate"
+  ],
+  "timeout_ms": 15000
+}

@@ -1,0 +1,6 @@
+{
+  "probe_id": "wasm_memory_capability_v1",
+  "script": "wasm_memory_capability_v1.js",
+  "check_ids": ["wasm_memory_capability"],
+  "timeout_ms": 15000
+}

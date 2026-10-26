@@ -1,0 +1,6 @@
+{
+  "probe_id": "canvas_alias_finalization_v1",
+  "script": "canvas_alias_finalization_v1.js",
+  "check_ids": ["canvas_alias_finalization"],
+  "timeout_ms": 30000
+}

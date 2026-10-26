@@ -1,0 +1,57 @@
+// Compare read-only app-type lookup against the second status word.
+var result;
+var phase="preflight";
+try {
+  var native=window.__fw14NativeInvoke;
+  if (!native || !native.wrappers || !native.frame ||
+      native.wrappers.service_app_status!==0x8371206d0 ||
+      native.wrappers.service_app_type!==0x8371207a0 ||
+      native.frame.length<0x300)
+    throw new Error("service_caller_missing");
+  var before=native.call("getpid",[]);
+  if (before.value!==145 || before.high!==0)
+    throw new Error("session_pid_changed");
+  var saved=Array.from(native.frame.subarray(0x180,0x210));
+  var status,returned,appId,typeBytes;
+  try {
+    native.frame.fill(0xa5,0x180,0x18c);
+    if (api && typeof api.markSync==="function")
+      api.markSync("service_type_preflight");
+    phase="app_status";
+    status=native.call("service_app_status",[native.frameAddress+0x180]);
+    if (status.value!==0 || status.high!==0)
+      throw new Error("status_query_failed_"+(status.value>>>0).toString(16));
+    appId=(native.frame[0x184]|(native.frame[0x185]<<8)|
+      (native.frame[0x186]<<16)|(native.frame[0x187]<<24))>>>0;
+    if (appId===0 || appId===0xffffffff)
+      throw new Error("status_appid_invalid");
+    native.frame.fill(0xa5,0x200,0x210);
+    phase="app_type";
+    returned=native.call("service_app_type",[
+      appId,native.frameAddress+0x200]);
+    if (api && typeof api.markSync==="function")
+      api.markSync("service_type_returned");
+    typeBytes=Array.from(native.frame.subarray(0x200,0x210));
+  } finally {
+    native.frame.set(saved,0x180);
+  }
+  phase="postflight";
+  var after=native.call("getpid",[]);
+  var restored=after.value===before.value && after.high===0 &&
+    saved.every(function(v,i) {return native.frame[0x180+i]===v;});
+  var typeValue=(typeBytes[0]|(typeBytes[1]<<8)|
+    (typeBytes[2]<<16)|(typeBytes[3]<<24))>>>0;
+  result={id:"service_app_type_v2",
+    status:restored && returned.value===0 ? "pass":"fail",
+    details:{pid_before:before.value,pid_after:after.value,
+      app_id:appId,status_word_index:1,return_value:returned.value,
+      return_low_hex:("00000000"+(returned.value>>>0).toString(16)).slice(-8),
+      return_high:returned.high,type_value:typeValue,
+      output_hex:typeBytes.map(function(byte) {
+        return ("0"+byte.toString(16)).slice(-2);
+      }).join(""),caller_restored:restored}};
+} catch(error) {
+  result={id:"service_app_type_v2",status:"error",
+    details:{phase:phase,error:String(error).slice(0,180)}};
+}
+return [result];

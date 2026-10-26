@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_neighbor_scan_v1",
+  "script": "clone_history_neighbor_scan_v1.js",
+  "check_ids": ["neighbor_scan_no_bigint_control", "neighbor_scan_bigint_case"],
+  "timeout_ms": 30000
+}

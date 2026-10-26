@@ -1,0 +1,6 @@
+{
+  "probe_id": "clone_history_wrapper_wide_scan_v2",
+  "script": "clone_history_wrapper_wide_scan_v2.js",
+  "check_ids": ["wrapper_wide_scan_v2"],
+  "timeout_ms": 30000
+}
